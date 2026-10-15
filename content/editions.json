@@ -1,0 +1,52 @@
+{
+  "site": {
+    "name": "Veille Concurrents & ESR",
+    "organization": "TBS Education",
+    "url": "https://nogues.app/veille-esr/",
+    "baseline": "Surveiller largement. Publier peu. Décider mieux.",
+    "description": "Une veille concurrentielle et sectorielle courte, sourcée et orientée action pour TBS Education."
+  },
+  "axes": [
+    {"id":"offre","number":"01","name":"Offre et recrutement","short":"Offre","description":"Programmes, formats, publics, admissions, calendriers, frais, bourses et alternance.","question":"Qu’est-ce qui change dans l’offre ou les conditions de recrutement ?"},
+    {"id":"marque","number":"02","name":"Marque et preuves","short":"Marque","description":"Positionnements, promesses, signatures, campagnes de marque et preuves mobilisées.","question":"Comment les écoles rendent-elles leur différence crédible ?"},
+    {"id":"acquisition","number":"03","name":"Acquisition et conversion","short":"Acquisition","description":"SEO/GEO, contenus, publicité, événements, pages programmes et parcours de candidature.","question":"Quelle pratique mérite un test pour attirer et convertir ?"},
+    {"id":"international","number":"04","name":"International et implantation","short":"International","description":"Campus, marchés, partenariats internationaux, doubles diplômes et mobilité.","question":"Quel mouvement change la concurrence sur une destination ou un marché ?"},
+    {"id":"marche","number":"05","name":"Marché et environnement ESR","short":"Marché ESR","description":"Demande, démographie, insertion, financement, apprentissage et politiques publiques.","question":"Quelle évolution externe doit modifier une hypothèse ou un calendrier ?"},
+    {"id":"reputation","number":"06","name":"Réputation et stratégie institutionnelle","short":"Réputation","description":"Classements, reconnaissances, alliances, gouvernance et plans stratégiques.","question":"Quel mouvement modifie la reconnaissance ou la trajectoire d’une école ?"},
+    {"id":"recherche","number":"07","name":"Recherche, entreprises et pédagogie","short":"Recherche","description":"Expertises, chaires, recherche appliquée, partenaires employeurs et pédagogie.","question":"Quelle réalisation éclaire les compétences et l’impact de la formation ?"},
+    {"id":"horschamp","number":"08","name":"Hors champ — inspirations transférables","short":"Hors champ","description":"Des pratiques hors ESR pour enrichir communication, expérience et accompagnement.","question":"Quelle mécanique externe pourrait être adaptée, sans copier ses résultats ?"}
+  ],
+  "editions": [{
+    "id":"2026-10-15",
+    "title":"Formats, preuves et décisions mieux préparées",
+    "date":"2026-10-15",
+    "dateLabel":"15 octobre 2026",
+    "period":"9–15 octobre 2026",
+    "status":"Édition test",
+    "readingMinutes":4,
+    "intro":"Le recul national de l’apprentissage invite à vérifier notre exposition, sans présumer une baisse chez TBS Education. Audencia et NEOMA apportent deux sujets pour challenger nos formats et nos preuves. Hors ESR, IKEA inspire un accompagnement plus concret des décisions complexes.",
+    "featuredSignal":"alternance",
+    "featuredTitle":"L’apprentissage recule au niveau national. Vérifier avant de réagir.",
+    "featuredFact":"−4 %",
+    "featuredLabel":"Effectifs du supérieur en apprentissage à fin 2025",
+    "featuredNote":"628 500 étudiants selon le SIES. Une donnée nationale, pas un diagnostic de la situation de TBS Education.",
+    "notice":"Fenêtre glissante de test, du 9 au 15 octobre 2026, heure de Paris. Les recommandations sont des propositions à valider, pas des actions engagées.",
+    "signals":[
+      {"id":"alternance","axis":"marche","actor":"SIES","label":"Vérifier","status":"Résultat documenté","dateLabel":"Publié le 15 octobre 2026 · données fin 2025","title":"Alternance : vérifier notre exposition","fact":"Le SIES publie un recul de 4 % des effectifs du supérieur en apprentissage à fin 2025, soit 628 500 étudiants. Il mentionne notamment le recentrage des aides publiques.","implication":"Ce constat ne décrit ni les seules écoles de management ni la situation de TBS Education. Comparer candidatures, contrats et placement à périmètre constant avant d’adapter les messages.","limits":"Statistique nationale portant sur un stock à fin 2025. Elle ne mesure pas à elle seule la demande en 2026, les flux de contrats ou les résultats d’un établissement.","sources":[{"name":"SIES — L’apprentissage dans l’enseignement supérieur en 2025","publisher":"Ministère / SIES","date":"15 octobre 2026","url":"https://www.enseignementsup-recherche.gouv.fr/fr/l-apprentissage-dans-l-enseignement-superieur-en-2025-104376","type":"Source primaire"}]},
+      {"id":"audencia","axis":"offre","actor":"Audencia","label":"Comparer","status":"Annonce institutionnelle","dateLabel":"Annonce du 13 octobre 2026 · rentrée future","title":"Audencia : deux voies doctorales après un tronc commun","fact":"Audencia annonce l’évolution de son DBA vers un tronc commun, puis un Scientific PhD ou un Executive PhD. Ce dernier vise les cadres, managers et entrepreneurs ; première rentrée annoncée en février 2027 à Paris Saint-Ouen.","implication":"Comparer publics, formats, bénéfices et reconnaissances avec l’offre validée de TBS Education. Les dénominations seules ne suffisent pas ; aucun succès commercial n’est démontré.","limits":"Une annonce de programme ne prouve ni volume de candidatures, ni recrutement effectif. Reconnaissances, durée, rythme et financement sont à comparer sur pièces.","sources":[{"name":"Audencia — Recherche appliquée à l’entreprise : lancement d’un Executive PhD","publisher":"Audencia","date":"13 octobre 2026","url":"https://www.audencia.com/actualites/recherche-appliquee-a-lentreprise-audencia-lance-un-executive-phd","type":"Source primaire"}]},
+      {"id":"neoma","axis":"recherche","actor":"NEOMA","label":"Qualifier","status":"Déclaration institutionnelle","dateLabel":"Interview du 15 octobre 2026","title":"NEOMA : transformer la recherche en preuves visibles","fact":"NEOMA annonce un institut IA en création et des chaires de recherche, d’impact et de pédagogie. Les 15 M€ cités concernent un programme global de transformation sur trois ans, pas l’institut seul.","implication":"Identifier une réalisation publiable reliant expertise, application concrète et bénéfice pédagogique ou entreprise. Ne pas confondre investissement annoncé et impact démontré.","limits":"L’interview décrit des intentions et dispositifs en création. Elle ne donne pas de ventilation du budget global, ni de résultats pédagogiques mesurés ou d’évaluation indépendante.","sources":[{"name":"NEOMA — Recherche à impact, intelligence artificielle et transition écologique","publisher":"NEOMA Business School","date":"15 octobre 2026","url":"https://neoma-bs.fr/actualites/recherche-impact-intelligence-artificielle-transition-ecologique-neoma-nous-sommes-dans","type":"Source primaire"}]},
+      {"id":"emba","axis":"reputation","actor":"Financial Times / EADA","label":"Contextualiser","status":"Classement original","dateLabel":"Classement publié le 12 octobre 2026","title":"EMBA : utiliser le bon périmètre de comparaison","fact":"Le Financial Times publie son classement EMBA 2026. EADA Business School Barcelona y figure au 100e rang, vérifié dans le tableau original.","implication":"Ce repère concerne l’Executive MBA, pas la qualité globale de l’école. Vérifier programme comparable, méthode et indicateur avant toute reprise ; ne pas transposer au Programme Grande École.","limits":"EADA est un repère local complémentaire, pas un concurrent prioritaire validé pour chaque programme. Un rang EMBA ne démontre ni grade, visa, certification ni supériorité globale.","sources":[{"name":"Financial Times — EMBA 2026","publisher":"Financial Times","date":"12 octobre 2026","url":"https://rankings.ft.com/rankings/3048/emba-2026","type":"Source originale"}]},
+      {"id":"ikea","axis":"horschamp","actor":"IKEA France","label":"Explorer","status":"Dispositif observé","dateLabel":"Observé le 15 octobre 2026 · page non datée","title":"IKEA : repartir avec une décision mieux préparée","fact":"IKEA France propose des rendez-vous de conception avec préparation du besoin, plan 3D, liste de produits et estimations de services. Ce dispositif n’est pas une nouveauté de la semaine.","implication":"Explorer un rendez-vous conseil débouchant sur une fiche personnalisée : options, coûts, étapes et points à vérifier. L’intérêt est le livrable tangible, pas une efficacité de conversion démontrée.","limits":"La source ne documente pas l’efficacité de conversion ou la satisfaction. Le parallèle concerne l’accompagnement d’une décision complexe, pas l’imitation d’une vente de meubles.","sources":[{"name":"IKEA France — Service de conception cuisine","publisher":"IKEA France","date":"Non datée · consultée le 15 octobre 2026","url":"https://www.ikea.com/fr/fr/customer-service/services/kitchen-planning/","type":"Source primaire"}]}
+    ],
+    "actions":[
+      {"title":"Vérifier l’exposition à l’apprentissage","owner":"Responsable alternance — proposé","horizon":"J+7","result":"Constat comparable ; ajustement des messages si nécessaire.","signal":"alternance"},
+      {"title":"Comparer l’offre doctorale Audencia à l’offre validée de TBS Education","owner":"Responsable du programme doctoral concerné — proposé","horizon":"J+14","result":"Grille factuelle et éventuel arbitrage d’argumentaire.","signal":"audencia"},
+      {"title":"Évaluer une fiche de décision après rendez-vous conseil, à partir de l’existant","owner":"Responsable admissions — proposé","horizon":"J+14","result":"Proposition de test limité ou abandon motivé.","signal":"ikea"}
+    ],
+    "coverage":{
+      "marque":"Aucun signal retenu dans l’édition test initiale. Un cas d’agence NEOMA a ensuite été repéré ; sa publication ne date pas le lancement de la campagne.",
+      "acquisition":"Aucune nouvelle campagne établie. Bibliothèques publicitaires et parcours publics constituent des sources complémentaires ; les inventaires d’annonces n’ont pas été interrogés.",
+      "international":"Aucun nouvel accord ou campus qualifié dans cette fenêtre. Sources partenaires et campus hôtes identifiés pour améliorer la collecte."
+    }
+  }]
+}

@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "path": "/",
+      "title": "La veille"
+    },
+    {
+      "path": "/archives/",
+      "title": "Archives"
+    },
+    {
+      "path": "/axes/",
+      "title": "Les huit axes"
+    },
+    {
+      "path": "/methode/",
+      "title": "La méthode"
+    },
+    {
+      "path": "/sources/",
+      "title": "Sources"
+    },
+    {
+      "path": "/editions/2026-10-15/",
+      "title": "Édition du 15 octobre 2026"
+    }
+  ]
+}
