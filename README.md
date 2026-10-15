@@ -80,3 +80,7 @@ L’édition test du 15 octobre 2026 est enrichie à neuf signaux couvrant les h
 Chaque signal renseigne `timing` : `week` (publication dans la fenêtre glissante de sept jours), `context` (publication antérieure) ou `observation` (dispositif observé). `publicationDate` est requis pour `week` et `context` ; `dateLabel` précise les dates d’annonce, d’événement, de données ou d’observation sans les confondre. Les cartes affichent ces distinctions sans devoir ouvrir les détails. Le générateur refuse une date incompatible avec le statut.
 
 `verdict` et `analysis` sont facultatifs et explicitement éditoriaux. Le résumé reste visible, les développements critiques sont repliables. Toutes les sources restent rattachées au signal et accessibles dans la page Sources ; leur nombre est calculé, pas codé en dur. Les performances non publiées ne sont pas déduites des dispositifs visibles.
+
+## Lisibilité des textes
+
+Les textes courants des signaux passent à 15 px et leurs implications à 14 px. Les accordéons utilisent des libellés de 13 px et un corps de 14 px, avec un interlignage de 1,8 ; le décryptage critique bénéficie de titres de 15 px. Les textes secondaires et les versions mobiles sont augmentés de façon cohérente. Les H1 et la composition typographique validée restent inchangés ; les styles d’impression ne sont pas agrandis par cette évolution.
