@@ -65,14 +65,14 @@ def shell(route, title, description, body, active="edition", edition=None):
 <meta property="og:url" content="{esc(canonical)}"><meta property="og:image" content="{BASE}assets/social.png">
 <meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="{esc(title)} — TBS Education">
 <meta name="twitter:description" content="{esc(description)}"><meta name="twitter:image" content="{BASE}assets/social.png">
-<link rel="icon" type="image/svg+xml" href="{p}assets/favicon.svg"><link rel="stylesheet" href="{asset(p, 'styles.css')}">
+<link rel="icon" type="image/svg+xml" href="{asset(p, 'favicon.svg')}"><link rel="stylesheet" href="{asset(p, 'styles.css')}">
 <link rel="stylesheet" href="{asset(p, 'theme.css')}">
 <script src="{asset(p, 'app.js')}" defer></script>
 </head>
 <body>
 <a class="skip-link" href="#main">Aller au contenu</a>
 <header class="site-header"><div class="header-inner">
-<a class="wordmark" href="{p}" aria-label="Veille Concurrents et ESR, accueil"><span class="brand-symbol" aria-hidden="true"><i></i><i></i><i></i></span><span>VEILLE<span class="wordmark-small">CONCURRENTS & ESR</span></span></a>
+<a class="wordmark" href="{p}" aria-label="Veille Concurrents et ESR, accueil"><span class="brand-symbol" aria-hidden="true"></span><span>VEILLE<span class="wordmark-small">CONCURRENTS & ESR</span></span></a>
 <nav id="navigation" aria-label="Navigation principale">{links}</nav>
 <div class="header-actions"><button class="theme-toggle" type="button" data-theme-toggle aria-pressed="true" aria-label="Activer le mode clair" hidden><svg class="theme-sun" aria-hidden="true" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.6"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.4 1.4M17.6 17.6 19 19M5 19l1.4-1.4M17.6 6.4 19 5" stroke="currentColor" stroke-width="1.6"/></svg><svg class="theme-moon" aria-hidden="true" viewBox="0 0 24 24" fill="none"><path d="M20 14.5A8.5 8.5 0 0 1 9.5 4 8.5 8.5 0 1 0 20 14.5Z" stroke="currentColor" stroke-width="1.6"/></svg><span class="theme-label">Clair</span></button><button class="menu-toggle" type="button" aria-expanded="false" aria-controls="navigation">Menu <span aria-hidden="true">+</span></button></div>
 <span class="org">TBS Education</span>
