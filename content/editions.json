@@ -81,7 +81,7 @@
       "period": "9–15 octobre 2026",
       "status": "Édition test enrichie",
       "readingMinutes": 7,
-      "intro": "Pour TBS Education, l’enjeu est de rendre sa différence tangible : montrer ce que ses programmes et ses implantations internationales apportent concrètement aux étudiants, au-delà d’une promesse de marque. Côté recrutement, les pistes à tester sont simples : expliquer les étapes d’admission et rendre les coûts, les échéances et les conditions d’accès plus lisibles. Enfin, le recul national de l’apprentissage invite à vérifier nos propres candidatures et contrats avant d’adapter nos messages : il ne signifie pas que TBS Education connaît la même baisse.",
+      "intro": "Marque, programmes et implantation internationale : les écoles mobilisent plusieurs leviers d’attractivité. Les sujets réunis dans cette édition montrent aussi que la concurrence se joue dans les modalités d’accès aux formations, des étapes d’admission aux incitations tarifaires. Le fil commun est la manière de présenter une offre et d’en faciliter l’accès ; la visibilité de ces initiatives ne permet toutefois pas d’en mesurer les résultats. En parallèle, le recul national des effectifs en apprentissage en 2025 rappelle que les annonces de développement des établissements ne décrivent pas, à elles seules, l’état du marché.",
       "featuredSignal": "skema-marque",
       "featuredTitle": "Une identité cohérente. La preuve doit suivre.",
       "featuredFact": "SKEMA",
@@ -397,7 +397,56 @@
         "reputation": "Classement EMBA Financial Times du 12 octobre ; EADA sert de repère local, sans extrapolation au PGE.",
         "recherche": "Interview NEOMA du 15 octobre : intentions, chaires et transformation ; pas de résultat d’impact établi.",
         "horschamp": "Conception cuisine IKEA : observation de service non datée, pas une nouveauté de semaine. Sa transposition reste à tester."
-      }
+      },
+      "perspectives": [
+        {
+          "id": "panorama",
+          "name": "Le panorama analytique",
+          "question": "Que retenir de cette édition ?",
+          "text": "Marque, programmes et implantation internationale : les écoles mobilisent plusieurs leviers d’attractivité. Les sujets réunis dans cette édition montrent aussi que la concurrence se joue dans les modalités d’accès aux formations, des étapes d’admission aux incitations tarifaires. Le fil commun est la manière de présenter une offre et d’en faciliter l’accès ; la visibilité de ces initiatives ne permet toutefois pas d’en mesurer les résultats. En parallèle, le recul national des effectifs en apprentissage en 2025 rappelle que les annonces de développement des établissements ne décrivent pas, à elles seules, l’état du marché.",
+          "signals": [
+            "skema-marque",
+            "audencia",
+            "alternance"
+          ]
+        },
+        {
+          "id": "fil-rouge",
+          "name": "Le fil rouge",
+          "question": "Qu’est-ce qui relie les sujets ?",
+          "text": "De l’identité de SKEMA aux parcours d’admission EDHEC et KEDGE, un même enjeu apparaît : rendre l’offre d’une école reconnaissable, compréhensible et accessible. L’implantation collaborative d’Audencia à Barcelone ajoute une dimension d’expérience et de services. Le fil rouge relie donc la promesse institutionnelle et ses conditions concrètes de réalisation. Il ne permet pas de conclure qu’une campagne, un partenariat ou une remise augmente effectivement les candidatures.",
+          "signals": [
+            "skema-marque",
+            "edhec-admissions",
+            "kedge-early-bird",
+            "audencia-barcelone"
+          ]
+        },
+        {
+          "id": "tensions",
+          "name": "Les tensions du secteur",
+          "question": "Quelles dynamiques faut-il lire ensemble ?",
+          "text": "Les annonces de nouveaux formats doctoraux, d’implantation internationale et de recherche liée à l’IA dessinent des ambitions de développement. À une autre échelle, les effectifs nationaux en apprentissage reculent en 2025. Ces informations n’ont ni le même périmètre ni le même calendrier : leur rapprochement ne démontre pas un ralentissement général des écoles de management. Il éclaire surtout la coexistence de stratégies d’établissement et de contraintes sectorielles.",
+          "signals": [
+            "audencia",
+            "neoma",
+            "alternance"
+          ]
+        },
+        {
+          "id": "concurrence",
+          "name": "La lecture concurrentielle",
+          "question": "Sur quels terrains les écoles cherchent-elles à se distinguer ?",
+          "text": "La sélection fait apparaître plusieurs terrains de différenciation : l’identité chez SKEMA, les formats doctoraux et le modèle barcelonais chez Audencia, les étapes d’admission chez EDHEC et l’incitation tarifaire chez KEDGE. NEOMA met en avant recherche et pédagogie autour de l’IA ; les classements apportent une autre forme de visibilité, propre au programme évalué. Ces initiatives ne constituent pas un palmarès : leur portée dépend des publics, programmes et services réellement concernés.",
+          "signals": [
+            "skema-marque",
+            "audencia-barcelone",
+            "edhec-admissions",
+            "neoma",
+            "emba"
+          ]
+        }
+      ]
     }
   ],
   "editorialPolicy": {

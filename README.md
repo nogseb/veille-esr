@@ -32,7 +32,7 @@ python3 scripts/check.py
 python3 scripts/serve.py
 ```
 
-Ouvrir `http://localhost:3000/veille-esr/`. La compilation n’appelle aucun service de génération et ne nécessite aucune clé. Le rendu des pages est disponible dans le HTML initial ; JavaScript sert uniquement aux filtres, au menu et à l’impression.
+Ouvrir `http://localhost:3000/veille-esr/`. La compilation n’appelle aucun service de génération et ne nécessite aucune clé. Le rendu des pages est disponible dans le HTML initial ; JavaScript gère les filtres, le menu, le thème, l’impression et les quatre facettes ; la lecture de tous les contenus reste possible sans JavaScript.
 
 ## Ajouter une édition
 
@@ -85,4 +85,12 @@ Chaque signal renseigne `timing` : `week` (publication dans la fenêtre glissant
 
 Les textes courants des signaux passent à 15 px et leurs implications à 14 px. Les accordéons utilisent des libellés de 13 px et un corps de 14 px, avec un interlignage de 1,8 ; le décryptage critique bénéficie de titres de 15 px. Les textes secondaires et les versions mobiles sont augmentés de façon cohérente. Les H1 et la composition typographique validée restent inchangés ; les styles d’impression ne sont pas agrandis par cette évolution.
 
-Le bloc « L’essentiel en 30 secondes » exprime les enseignements et les implications pour TBS Education, en une centaine de mots maximum. Il ne répète pas le nombre de signaux ni la répartition des sources. Toute réserve sur une tendance nationale est formulée concrètement : ce que la donnée permet de dire et ce qu’il faut vérifier dans les données propres à TBS Education.
+Le bloc « L’essentiel en 30 secondes » synthétise les dynamiques de l’environnement ESR et concurrentiel en une centaine de mots maximum. Son socle est un panorama analytique, enrichi ponctuellement d’un fil rouge. Il ne contient ni recommandations pour TBS Education, ni comptage des signaux ou des sources. Les implications opérationnelles restent dans les cartes et les suites proposées ; les différences de périmètre et de calendrier ne sont pas gommées.
+
+## Quatre facettes en pied de page
+
+Le tableau `perspectives` de chaque édition contient quatre lectures : `panorama`, `fil-rouge`, `tensions`, `concurrence`, dans cet ordre. Chaque lecture a un nom, une question, un texte et les identifiants des signaux auxquels revenir. Le premier texte doit être identique au résumé `intro`. Le générateur refuse une incohérence ou une référence à un signal inexistant. Les pages secondaires montrent la dernière édition datée ; une archive utilise ses propres lectures. Aucun module supplémentaire sur les pages d’erreur.
+
+Le module est un prisme 3D à quatre faces, avec boutons de sélection directe, navigation fléchée, compteur et pause/reprise. Rotation automatique toutes les 24 secondes seulement lorsque le module est visible, sans survol ni focus, en onglet visible. Un choix manuel met la rotation en pause. Les faces inactives sont `inert` et retirées de la lecture assistée ; un repli `tabindex` exclut leurs liens du clavier même sans prise en charge native d’`inert`, puis restaure leur comportement lors de l’activation. La préférence de mouvement réduit désactive la rotation automatique et les transitions. Sans JavaScript et à l’impression, les quatre lectures sont affichées en cartes statiques. `node scripts/test-perspectives.cjs` vérifie la logique, également dans GitHub Actions.
+
+Le fond « Cartographie des signaux » est une proposition optionnelle, désactivée par défaut. Le bouton permet de l’essayer et de le désactiver ; courbes et points CSS locaux restent derrière les contenus, sans intercepter les interactions. L’animation s’arrête en onglet masqué et devient statique avec les mouvements réduits. Aucun appel tiers ou stockage supplémentaire n’est ajouté.

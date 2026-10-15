@@ -55,6 +55,9 @@ def shell(route, title, description, body, active="edition", edition=None):
     canonical = BASE + route
     robots = '<meta name="robots" content="noindex">' if route == "404/" else ""
     social_image = BASE + asset("", "social.png")
+    readings = perspectives_footer(edition or EDITIONS[0], p) if route != "404/" and title != "Page introuvable" else ""
+    reading_assets = f'<link rel="stylesheet" href="{asset(p, "perspectives.css")}"><script src="{asset(p, "perspectives.js")}" defer></script>' if readings else ""
+    background = '<div class="ambient-background" aria-hidden="true"><span class="ambient-ring"></span><span class="ambient-ring"></span><span class="ambient-ring"></span><span class="ambient-point"></span><span class="ambient-point"></span></div>' if readings else ""
     return f'''<!doctype html>
 <html lang="fr" data-theme="dark">
 <head>
@@ -71,8 +74,10 @@ def shell(route, title, description, body, active="edition", edition=None):
 <link rel="icon" type="image/svg+xml" href="{asset(p, 'favicon.svg')}"><link rel="stylesheet" href="{asset(p, 'styles.css')}">
 <link rel="stylesheet" href="{asset(p, 'theme.css')}">
 <script src="{asset(p, 'app.js')}" defer></script>
+{reading_assets}
 </head>
 <body>
+{background}
 <a class="skip-link" href="#main">Aller au contenu</a>
 <header class="site-header"><div class="header-inner">
 <a class="wordmark" href="{p}" aria-label="Veille Concurrents et ESR, accueil"><span class="brand-symbol" aria-hidden="true"></span><span>VEILLE<span class="wordmark-small">CONCURRENTS & ESR</span></span></a>
@@ -81,8 +86,24 @@ def shell(route, title, description, body, active="edition", edition=None):
 <span class="org">TBS Education</span>
 </div></header>
 <main id="main">{body}</main>
+{readings}
 <footer class="site-footer"><div class="footer-inner"><div><span class="footer-brand">VEILLE CONCURRENTS & ESR</span><p>Surveiller largement. Publier peu. Décider mieux.</p></div><div class="footer-links"><a href="{p}methode/">Méthode & limites</a><a href="https://veilleiaweb.digital/" target="_blank" rel="noopener noreferrer">La veille IA & Web {arrow()}</a><a href="https://nogues.app/">nogues.app {arrow()}</a></div></div><div class="footer-bottom"><span>TBS Education · Prototype éditorial sourcé</span><span>Sans cookies de suivi · Sans mesure d’audience</span></div></footer>
 </body></html>'''
+
+
+def perspectives_footer(edition, p):
+    readings = edition.get("perspectives", [])
+    if not readings:
+        return ""
+    signals = {signal["id"]: signal for signal in edition["signals"]}
+    controls, panels = [], []
+    for index, reading in enumerate(readings):
+        number = f"{index + 1:02d}"
+        panel_id = f'facet-{reading["id"]}'
+        controls.append(f'<button type="button" class="facet-selector" data-facet-select="{index}" data-facet-name="{esc(reading["name"])}" aria-controls="{panel_id}" aria-pressed="false"><span>{number}</span><span>{esc(reading["name"])}</span></button>')
+        refs = "".join(f'<a href="{p}editions/{esc(edition["id"])}/#signal-{esc(key)}">{esc(signals[key]["actor"])}</a>' for key in reading.get("signals", []))
+        panels.append(f'''<article class="facet-panel" data-facet-panel id="{panel_id}" style="--facet-index:{index}" role="group" aria-label="{number} sur 04 — {esc(reading["name"])}"><p class="facet-kicker"><span>{esc(reading["name"])}</span><span>{number}</span></p><h3>{esc(reading["question"])}</h3><p class="facet-text">{esc(reading["text"])}</p><div class="facet-references"><span>Revenir aux signaux</span>{refs}</div></article>''')
+    return f'''<section class="facets-module container" data-facets aria-labelledby="perspectives-title"><div class="facets-heading"><div><p class="eyebrow">PRENDRE DU RECUL</p><h2 id="perspectives-title">Une édition.<br><em>Quatre regards.</em></h2></div><p>Édition du {esc(edition["dateLabel"])}.<br>Quatre angles pour comprendre les dynamiques du secteur, avant d’en tirer des suites opérationnelles.</p></div><div class="facets-layout"><div class="facets-nav" role="group" aria-label="Choisir un angle de lecture" hidden>{''.join(controls)}</div><div class="facet-scene"><div class="facet-cube">{''.join(panels)}</div></div></div><div class="facets-toolbar" hidden><div class="facet-playback"><span class="facet-count" data-facet-count aria-label="Facette en cours">01 / 04</span><button class="facet-motion-button" type="button" data-facet-playback aria-pressed="false">Mettre en pause</button></div><span data-facet-note>Rotation lente · 24 secondes par facette</span></div><div class="ambient-proposal" hidden><p><strong>Proposition de fond : Cartographie des signaux.</strong><br>Des courbes et quelques points rouges se déplacent lentement en arrière-plan. Désactivé par défaut ; à essayer sans interrompre la lecture.</p><button class="ambient-toggle" type="button" data-ambient-toggle aria-pressed="false">Essayer le fond animé</button></div><p class="sr-only" data-facet-announcement aria-live="polite" aria-atomic="true"></p></section>'''
 
 
 def filter_controls(items, label):
@@ -201,6 +222,14 @@ def validate_data():
                     raise ValueError("Publication date conflicts with temporal qualification")
         if any(action["signal"] not in ids for action in edition["actions"]):
             raise ValueError("Action points to an unknown signal")
+        perspectives = edition.get("perspectives", [])
+        if perspectives:
+            if [item["id"] for item in perspectives] != ["panorama", "fil-rouge", "tensions", "concurrence"]:
+                raise ValueError("Four editorial perspectives must retain their order")
+            if perspectives[0]["text"] != edition["intro"]:
+                raise ValueError("Panorama and main summary must remain consistent")
+            if any(key not in ids for item in perspectives for key in item.get("signals", [])):
+                raise ValueError("Perspective points to an unknown signal")
 
 
 def main():
