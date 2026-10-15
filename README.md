@@ -84,3 +84,5 @@ Chaque signal renseigne `timing` : `week` (publication dans la fenêtre glissant
 ## Lisibilité des textes
 
 Les textes courants des signaux passent à 15 px et leurs implications à 14 px. Les accordéons utilisent des libellés de 13 px et un corps de 14 px, avec un interlignage de 1,8 ; le décryptage critique bénéficie de titres de 15 px. Les textes secondaires et les versions mobiles sont augmentés de façon cohérente. Les H1 et la composition typographique validée restent inchangés ; les styles d’impression ne sont pas agrandis par cette évolution.
+
+Le bloc « L’essentiel en 30 secondes » exprime les enseignements et les implications pour TBS Education, en une centaine de mots maximum. Il ne répète pas le nombre de signaux ni la répartition des sources. Toute réserve sur une tendance nationale est formulée concrètement : ce que la donnée permet de dire et ce qu’il faut vérifier dans les données propres à TBS Education.
