@@ -71,7 +71,7 @@ Le site s’ouvre en **mode sombre par défaut**, y compris lorsque le système 
 
 Le thème est appliqué avant le chargement des styles pour éviter un flash clair. Sans JavaScript, le sombre reste le thème initial et le bouton non fonctionnel est masqué. Si le stockage est bloqué, la bascule fonctionne toujours pour la page courante. Les règles d’impression restent claires. Les assets CSS et JavaScript sont versionnés dans les URL à partir de leur contenu pour éviter un mélange de versions en cache.
 
-Playfair Display est hébergée localement, avec sa licence SIL Open Font License, et utilisée uniquement pour « DÉCISIONS » dans le titre principal. « CONCURRENCE », « SECTEUR » et les autres textes restent en Manrope. Source : [Google Fonts — Playfair Display](https://fonts.google.com/specimen/Playfair+Display).
+Tous les H1 associent **Oswald Bold (700, droit)** pour les parties blanches en mode sombre et **Playfair Display ExtraBold Italic (800)** pour les parties rouges. Le thème clair conserve des titres foncés lisibles ; les tailles restent adaptatives via CSS `clamp()`, qui règle la taille et ne désigne pas une police. Les autres niveaux de titres et textes restent en Manrope. Les vraies variantes typographiques sont hébergées localement, avec leurs licences SIL Open Font License : [Oswald](https://fonts.google.com/specimen/Oswald) et [Playfair Display](https://fonts.google.com/specimen/Playfair+Display).
 
 ## Format éditorial élargi
 
