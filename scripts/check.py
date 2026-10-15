@@ -67,10 +67,12 @@ def main():
     assert len({item["date"] for item in editions}) == len(editions)
     latest = max(editions, key=lambda item: item["date"])
     for edition in editions:
-        assert 1 <= len(edition["signals"]) <= 5
-        assert len(edition["actions"]) <= 3
+        assert 1 <= len(edition["signals"]) <= DATA["editorialPolicy"]["maxSignals"]
+        assert len(edition["actions"]) <= DATA["editorialPolicy"]["maxActions"]
         for signal in edition["signals"]:
             assert signal["axis"] in {axis["id"] for axis in axes}
+            assert signal["timing"] in ["week", "context", "observation"]
+            assert signal["dateLabel"] and signal["limits"]
             assert signal["sources"]
             assert all(source["url"].startswith("https://") for source in signal["sources"])
     errors = []

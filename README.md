@@ -4,7 +4,7 @@ Site statique de veille courte, sélective et sourcée. Destination : **https://
 
 ## Ce que contient le site
 
-Une édition test du **15 octobre 2026**, cinq signaux au maximum, trois suites proposées au maximum, des archives réelles, les huit axes, la méthode et les sources. Les recommandations sont à valider. Aucune ancienne édition ou performance concurrente n’est inventée.
+Une édition test du **15 octobre 2026**, une cible de 8 à 10 signaux, plafond de 10, trois suites proposées au maximum, des archives réelles, les huit axes, la méthode et les sources. Les recommandations sont à valider. Aucune ancienne édition ou performance concurrente n’est inventée.
 
 Le site ne contient ni base de données, ni formulaire, ni script de mesure d’audience. La police Manrope est hébergée localement ; sa licence est fournie avec les assets.
 
@@ -38,7 +38,7 @@ Ouvrir `http://localhost:3000/veille-esr/`. La compilation n’appelle aucun ser
 
 Ajouter un objet dans le tableau `editions` de `content/editions.json`. Utiliser un identifiant et une date ISO uniques. Le générateur choisit automatiquement la date la plus récente pour l’accueil et crée une page permanente pour chaque édition.
 
-Conserver cinq signaux maximum, hors champ compris, et zéro à trois suites. Chaque signal doit comporter un axe principal, son statut, des dates qualifiées, un fait, une implication, une limite et au moins une source HTTPS. Les suites pointent vers un signal de la même édition. `featuredSignal` désigne explicitement l’identifiant du signal majeur ; sa source est utilisée dans la carte principale. Vérifier la cohérence de `featuredTitle`, `featuredFact`, `featuredLabel` et `featuredNote` avec ce signal.
+Viser 8 à 10 signaux, avec un plafond de 10 et sans remplissage artificiel, hors champ compris, et zéro à trois suites. Chaque signal doit comporter un axe principal, son statut, des dates qualifiées, un fait, une implication, une limite et au moins une source HTTPS. Les suites pointent vers un signal de la même édition. `featuredSignal` désigne explicitement l’identifiant du signal majeur ; sa source est utilisée dans la carte principale. Vérifier la cohérence de `featuredTitle`, `featuredFact`, `featuredLabel` et `featuredNote` avec ce signal.
 
 Les chiffres d’affichage se recalculent à partir de l’édition. La durée de lecture reste indicative et doit être revue par l’éditeur. Ne pas transformer une première observation de page non datée en nouveauté hebdomadaire.
 
@@ -72,3 +72,11 @@ Le site s’ouvre en **mode sombre par défaut**, y compris lorsque le système 
 Le thème est appliqué avant le chargement des styles pour éviter un flash clair. Sans JavaScript, le sombre reste le thème initial et le bouton non fonctionnel est masqué. Si le stockage est bloqué, la bascule fonctionne toujours pour la page courante. Les règles d’impression restent claires. Les assets CSS et JavaScript sont versionnés dans les URL à partir de leur contenu pour éviter un mélange de versions en cache.
 
 Playfair Display est hébergée localement, avec sa licence SIL Open Font License, et utilisée uniquement pour « DÉCISIONS » dans le titre principal. « CONCURRENCE », « SECTEUR » et les autres textes restent en Manrope. Source : [Google Fonts — Playfair Display](https://fonts.google.com/specimen/Playfair+Display).
+
+## Format éditorial élargi
+
+L’édition test du 15 octobre 2026 est enrichie à neuf signaux couvrant les huit axes. Le format vise 8 à 10 signaux, avec un plafond technique de 10 ; il n’impose pas une fausse nouveauté dans chaque axe. Trois suites prioritaires maximum sont conservées. Le tableau `editorialPolicy` centralise les plafonds.
+
+Chaque signal renseigne `timing` : `week` (publication dans la fenêtre glissante de sept jours), `context` (publication antérieure) ou `observation` (dispositif observé). `publicationDate` est requis pour `week` et `context` ; `dateLabel` précise les dates d’annonce, d’événement, de données ou d’observation sans les confondre. Les cartes affichent ces distinctions sans devoir ouvrir les détails. Le générateur refuse une date incompatible avec le statut.
+
+`verdict` et `analysis` sont facultatifs et explicitement éditoriaux. Le résumé reste visible, les développements critiques sont repliables. Toutes les sources restent rattachées au signal et accessibles dans la page Sources ; leur nombre est calculé, pas codé en dur. Les performances non publiées ne sont pas déduites des dispositifs visibles.
