@@ -1,4 +1,5 @@
 @font-face{font-family:Manrope;src:url('./manrope.woff2') format('woff2');font-style:normal;font-weight:200 800;font-display:swap}
+@font-face{font-family:'Playfair Display';src:url('./playfair-display.woff2') format('woff2');font-style:normal;font-weight:800;font-display:swap}
 :root{--red:#ff3e52;--ink:#151715;--muted:#686b65;--paper:#f5f5ef;--white:#fff;--line:#dcded5;--soft:#eeefe8;--radius:20px;--font:Manrope,Arial,Helvetica,sans-serif}
 *{box-sizing:border-box}
 html{scroll-behavior:smooth;scroll-padding-top:100px}
@@ -39,7 +40,7 @@ nav a:hover{color:#c92336}
 .eyebrow{font-size:9px;font-weight:800;letter-spacing:.13em;line-height:1.5;margin-bottom:20px;text-transform:uppercase}
 .hero-title{padding:7px 0}
 .hero h1{font-size:clamp(45px,6.2vw,84px);line-height:.99;letter-spacing:-.075em;margin-bottom:23px}
-.hero h1 span{color:var(--red)}
+.hero h1 span{color:var(--red);font-family:'Playfair Display',Georgia,serif;font-weight:800;letter-spacing:-.035em}
 .hero-subtitle{font-size:17px;color:var(--muted);line-height:1.55}
 .featured{background:var(--ink);color:#fff;border-radius:var(--radius);padding:28px 33px 23px;display:flex;flex-direction:column;position:relative;overflow:hidden;min-height:405px}
 .featured:after{content:'';position:absolute;width:260px;height:260px;border:1px solid #333631;right:-170px;top:85px;border-radius:50%;pointer-events:none}
