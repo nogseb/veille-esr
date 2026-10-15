@@ -1,6 +1,32 @@
 (() => {
   'use strict';
 
+  const themeButton = document.querySelector('[data-theme-toggle]');
+  if (themeButton) {
+    const themeLabel = themeButton.querySelector('.theme-label');
+    const browserColor = document.querySelector('meta[name="theme-color"]');
+    function updateTheme(theme) {
+      const dark = theme !== 'light';
+      document.documentElement.dataset.theme = dark ? 'dark' : 'light';
+      themeButton.setAttribute('aria-pressed', String(dark));
+      themeButton.setAttribute('aria-label', dark ? 'Activer le mode clair' : 'Activer le mode sombre');
+      themeButton.setAttribute('title', dark ? 'Activer le mode clair' : 'Activer le mode sombre');
+      if (themeLabel) themeLabel.textContent = dark ? 'Clair' : 'Sombre';
+      if (browserColor) browserColor.setAttribute('content', dark ? '#111410' : '#f5f5ef');
+    }
+    updateTheme(document.documentElement.dataset.theme);
+    themeButton.hidden = false;
+    themeButton.addEventListener('click', () => {
+      const theme = document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark';
+      updateTheme(theme);
+      try {
+        window.localStorage.setItem('veille-esr-theme', theme);
+      } catch {
+        // The switch remains usable when local storage is unavailable.
+      }
+    });
+  }
+
   const normalize = (value) => String(value ?? '').toLowerCase().trim();
 
   document.querySelectorAll('[data-filter-scope]').forEach((scope) => {

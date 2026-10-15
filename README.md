@@ -64,3 +64,9 @@ La génération hebdomadaire du contenu n’est pas automatisée dans cette vers
 Les liens de navigation et ressources des pages normales sont relatifs, pour fonctionner sous `/veille-esr/`. Les canoniques, le sitemap et les métadonnées sociales utilisent explicitement `https://nogues.app/veille-esr/`. Le `.htaccess` local fournit la page d’erreur du sous-site et désactive le listing de répertoires ; il ne modifie pas le `.htaccess` racine.
 
 Direction éditoriale inspirée de [veilleiaweb.digital](https://veilleiaweb.digital/). Police [Manrope](https://fonts.google.com/specimen/Manrope), distribuée sous SIL Open Font License. Les sources factuelles figurent dans chaque signal et sur la page Sources.
+
+## Thèmes d’affichage
+
+Le site s’ouvre en **mode sombre par défaut**, y compris lorsque le système du lecteur utilise un thème clair. Le bouton « Clair » / « Sombre » de l’en-tête permet de basculer ; seule cette préférence est mémorisée dans `localStorage`, sous la clé `veille-esr-theme`. Aucune donnée de mesure n’est transmise. Un choix clair déjà enregistré reste prioritaire lors des visites suivantes.
+
+Le thème est appliqué avant le chargement des styles pour éviter un flash clair. Sans JavaScript, le sombre reste le thème initial et le bouton non fonctionnel est masqué. Si le stockage est bloqué, la bascule fonctionne toujours pour la page courante. Les règles d’impression restent claires. Les assets CSS et JavaScript sont versionnés dans les URL à partir de leur contenu pour éviter un mélange de versions en cache.

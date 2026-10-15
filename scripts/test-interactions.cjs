@@ -43,21 +43,63 @@ menu.setAttribute('aria-expanded', 'false');
 const navigation = new Element();
 navigation.querySelectorAll = () => [];
 const printButton = new Element();
+const themeButton = new Element();
+const themeLabel = new Element();
+themeButton.querySelector = () => themeLabel;
+const browserColor = new Element();
+const html = new Element({ theme: 'dark' });
+const store = new Map();
 const documentEvents = {};
 let printed = false;
 const document = {
+  documentElement: html,
   querySelectorAll(selector) {
     if (selector === '[data-filter-scope]') return [edition, sources];
     if (selector === '[data-print]') return [printButton];
     if (selector === '[data-filter="all"]') return [edition, sources].flatMap((scope) => scope.buttons.filter((button) => button.dataset.filter === 'all'));
     return [];
   },
-  querySelector: () => menu,
+  querySelector(selector) {
+    if (selector === '[data-theme-toggle]') return themeButton;
+    if (selector === 'meta[name="theme-color"]') return browserColor;
+    return menu;
+  },
   getElementById: () => navigation,
   addEventListener: (name, callback) => { documentEvents[name] = callback; },
 };
-const window = { print: () => { printed = true; }, matchMedia: () => ({ addEventListener() {} }) };
+const window = {
+  print: () => { printed = true; },
+  matchMedia: () => ({ addEventListener() {} }),
+  localStorage: { getItem: (key) => store.get(key), setItem: (key, value) => store.set(key, value) },
+};
+const initializeTheme = fs.readFileSync(path.join(__dirname, '../assets/theme-init.js'), 'utf8');
+for (const [saved, expected] of [[undefined, 'dark'], ['light', 'light'], ['dark', 'dark'], ['unexpected', 'dark']]) {
+  store.clear();
+  if (saved !== undefined) store.set('veille-esr-theme', saved);
+  vm.runInNewContext(initializeTheme, { document, window });
+  assert.equal(html.dataset.theme, expected);
+}
+store.clear();
 vm.runInNewContext(fs.readFileSync(path.join(__dirname, '../assets/app.js'), 'utf8'), { document, window });
+assert.equal(html.dataset.theme, 'dark');
+assert.equal(themeButton.getAttribute('aria-label'), 'Activer le mode clair');
+assert.equal(themeButton.hidden, false);
+themeButton.click();
+assert.equal(html.dataset.theme, 'light');
+assert.equal(store.get('veille-esr-theme'), 'light');
+assert.equal(themeLabel.textContent, 'Sombre');
+assert.equal(themeButton.getAttribute('aria-pressed'), 'false');
+vm.runInNewContext(initializeTheme, { document, window });
+assert.equal(html.dataset.theme, 'light');
+themeButton.click();
+assert.equal(html.dataset.theme, 'dark');
+window.localStorage = { getItem() { throw new Error('blocked'); }, setItem() { throw new Error('blocked'); } };
+vm.runInNewContext(initializeTheme, { document, window });
+assert.equal(html.dataset.theme, 'dark');
+themeButton.click();
+assert.equal(html.dataset.theme, 'light');
+themeButton.click();
+assert.equal(html.dataset.theme, 'dark');
 
 edition.select('marque');
 assert.equal(edition.counter.textContent, '0 signal');
@@ -81,4 +123,4 @@ printButton.click();
 assert.equal(edition.items.filter((item) => !item.hidden).length, 5);
 assert.equal(sources.items.filter((item) => !item.hidden).length, 19);
 assert.ok(printed);
-console.log('PASS: axis filters, empty state, isolated source filtering, ARIA pressed state, mobile menu, Escape and print reset.');
+console.log('PASS: dark default, saved choice, accessible theme toggle, blocked storage, filters, empty state, mobile menu, Escape and print reset.');
