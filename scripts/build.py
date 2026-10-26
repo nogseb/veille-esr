@@ -5,7 +5,7 @@ import html
 import json
 import shutil
 import hashlib
-from datetime import date
+from datetime import date, timedelta
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -143,7 +143,7 @@ def edition_body(edition, permanent=False):
     sources_count = len({source["url"] for signal in signals for source in signal["sources"]})
     featured_signal = next(signal for signal in signals if signal["id"] == edition["featuredSignal"])
     source = featured_signal["sources"][0]
-    label = "ARCHIVE · " if permanent else ""
+    label = "ARCHIVE · " if edition["id"] != EDITIONS[0]["id"] else ""
     controls = filter_controls(DATA["axes"], "Filtrer les signaux par axe")
     cards = "".join(card(signal, i) for i, signal in enumerate(main_signals, 1))
     cards += "".join(card(signal, len(main_signals) + i) for i, signal in enumerate(outside, 1))
@@ -159,7 +159,7 @@ def edition_body(edition, permanent=False):
 </section>
 <section class="summary-box container" aria-labelledby="summary-title"><div><p class="eyebrow">LE POINT DE DÉPART</p><h2 id="summary-title">L’essentiel<br>en 30 secondes.</h2></div><p>{esc(edition["intro"])}</p></section>
 <section class="signals-section container" data-filter-scope aria-labelledby="signals-title"><div class="section-head"><div><p class="eyebrow">UNE SÉLECTION, PAS UNE REVUE DE PRESSE</p><h2 id="signals-title">Ce qui mérite votre attention.</h2></div><span class="section-counter" data-result-count aria-live="polite">{len(signals)} signaux</span></div><p class="timing-summary">{esc(timing_summary)}. Les sujets antérieurs et non datés ne sont pas présentés comme des nouveautés.</p>{controls}<div class="signals-grid">{cards}</div><div class="empty-state" hidden><span class="empty-mark" aria-hidden="true">—</span><h3>Aucun signal retenu sur cet axe.</h3><p>La sélection est volontairement courte. Ce n’est pas une preuve d’absence d’actualité.</p><a href="{('../..' if permanent else '.')}/axes/">Comprendre le périmètre des huit axes {arrow()}</a></div></section>
-<section class="actions-section container" aria-labelledby="actions-title"><div class="section-head"><div><p class="eyebrow">DE LA VEILLE À LA SUITE UTILE</p><h2 id="actions-title">{action_heading}</h2></div><span class="section-tag">PROPOSITIONS À ARBITRER</span></div><div class="actions-grid">{actions}</div><p class="fine-print">Pilotes, données et disponibilité à confirmer. Aucun suivi d’actions antérieures n’est simulé pour cette édition test.</p></section>
+<section class="actions-section container" aria-labelledby="actions-title"><div class="section-head"><div><p class="eyebrow">DE LA VEILLE À LA SUITE UTILE</p><h2 id="actions-title">{action_heading}</h2></div><span class="section-tag">PROPOSITIONS À ARBITRER</span></div><div class="actions-grid">{actions}</div><p class="fine-print">Pilotes, données et disponibilité à confirmer. Ces pistes ne constituent pas des engagements des équipes.</p></section>
 <section class="coverage-box container"><details><summary><span>Ce que couvre — et ne couvre pas — cette édition</span><span aria-hidden="true">+</span></summary><p>{esc(edition["notice"])}</p><ul>{coverage}</ul><p>Les {len(signals)} signaux incluent le regard hors ESR ; celui-ci n’est pas nécessairement une nouveauté de semaine.</p></details></section>
 <div class="edition-footer container"><span>Publication : {esc(edition["dateLabel"])} · Europe/Paris</span><div><button type="button" class="text-button" data-print>Imprimer cette édition</button><a href="{('../..' if permanent else '.')}/editions/{esc(edition["id"])}/">Lien permanent {arrow()}</a></div></div>'''
 
@@ -169,8 +169,13 @@ def page_intro(kicker, title, intro):
 
 
 def archives_body():
-    cards = "".join(f'''<a class="archive-card" href="../editions/{edition["id"]}/"><div><span class="archive-date">{esc(edition["dateLabel"])}</span><span class="archive-status">{esc(edition["status"])}</span></div><h2>{esc(edition["title"])}</h2><p>Fenêtre {esc(edition["period"])} · {len(edition["signals"])} signaux · {len(edition["actions"])} suites</p><span class="archive-cta">Lire l’édition {arrow()}</span></a>''' for edition in EDITIONS)
-    return page_intro("LA MÉMOIRE DE LA VEILLE", "Les éditions.<br><span>Sans perdre le fil.</span>", "Retrouver chaque sélection dans son contexte, avec sa période, ses sources et ses limites.") + f'<section class="container archive-grid">{cards}</section><p class="container fine-print archive-note">Une seule édition est publiée à ce stade. Aucune archive antérieure n’a été créée artificiellement.</p>'
+    archived = EDITIONS[1:]
+    cards = "".join(f'''<a class="archive-card" href="../editions/{edition["id"]}/"><div><span class="archive-date">{esc(edition["dateLabel"])}</span><span class="archive-status">{esc(edition["status"])}</span></div><h2>{esc(edition["title"])}</h2><p>Fenêtre {esc(edition["period"])} · {len(edition["signals"])} signaux · {len(edition["actions"])} suites</p><span class="archive-cta">Lire l’édition {arrow()}</span></a>''' for edition in archived)
+    count = len(archived)
+    note = f'{count} édition antérieure disponible.' if count == 1 else f'{count} éditions antérieures disponibles.'
+    if not archived:
+        note = "Aucune édition antérieure pour le moment. Aucune archive fictive n’est créée."
+    return page_intro("LA MÉMOIRE DE LA VEILLE", "Les éditions.<br><span>Sans perdre le fil.</span>", "Retrouver les éditions précédentes dans leur contexte, avec leurs périodes, leurs sources et leurs limites.") + f'<section class="container archive-grid">{cards}</section><p class="container fine-print archive-note">{note} <a href="../">Lire l’édition courante</a>.</p>'
 
 
 def axes_body():
@@ -179,7 +184,7 @@ def axes_body():
 
 
 def method_body():
-    return page_intro("LA MÉTHODE", "Moins de bruit.<br><span>Plus de discernement.</span>", "Une veille utile distingue le fait, notre lecture et la suite possible. Le décryptage critique est une appréciation éditoriale, pas une preuve de performance.") + '''<section class="container method-grid"><article class="method-card"><span>01 / COLLECTER</span><h2>Partir des sources.</h2><p>Établissements, institutions, prestataires, partenaires étrangers et supports publics. Une source d’agence documente une contribution revendiquée, pas un ROI.</p></article><article class="method-card"><span>02 / QUALIFIER</span><h2>Garder les bonnes dates.</h2><p>Date de publication, événement, période des données et consultation ne sont pas interchangeables. Trois statuts restent visibles : actualité de la fenêtre, contexte hors période, dispositif observé. Une échéance active ne transforme pas une ancienne annonce en nouveauté. Une page non datée est une observation, pas une nouveauté prouvée.</p></article><article class="method-card"><span>03 / SÉLECTIONNER</span><h2>Publier peu.</h2><p>Une cible de 8 à 10 signaux, avec un plafond de 10, hors champ compris. Aucun remplissage pour atteindre le volume. La couverture des axes est recherchée ; un sujet sans preuve suffisante n’est pas ajouté. Le résumé se lit en 30 secondes, le décryptage détaillé reste optionnel.</p></article><article class="method-card"><span>04 / DÉCIDER</span><h2>Proposer une suite bornée.</h2><p>Zéro à trois recommandations : vérifier, comparer, tester ou surveiller. Pilote proposé, résultat attendu et horizon indicatif ; aucun engagement automatique des équipes.</p></article></section><section class="container editorial-note"><h2>Ce que cette veille ne promet pas.</h2><div class="boundary-grid"><div><h3>Pas d’exhaustivité</h3><p>Une absence de signal retenu ne signifie pas une absence d’activité. Les limites de couverture restent explicites.</p></div><div><h3>Pas de performance inventée</h3><p>Une campagne visible ne donne ni son coût d’acquisition ni son taux de conversion. Un investissement annoncé ne mesure pas un impact.</p></div><div><h3>Pas d’automatisation active</h3><p>Cette version contient l’édition test du 15 octobre 2026. La préparation et la publication de nouvelles éditions restent soumises à une validation éditoriale.</p></div></div></section><section class="container method-bottom"><h2>Un regard hors ESR, avec une limite.</h2><p>Une mécanique extérieure est retenue pour sa proximité avec un problème de TBS Education. Sa transposition reste une hypothèse à tester, pas une promesse de résultats identiques.</p><h2>Une publication de veille, pas une prise de position officielle.</h2><p>Les analyses et suites sont des propositions de travail. Elles ne remplacent ni les modalités approuvées des programmes, ni une expertise juridique, ni les décisions des équipes.</p><h2>Vie privée.</h2><p>Ce site ne dépose aucun cookie de suivi, ne charge aucun outil de mesure d’audience et ne collecte aucune donnée par formulaire. Le thème sombre est activé par défaut. Si vous changez de thème, seule cette préférence est enregistrée dans le stockage local du navigateur ; aucune donnée de mesure n’est envoyée. Les liens de sources ouvrent des sites tiers, dont les règles peuvent être différentes. Une police locale ou les polices de votre système assurent l’affichage sans service tiers.</p></section>'''
+    return page_intro("LA MÉTHODE", "Moins de bruit.<br><span>Plus de discernement.</span>", "Une veille utile distingue le fait, notre lecture et la suite possible. Le décryptage critique est une appréciation éditoriale, pas une preuve de performance.") + '''<section class="container method-grid"><article class="method-card"><span>01 / COLLECTER</span><h2>Partir des sources.</h2><p>Établissements, institutions, prestataires, partenaires étrangers et supports publics. Une source d’agence documente une contribution revendiquée, pas un ROI.</p></article><article class="method-card"><span>02 / QUALIFIER</span><h2>Garder les bonnes dates.</h2><p>Date de publication, événement, période des données et consultation ne sont pas interchangeables. Trois statuts restent visibles : actualité de la fenêtre, contexte hors période, dispositif observé. Une échéance active ne transforme pas une ancienne annonce en nouveauté. Une page non datée est une observation, pas une nouveauté prouvée.</p></article><article class="method-card"><span>03 / SÉLECTIONNER</span><h2>Publier peu.</h2><p>Une cible de 8 à 10 signaux, avec un plafond de 10, hors champ compris. Aucun remplissage pour atteindre le volume. La couverture des axes est recherchée ; un sujet sans preuve suffisante n’est pas ajouté. Le résumé se lit en 30 secondes, le décryptage détaillé reste optionnel.</p></article><article class="method-card"><span>04 / DÉCIDER</span><h2>Proposer une suite bornée.</h2><p>Zéro à trois recommandations : vérifier, comparer, tester ou surveiller. Pilote proposé, résultat attendu et horizon indicatif ; aucun engagement automatique des équipes.</p></article></section><section class="container editorial-note"><h2>Ce que cette veille ne promet pas.</h2><div class="boundary-grid"><div><h3>Pas d’exhaustivité</h3><p>Une absence de signal retenu ne signifie pas une absence d’activité. Les limites de couverture restent explicites.</p></div><div><h3>Pas de performance inventée</h3><p>Une campagne visible ne donne ni son coût d’acquisition ni son taux de conversion. Un investissement annoncé ne mesure pas un impact.</p></div><div><h3>Pas d’automatisation active</h3><p>La veille est préparée par édition datée. Aucun envoi de newsletter ni publication hebdomadaire automatique n’est activé. Les recommandations restent des propositions à arbitrer.</p></div></div></section><section class="container method-bottom"><h2>Un regard hors ESR, avec une limite.</h2><p>Une mécanique extérieure est retenue pour sa proximité avec un problème de TBS Education. Sa transposition reste une hypothèse à tester, pas une promesse de résultats identiques.</p><h2>Une publication de veille, pas une prise de position officielle.</h2><p>Les analyses et suites sont des propositions de travail. Elles ne remplacent ni les modalités approuvées des programmes, ni une expertise juridique, ni les décisions des équipes.</p><h2>Vie privée.</h2><p>Ce site ne dépose aucun cookie de suivi, ne charge aucun outil de mesure d’audience et ne collecte aucune donnée par formulaire. Le thème sombre est activé par défaut. Si vous changez de thème, seule cette préférence est enregistrée dans le stockage local du navigateur ; aucune donnée de mesure n’est envoyée. Les liens de sources ouvrent des sites tiers, dont les règles peuvent être différentes. Une police locale ou les polices de votre système assurent l’affichage sans service tiers.</p></section>'''
 
 
 def sources_body():
@@ -191,7 +196,7 @@ def sources_body():
     controls = filter_controls([AXES[key] for key in ("marque", "acquisition", "international")], "Filtrer le corpus de sources")
     references = {source["url"]: source for signal in EDITIONS[0]["signals"] for source in signal["sources"]}
     primary = "".join(f'<li>{external(source["url"], source["publisher"] + " — " + source["name"])}<span>{esc(source["type"])} · {esc(source["date"])}</span></li>' for source in references.values())
-    return page_intro("LA TRAÇABILITÉ", "Des sources.<br><span>Pas des suppositions.</span>", "Les références de l’édition et un corpus complémentaire pour mieux couvrir marque, acquisition et international.") + f'''<section class="container primary-sources"><h2>Les {len(references)} références de l’édition enrichie.</h2><ul>{primary}</ul></section><section class="container sources-section" data-filter-scope><div class="section-head"><div><p class="eyebrow">CORPUS COMPLÉMENTAIRE</p><h2>Élargir le regard.</h2></div><span class="section-counter" data-result-count aria-live="polite">{len(rows)} sources</span></div><p class="section-description">Pages consultées le 15 octobre 2026. Les bibliothèques publicitaires sont documentées, mais aucun inventaire d’annonces d’école n’a été interrogé. Les pages historiques restent des références, pas des actualités de semaine.</p>{controls}<div class="source-grid">{''.join(cards)}</div><div class="empty-state" hidden><h3>Aucune source dans cette sélection.</h3></div></section>'''
+    return page_intro("LA TRAÇABILITÉ", "Des sources.<br><span>Pas des suppositions.</span>", "Les références de l’édition courante et un corpus complémentaire pour mieux couvrir marque, acquisition et international.") + f'''<section class="container primary-sources"><h2>Les {len(references)} références de l’édition courante.</h2><ul>{primary}</ul><p class="fine-print">Les références des éditions précédentes restent accessibles dans chaque archive.</p></section><section class="container sources-section" data-filter-scope><div class="section-head"><div><p class="eyebrow">CORPUS COMPLÉMENTAIRE</p><h2>Élargir le regard.</h2></div><span class="section-counter" data-result-count aria-live="polite">{len(rows)} sources</span></div><p class="section-description">Corpus complémentaire constitué le 15 octobre 2026. Les bibliothèques publicitaires sont documentées, mais aucun inventaire d’annonces d’école n’a été interrogé lors de ce cadrage. Les pages historiques restent des références, pas des actualités de semaine.</p>{controls}<div class="source-grid">{''.join(cards)}</div><div class="empty-state" hidden><h3>Aucune source dans cette sélection.</h3></div></section>'''
 
 
 def write_page(route, page):
@@ -201,8 +206,18 @@ def write_page(route, page):
 
 
 def validate_data():
+    if len({edition["id"] for edition in EDITIONS}) != len(EDITIONS):
+        raise ValueError("Duplicate edition ID")
+    if len({edition["date"] for edition in EDITIONS}) != len(EDITIONS):
+        raise ValueError("Duplicate edition date")
     for edition in EDITIONS:
-        date.fromisoformat(edition["date"])
+        edition_date = date.fromisoformat(edition["date"])
+        if ("periodStart" in edition) != ("periodEnd" in edition):
+            raise ValueError("Both collection window dates are required together")
+        window_start = date.fromisoformat(edition.get("periodStart", (edition_date - timedelta(days=6)).isoformat()))
+        window_end = date.fromisoformat(edition.get("periodEnd", edition["date"]))
+        if not window_start <= window_end <= edition_date or (window_end - window_start).days > 6:
+            raise ValueError("Invalid collection window")
         if len(edition["signals"]) > POLICY["maxSignals"] or len(edition["actions"]) > POLICY["maxActions"]:
             raise ValueError("Editorial caps exceeded")
         ids = {signal["id"] for signal in edition["signals"]}
@@ -217,8 +232,7 @@ def validate_data():
                 raise ValueError("Missing or invalid temporal qualification")
             if signal["timing"] in ("week", "context"):
                 published = date.fromisoformat(signal["publicationDate"])
-                elapsed = (date.fromisoformat(edition["date"]) - published).days
-                if (signal["timing"] == "week" and not 0 <= elapsed <= 6) or (signal["timing"] == "context" and elapsed <= 6):
+                if (signal["timing"] == "week" and not window_start <= published <= window_end) or (signal["timing"] == "context" and published >= window_start):
                     raise ValueError("Publication date conflicts with temporal qualification")
         if any(action["signal"] not in ids for action in edition["actions"]):
             raise ValueError("Action points to an unknown signal")
@@ -242,7 +256,7 @@ def main():
     write_page("archives/", shell("archives/", "Archives de la veille Concurrents & ESR", "Retrouver les éditions de veille, leurs sources et leurs suites proposées.", archives_body(), "archives"))
     write_page("axes/", shell("axes/", "Les huit axes de veille", "Sept axes concurrentiels et ESR, plus un regard hors champ pour enrichir les décisions.", axes_body(), "axes"))
     write_page("methode/", shell("methode/", "Méthode et limites de la veille", "Une méthode de collecte, qualification et sélection pour une veille courte et fiable.", method_body(), "methode"))
-    write_page("sources/", shell("sources/", "Sources de veille Concurrents & ESR", "Sources de l’édition test et corpus alternatif pour marque, acquisition et international.", sources_body(), "sources"))
+    write_page("sources/", shell("sources/", "Sources de veille Concurrents & ESR", "Sources de l’édition courante et corpus complémentaire pour marque, acquisition et international.", sources_body(), "sources"))
     for edition in EDITIONS:
         route = f'editions/{edition["id"]}/'
         routes.append((route, f'Édition du {edition["dateLabel"]}'))

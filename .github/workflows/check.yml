@@ -28,6 +28,7 @@ jobs:
         run: |
           python3 scripts/build.py
           python3 scripts/check.py
+          python3 scripts/test-editions.py
           node --check assets/app.js
           node scripts/test-interactions.cjs
           node --check assets/perspectives.js
