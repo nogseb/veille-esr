@@ -31,5 +31,6 @@ jobs:
           python3 scripts/test-editions.py
           node --check assets/app.js
           node scripts/test-interactions.cjs
+          node scripts/test-featured-source.cjs
           node --check assets/perspectives.js
           node scripts/test-perspectives.cjs

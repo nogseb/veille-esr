@@ -33,6 +33,11 @@ def external(url, label, css=""):
     return f'<a class="{esc(css)}" href="{esc(url)}" target="_blank" rel="noopener noreferrer">{esc(label)}{arrow()}<span class="sr-only"> (nouvel onglet)</span></a>'
 
 
+def featured_source(source):
+    if not source["url"].startswith("https://"):
+        raise ValueError(f"Invalid source URL: {source['url']}")
+    return f'''<div class="featured-source"><span class="featured-source-label">Source</span><a class="featured-source-link" href="{esc(source["url"])}" target="_blank" rel="noopener noreferrer"><span>{esc(source["publisher"])}</span>{arrow()}<span class="sr-only"> (nouvel onglet)</span></a></div>'''
+
 def prefix(route):
     return "../" * len([part for part in route.split("/") if part]) or "./"
 
@@ -73,6 +78,7 @@ def shell(route, title, description, body, active="edition", edition=None):
 <meta name="twitter:description" content="{esc(description)}"><meta name="twitter:image" content="{social_image}">
 <link rel="icon" type="image/svg+xml" href="{asset(p, 'favicon.svg')}"><link rel="stylesheet" href="{asset(p, 'styles.css')}">
 <link rel="stylesheet" href="{asset(p, 'theme.css')}">
+<link rel="stylesheet" href="{asset(p, 'featured-source.css')}">
 <script src="{asset(p, 'app.js')}" defer></script>
 {reading_assets}
 </head>
@@ -152,11 +158,11 @@ def edition_body(edition, permanent=False):
     timing_summary = " · ".join(f'{sum(signal["timing"] == key for signal in signals)} {name}' for key, name in [("week", "actualités de la fenêtre"), ("context", "sujets de contexte"), ("observation", "dispositifs observés")])
     action_heading = {0: "Aucune suite à engager par défaut.", 1: "Une piste. Pas un engagement.", 2: "Deux pistes. Pas deux engagements.", 3: "Trois pistes. Pas trois engagements."}[len(edition["actions"])]
     return f'''<section class="hero container">
-<div class="edition-meta"><span class="live-dot" aria-hidden="true"></span><span>{label}{esc(edition["status"]).upper()} · {esc(edition["dateLabel"])} </span><span class="meta-period">Fenêtre {esc(edition["period"])}</span></div>
-<div class="hero-grid"><div class="hero-title"><p class="eyebrow">TBS EDUCATION / RADAR HEBDOMADAIRE</p><h1>CONCURRENCE.<br>SECTEUR.<br><span>DÉCISIONS.</span></h1><p class="hero-subtitle">L’essentiel de ce qui change.<br>Et ce que nous pouvons en faire.</p></div>
-<aside class="featured"><span class="featured-kicker">LE SIGNAL À RETENIR · {TIMING[featured_signal["timing"]].upper()}</span><p class="featured-number">{esc(edition["featuredFact"])}</p><h2>{esc(edition["featuredTitle"])}</h2><p class="featured-note">{esc(edition["featuredNote"])}</p><div class="featured-bottom"><span>{esc(edition["featuredLabel"])}</span>{external(source["url"], source["publisher"])}</div></aside></div>
-<div class="edition-strip"><div><strong>{len(signals):02d}</strong><span>signaux sélectionnés</span></div><div><strong>{len(edition["actions"]):02d}</strong><span>suites proposées</span></div><div><strong>{edition["readingMinutes"]:02d}<small> min</small></strong><span>pour lire l’essentiel</span></div><div><strong>{sources_count:02d}</strong><span>sources consultables</span></div></div>
-</section>
+	<div class="edition-meta"><span class="live-dot" aria-hidden="true"></span><span>{label}{esc(edition["status"]).upper()} · {esc(edition["dateLabel"])} </span><span class="meta-period">Fenêtre {esc(edition["period"])}</span></div>
+	<div class="hero-grid"><div class="hero-title"><p class="eyebrow">TBS EDUCATION / RADAR HEBDOMADAIRE</p><h1>CONCURRENCE.<br>SECTEUR.<br><span>DÉCISIONS.</span></h1><p class="hero-subtitle">L’essentiel de ce qui change.<br>Et ce que nous pouvons en faire.</p></div>
+	<aside class="featured"><span class="featured-kicker">LE SIGNAL À RETENIR · {TIMING[featured_signal["timing"]].upper()}</span><p class="featured-number">{esc(edition["featuredFact"])}</p><h2>{esc(edition["featuredTitle"])}</h2><p class="featured-note">{esc(edition["featuredNote"])}</p><div class="featured-bottom"><span class="featured-label">{esc(edition["featuredLabel"])}</span>{featured_source(source)}</div></aside></div>
+	<div class="edition-strip"><div><strong>{len(signals):02d}</strong><span>signaux sélectionnés</span></div><div><strong>{len(edition["actions"]):02d}</strong><span>suites proposées</span></div><div><strong>{edition["readingMinutes"]:02d}<small> min</small></strong><span>pour lire l’essentiel</span></div><div><strong>{sources_count:02d}</strong><span>sources consultables</span></div></div>
+	</section>
 <section class="summary-box container" aria-labelledby="summary-title"><div><p class="eyebrow">LE POINT DE DÉPART</p><h2 id="summary-title">L’essentiel<br>en 30 secondes.</h2></div><p>{esc(edition["intro"])}</p></section>
 <section class="signals-section container" data-filter-scope aria-labelledby="signals-title"><div class="section-head"><div><p class="eyebrow">UNE SÉLECTION, PAS UNE REVUE DE PRESSE</p><h2 id="signals-title">Ce qui mérite votre attention.</h2></div><span class="section-counter" data-result-count aria-live="polite">{len(signals)} signaux</span></div><p class="timing-summary">{esc(timing_summary)}. Les sujets antérieurs et non datés ne sont pas présentés comme des nouveautés.</p>{controls}<div class="signals-grid">{cards}</div><div class="empty-state" hidden><span class="empty-mark" aria-hidden="true">—</span><h3>Aucun signal retenu sur cet axe.</h3><p>La sélection est volontairement courte. Ce n’est pas une preuve d’absence d’actualité.</p><a href="{('../..' if permanent else '.')}/axes/">Comprendre le périmètre des huit axes {arrow()}</a></div></section>
 <section class="actions-section container" aria-labelledby="actions-title"><div class="section-head"><div><p class="eyebrow">DE LA VEILLE À LA SUITE UTILE</p><h2 id="actions-title">{action_heading}</h2></div><span class="section-tag">PROPOSITIONS À ARBITRER</span></div><div class="actions-grid">{actions}</div><p class="fine-print">Pilotes, données et disponibilité à confirmer. Ces pistes ne constituent pas des engagements des équipes.</p></section>
