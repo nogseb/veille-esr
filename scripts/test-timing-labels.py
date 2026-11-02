@@ -1,28 +1,34 @@
 #!/usr/bin/env python3
 """Checks that temporal qualification remains visible only when it adds a reservation."""
 import json
+import re
 from pathlib import Path
-
-from bs4 import BeautifulSoup
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = json.loads((ROOT / "content" / "editions.json").read_text(encoding="utf-8"))
 DIST = ROOT / "dist"
 
+
+def card_html(html, signal_id):
+    pattern = rf'<article class="signal-card[^>]* id="signal-{re.escape(signal_id)}">(.*?)</article>'
+    match = re.search(pattern, html, flags=re.DOTALL)
+    assert match is not None, signal_id
+    return match.group(1)
+
+
 for edition in DATA["editions"]:
     page = DIST / "editions" / edition["id"] / "index.html"
-    soup = BeautifulSoup(page.read_text(encoding="utf-8"), "html.parser")
+    html = page.read_text(encoding="utf-8")
     for signal in edition["signals"]:
-        card = soup.select_one(f'#signal-{signal["id"]}')
-        assert card is not None, signal["id"]
-        badge = card.select_one(".timing-badge")
-        assert signal["dateLabel"] in card.get_text(" ", strip=True)
+        card = card_html(html, signal["id"])
+        assert signal["dateLabel"] in card
+        badge = re.search(r'<span class="timing-badge [^"]+">(.*?)</span>', card)
         if signal["timing"] == "week":
             assert badge is None, f'{signal["id"]} must not display a week-status badge'
         elif signal["timing"] == "context":
-            assert badge is not None and badge.get_text(" ", strip=True) == "Actu hors période"
+            assert badge is not None and badge.group(1) == "Actu hors période"
         else:
-            assert badge is not None and badge.get_text(" ", strip=True) == "Dispositif observé"
+            assert badge is not None and badge.group(1) == "Dispositif observé"
 
 home = (DIST / "index.html").read_text(encoding="utf-8")
 assert "Actualité de la fenêtre" not in home
