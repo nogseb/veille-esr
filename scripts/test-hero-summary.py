@@ -21,7 +21,10 @@ assert HTML.count('hero-ripple-instance') == 3
 assert 'data-ambient="on"' in HTML
 assert 'data-ambient-orbiter' in HTML
 assert HTML.count('data-satellite-orbit') >= 5
-assert 'Désactiver la cartographie' in HTML
+assert 'Fond animé de la veille' in HTML
+assert 'Désactiver le fond animé' in HTML
+assert HTML.index('data-ambient-toggle') > HTML.index('<footer class="site-footer">')
+assert HTML.index('data-ambient-toggle') > HTML.index('class="facets-module container"')
 assert 'Navigation manuelle · rotation en pause' not in HTML
 
 stake = LATEST.get("tbsStake")

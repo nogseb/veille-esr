@@ -30,6 +30,7 @@ jobs:
           python3 scripts/check.py
           python3 scripts/test-editions.py
           python3 scripts/test-hero-summary.py
+          python3 scripts/test-ambient-footer.py
           python3 scripts/test-timing-labels.py
           python3 scripts/test-reading-order.py
           node --check assets/app.js

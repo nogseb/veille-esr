@@ -165,8 +165,8 @@
     const playback = root.querySelector('[data-facet-playback]');
     const counter = root.querySelector('[data-facet-count]');
     const announce = root.querySelector('[data-facet-announcement]');
-    const ambient = root.querySelector('[data-ambient-toggle]');
-    const proposal = root.querySelector('.ambient-proposal');
+    const ambient = doc.querySelector('[data-ambient-toggle]');
+    const proposal = doc.querySelector('.ambient-proposal');
     const note = root.querySelector('[data-facet-note]');
     if (panels.length !== 4 || buttons.length !== 4 || !cube || !nav || !toolbar) return;
     const state = createState(reduced.matches);
@@ -224,7 +224,7 @@
       ambientController.setEnabled(on);
       if (!ambient) return;
       ambient.setAttribute('aria-pressed', String(on));
-      ambient.textContent = on ? 'Désactiver la cartographie' : 'Activer la cartographie';
+      ambient.textContent = on ? 'Désactiver le fond animé' : 'Activer le fond animé';
     }
 
     buttons.forEach((button, index) => {
