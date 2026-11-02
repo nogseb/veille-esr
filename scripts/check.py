@@ -69,6 +69,8 @@ def main():
     for edition in editions:
         assert 1 <= len(edition["signals"]) <= DATA["editorialPolicy"]["maxSignals"]
         assert len(edition["actions"]) <= DATA["editorialPolicy"]["maxActions"]
+        if DATA["editorialPolicy"].get("requireHorschamp"):
+            assert any(signal["axis"] == "horschamp" for signal in edition["signals"])
         for signal in edition["signals"]:
             assert signal["axis"] in {axis["id"] for axis in axes}
             assert signal["timing"] in ["week", "context", "observation"]

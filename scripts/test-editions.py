@@ -68,6 +68,11 @@ class EditionTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             build.validate_data()
 
+    def test_hors_champ_is_required(self):
+        self.current["signals"] = [signal for signal in self.current["signals"] if signal["axis"] != "horschamp"]
+        with self.assertRaises(ValueError):
+            build.validate_data()
+
     def test_historical_data_unchanged(self):
         build.EDITIONS = copy.deepcopy(self.original)
         build.validate_data()

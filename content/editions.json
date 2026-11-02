@@ -75,21 +75,21 @@
   "editions": [
     {
       "id": "2026-11-02-s45-draft",
-      "title": "Admissions, preuves pédagogiques et impact — sélection S45 consolidée",
+      "title": "Admissions, preuves et parcours d’acquisition — sélection S45 consolidée",
       "date": "2026-11-02",
       "dateLabel": "2 novembre 2026",
       "period": "26 octobre – 1er novembre 2026",
       "periodStart": "2026-10-26",
       "periodEnd": "2026-11-01",
       "status": "S45 · Édition publiée",
-      "readingMinutes": 8,
-      "intro": "La semaine place l’admission et la preuve au centre du jeu. L’annonce d’une évolution de Parcoursup à horizon 2027–2028 remet la transparence des critères et des décisions au premier plan, tandis que le bilan SIES rappelle que propositions, acceptations et inscriptions ne se confondent pas. La CDEFM pousse pour des indicateurs plus lisibles ; le PLF 2027 maintient l’alternance dans une phase d’incertitude budgétaire. Côté écoles, emlyon, HEC–Paris-Saclay, SHERLOCK et Esade rendent visibles des expériences étudiantes, des partenariats et des démarches d’impact plus formalisés.",
+      "readingMinutes": 10,
+      "intro": "La semaine relie l’admission, la preuve et les parcours d’acquisition. L’annonce gouvernementale sur 2027–2028 remet la transparence des critères au premier plan, tandis que le SIES et la CDEFM rappellent que propositions, acceptations et insertion doivent rester lisibles. Côté écoles, emlyon, HEC–Paris-Saclay, SHERLOCK et Esade rendent visibles des expériences, partenariats et démarches d’impact. Hors ESR, Google, France Travail et JD Sports montrent comment préparer les nouveaux espaces de recherche, rendre une preuve B2B concrète et faire émerger les mots des publics.",
       "featuredSignal": "s45-parcoursup-reforme-2027-2028",
       "featuredTitle": "Admission post-bac : des jalons annoncés pour 2027 et 2028.",
       "featuredFact": "2027 puis 2028",
       "featuredLabel": "MARCHÉ ESR · annonce gouvernementale du 26 octobre 2026",
       "featuredNote": "Les engagements de transparence et le nouveau système sont annoncés, non encore applicables ; les capacités supplémentaires visent principalement BTS, BUT et licence accès santé.",
-      "notice": "Sélection consolidée de huit signaux : sept publications de la fenêtre et un contexte budgétaire primaire. Les recommandations CDEFM restent distinctes des engagements de l’État. Les cartes fondées sur un relais d’un fait antérieur, une page non datée ou une inspiration hors ESR sont écartées plutôt que conservées pour remplir les axes.",
+      "notice": "Sélection consolidée de douze signaux : dix publications de la fenêtre et deux contextes antérieurs explicitement identifiés. Les huit axes sont couverts ; deux inspirations hors ESR sont retenues pour leurs mécaniques transférables, jamais comme preuves de résultat pour TBS Education. MBS est écarté faute de preuve publique de réalisation de sa session d’octobre.",
       "classification": {
         "week": [
           "s45-parcoursup-reforme-2027-2028",
@@ -98,11 +98,15 @@
           "s45-emlyon-google-iactu",
           "s45-hec-paris-saclay-lab2biz",
           "s45-sherlock-kipsta-pilote",
-          "s45-esade-bsis-renouvellement"
+          "s45-esade-bsis-renouvellement",
+          "s45-google-ads-ai-mode",
+          "s45-france-travail-pro-preuve-sociale",
+          "s45-jd-bbc-youth-club-dictionary"
         ],
         "observation": [],
         "context": [
-          "s45-plf-2027-aides-apprentissage"
+          "s45-plf-2027-aides-apprentissage",
+          "s45-kedge-msc-sales-business-development"
         ]
       },
       "signals": [
@@ -294,16 +298,16 @@
         },
         {
           "id": "s45-sherlock-kipsta-pilote",
-          "axis": "recherche",
+          "axis": "international",
           "actor": "IAE Savoie Mont Blanc / partenaires Erasmus+ SHERLOCK / KIPSTA",
           "label": "Décrypter",
-          "status": "Activité pilote réalisée ; jeu sérieux encore en développement",
-          "dateLabel": "LTTA tenue à Annecy du 19 au 23 octobre 2026 · compte rendu institutionnel publié le 29 octobre",
-          "title": "SHERLOCK : un pilote marketing international avec KIPSTA",
+          "status": "Pilote de coopération pédagogique européenne",
+          "dateLabel": "Publication IAE France : 29 octobre 2026 · pilote à Annecy : 19–23 octobre 2026",
+          "title": "SHERLOCK : un pilote européen rend la coopération internationale tangible",
           "fact": "Le 29 octobre, l’IAE Savoie Mont Blanc rend compte de la première activité LTTA du projet Erasmus+ SHERLOCK, tenue à Annecy du 19 au 23 octobre. Il indique que plus de 70 étudiants et enseignants de six universités ont mené, en équipes internationales, une étude marketing sur un défi proposé par KIPSTA, avec restitution devant jury. L’activité a servi de phase pilote du jeu sérieux.",
-          "verdict": "L’activité effectivement réalisée rend vérifiables le public, le travail étudiant, le défi, le jury et le statut de pilote. Elle ne préjuge ni du déploiement du jeu, ni de l’apprentissage, ni de l’attractivité qu’il pourrait produire.",
-          "implication": "Pour TBS Education, qualifier les expériences pédagogiques avec leur statut réel — pilote, déploiement ou évaluation — et rendre visibles la contribution de l’étudiant, le partenaire, le livrable et la limite de preuve.",
-          "limits": "Les volumes, la nature du défi et les apprentissages décrits émanent principalement de l’établissement hôte. Aucune évaluation d’apprentissage, donnée de satisfaction, calendrier de disponibilité du jeu, effet d’attractivité, de recrutement ou d’insertion n’est publié. KIPSTA n’a pas été lu comme source autonome.",
+          "verdict": "Le partenariat international est montré par le travail réellement réalisé : équipes européennes, défi d’entreprise et restitution. Le statut de pilote ne démontre pas encore un effet d’apprentissage ni une extension du dispositif.",
+          "implication": "Pour TBS Education, rendre visibles les coopérations internationales par l’activité conjointe, la contribution des étudiants, le partenaire et le résultat produit, plutôt que par la seule liste des accords.",
+          "limits": "Le compte rendu institutionnel décrit une activité ponctuelle, sans mesure comparative des apprentissages, des mobilités ou des suites du jeu sérieux. Il ne documente pas une implantation ou un nouveau campus.",
           "sources": [
             {
               "name": "SHERLOCK : une semaine au cœur du marketing international",
@@ -360,108 +364,245 @@
           ],
           "timing": "week",
           "publicationDate": "2026-10-27"
+        },
+        {
+          "id": "s45-kedge-msc-sales-business-development",
+          "axis": "offre",
+          "actor": "KEDGE Business School",
+          "label": "Comparer",
+          "status": "Programme annoncé hors fenêtre · première rentrée future",
+          "timing": "context",
+          "publicationDate": "2026-10-23",
+          "dateLabel": "Annonce KEDGE : 23 octobre 2026 · première rentrée : septembre 2027 · hors fenêtre",
+          "title": "KEDGE : un MSc Sales co-construit avec 14 entreprises",
+          "fact": "KEDGE annonce un MSc Sales & Business Development co-construit avec quatorze entreprises. La première rentrée est prévue en septembre 2027 : parcours temps plein anglophone à Marseille et parcours en alternance à Paris. L’école annonce aussi une certification Salesforce CRM/IA et un bootcamp Microsoft sur l’IA appliquée à la vente.",
+          "verdict": "Le consortium est nommé et relié au contenu, aux certifications et à des opportunités de recrutement. C’est une offre future et un contexte de comparaison, non une preuve de demande ni de placement.",
+          "implication": "Pour TBS Education, comparer sur les pages de programmes les preuves de co-construction : entreprises nommées, rôle dans la formation, certifications, modalités et débouchés documentés.",
+          "limits": "L’annonce primaire précède la fenêtre S45. Les pages officielles décrivent le programme, sans prix, capacité, candidatures, taux de placement ou mesure de l’apport des entreprises.",
+          "sources": [
+            {
+              "name": "KEDGE annonce le MSc Sales & Business Development",
+              "publisher": "KEDGE Business School",
+              "date": "23 octobre 2026",
+              "url": "https://x.com/KedgeBS/status/2113560903048458298",
+              "type": "Annonce institutionnelle primaire"
+            },
+            {
+              "name": "MSc Sales & Business Development",
+              "publisher": "KEDGE Business School",
+              "date": "Page programme consultée le 2 novembre 2026",
+              "url": "https://etudiant.kedge.edu/programmes/sales-business-development",
+              "type": "Source institutionnelle primaire"
+            }
+          ]
+        },
+        {
+          "id": "s45-google-ads-ai-mode",
+          "axis": "acquisition",
+          "actor": "Google / Alphabet",
+          "label": "Préparer",
+          "status": "Extension internationale annoncée · disponibilité France non confirmée",
+          "timing": "week",
+          "publicationDate": "2026-10-28",
+          "dateLabel": "Annonce Google et résultats Alphabet : 28 octobre 2026",
+          "title": "Google étend les annonces dans AI Mode, sans annonce de disponibilité France",
+          "fact": "Google annonce l’extension des annonces intégrées à AI Mode dans dix marchés et le lancement, aux États-Unis, d’annonces multitours dans les questions de suivi. Les campagnes Search, Shopping et Performance Max existantes peuvent être éligibles lorsque pertinentes. La France ne figure pas dans la liste des marchés confirmés pour ces formats intégrés.",
+          "verdict": "Le signal porte sur la préparation des campagnes et de la mesure, pas sur un lancement français. Les résultats de ces emplacements restent agrégés dans les rapports standards : ils ne sont pas isolables comme un canal distinct.",
+          "implication": "Pour TBS Education, documenter dès maintenant les campagnes Search, Shopping et Performance Max concernées, la qualité des flux et les indicateurs de requête, coût et conversion à surveiller si la France est annoncée.",
+          "limits": "Aucun calendrier français, disponibilité en français ou paramètre d’exclusion spécifique n’est confirmé par les sources officielles lues. Les annonces autour d’un AI Overview et les annonces intégrées à la réponse IA sont des emplacements distincts.",
+          "sources": [
+            {
+              "name": "Ads in AI Mode expand globally",
+              "publisher": "Google",
+              "date": "28 octobre 2026",
+              "url": "https://blog.google/products/ads-commerce/ads-in-ai-mode-global/",
+              "type": "Annonce primaire"
+            },
+            {
+              "name": "About ads in AI Overviews and AI Mode",
+              "publisher": "Google Ads",
+              "date": "Consulté le 2 novembre 2026",
+              "url": "https://support.google.com/google-ads/answer/18826097",
+              "type": "Documentation primaire"
+            },
+            {
+              "name": "Alphabet Q3 2026 Earnings Transcript",
+              "publisher": "Alphabet",
+              "date": "28 octobre 2026",
+              "url": "https://s206.q4cdn.com/479360582/files/doc_events/2026/Oct/28/2026_Q3_Earnings_Transcript.pdf",
+              "type": "Source primaire"
+            }
+          ]
+        },
+        {
+          "id": "s45-france-travail-pro-preuve-sociale",
+          "axis": "horschamp",
+          "actor": "France Travail",
+          "label": "Explorer",
+          "status": "Campagne B2B nationale · inspiration transférable",
+          "timing": "week",
+          "publicationDate": "2026-10-28",
+          "dateLabel": "Lancement de campagne : 28 octobre 2026",
+          "title": "France Travail Pro : faire porter la preuve par des employeurs",
+          "fact": "France Travail lance une campagne pour son offre employeur, portée par des témoignages de dirigeants et des déclinaisons régionales. Le dispositif associe des cas d’employeurs, des leviers de recrutement présentés et une demande de rappel vers un conseiller.",
+          "verdict": "La mécanique rend une promesse de service B2B plus concrète en donnant la parole à des pairs, puis en menant vers une action. Les résultats et chiffres revendiqués par France Travail restent des déclarations de l’émetteur.",
+          "implication": "Pour TBS Education, explorer un dispositif de preuve sociale entreprises autour de l’alternance ou des partenariats : un dirigeant, un besoin précis, un dispositif réellement mobilisé, une limite de cas et un contact utile — sans reprendre des taux non auditables.",
+          "limits": "La campagne institutionnelle ne publie ni méthodologie complète, ni périmètre homogène des résultats cités, ni performance de la campagne. La transposition porte sur la structure de preuve, non sur ses chiffres ni sur son contexte public.",
+          "sources": [
+            {
+              "name": "France Travail Pro : campagne portée par sept dirigeants",
+              "publisher": "France Travail",
+              "date": "28 octobre 2026",
+              "url": "https://www.francetravail.org/accueil/actualites/2026/france-travail-pro-une-campagne-nationale-portee-par-la-confiance-de-sept-grands-dirigeants-d-entreprise.html?type=article",
+              "type": "Source institutionnelle primaire"
+            },
+            {
+              "name": "France Travail Pro — page employeur",
+              "publisher": "France Travail",
+              "date": "Consultée le 2 novembre 2026",
+              "url": "https://www.francetravail.fr/employeur/bienvenue.html?at_medium=CMP&at_campaign=FTpro&at_cmp_indicateur1=Dircom&at_cmp_indicateur2=ORG",
+              "type": "Source institutionnelle primaire"
+            }
+          ]
+        },
+        {
+          "id": "s45-jd-bbc-youth-club-dictionary",
+          "axis": "horschamp",
+          "actor": "JD Sports / BBC Children in Need",
+          "label": "Explorer",
+          "status": "Partenariat associatif et co-construction avec des jeunes",
+          "timing": "week",
+          "publicationDate": "2026-10-26",
+          "dateLabel": "Lancement documenté : 26 octobre 2026 · relais de marque : 30 octobre 2026",
+          "title": "JD Sports et BBC Children in Need : partir des mots des jeunes",
+          "fact": "JD Sports, BBC Children in Need et Oxford University Press lancent le Youth Club Dictionary, qui associe définitions issues de l’Oxford English Dictionary et usages recueillis dans des youth clubs. Le partenariat annonce aussi des ateliers, expériences professionnelles et accompagnements vers l’emploi.",
+          "verdict": "Le dispositif donne aux jeunes et aux adultes de confiance un rôle dans le récit, avant de relier ce récit à des opportunités concrètes. Il ne prouve pas un effet sur l’emploi, la fréquentation ou la préférence de marque.",
+          "implication": "Pour TBS Education, tester une courte série éditoriale fondée sur les mots des étudiants, alumni ou partenaires et reliée à une expérience vérifiable : accompagnement, international, projet entreprise ou mobilité, avec un lien utile plutôt qu’une promesse générale.",
+          "limits": "Cas britannique, associatif et de marque ; ses sources établissent le lancement et les objectifs, non les résultats. La transposition concerne la co-construction du récit et non une reproduction de la campagne.",
+          "sources": [
+            {
+              "name": "JD Sports creates new opportunities for young people",
+              "publisher": "JD Sports Fashion plc",
+              "date": "26 octobre 2026",
+              "url": "https://www.jdplc.com/jd-sports-creates-new-online-work-experience-placements-for-young-people/",
+              "type": "Annonce primaire"
+            },
+            {
+              "name": "Youth Club Dictionary and OUP content",
+              "publisher": "Oxford University Press",
+              "date": "26 octobre 2026",
+              "url": "https://corp.oup.com/feature/a-brief-history-of-the-pocket-oxford-english-dictionary/",
+              "type": "Source institutionnelle primaire"
+            },
+            {
+              "name": "The Youth Club Dictionary",
+              "publisher": "BBC Children in Need",
+              "date": "Page consultée le 2 novembre 2026",
+              "url": "https://www.bbcchildreninneed.co.uk/youth-club-dictionary/",
+              "type": "Source primaire"
+            }
+          ]
         }
       ],
       "actions": [
         {
-          "title": "Préparer une base de comparaison des informations Parcoursup",
-          "owner": "Admissions / affaires institutionnelles / data et pilotage — proposés",
-          "horizon": "Avant les premières recommandations du comité annoncées fin novembre 2026",
-          "result": "Une fiche séparant exigences annoncées pour 2027, paramètres encore inconnus pour 2028, définitions des indicateurs et éléments de parcours TBS Education à documenter.",
+          "title": "Préparer les informations d’admission et de preuve comparables",
+          "owner": "Admissions / marketing programmes — proposés",
+          "horizon": "Avant les premières recommandations du comité de réforme",
+          "result": "Un état des lieux des critères, pondérations, motifs de refus et indicateurs de sélectivité ou d’insertion publiables par programme.",
           "signal": "s45-parcoursup-reforme-2027-2028"
         },
         {
-          "title": "Qualifier deux preuves pédagogiques entreprise réutilisables",
-          "owner": "Directions de programmes / recherche / relations entreprises / contenus — proposés",
-          "horizon": "J+30",
-          "result": "Deux fiches factuelles précisant public, rôle étudiant, partenaire, situation ou défi, durée, livrable, statut et source, avec distinction entre activité réalisée et résultat évalué.",
-          "signal": "s45-hec-paris-saclay-lab2biz"
+          "title": "Préparer la lecture des futurs emplacements publicitaires dans la recherche IA",
+          "owner": "Marketing digital / agence SEA / data — proposés",
+          "horizon": "Avant toute ouverture confirmée en France",
+          "result": "Une fiche de campagnes éligibles, flux requis, requêtes à surveiller et indicateurs de coût ou conversion ; aucune activation nouvelle sans annonce France.",
+          "signal": "s45-google-ads-ai-mode"
         },
         {
-          "title": "Suivre le cadre des aides à l’apprentissage sans anticiper son application",
-          "owner": "Relations entreprises / direction financière / admissions — proposés",
-          "horizon": "À l’issue du parcours parlementaire et dès publication du barème applicable",
-          "result": "Une note d’une page distinguant crédits proposés, règles votées, barème, publics et niveaux concernés, puis les seuls contenus TBS à mettre à jour le cas échéant.",
-          "signal": "s45-plf-2027-aides-apprentissage"
+          "title": "Cadrer une preuve sociale entreprises vérifiable",
+          "owner": "Relations entreprises / contenus — proposés",
+          "horizon": "J+30",
+          "result": "Deux cas pilotes associant entreprise, besoin, dispositif TBS Education, résultat documenté et contact utile, sans chiffre non auditable.",
+          "signal": "s45-france-travail-pro-preuve-sociale"
         }
       ],
       "coverage": {
-        "offre": "Aucun signal retenu : les pages Audencia et KEDGE ne permettent pas d’établir une publication primaire nouvelle pendant S45 ; l’offre MBS est promue avant la fenêtre et sa réalisation n’est pas confirmée.",
-        "marque": "Une actualité : emlyon rend une production étudiante visible dans un environnement professionnel nommé. La carte décrit un récit de parcours, non un effet de marque ou de recrutement démontré.",
-        "acquisition": "Aucun signal retenu : aucun changement primaire daté et vérifiable d’un parcours d’acquisition ou de conversion n’a été établi.",
-        "international": "Aucun signal principal retenu : SHERLOCK mobilise six universités européennes, mais l’actualité porte sur une activité pédagogique pilote et non sur un mouvement d’implantation ou de marché comparable.",
-        "marche": "Quatre repères : engagements gouvernementaux sur Parcoursup, bilan SIES, propositions CDEFM et contexte budgétaire des aides à l’apprentissage. Ils ne mesurent ni la demande ni les résultats propres à TBS Education.",
-        "reputation": "Une actualité : EFMD annonce le renouvellement BSIS d’Esade. Le label évalue l’impact ; il ne se confond pas avec une accréditation académique ni avec une preuve d’insertion.",
-        "recherche": "Deux actualités : HEC Paris et Paris-Saclay détaillent Lab2Biz ; IAE Savoie Mont Blanc rend compte du pilote SHERLOCK avec KIPSTA. Les réalisations décrites n’établissent pas de résultats d’apprentissage ou d’employabilité.",
-        "horschamp": "Aucun signal retenu : Airbnb et Zendesk, bien que sourcés, sont écartés pour privilégier des faits directement reliés à l’ESR et à l’alternance."
+        "offre": "Un contexte : KEDGE annonce le 23 octobre un MSc Sales & Business Development pour septembre 2027, co-construit avec quatorze entreprises. Il est comparé comme offre future, non présenté comme actualité de la fenêtre.",
+        "marque": "Un signal : emlyon rend visible sa stratégie de marque et d’impact. Il s’agit d’une prise de parole institutionnelle, non d’un résultat de perception mesuré.",
+        "acquisition": "Un signal : Google étend les annonces intégrées à AI Mode dans plusieurs marchés. La France n’est pas confirmée ; l’enjeu est la préparation de la mesure et des campagnes.",
+        "international": "Un signal : le pilote européen SHERLOCK documente un travail commun d’étudiants et d’enseignants de plusieurs universités. Il s’agit d’un partenariat, pas d’une nouvelle implantation.",
+        "marche": "Quatre signaux : admission post-bac, SIES, propositions CDEFM et aides à l’apprentissage. Ils portent sur des périmètres distincts et ne décrivent pas directement TBS Education.",
+        "reputation": "Un signal : Esade renouvelle BSIS. La démarche atteste un cadre institutionnel ; elle ne mesure pas seule la performance de l’école.",
+        "recherche": "Un signal : HEC–Paris-Saclay décrit le rôle des MBA dans Lab2Biz. Le partenariat et l’activité sont documentés, sans taux de création d’entreprise attribuable.",
+        "horschamp": "Deux inspirations : France Travail Pro sur la preuve sociale B2B et JD Sports × BBC Children in Need sur la co-construction d’un récit avec les jeunes. Aucune performance externe n’est transposée."
       },
       "perspectives": [
         {
           "id": "panorama",
           "name": "Le panorama analytique",
           "question": "Que retenir de cette édition ?",
-          "text": "La semaine place l’admission et la preuve au centre du jeu. L’annonce d’une évolution de Parcoursup à horizon 2027–2028 remet la transparence des critères et des décisions au premier plan, tandis que le bilan SIES rappelle que propositions, acceptations et inscriptions ne se confondent pas. La CDEFM pousse pour des indicateurs plus lisibles ; le PLF 2027 maintient l’alternance dans une phase d’incertitude budgétaire. Côté écoles, emlyon, HEC–Paris-Saclay, SHERLOCK et Esade rendent visibles des expériences étudiantes, des partenariats et des démarches d’impact plus formalisés.",
+          "text": "La semaine relie l’admission, la preuve et les parcours d’acquisition. L’annonce gouvernementale sur 2027–2028 remet la transparence des critères au premier plan, tandis que le SIES et la CDEFM rappellent que propositions, acceptations et insertion doivent rester lisibles. Côté écoles, emlyon, HEC–Paris-Saclay, SHERLOCK et Esade rendent visibles des expériences, partenariats et démarches d’impact. Hors ESR, Google, France Travail et JD Sports montrent comment préparer les nouveaux espaces de recherche, rendre une preuve B2B concrète et faire émerger les mots des publics.",
           "signals": [
             "s45-parcoursup-reforme-2027-2028",
             "s45-sies-parcoursup-2026",
             "s45-cdefm-propositions-parcoursup",
-            "s45-plf-2027-aides-apprentissage",
-            "s45-emlyon-google-iactu",
-            "s45-hec-paris-saclay-lab2biz",
-            "s45-sherlock-kipsta-pilote",
-            "s45-esade-bsis-renouvellement"
+            "s45-google-ads-ai-mode",
+            "s45-france-travail-pro-preuve-sociale",
+            "s45-jd-bbc-youth-club-dictionary"
           ]
         },
         {
           "id": "fil-rouge",
           "name": "Le fil rouge",
           "question": "Qu’est-ce qui relie les sujets ?",
-          "text": "Les sujets retenus ne prouvent pas une performance commune : ils rendent des objets de comparaison plus explicites. Côté admission, cela passe par des règles, des étapes et des indicateurs à définir. Côté pédagogie, cela passe par un rôle étudiant, un partenaire, une durée et un livrable observables. Côté impact, le renouvellement BSIS rappelle l’intérêt d’une évaluation structurée. La comparabilité dépend donc du périmètre, de la date et de la méthode publiés, non de la seule visibilité d’une annonce.",
+          "text": "Un même enjeu traverse l’édition : rendre une promesse vérifiable avant de demander une décision. Il prend la forme de critères d’admission et d’indicateurs comparables, de rôles étudiants explicités dans Lab2Biz et SHERLOCK, de preuves entreprises dans une campagne B2B ou de formats publicitaires dont le périmètre doit être maîtrisé. La visibilité d’un dispositif ne constitue toutefois pas une mesure de son efficacité.",
           "signals": [
             "s45-parcoursup-reforme-2027-2028",
-            "s45-sies-parcoursup-2026",
             "s45-cdefm-propositions-parcoursup",
             "s45-hec-paris-saclay-lab2biz",
             "s45-sherlock-kipsta-pilote",
-            "s45-esade-bsis-renouvellement"
+            "s45-france-travail-pro-preuve-sociale",
+            "s45-google-ads-ai-mode"
           ]
         },
         {
           "id": "tensions",
           "name": "Les tensions du secteur",
           "question": "Quelles dynamiques faut-il lire ensemble ?",
-          "text": "L’État annonce des échéances de transparence et un futur système d’admission, tandis que la CDEFM demande des indicateurs harmonisés et que le SIES décrit les résultats de la campagne précédente. Ces trois registres ne se superposent pas : engagement, proposition sectorielle et observation statistique. Le cadre budgétaire de l’apprentissage ajoute une quatrième temporalité, celle d’un projet à voter. Toute lecture opérationnelle doit donc éviter de confondre annonce, norme appliquée, donnée observée et projection.",
+          "text": "La demande de transparence sur l’admission et l’insertion augmente alors que l’alternance reste dans une phase d’incertitude budgétaire. Les écoles et partenaires ajoutent des preuves de contenu, d’impact ou de coopération internationale ; ces preuves deviennent plus importantes à mesure que les candidats, entreprises et plateformes comparent les offres. Les chiffres nationaux, projets de budget et annonces d’établissement ne répondent pas à la même question : ils doivent donc rester séparés.",
           "signals": [
             "s45-parcoursup-reforme-2027-2028",
             "s45-sies-parcoursup-2026",
-            "s45-cdefm-propositions-parcoursup",
-            "s45-plf-2027-aides-apprentissage"
+            "s45-plf-2027-aides-apprentissage",
+            "s45-kedge-msc-sales-business-development",
+            "s45-esade-bsis-renouvellement"
           ]
         },
         {
           "id": "concurrence",
           "name": "La lecture concurrentielle",
           "question": "Sur quels terrains les écoles cherchent-elles à se distinguer ?",
-          "text": "Les concurrents et comparateurs visibles cette semaine misent moins sur une promesse abstraite que sur un dispositif racontable : artefact étudiant chez emlyon, exploration de débouchés deeptech avec Lab2Biz, étude marketing pilote dans SHERLOCK, ou système de suivi d’impact reconnu par EFMD. Ces formats n’ont pas la même maturité ni la même portée. Leur point commun est de rendre une activité, un rôle ou une gouvernance vérifiable, sans apporter encore de preuve équivalente d’acquisition de compétences, de candidature ou d’insertion.",
+          "text": "Les terrains visibles sont la lisibilité de l’admission, la co-construction d’un programme avec des entreprises, le rôle réel des étudiants dans les partenariats, l’impact institutionnel et la capacité à expliquer une offre tech ou internationale. Hors ESR, France Travail et JD Sports montrent deux mécaniques distinctes : faire parler des pairs professionnels, ou laisser un public contribuer au récit. La différence devient crédible lorsque public, mécanisme, preuve et limite sont identifiables.",
           "signals": [
-            "s45-emlyon-google-iactu",
+            "s45-kedge-msc-sales-business-development",
             "s45-hec-paris-saclay-lab2biz",
             "s45-sherlock-kipsta-pilote",
-            "s45-esade-bsis-renouvellement"
+            "s45-esade-bsis-renouvellement",
+            "s45-france-travail-pro-preuve-sociale",
+            "s45-jd-bbc-youth-club-dictionary"
           ]
         }
       ],
       "excludedSignals": [
-        "CDEFM — fiches indicateurs : pages primaires TBS publiées les 14–15 octobre et données observées au 15 janvier ; le relais du 30 octobre ne crée pas un fait S45.",
-        "De Vinci Higher Education : rebranding primaire du 19 octobre ; inauguration sans date exacte et relais de fenêtre sans évolution distincte établie.",
-        "emlyon Tech School : annonce primaire du 13 octobre ; le relais de la fenêtre ne justifie pas une réintégration S45.",
-        "EDC Paris : approfondissement d’un sujet déjà consolidé en S44 ; aucune évolution primaire S45 distincte établie.",
-        "EGC / PRME : adhésion annoncée au 15 octobre et premier reporting seulement promis ; Esade/BSIS offre un fait de fenêtre plus robuste.",
-        "EM Normandie / Plaza Athénée : dispositif futur, sans confirmation autonome du partenaire ni calendrier d’exécution.",
-        "KEDGE MSc Sales & Business Development : pages primaires sans date de publication ; offre future conservée en réserve, non comme actualité S45.",
-        "Audencia Executive Certificate IA et Sales : page non datée, traces de sitemap non probantes et discordance sur la VAE.",
-        "MBS Business English Bootcamp : promotion datée du 22 septembre ; aucune confirmation de réalisation, fréquentation ou modification pendant S45.",
-        "Airbnb et Zendesk : sources primaires mais inspiration indirecte, écartée au profit de signaux ESR directement comparables."
+        {
+          "title": "MBS Business English Bootcamp",
+          "reason": "Les pages et publications MBS confirment une campagne d’inscription antérieure, pas la réalisation, la fréquentation ou l’effet d’acquisition de la session d’octobre."
+        },
+        {
+          "title": "Lancement France des annonces intégrées à AI Mode",
+          "reason": "Aucune disponibilité en France ni calendrier local n’est confirmé par Google."
+        }
       ],
       "traceability": {
         "method": "Les cartes retenues privilégient un fait primaire ou réglementaire, une publication dans la fenêtre et un apport analytique distinct. Le relais média n’est retenu comme date que s’il correspond à un fait nouveau propre ; sinon la date de la source primaire prévaut.",
@@ -469,7 +610,7 @@
         "keyLimit": "Aucune carte ne démontre une variation des candidatures, de la conversion, de l’insertion, des compétences ou de la satisfaction de TBS Education. Les annonces d’établissements décrivent leurs propres dispositifs ; les documents publics encadrent le marché sans se transposer automatiquement à TBS."
       },
       "heroMeta": "S45 · Fenêtre 26 octobre – 1er novembre 2026",
-      "tbsStake": "Clarifier les étapes, critères et informations communicables du parcours post-bac ; fiabiliser les définitions d’indicateurs avant toute comparaison ; et mieux documenter les preuves de parcours, de relation entreprise et d’impact. Pour l’alternance, suivre les règles effectivement votées avant d’ajuster les messages ou les dispositifs."
+      "tbsStake": "Trois lectures utiles pour TBS Education : préparer les informations d’admission et les indicateurs de preuve ; documenter les campagnes Search/Shopping/Performance Max avant toute ouverture confirmée en France ; tester, avec les relations entreprises et les contenus, une preuve sociale fondée sur des cas, des publics et des résultats vérifiables."
     },
     {
       "id": "2026-10-26",
@@ -1291,7 +1432,8 @@
   ],
   "editorialPolicy": {
     "targetMinSignals": 8,
-    "maxSignals": 10,
-    "maxActions": 3
+    "maxSignals": 12,
+    "maxActions": 3,
+    "requireHorschamp": true
   }
 }
