@@ -47,6 +47,16 @@
     return positions;
   }
 
+  function createSatelliteMotions(random, count) {
+    const generator = typeof random === 'function' ? random : Math.random;
+    const target = Math.max(0, Number(count) || 0);
+    return Array.from({ length: target }, () => ({
+      speed: Math.round((0.0024 + generator() * 0.0066) * 1000000) / 1000000,
+      direction: generator() < 0.5 ? -1 : 1,
+      phase: Math.round(generator() * 3600) / 10
+    }));
+  }
+
   function shouldAnimateAmbient(enabled, reduced, pageHidden) {
     return Boolean(enabled) && !Boolean(reduced) && !Boolean(pageHidden);
   }
@@ -97,6 +107,11 @@
       duration: Number(orbiter.dataset.duration) || 50000,
       phase: Number(orbiter.dataset.phase) || 0
     })).filter((item) => item.path && typeof item.path.getTotalLength === 'function');
+    const satellites = Array.from(background.querySelectorAll('[data-satellite-orbit]')).map((node, index) => ({
+      node,
+      ...createSatelliteMotions(Math.random, 1)[0],
+      index
+    }));
     let frame = null;
 
     function enabled() {
@@ -111,6 +126,10 @@
         const progress = ((timestamp / item.duration) + item.phase) % 1;
         const point = item.path.getPointAtLength(length * progress);
         item.node.setAttribute('transform', `translate(${point.x.toFixed(1)} ${point.y.toFixed(1)})`);
+      });
+      satellites.forEach((item) => {
+        const angle = ((timestamp * item.speed * item.direction) + item.phase) % 360;
+        item.node.setAttribute('transform', `rotate(${angle.toFixed(2)})`);
       });
       frame = win.requestAnimationFrame(draw);
     }
@@ -189,7 +208,11 @@
         playback.setAttribute('aria-pressed', String(state.userPaused));
         playback.hidden = state.reduced;
       }
-      if (note) note.textContent = state.reduced ? 'Navigation manuelle · mouvements réduits respectés' : state.userPaused ? 'Navigation manuelle · rotation en pause' : 'Rotation lente · 24 secondes par facette';
+      if (note) {
+        const message = state.reduced ? 'Mouvements réduits respectés' : state.userPaused ? '' : 'Rotation lente · 24 secondes par facette';
+        note.textContent = message;
+        note.hidden = !message;
+      }
       root.setAttribute('aria-roledescription', 'carrousel');
       if (manual && announce) {
         announce.textContent = `Facette ${state.active + 1} sur 4 : ${buttons[state.active].dataset.facetName}.`;
@@ -277,7 +300,7 @@
   if (typeof module !== 'undefined' && module.exports) {
     module.exports = {
       createState, selectFacet, canRotate, setPanelInteractivity, createRipplePositions,
-      shouldAnimateAmbient, ROTATION_DELAY, MAX_HERO_RIPPLES, HERO_RIPPLE_REFRESH
+      shouldAnimateAmbient, createSatelliteMotions, ROTATION_DELAY, MAX_HERO_RIPPLES, HERO_RIPPLE_REFRESH
     };
   } else mount(document, window);
 })();

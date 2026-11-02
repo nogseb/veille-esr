@@ -2,7 +2,7 @@
 const assert = require('node:assert/strict');
 const {
   createState, selectFacet, canRotate, setPanelInteractivity, createRipplePositions,
-  shouldAnimateAmbient, ROTATION_DELAY, MAX_HERO_RIPPLES, HERO_RIPPLE_REFRESH
+  shouldAnimateAmbient, createSatelliteMotions, ROTATION_DELAY, MAX_HERO_RIPPLES, HERO_RIPPLE_REFRESH
 } = require('../assets/perspectives.js');
 
 const state = createState(false);
@@ -71,4 +71,12 @@ assert.equal(shouldAnimateAmbient(true, false, false), true);
 assert.equal(shouldAnimateAmbient(false, false, false), false);
 assert.equal(shouldAnimateAmbient(true, true, false), false, 'Reduced motion stops orbital movement.');
 assert.equal(shouldAnimateAmbient(true, false, true), false, 'A hidden tab stops orbital movement.');
-console.log('PASS: four facets, controlled rotation, three-point hero, orbital cartography, reduced motion and keyboard fallback.');
+const satelliteSequence = [0.04, 0.1, 0.16, 0.81, 0.9, 0.28, 0.42, 0.38, 0.73];
+let satellitePointer = 0;
+const satellites = createSatelliteMotions(() => satelliteSequence[satellitePointer++ % satelliteSequence.length], 3);
+assert.equal(satellites.length, 3);
+assert.ok(satellites.every((item) => item.speed >= 0.0024 && item.speed <= 0.009));
+assert.ok(satellites.every((item) => [-1, 1].includes(item.direction)));
+assert.equal(new Set(satellites.map((item) => item.speed)).size, 3, 'Each satellite receives a distinct sampled orbital speed.');
+assert.ok(new Set(satellites.map((item) => item.phase)).size > 1, 'Satellite phases are not synchronized.');
+console.log('PASS: four facets, controlled rotation, three-point hero, randomized satellite orbits, reduced motion and keyboard fallback.');

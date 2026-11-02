@@ -49,7 +49,7 @@ body>main,body>.site-footer{position:relative;z-index:1}
 .ambient-trajectory-soft{opacity:.08;stroke-dasharray:2 8}.ambient-trajectory-faint{opacity:.06;stroke-dasharray:1 11}
 .ambient-orbiter{opacity:.62;will-change:transform}.ambient-orbiter-small{opacity:.48}.ambient-orbiter-faint{opacity:.38}
 .ambient-planet{fill:var(--red)}.ambient-planet-halo{fill:none;stroke:var(--red);stroke-width:1;opacity:.36;transform-box:fill-box;transform-origin:center;animation:ambient-halo 5.8s ease-in-out infinite}
-.ambient-satellite{fill:var(--red);opacity:.78}.ambient-satellite-soft{opacity:.42}.ambient-static-satellite{fill:var(--red);opacity:.32}
+.ambient-satellite-orbit{transform-origin:0 0;will-change:transform}.ambient-satellite{fill:var(--red);opacity:.78}.ambient-satellite-soft{opacity:.42}.ambient-static-satellite{fill:var(--red);opacity:.32}
 html[data-theme=light] .ambient-trajectory{opacity:.075}html[data-theme=light] .ambient-orbiter{opacity:.45}
 html[data-page-hidden=true] .ambient-background *{animation-play-state:paused}
 @keyframes ambient-halo{0%,100%{transform:scale(.75);opacity:.2}50%{transform:scale(1.22);opacity:.55}}

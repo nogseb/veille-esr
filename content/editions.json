@@ -897,14 +897,14 @@
       "periodStart": "2026-10-26",
       "periodEnd": "2026-11-01",
       "status": "S45 · Édition publiée",
-      "readingMinutes": 10,
-      "intro": "La semaine relie l’admission, la preuve et les parcours d’acquisition. L’annonce gouvernementale sur 2027–2028 remet la transparence des critères au premier plan, tandis que le SIES et la CDEFM rappellent que propositions, acceptations et insertion doivent rester lisibles. Côté écoles, emlyon, MBS, HEC–Paris-Saclay, SHERLOCK et Esade rendent visibles des expériences, partenariats et démarches d’impact. Hors ESR, France Travail et JD Sports montrent comment rendre une preuve B2B concrète et faire émerger les mots des publics.",
+      "readingMinutes": 9,
+      "intro": "La semaine relie l’admission, la preuve et les parcours d’acquisition. L’annonce gouvernementale sur 2027–2028 remet la transparence des critères au premier plan, tandis que le SIES et la CDEFM rappellent que propositions, acceptations et insertion doivent rester lisibles. Côté écoles, emlyon, MBS, HEC–Paris-Saclay, SHERLOCK et Esade rendent visibles des expériences, partenariats et démarches d’impact. Côté acquisition, MBS rend tangible un parcours de découverte avant candidature et Google ouvre un nouveau point de vigilance sur les formats publicitaires dans la recherche IA. Hors ESR, France Travail et JD Sports montrent comment rendre une preuve B2B concrète et faire émerger les mots des publics.",
       "featuredSignal": "s45-parcoursup-reforme-2027-2028",
       "featuredTitle": "Admission post-bac : des jalons annoncés pour 2027 et 2028.",
       "featuredFact": "2027 puis 2028",
       "featuredLabel": "MARCHÉ ESR · annonce gouvernementale du 26 octobre 2026",
       "featuredNote": "Les engagements de transparence et le nouveau système sont annoncés, non encore applicables ; les capacités supplémentaires visent principalement BTS, BUT et licence accès santé.",
-      "notice": "Sélection consolidée de douze signaux : neuf publications de la fenêtre, deux contextes antérieurs explicitement identifiés et un dispositif observé. Les huit axes sont couverts ; deux inspirations hors ESR sont retenues pour leurs mécaniques transférables, jamais comme preuves de résultat pour TBS Education. MBS est qualifié comme dispositif observé : l’offre, sa promotion et un témoignage de cohorte antérieure sont documentés ; la réalisation de la session d’octobre ne l’est pas.",
+      "notice": "Sélection consolidée de treize signaux : dix publications de la fenêtre, deux contextes antérieurs explicitement identifiés et un dispositif observé. Les huit axes sont couverts ; deux inspirations hors ESR sont retenues pour leurs mécaniques transférables, jamais comme preuves de résultat pour TBS Education. MBS est qualifié comme dispositif observé : l’offre, sa promotion et un témoignage de cohorte antérieure sont documentés ; la réalisation de la session d’octobre ne l’est pas. Google Ads AI Mode est retenu comme annonce de la fenêtre ; sa disponibilité France reste non confirmée.",
       "classification": {
         "week": [
           "s45-parcoursup-reforme-2027-2028",
@@ -1267,6 +1267,44 @@
           ]
         },
         {
+          "id": "s45-google-ads-ai-mode",
+          "axis": "acquisition",
+          "actor": "Google / Alphabet",
+          "label": "Préparer",
+          "status": "Extension internationale annoncée · disponibilité France non confirmée",
+          "timing": "week",
+          "publicationDate": "2026-10-28",
+          "dateLabel": "Annonce Google et résultats Alphabet : 28 octobre 2026",
+          "title": "Google étend les annonces dans AI Mode, sans annonce de disponibilité France",
+          "fact": "Google annonce l’extension des annonces intégrées à AI Mode dans dix marchés et le lancement, aux États-Unis, d’annonces multitours dans les questions de suivi. Les campagnes Search, Shopping et Performance Max existantes peuvent être éligibles lorsque pertinentes. La France ne figure pas dans la liste des marchés confirmés pour ces formats intégrés.",
+          "verdict": "Le signal porte sur la préparation des campagnes et de la mesure, pas sur un lancement français. Les résultats de ces emplacements restent agrégés dans les rapports standards : ils ne sont pas isolables comme un canal distinct.",
+          "implication": "Pour TBS Education, documenter dès maintenant les campagnes Search, Shopping et Performance Max concernées, la qualité des flux et les indicateurs de requête, coût et conversion à surveiller si la France est annoncée.",
+          "limits": "Aucun calendrier français, disponibilité en français ou paramètre d’exclusion spécifique n’est confirmé par les sources officielles lues. Les annonces autour d’un AI Overview et les annonces intégrées à la réponse IA sont des emplacements distincts.",
+          "sources": [
+            {
+              "name": "Ads in AI Mode expand globally",
+              "publisher": "Google",
+              "date": "28 octobre 2026",
+              "url": "https://blog.google/products/ads-commerce/ads-in-ai-mode-global/",
+              "type": "Annonce primaire"
+            },
+            {
+              "name": "About ads in AI Overviews and AI Mode",
+              "publisher": "Google Ads",
+              "date": "Consulté le 2 novembre 2026",
+              "url": "https://support.google.com/google-ads/answer/18826097",
+              "type": "Documentation primaire"
+            },
+            {
+              "name": "Alphabet Q3 2026 Earnings Transcript",
+              "publisher": "Alphabet",
+              "date": "28 octobre 2026",
+              "url": "https://s206.q4cdn.com/479360582/files/doc_events/2026/Oct/28/2026_Q3_Earnings_Transcript.pdf",
+              "type": "Source primaire"
+            }
+          ]
+        },
+        {
           "id": "s45-france-travail-pro-preuve-sociale",
           "axis": "horschamp",
           "actor": "France Travail",
@@ -1362,7 +1400,7 @@
       "coverage": {
         "offre": "Un contexte : KEDGE annonce le 23 octobre un MSc Sales & Business Development pour septembre 2027, co-construit avec quatorze entreprises. Il est comparé comme offre future, non présenté comme actualité de la fenêtre.",
         "marque": "Un signal : emlyon rend visible sa stratégie de marque et d’impact. Il s’agit d’une prise de parole institutionnelle, non d’un résultat de perception mesuré.",
-        "acquisition": "Un dispositif observé : MBS associe immersion linguistique, découverte du campus et communication aux parents. La tenue de sa session d’octobre et tout effet sur le recrutement restent non vérifiés.",
+        "acquisition": "Deux signaux : MBS associe immersion linguistique, découverte du campus et communication aux parents, sans preuve de réalisation de sa session d’octobre ni de conversion ; Google étend les annonces dans AI Mode sur certains marchés, mais sans disponibilité France confirmée.",
         "international": "Un signal : le pilote européen SHERLOCK documente un travail commun d’étudiants et d’enseignants de plusieurs universités. Il s’agit d’un partenariat, pas d’une nouvelle implantation.",
         "marche": "Quatre signaux : admission post-bac, SIES, propositions CDEFM et aides à l’apprentissage. Ils portent sur des périmètres distincts et ne décrivent pas directement TBS Education.",
         "reputation": "Un signal : Esade renouvelle BSIS. La démarche atteste un cadre institutionnel ; elle ne mesure pas seule la performance de l’école.",
@@ -1374,12 +1412,13 @@
           "id": "panorama",
           "name": "Le panorama analytique",
           "question": "Que retenir de cette édition ?",
-          "text": "La semaine relie l’admission, la preuve et les parcours d’acquisition. L’annonce gouvernementale sur 2027–2028 remet la transparence des critères au premier plan, tandis que le SIES et la CDEFM rappellent que propositions, acceptations et insertion doivent rester lisibles. Côté écoles, emlyon, MBS, HEC–Paris-Saclay, SHERLOCK et Esade rendent visibles des expériences, partenariats et démarches d’impact. Hors ESR, France Travail et JD Sports montrent comment rendre une preuve B2B concrète et faire émerger les mots des publics.",
+          "text": "La semaine relie l’admission, la preuve et les parcours d’acquisition. L’annonce gouvernementale sur 2027–2028 remet la transparence des critères au premier plan, tandis que le SIES et la CDEFM rappellent que propositions, acceptations et insertion doivent rester lisibles. Côté écoles, emlyon, MBS, HEC–Paris-Saclay, SHERLOCK et Esade rendent visibles des expériences, partenariats et démarches d’impact. Côté acquisition, MBS rend tangible un parcours de découverte avant candidature et Google ouvre un nouveau point de vigilance sur les formats publicitaires dans la recherche IA. Hors ESR, France Travail et JD Sports montrent comment rendre une preuve B2B concrète et faire émerger les mots des publics.",
           "signals": [
             "s45-parcoursup-reforme-2027-2028",
             "s45-sies-parcoursup-2026",
             "s45-cdefm-propositions-parcoursup",
             "s45-mbs-business-english-bootcamp",
+            "s45-google-ads-ai-mode",
             "s45-france-travail-pro-preuve-sociale",
             "s45-jd-bbc-youth-club-dictionary"
           ]
@@ -1388,14 +1427,15 @@
           "id": "fil-rouge",
           "name": "Le fil rouge",
           "question": "Qu’est-ce qui relie les sujets ?",
-          "text": "Un même enjeu traverse l’édition : rendre une promesse vérifiable avant de demander une décision. Il prend la forme de critères d’admission et d’indicateurs comparables, de rôles étudiants explicités dans Lab2Biz et SHERLOCK, de preuves entreprises dans une campagne B2B ou d’un parcours d’immersion dont le statut et les limites doivent être clairs. La visibilité d’un dispositif ne constitue toutefois pas une mesure de son efficacité.",
+          "text": "Un même enjeu traverse l’édition : rendre une promesse vérifiable avant de demander une décision. Il prend la forme de critères d’admission et d’indicateurs comparables, de rôles étudiants explicités dans Lab2Biz et SHERLOCK, de preuves entreprises dans une campagne B2B, d’un parcours d’immersion dont le statut et les limites sont clairs, ou de formats publicitaires dont le périmètre doit être maîtrisé. La visibilité d’un dispositif ne constitue toutefois pas une mesure de son efficacité.",
           "signals": [
             "s45-parcoursup-reforme-2027-2028",
             "s45-cdefm-propositions-parcoursup",
             "s45-hec-paris-saclay-lab2biz",
             "s45-sherlock-kipsta-pilote",
-            "s45-france-travail-pro-preuve-sociale",
-            "s45-mbs-business-english-bootcamp"
+            "s45-mbs-business-english-bootcamp",
+            "s45-google-ads-ai-mode",
+            "s45-france-travail-pro-preuve-sociale"
           ]
         },
         {
@@ -1444,12 +1484,12 @@
         "keyLimit": "Aucune carte ne démontre une variation des candidatures, de la conversion, de l’insertion, des compétences ou de la satisfaction de TBS Education. Les annonces d’établissements décrivent leurs propres dispositifs ; les documents publics encadrent le marché sans se transposer automatiquement à TBS."
       },
       "heroMeta": "S45 · Fenêtre 26 octobre – 1er novembre 2026",
-      "tbsStake": "Trois lectures utiles pour TBS Education : préparer les informations d’admission et les indicateurs de preuve ; comparer le parcours de découverte d’une immersion post-bac — bénéfice, information des parents, coût, inscription et suite — ; tester, avec les relations entreprises et les contenus, une preuve sociale fondée sur des cas, des publics et des résultats vérifiables."
+      "tbsStake": "Quatre lectures utiles pour TBS Education : préparer les informations d’admission et les indicateurs de preuve ; comparer le parcours de découverte d’une immersion post-bac — bénéfice, information des parents, coût, inscription et suite — ; documenter Search, Shopping et Performance Max avant toute ouverture confirmée des annonces AI Mode en France ; tester une preuve sociale fondée sur des cas, des publics et des résultats vérifiables."
     }
   ],
   "editorialPolicy": {
     "targetMinSignals": 8,
-    "maxSignals": 12,
+    "maxSignals": 16,
     "maxActions": 3,
     "requireHorschamp": true
   }
