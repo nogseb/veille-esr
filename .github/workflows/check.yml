@@ -29,6 +29,7 @@ jobs:
           python3 scripts/build.py
           python3 scripts/check.py
           python3 scripts/test-editions.py
+          python3 scripts/test-hero-summary.py
           node --check assets/app.js
           node scripts/test-interactions.cjs
           node scripts/test-featured-source.cjs

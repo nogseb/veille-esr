@@ -78,12 +78,12 @@
       "title": "Admissions, preuves pédagogiques et impact — sélection S45 consolidée",
       "date": "2026-11-02",
       "dateLabel": "2 novembre 2026",
-      "period": "26 octobre–1er novembre 2026 · sélection S45",
+      "period": "26 octobre – 1er novembre 2026",
       "periodStart": "2026-10-26",
       "periodEnd": "2026-11-01",
       "status": "S45 · Édition publiée",
       "readingMinutes": 8,
-      "intro": "Cette consolidation retient d’abord des publications primaires de la fenêtre : engagements publics sur Parcoursup, bilan SIES, propositions de la CDEFM, expériences pédagogiques documentées et évaluation d’impact. Elles distinguent un engagement, une prise de position ou un constat publié d’une promesse de dispositif. Le projet budgétaire sur l’apprentissage reste un contexte : ses crédits proposés ne sont ni votés ni appliqués. Pour TBS Education, l’enjeu commun est de rendre comparables les informations d’admission, les preuves de parcours et les résultats d’impact, sans extrapoler vers les candidatures, l’insertion ou l’efficacité commerciale.",
+      "intro": "La semaine place l’admission et la preuve au centre du jeu. L’annonce d’une évolution de Parcoursup à horizon 2027–2028 remet la transparence des critères et des décisions au premier plan, tandis que le bilan SIES rappelle que propositions, acceptations et inscriptions ne se confondent pas. La CDEFM pousse pour des indicateurs plus lisibles ; le PLF 2027 maintient l’alternance dans une phase d’incertitude budgétaire. Côté écoles, emlyon, HEC–Paris-Saclay, SHERLOCK et Esade rendent visibles des expériences étudiantes, des partenariats et des démarches d’impact plus formalisés.",
       "featuredSignal": "s45-parcoursup-reforme-2027-2028",
       "featuredTitle": "Admission post-bac : des jalons annoncés pour 2027 et 2028.",
       "featuredFact": "2027 puis 2028",
@@ -400,7 +400,7 @@
           "id": "panorama",
           "name": "Le panorama analytique",
           "question": "Que retenir de cette édition ?",
-          "text": "Cette consolidation retient d’abord des publications primaires de la fenêtre : engagements publics sur Parcoursup, bilan SIES, propositions de la CDEFM, expériences pédagogiques documentées et évaluation d’impact. Elles distinguent un engagement, une prise de position ou un constat publié d’une promesse de dispositif. Le projet budgétaire sur l’apprentissage reste un contexte : ses crédits proposés ne sont ni votés ni appliqués. Pour TBS Education, l’enjeu commun est de rendre comparables les informations d’admission, les preuves de parcours et les résultats d’impact, sans extrapoler vers les candidatures, l’insertion ou l’efficacité commerciale.",
+          "text": "La semaine place l’admission et la preuve au centre du jeu. L’annonce d’une évolution de Parcoursup à horizon 2027–2028 remet la transparence des critères et des décisions au premier plan, tandis que le bilan SIES rappelle que propositions, acceptations et inscriptions ne se confondent pas. La CDEFM pousse pour des indicateurs plus lisibles ; le PLF 2027 maintient l’alternance dans une phase d’incertitude budgétaire. Côté écoles, emlyon, HEC–Paris-Saclay, SHERLOCK et Esade rendent visibles des expériences étudiantes, des partenariats et des démarches d’impact plus formalisés.",
           "signals": [
             "s45-parcoursup-reforme-2027-2028",
             "s45-sies-parcoursup-2026",
@@ -467,7 +467,9 @@
         "method": "Les cartes retenues privilégient un fait primaire ou réglementaire, une publication dans la fenêtre et un apport analytique distinct. Le relais média n’est retenu comme date que s’il correspond à un fait nouveau propre ; sinon la date de la source primaire prévaut.",
         "deduplication": "Le communiqué gouvernemental est fusionné en une carte ; les propositions CDEFM restent distinctes. Les actualités HEC/Lab2Biz et SHERLOCK sont complémentaires, non fusionnées. Les sujets déjà traités en S44 ou fondés sur une annonce antérieure ne sont pas répétés.",
         "keyLimit": "Aucune carte ne démontre une variation des candidatures, de la conversion, de l’insertion, des compétences ou de la satisfaction de TBS Education. Les annonces d’établissements décrivent leurs propres dispositifs ; les documents publics encadrent le marché sans se transposer automatiquement à TBS."
-      }
+      },
+      "heroMeta": "S45 · Fenêtre 26 octobre – 1er novembre 2026",
+      "tbsStake": "Clarifier les étapes, critères et informations communicables du parcours post-bac ; fiabiliser les définitions d’indicateurs avant toute comparaison ; et mieux documenter les preuves de parcours, de relation entreprise et d’impact. Pour l’alternance, suivre les règles effectivement votées avant d’ajuster les messages ou les dispositifs."
     },
     {
       "id": "2026-10-26",
