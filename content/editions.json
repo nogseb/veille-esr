@@ -75,19 +75,19 @@
   "editions": [
     {
       "id": "2026-10-26",
-      "title": "Accès, preuves pédagogiques et repères de marché à l’ouverture de la S44",
+      "title": "Accès, preuves pédagogiques et tensions de marché — édition S44 consolidée",
       "date": "2026-10-26",
       "dateLabel": "26 octobre 2026",
       "period": "20–26 octobre 2026 · point d’ouverture S44",
-      "status": "S44 · Point au 26 octobre",
+      "status": "S44 · Consolidée au 26 octobre",
       "readingMinutes": 8,
-      "intro": "Les annonces réunies à l’ouverture de la S44 montrent plusieurs façons de rendre une formation plus accessible : coût et alternance chez EDC, oral à distance annoncé chez emlyon, ou outils accompagnant le choix et la candidature. Les liens entreprises et l’international se matérialisent dans des dispositifs précis : jeu NEOMA–Ferrero, MSc GEM–UESTC, prochaine inauguration ESSCA au Luxembourg. Ces mouvements s’inscrivent dans un marché qui resterait en croissance selon le SIES, avec des trajectoires différentes selon les filières. Ils éclairent les conditions d’accès et les preuves mobilisées par les écoles, sans démontrer leurs effets sur le recrutement.",
+      "intro": "Cette édition consolidée rapproche les stratégies d’accès, les preuves pédagogiques et les repères de marché. Les écoles rendent visibles des conditions de parcours : prix et alternance chez EDC, admission AST à distance chez emlyon, ou cadre d’usage de l’IA chez Rennes School of Business. Dans le même temps, les projections SIES et le signal CDEFI invitent à distinguer les filières, les étapes de candidature et les effets réels. Les implantations et partenariats, de GEM–UESTC à la mission d’ICN, montrent que le récit institutionnel doit rester relié à des dispositifs vérifiables.",
       "featuredSignal": "sies-projections-effectifs-2026-2027",
       "featuredTitle": "Écoles de commerce : une croissance projetée en 2026.",
       "featuredFact": "+1,6 %",
       "featuredLabel": "MARCHÉ ESR · Note Flash du 22 octobre 2026",
       "featuredNote": "Le SIES projette 257 500 inscrits dans les écoles de commerce, gestion et vente en 2026, puis 259 400 en 2027. Ces projections ne décrivent pas les candidatures ou les résultats de TBS Education.",
-      "notice": "Point d’ouverture S44 : collecte du 20 au 26 octobre 2026, arrêtée au 26 octobre. La semaine 44 s’étend du 26 octobre au 1er novembre ; l’édition n’anticipe pas les jours futurs. L’annonce ESSCA est un contexte daté du 1er octobre, avec inauguration prévue le 28. Les reprises de publications plus anciennes sont signalées. Hyperhumain et L’Antisèche ont été repérés sur le web public ; aucun numéro reçu par e-mail n’a été consulté.",
+      "notice": "Édition consolidée à partir de trois collectes parallèles, arrêtée au 26 octobre. Les doublons EDC, GEM–UESTC et emlyon AST ont été fusionnés ; les sources institutionnelles remplacent les relais lorsqu’elles étaient accessibles. Deux cartes de contexte — CDEFI et ICN — reposent sur des annonces antérieures à la fenêtre, explicitement qualifiées comme telles. Les sujets non retenus restent documentés dans le dossier de consolidation ; ils ne sont pas ajoutés pour atteindre le plafond.",
       "signals": [
         {
           "id": "edc-tarifs-alternance-pge",
@@ -131,32 +131,32 @@
           "id": "emlyon-ast-distance",
           "axis": "offre",
           "actor": "emlyon business school",
-          "label": "Surveiller",
-          "status": "D’après Thotis · modalités à confirmer",
-          "dateLabel": "Publication : 22 octobre 2026 · candidatures annoncées du 19 octobre au 30 novembre 2026 · oraux annoncés les 14 et 15 décembre 2026",
+          "label": "Qualifier",
+          "status": "Modalité d’admission observée · calendrier 2026-2027 affiché",
+          "dateLabel": "Page observée le 26 octobre 2026 · candidatures affichées du 19 octobre au 30 novembre à 23 h 59 · oraux Teams annoncés les 14 et 15 décembre 2026",
           "title": "emlyon : une session AST à distance annoncée pour les candidats à l’étranger",
-          "fact": "Thotis présente comme une nouveauté AST 2027 d’emlyon une session à distance réservée aux candidats qui étudient, sont en mobilité académique ou résident à l’étranger durant 2026-2027. Les oraux, dont les épreuves sont annoncées inchangées, se tiendraient sur Microsoft Teams les 14 et 15 décembre, avec jury réuni sur le campus ; un justificatif de la situation internationale est demandé.",
-          "verdict": "Il s’agit d’une réduction ciblée de la contrainte géographique pour l’admission parallèle de titulaires, ou futurs titulaires, d’un bac+3. Cela ne démontre ni une généralisation des oraux distants ni une modification du niveau de sélection.",
+          "fact": "emlyon affiche une session AST 2027 à distance pour les candidats qui effectuent leurs études ou résident à l’étranger en 2026-2027. Les candidatures sont affichées du 19 octobre au 30 novembre à 23 h 59. Les oraux à distance sont annoncés sur Microsoft Teams les 14 et 15 décembre, avec un jury indiqué sur le campus ; un justificatif de mobilité, d’études ou de résidence à l’étranger est demandé.",
+          "verdict": "La mobilité du candidat devient un paramètre explicite du parcours d’admission. Il s’agit d’une modalité ciblée, non d’une généralisation des oraux distants ni d’une information sur le niveau de sélection.",
           "implication": "Pour TBS Education, examiner le traitement des candidats AST temporairement à l’étranger : publics éligibles, pièces justificatives, expérience candidat et garanties opérationnelles d’un éventuel oral distant. Cette comparaison doit rester distincte d’une décision de déployer le format.",
-          "limits": "La documentation détaillée ouverte est une source secondaire unique, Thotis. Les URL institutionnelles d’admission emlyon sollicitées n’ont renvoyé aucun contenu extractible via fetch, donc aucune confirmation directe par l’école n’a été obtenue dans les sources consultables. Toutes les échéances citées sont futures et peuvent évoluer ; aucun volume de places dédié ni résultat de recrutement n’est publié.",
+          "limits": "La date de mise en ligne de la page n’est pas affichée : le contrôle établit les informations visibles le 26 octobre, sans reconstituer son historique. Aucun compte ni formulaire n’a été utilisé. La voie conserve les critères ASTF ; elle ne vise pas indistinctement tous les titulaires d’un diplôme étranger. Toutes les échéances restent futures.",
           "sources": [
             {
-              "name": "emlyon business school : tout savoir sur les oraux AST",
-              "publisher": "Thotis",
-              "date": "22 octobre 2026, date affichée dans l’index Thotis",
-              "url": "https://thotismedia.com/emlyon-business-school-tout-savoir-sur-les-oraux-ast/",
-              "type": "Source d’orientation secondaire"
+              "name": "Programme Grande École après Bac+3/4/5 français — Concours AST",
+              "publisher": "emlyon business school",
+              "date": "Page observée le 26 octobre 2026 · date de publication non affichée",
+              "url": "https://em-lyon.com/fr/etudiant/programme-grande-ecole-pge/ast",
+              "type": "Source institutionnelle primaire"
             },
             {
-              "name": "Tous nos articles",
-              "publisher": "Thotis",
-              "date": "22 octobre 2026",
-              "url": "https://thotismedia.com/blog/",
-              "type": "Index de publication"
+              "name": "Candidature — Programme Grande École — AST",
+              "publisher": "emlyon business school",
+              "date": "Page observée le 26 octobre 2026 · formulaire non soumis",
+              "url": "https://em-lyon.com/fr/etudiant/programme-grande-ecole/ast/candidature",
+              "type": "Source institutionnelle primaire"
             }
           ],
-          "timing": "week",
-          "publicationDate": "2026-10-22"
+          "timing": "observation",
+          "publicationDate": "2026-10-26"
         },
         {
           "id": "MAR-NEOMA-FERRERO",
@@ -221,44 +221,6 @@
           "publicationDate": "2026-10-22"
         },
         {
-          "id": "thotis-parcoursup-outils",
-          "axis": "acquisition",
-          "actor": "Thotis",
-          "label": "Observer",
-          "status": "Parcours éditorial et outils publics observés",
-          "dateLabel": "Article publié le 21 octobre 2026 · pages outils publiques observées le 26 octobre 2026",
-          "title": "Thotis relie un guide Parcoursup à ses outils d’orientation",
-          "fact": "Dans son article du 21 octobre sur la confirmation des vœux Parcoursup 2027, Thotis renvoie vers son test d’orientation, Thotis IA, ses générateurs de lettre de motivation et de CV, ainsi que son Prédicteur Parcoursup. La page publique du prédicteur présente un formulaire demandant niveau d’étude, type d’école, nom et coordonnées, puis l’envoi d’un e-mail avec ticket et lien. Elle qualifie l’estimation de pédagogique, non de garantie d’admission.",
-          "verdict": "Le guide de procédure sert de porte d’entrée à un ensemble d’outils couvrant recherche, choix et préparation du dossier. Ce parcours éditorial et de collecte de coordonnées est observable ; aucune donnée ouverte n’en établit l’audience, la complétion ou l’orientation effective vers une école.",
-          "implication": "Pour TBS Education, cartographier sans renseigner de données personnelles les environnements où le lycéen passe d’une recherche générique à une simulation ou à une demande de contact, puis contrôler l’exactitude, la cohérence et la différenciation des informations publiques des programmes TBS Education dans ces environnements.",
-          "limits": "La date du 21 octobre apparaît dans le flux éditorial Thotis ; les pages d’outils ne sont pas datées, donc aucun lancement ni changement récent n’est démontré. Aucun formulaire n’a été soumis et aucun compte n’a été créé. La méthode complète, l’usage des données, la qualité des résultats et tout effet commercial ne sont pas évalués.",
-          "sources": [
-            {
-              "name": "Parcoursup 2027 : confirmer tes vœux, tout savoir",
-              "publisher": "Thotis",
-              "date": "21 octobre 2026",
-              "url": "https://thotismedia.com/confirmer-tes-voeux-tout-savoir/",
-              "type": "Source éditoriale / dispositif public"
-            },
-            {
-              "name": "Test d’Orientation Parcoursup, 100 % digital et 100 % gratuit",
-              "publisher": "Thotis",
-              "date": "Non daté · consulté le 26 octobre 2026",
-              "url": "https://thotismedia.com/test-thotis/",
-              "type": "Dispositif public"
-            },
-            {
-              "name": "Prédicteur Parcoursup by Thotis",
-              "publisher": "Thotis",
-              "date": "Non daté · consulté le 26 octobre 2026",
-              "url": "https://thotismedia.com/prediction-parcoursup/",
-              "type": "Dispositif public"
-            }
-          ],
-          "timing": "week",
-          "publicationDate": "2026-10-21"
-        },
-        {
           "id": "sies-projections-effectifs-2026-2027",
           "axis": "marche",
           "actor": "Service de l’information et des études statistiques (SIES) / ministère de l’Enseignement supérieur, de la Recherche et de l’Espace",
@@ -290,84 +252,84 @@
           "publicationDate": "2026-10-22"
         },
         {
-          "id": "essca-luxembourg-inauguration",
-          "axis": "international",
-          "actor": "ESSCA",
-          "label": "Surveiller",
-          "status": "Inauguration annoncée · contexte antérieur",
-          "dateLabel": "Annonce : 1er octobre 2026 · inauguration prévue le 28 octobre 2026 · présence au Luxembourg depuis 2023",
-          "publicationDate": "2026-10-01",
-          "timing": "context",
-          "title": "ESSCA : une inauguration à venir au Luxembourg, pas une première implantation",
-          "fact": "ESSCA annonce pour le 28 octobre l’inauguration de son nouveau site luxembourgeois à la Chambre des Métiers, à Kirchberg. L’école le présente comme son dixième campus. Une publication locale de Paperjam rappelle toutefois sa présence au Luxembourg depuis 2023 : cette étape concerne un site ou des locaux, pas une entrée récente sur le marché.",
-          "verdict": "L’annonce est antérieure à la fenêtre, mais son échéance dans deux jours justifie une surveillance cette semaine. L’enjeu concurrentiel est l’ancrage local et la réalité des formations accessibles, pas le seul nombre de campus revendiqué.",
-          "implication": "Comparer, à programme équivalent, les preuves d’intégration locale : statut du site, formations accessibles, partenaires et services étudiants. Vérifier après le 28 octobre ce qui a effectivement été inauguré, sans déduire de résultat de recrutement.",
-          "limits": "Annonce du 1er octobre, hors période de collecte ; inauguration encore à venir au point du 26 octobre. Les sources ne donnent ni capacité, ni effectifs, ni résultats de recrutement ou d’insertion. Paperjam nuance le caractère nouveau de la présence dans le pays.",
+          "id": "cdefi-candidatures-postbac",
+          "axis": "marche",
+          "actor": "CDEFI",
+          "label": "Contextualiser",
+          "status": "Données de candidatures à lire avec prudence",
+          "dateLabel": "Publication CDEFI : 16 octobre 2026 · relais Thotis : 22 octobre 2026 · données Parcoursup 2026",
+          "title": "CDEFI : les candidatures confirmées vers les écoles d’ingénieurs post-bac reculent",
+          "fact": "La CDEFI indique que 55 440 candidats ont confirmé au moins un vœu vers une école d’ingénieurs post-bac en 2026, contre 57 046 en 2025, soit −2,8 %. La baisse annoncée est de −8,1 % dans les établissements privés et de −2 % dans les publics. La conférence présente ces chiffres comme un signal de vigilance, sans les assimiler aux inscriptions définitives ni à une désaffection générale pour les sciences.",
+          "verdict": "Cette donnée éclaire le marché des formations post-bac en ingénierie, pas la demande de TBS Education. Elle rappelle qu’un indicateur de candidature doit être lu par filière, statut d’établissement et étape du parcours, sans lui attribuer une cause unique.",
+          "implication": "Pour TBS Education, rapprocher les tendances externes de nos données de candidatures post-bac à périmètre constant avant toute conclusion. Séparer ensuite les vœux, dossiers, admissibilités, inscriptions et contrats d’alternance.",
+          "limits": "Le chiffre porte sur les candidats ayant confirmé au moins un vœu, non sur les vœux initiaux ni sur les effectifs inscrits. La CDEFI ne fournit pas ici de cause établie ; les effectifs réels de rentrée sont encore en consolidation. Il ne faut pas transposer cette évolution aux écoles de management.",
           "sources": [
             {
-              "name": "Inauguration du campus de Luxembourg",
-              "publisher": "ESSCA",
-              "date": "1er octobre 2026",
-              "url": "https://www.essca.eu/evenements/inauguration-campus-luxembourg/",
-              "type": "Source primaire"
+              "name": "Formation des ingénieurs : la CDEFI appelle à investir dans la jeunesse",
+              "publisher": "CDEFI",
+              "date": "16 octobre 2026",
+              "url": "https://www.cdefi.fr/fr/actualites/formation-des-ingenieurs-la-cdefi-appelle-a-investir-dans-la-jeunesse",
+              "type": "Source institutionnelle primaire"
             },
             {
-              "name": "Antoine Rech: Training beyond finance",
-              "publisher": "Paperjam",
-              "date": "Non daté · consulté le 26 octobre 2026",
-              "url": "https://en.paperjam.lu/article/antoine-rech-training-beyond-finance",
-              "type": "Média local"
-            }
-          ]
-        },
-        {
-          "id": "sse-dnv-resilience",
-          "axis": "reputation",
-          "actor": "Stockholm School of Economics / DNV",
-          "label": "Comparer",
-          "status": "Alliance stratégique annoncée",
-          "dateLabel": "Communiqués publiés le 20 octobre 2026",
-          "title": "Stockholm School of Economics et DNV formalisent une alliance de cinq ans",
-          "fact": "Le 20 octobre, la Stockholm School of Economics et DNV ont annoncé un accord de partenariat de cinq ans. DNV devient partenaire de long terme du Center for Security and Resilience de SSE. Les deux parties annoncent des projets conjoints et un soutien à des initiatives du centre, pour relier recherche académique et expérience d’entreprise en sécurité, technologie, gestion des risques et confiance.",
-          "verdict": "La durée annoncée et le rattachement à un centre institutionnel en font davantage qu’un simple parrainage événementiel : l’alliance vise un cadre de coopération autour de la gouvernance, du leadership et de la résilience numérique. Les résultats académiques, pédagogiques ou sociétaux restent à démontrer.",
-          "implication": "Pour TBS Education, comparer le degré de formalisation rendu public dans les alliances stratégiques : objet commun, durée, portage académique, rôle du partenaire et livrables vérifiables. Une association d’entreprises à un domaine d’expertise ne prouve ni l’impact d’un programme ni la qualité globale d’un établissement.",
-          "limits": "Les deux communiqués viennent des parties au même accord et ne constituent pas des validations indépendantes. Ni montant, ni contribution financière, ni répartition de la gouvernance, ni indicateur de résultat, ni modalité de propriété intellectuelle ne sont publiés. Aucun effet sur le Nordic Defense MBA ou les projets de recherche n’est établi.",
-          "sources": [
-            {
-              "name": "SSE enters strategic partnership with DNV on digital resilience and cybersecurity",
-              "publisher": "Stockholm School of Economics",
-              "date": "20 octobre 2026",
-              "url": "https://www.hhs.se/news/sse/2026/sse-enters-strategic-partnership-with-dnv-on-digital-resilience-and-cybersecurity/",
-              "type": "Communiqué — source primaire"
-            },
-            {
-              "name": "DNV enters strategic partnership with SSE on digital resilience and cybersecurity",
-              "publisher": "DNV",
-              "date": "20 octobre 2026",
-              "url": "https://www.dnv.com/cyber/insights/news/dnv-enters-strategic-partnership-with-sse-on-digital-resilience-and-cybersecurity/",
-              "type": "Communiqué — source primaire"
-            },
-            {
-              "name": "Center for Security and Resilience",
-              "publisher": "Stockholm School of Economics",
-              "date": "Non daté · consulté le 26 octobre 2026",
-              "url": "https://www.hhs.se/en/research/centers/center-for-security-and-resilience/",
-              "type": "Page institutionnelle"
+              "name": "Écoles d’ingénieurs : les candidatures post-bac reculent de 2,8 %, la CDEFI sonne l’alerte",
+              "publisher": "Thotis",
+              "date": "22 octobre 2026",
+              "url": "https://thotismedia.com/ecoles-dingenieurs-candidatures-post-bac-reculent-cdefi-sonne-lalerte/",
+              "type": "Média spécialisé — relais"
             }
           ],
-          "timing": "week",
-          "publicationDate": "2026-10-20"
+          "timing": "context",
+          "publicationDate": "2026-10-16"
+        },
+        {
+          "id": "icn-societe-mission",
+          "axis": "reputation",
+          "actor": "ICN Business School",
+          "label": "Décrypter",
+          "status": "Annonce statutaire antérieure · relais dans la fenêtre",
+          "dateLabel": "Mise à jour statutaire annoncée : 17 août 2026 · publication ICN : 14 octobre · relais Business Cool : 22 octobre 2026",
+          "title": "ICN Business School : le statut de société à mission comme marqueur institutionnel",
+          "fact": "ICN Business School annonce être devenue société à mission après une mise à jour de ses statuts le 17 août 2026. L’école indique avoir inscrit une raison d’être et trois objectifs statutaires, suivis par un comité de mission distinct des organes de direction. Elle annonce une première vérification par un organisme tiers indépendant au bout de 18 mois, puis tous les deux ans.",
+          "verdict": "Le statut devient un élément de positionnement institutionnel à condition que les engagements soient ensuite documentés. L’annonce et la mise en place annoncée d’une gouvernance ne constituent pas encore une preuve des résultats de la mission.",
+          "implication": "Pour TBS Education, comparer la lisibilité publique des preuves de mission : raison d’être, objectifs, gouvernance, indicateurs et publication du rapport du comité. Ne pas assimiler le statut à un résultat démontré.",
+          "limits": "Les statuts mis à jour, un extrait RCS, la composition nominative et le rapport annuel du comité, ainsi qu’un avis d’organisme tiers indépendant, n’ont pas été ouverts. La première vérification est annoncée comme future ; elle ne doit pas être présentée comme réalisée.",
+          "sources": [
+            {
+              "name": "ICN Business School devient société à mission : raison d’être, objectifs et gouvernance",
+              "publisher": "ICN Business School",
+              "date": "14 octobre 2026",
+              "url": "https://www.icn-artem.com/icn-business-school-societe-a-mission/",
+              "type": "Source institutionnelle primaire"
+            },
+            {
+              "name": "Code de commerce, article L210-10",
+              "publisher": "Légifrance",
+              "date": "Version en vigueur au 15 octobre 2026",
+              "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000038528238/2026-10-15",
+              "type": "Source réglementaire primaire"
+            },
+            {
+              "name": "ICN Business School devient société à mission et renforce ses engagements sociétaux",
+              "publisher": "Business Cool",
+              "date": "22 octobre 2026",
+              "url": "https://business-cool.com/actualites/actu-ecoles/icn-business-school-devient-societe-a-mission-et-renforce-engagements-societaux/",
+              "type": "Média spécialisé — relais"
+            }
+          ],
+          "timing": "context",
+          "publicationDate": "2026-10-14"
         },
         {
           "id": "RECH-01",
-          "axis": "recherche",
+          "axis": "international",
           "actor": "Grenoble École de Management / University of Electronic Science and Technology of China",
           "label": "Qualifier",
-          "status": "Première cohorte ouverte",
+          "status": "Première cohorte ouverte · partenariat académique international",
           "dateLabel": "Actualité GEM publiée le 22 octobre et mise à jour le 23 octobre 2026 · cérémonie d’ouverture le 11 octobre 2026",
           "title": "GEM et UESTC : une première promotion IA-management effectivement ouverte",
           "fact": "Dans une actualité publiée le 22 octobre et mise à jour le 23, GEM indique qu’avec l’UESTC, elle a lancé le 11 octobre à Chengdu la première promotion de son MSc conjoint Managing with Data and Artificial Intelligence. GEM annonce 49 étudiants ; l’UESTC confirme la cérémonie et le partenariat. Le format associe management, modules IA, projets d’entreprise, stages de recherche et mémoire co-encadré.",
-          "verdict": "Ce n’est pas seulement une annonce de partenariat : une cohorte a été accueillie. Les capacités à terme et les promesses d’employabilité restent distinctes de ce démarrage ; aucun résultat de formation ou d’insertion n’est disponible.",
+          "verdict": "Ce n’est pas seulement une annonce de partenariat : une cohorte a été accueillie dans un cursus conjoint. Les capacités à terme et les promesses d’employabilité restent distinctes de ce démarrage ; aucun résultat de formation ou d’insertion n’est disponible.",
           "implication": "Pour TBS Education, comparer, à public et marché comparables, le niveau de preuve des liens entre contenus IA, problèmes d’entreprise réellement traités et partenaires mobilisés. Distinguer programme démarré, capacités futures et promesses d’employabilité.",
           "limits": "Le chiffre de 49 étudiants et les modalités de projets/stages proviennent principalement de GEM ; l’UESTC confirme l’événement mais ne donne pas la taille de cohorte dans la page consultée. La capacité à terme de 90 étudiants n’est pas réalisée. Aucun résultat pédagogique ou d’emploi n’est disponible.",
           "sources": [
@@ -395,6 +357,44 @@
           ],
           "timing": "week",
           "publicationDate": "2026-10-22"
+        },
+        {
+          "id": "rennes-ai-companion",
+          "axis": "recherche",
+          "actor": "Rennes School of Business",
+          "label": "Décrypter",
+          "status": "Version bêta annoncée · garde-fous pédagogiques affichés",
+          "dateLabel": "Annonce institutionnelle : 20 octobre 2026 · relais Business Cool : 23 octobre 2026",
+          "title": "Rennes School of Business : un assistant IA bêta avec des règles pédagogiques explicites",
+          "fact": "Rennes School of Business annonce le 20 octobre une version bêta d’AI Companion sur PumApp, accessible aux étudiants des campus de Rennes et de Paris. L’outil peut expliquer des notions, générer des fiches de révision, proposer des quiz interactifs et accompagner l’analyse de cas pratiques. L’école indique que les supports exploités sont ceux que les professeurs autorisent ; les quiz sont annoncés comme formatifs et sans note.",
+          "verdict": "Le positionnement porte autant sur les règles d’usage que sur l’outil : ressources autorisées, accompagnement plutôt que réponse immédiate et quiz formatifs. C’est une promesse de cadre pédagogique, pas une preuve d’usage, de satisfaction ou d’efficacité.",
+          "implication": "Pour TBS Education, identifier les garde-fous qui doivent être visibles lorsqu’un usage d’IA pédagogique est raconté : périmètre des ressources, rôle de l’enseignant, nature de l’évaluation et limites annoncées.",
+          "limits": "Les sources ouvertes ne donnent ni date technique distincte de mise en service, ni chiffres d’usage, ni nombre de cours connectés. L’application et ses contenus réservés n’ont pas été testés. Le dispositif ne doit pas être étendu sans nuance à tous les publics de l’école ou à l’ensemble de Moodle.",
+          "sources": [
+            {
+              "name": "L’AI Companion disponible sur la PumApp : un nouvel assistant IA au service de la réussite étudiante",
+              "publisher": "Rennes School of Business",
+              "date": "20 octobre 2026",
+              "url": "https://www.rennes-sb.fr/actualites/ai-companion-pumapp-assistant-ia-rennes-school-of-business/",
+              "type": "Source institutionnelle primaire"
+            },
+            {
+              "name": "PumApp",
+              "publisher": "Rennes School of Business",
+              "date": "Non daté · consulté le 26 octobre 2026",
+              "url": "https://www.rennes-sb.fr/pumapp/",
+              "type": "Page institutionnelle complémentaire"
+            },
+            {
+              "name": "Rennes SB : une IA qui ne réfléchit pas à la place des étudiants",
+              "publisher": "Business Cool",
+              "date": "23 octobre 2026",
+              "url": "https://business-cool.com/featured/rennes-sb-ai-companion-assistant-ia/",
+              "type": "Média spécialisé — relais"
+            }
+          ],
+          "timing": "week",
+          "publicationDate": "2026-10-20"
         },
         {
           "id": "expedia-onboarding",
@@ -445,70 +445,68 @@
         }
       ],
       "coverage": {
-        "offre": "Deux signaux retenus : évolution tarifaire et de rythme d’alternance annoncée par EDC pour 2027 ; modalité AST à distance annoncée par Thotis pour emlyon, conservée avec réserve car non confirmée par une source primaire extractible.",
-        "marque": "Un signal retenu : jeu pédagogique NEOMA–Ferrero, relayé le 26 octobre mais annoncé le 16 octobre. La fiche traite une preuve de dispositif, non une performance de marque.",
-        "acquisition": "Deux signaux retenus : relais Business Cool d’un baromètre Parcoursup et parcours public Thotis entre guide et outils. Ni la présence à une JPO ni l’usage d’un outil ne prouvent une conversion.",
-        "international": "Un contexte retenu : inauguration du site ESSCA Luxembourg prévue le 28 octobre. Annonce du 1er octobre, avec présence dans le pays depuis 2023 ; ni première implantation ni événement déjà réalisé.",
-        "marche": "Un signal retenu : projections SIES 2026–2027 par filière. La réforme des études de santé a été écartée au profit du contexte international ESSCA, plus directement pertinent pour le périmètre concurrentiel.",
-        "reputation": "Un signal retenu : alliance SSE–DNV de cinq ans, annoncée par les deux parties. Elle ne vaut pas évaluation indépendante de résultats.",
-        "recherche": "Un signal retenu : première promotion du MSc GEM–UESTC effectivement ouverte. Le lancement d’une cohorte ne préjuge pas de l’insertion ou des résultats pédagogiques.",
-        "horschamp": "Un signal retenu : onboarding B2B d’Expedia Group. Seule la mécanique de parcours explicite est étudiée ; aucun résultat commercial n’est transposé."
+        "offre": "Deux signaux : évolution tarifaire et de rythme d’alternance annoncée par EDC pour 2027 ; session AST à distance affichée par emlyon pour les candidats en mobilité internationale.",
+        "marque": "Un signal : le jeu pédagogique NEOMA–Ferrero, relayé le 26 octobre mais annoncé le 16 octobre. La carte analyse un dispositif racontable, pas une performance de marque.",
+        "acquisition": "Un signal : le baromètre Parcoursup relayé le 22 octobre. L’utilité déclarée des JPO est un repère de parcours, non une mesure de conversion.",
+        "international": "Un signal : première cohorte du MSc conjoint GEM–UESTC accueillie à Chengdu. Le démarrage d’un cursus ne préjuge pas de ses résultats.",
+        "marche": "Deux signaux : projections SIES par filière et données CDEFI sur les candidatures post-bac en ingénierie. Les périmètres ne se superposent pas et ne décrivent pas TBS Education.",
+        "reputation": "Un contexte : ICN annonce son statut de société à mission. La première vérification par organisme tiers est future et ne constitue pas une preuve d’impact.",
+        "recherche": "Un signal : la version bêta d’AI Companion annoncée par Rennes School of Business. Les règles pédagogiques publiées ne démontrent pas un effet d’apprentissage.",
+        "horschamp": "Un signal : l’onboarding B2B d’Expedia Group. Seule la mécanique de parcours explicite est étudiée ; aucun résultat commercial n’est transposé."
       },
       "perspectives": [
         {
           "id": "panorama",
           "name": "Le panorama analytique",
           "question": "Que retenir de cette édition ?",
-          "text": "Les annonces réunies à l’ouverture de la S44 montrent plusieurs façons de rendre une formation plus accessible : coût et alternance chez EDC, oral à distance annoncé chez emlyon, ou outils accompagnant le choix et la candidature. Les liens entreprises et l’international se matérialisent dans des dispositifs précis : jeu NEOMA–Ferrero, MSc GEM–UESTC, prochaine inauguration ESSCA au Luxembourg. Ces mouvements s’inscrivent dans un marché qui resterait en croissance selon le SIES, avec des trajectoires différentes selon les filières. Ils éclairent les conditions d’accès et les preuves mobilisées par les écoles, sans démontrer leurs effets sur le recrutement.",
+          "text": "Cette édition consolidée rapproche les stratégies d’accès, les preuves pédagogiques et les repères de marché. Les écoles rendent visibles des conditions de parcours : prix et alternance chez EDC, admission AST à distance chez emlyon, ou cadre d’usage de l’IA chez Rennes School of Business. Dans le même temps, les projections SIES et le signal CDEFI invitent à distinguer les filières, les étapes de candidature et les effets réels. Les implantations et partenariats, de GEM–UESTC à la mission d’ICN, montrent que le récit institutionnel doit rester relié à des dispositifs vérifiables.",
           "signals": [
             "edc-tarifs-alternance-pge",
             "emlyon-ast-distance",
-            "jpo-parcoursup-2026",
-            "thotis-parcoursup-outils",
-            "MAR-NEOMA-FERRERO",
-            "RECH-01",
+            "rennes-ai-companion",
             "sies-projections-effectifs-2026-2027",
-            "essca-luxembourg-inauguration"
+            "cdefi-candidatures-postbac",
+            "RECH-01",
+            "icn-societe-mission"
           ]
         },
         {
           "id": "fil-rouge",
           "name": "Le fil rouge",
           "question": "Qu’est-ce qui relie les sujets ?",
-          "text": "Les signaux les plus directement comparables ne vendent pas une promesse abstraite : ils rendent visible une condition de parcours. EDC articule prix et alternance, emlyon cible une contrainte de mobilité, les JPO et les outils Thotis structurent la recherche et la prise de contact, tandis que NEOMA et GEM donnent un cadre concret à la relation entreprise. Ce fil relie lisibilité, accès et preuve ; il ne permet pas de conclure qu’un format ou un contenu augmente les candidatures.",
+          "text": "Le fil rouge est la mise en visibilité des conditions d’une promesse. Un prix devient lisible avec un rythme d’alternance ; une admission à distance exige des critères et des jalons ; l’IA pédagogique s’accompagne de règles de ressources et d’évaluation ; un partenariat international prend corps avec une cohorte identifiée. La mission d’une école ouvre la même question : une intention institutionnelle doit ensuite être suivie de preuves accessibles.",
           "signals": [
             "edc-tarifs-alternance-pge",
             "emlyon-ast-distance",
-            "jpo-parcoursup-2026",
-            "thotis-parcoursup-outils",
-            "MAR-NEOMA-FERRERO",
-            "RECH-01"
+            "rennes-ai-companion",
+            "RECH-01",
+            "icn-societe-mission"
           ]
         },
         {
           "id": "tensions",
           "name": "Les tensions du secteur",
           "question": "Quelles dynamiques faut-il lire ensemble ?",
-          "text": "Les annonces d’écoles mettent en avant des parcours plus accessibles et des implantations ou formats pédagogiques précis. La projection SIES rappelle pourtant que le marché ne suit pas une trajectoire uniforme : croissance des effectifs dans certaines filières et recul projeté ailleurs. Les annonces de développement ne suffisent donc pas à qualifier l’état de la demande. De même, des locaux inaugurés chez ESSCA ne signifient pas une première présence au Luxembourg ; le MSc GEM–UESTC démarre effectivement, mais ses résultats restent à observer.",
+          "text": "Les projections SIES dessinent une croissance attendue des effectifs dans les écoles de commerce, gestion et vente, alors que la CDEFI alerte sur un recul des candidatures post-bac en ingénierie, plus marqué dans le privé. Ces repères n’ont ni le même périmètre ni la même nature : l’un est une projection d’effectifs, l’autre une donnée de candidatures confirmées. Ils invitent à éviter toute lecture uniforme de la demande et à séparer les indicateurs de parcours.",
           "signals": [
-            "edc-tarifs-alternance-pge",
             "sies-projections-effectifs-2026-2027",
-            "essca-luxembourg-inauguration",
-            "RECH-01"
+            "cdefi-candidatures-postbac",
+            "edc-tarifs-alternance-pge",
+            "jpo-parcoursup-2026"
           ]
         },
         {
           "id": "concurrence",
           "name": "La lecture concurrentielle",
           "question": "Sur quels terrains les écoles cherchent-elles à se distinguer ?",
-          "text": "La sélection montre plusieurs terrains de distinction : coût et rythme d’études chez EDC, accès d’un public AST en mobilité chez emlyon, expérience pédagogique avec entreprise chez NEOMA, MSc IA-management chez GEM et ancrage local d’ESSCA au Luxembourg. L’alliance SSE–DNV ajoute un domaine d’expertise porté par un centre. Ce ne sont pas des positions dans un palmarès : les initiatives concernent des publics, des formats et des périmètres différents.",
+          "text": "Les terrains de distinction observés sont le coût et le rythme d’études, l’accessibilité de l’admission, le cadre des usages de l’IA, la démonstration d’une pédagogie avec entreprise, l’internationalisation effective et la mission institutionnelle. Ces initiatives ne forment pas un palmarès. Elles montrent plutôt que la différence devient crédible lorsque le public, le dispositif et la limite de la promesse sont identifiables.",
           "signals": [
             "edc-tarifs-alternance-pge",
             "emlyon-ast-distance",
+            "rennes-ai-companion",
             "MAR-NEOMA-FERRERO",
             "RECH-01",
-            "sse-dnv-resilience",
-            "essca-luxembourg-inauguration"
+            "icn-societe-mission"
           ]
         }
       ],
@@ -889,6 +887,402 @@
           ]
         }
       ]
+    },
+    {
+      "id": "2026-11-02-s45-draft",
+      "title": "Admissions, preuves pédagogiques et impact — sélection S45 consolidée",
+      "date": "2026-11-02",
+      "dateLabel": "2 novembre 2026",
+      "period": "26 octobre–1er novembre 2026 · sélection S45",
+      "periodStart": "2026-10-26",
+      "periodEnd": "2026-11-01",
+      "status": "S45 · Brouillon consolidé — non publié",
+      "readingMinutes": 8,
+      "intro": "Cette consolidation retient d’abord des publications primaires de la fenêtre : engagements publics sur Parcoursup, bilan SIES, propositions de la CDEFM, expériences pédagogiques documentées et évaluation d’impact. Elles distinguent un engagement, une prise de position ou un constat publié d’une promesse de dispositif. Le projet budgétaire sur l’apprentissage reste un contexte : ses crédits proposés ne sont ni votés ni appliqués. Pour TBS Education, l’enjeu commun est de rendre comparables les informations d’admission, les preuves de parcours et les résultats d’impact, sans extrapoler vers les candidatures, l’insertion ou l’efficacité commerciale.",
+      "featuredSignal": "s45-parcoursup-reforme-2027-2028",
+      "featuredTitle": "Admission post-bac : des jalons annoncés pour 2027 et 2028.",
+      "featuredFact": "2027 puis 2028",
+      "featuredLabel": "MARCHÉ ESR · annonce gouvernementale du 26 octobre 2026",
+      "featuredNote": "Les engagements de transparence et le nouveau système sont annoncés, non encore applicables ; les capacités supplémentaires visent principalement BTS, BUT et licence accès santé.",
+      "notice": "Sélection consolidée de huit signaux : sept publications de la fenêtre et un contexte budgétaire primaire. Les recommandations CDEFM restent distinctes des engagements de l’État. Les cartes fondées sur un relais d’un fait antérieur, une page non datée ou une inspiration hors ESR sont écartées plutôt que conservées pour remplir les axes.",
+      "classification": {
+        "week": [
+          "s45-parcoursup-reforme-2027-2028",
+          "s45-sies-parcoursup-2026",
+          "s45-cdefm-propositions-parcoursup",
+          "s45-emlyon-google-iactu",
+          "s45-hec-paris-saclay-lab2biz",
+          "s45-sherlock-kipsta-pilote",
+          "s45-esade-bsis-renouvellement"
+        ],
+        "observation": [],
+        "context": [
+          "s45-plf-2027-aides-apprentissage"
+        ]
+      },
+      "signals": [
+        {
+          "id": "s45-parcoursup-reforme-2027-2028",
+          "axis": "marche",
+          "actor": "Gouvernement / ministère de l’Enseignement supérieur, de la Recherche et de l’Espace",
+          "label": "Surveiller",
+          "status": "Annonce gouvernementale : échéances futures non adoptées",
+          "dateLabel": "Publication et annonce : 26 octobre 2026 · engagements annoncés pour la campagne 2027 · nouveau système visé en 2028",
+          "title": "Admission post-bac : une réforme annoncée en deux temps",
+          "fact": "Le 26 octobre, le Gouvernement annonce des critères d’examen des vœux rendus publics et compréhensibles, ainsi qu’une explication de chaque refus dès la campagne 2027. Il annonce aussi le remplacement de Parcoursup pour 2028, l’indexation des bourses sur l’inflation à la rentrée 2027 et 15 000 places supplémentaires d’ici 2028 : 10 000 en BTS, 4 000 en BUT et 1 000 en licence accès santé.",
+          "verdict": "L’enjeu immédiat est un calendrier de transparence, non une réforme déjà applicable. Les capacités annoncées ciblent surtout des filières publiques ; elles constituent un repère sur l’environnement de choix post-bac, pas une mesure de la demande vers les écoles de management.",
+          "implication": "Pour TBS Education, vérifier la lisibilité actuelle, programme par programme, des critères, étapes et motifs de décision communicables aux candidats post-bac ; distinguer cet audit de toute hypothèse sur le futur système 2028.",
+          "limits": "Le système 2028, le périmètre opérationnel des mesures 2027 et les moyens restent à définir, avec recommandations du comité, débat parlementaire et possiblement une loi à venir. Les places annoncées ne concernent pas les écoles de management.",
+          "sources": [
+            {
+              "name": "Remplacement de la plateforme Parcoursup, plafonnement du nombre d’élèves par classe, état des bâtiments, bourses : les engagements du Gouvernement pour la jeunesse",
+              "publisher": "Ministère de l’Enseignement supérieur, de la Recherche et de l’Espace",
+              "date": "26 octobre 2026",
+              "url": "https://www.enseignementsup-recherche.gouv.fr/fr/remplacement-de-la-plateforme-parcoursup-plafonnement-du-nombre-d-eleves-par-classe-etat-des-104451",
+              "type": "Communiqué de presse — source primaire"
+            },
+            {
+              "name": "Remplacement de la plateforme Parcoursup, plafonnement du nombre d’élèves par classe, état des bâtiments, bourses : les engagements du Gouvernement pour la jeunesse",
+              "publisher": "Ministère de l’Éducation nationale",
+              "date": "26 octobre 2026",
+              "url": "https://www.education.gouv.fr/remplacement-de-la-plateforme-parcoursup-plafonnement-du-nombre-d-eleves-par-classe-etat-des-506367",
+              "type": "Communiqué de presse — source primaire corroborante"
+            }
+          ],
+          "timing": "week",
+          "publicationDate": "2026-10-26"
+        },
+        {
+          "id": "s45-sies-parcoursup-2026",
+          "axis": "marche",
+          "actor": "Service de l’information et des études statistiques (SIES) / ministère de l’Enseignement supérieur, de la Recherche et de l’Espace",
+          "label": "Contextualiser",
+          "status": "Bilan statistique national",
+          "dateLabel": "Publié le 27 octobre 2026 · campagne Parcoursup 2026 · données extraites au 30 septembre 2026",
+          "title": "Parcoursup 2026 : propositions et acceptations ne sont pas les inscriptions",
+          "fact": "Le SIES publie le bilan Parcoursup 2026 : 93,7 % des néo-bacheliers inscrits ont reçu au moins une proposition et 81,0 % en ont accepté une. Le nombre de néo-bacheliers présents progresse de 0,9 %, porté par les bacheliers professionnels. Parmi les candidats ayant formulé un vœu hors apprentissage, 22 % ont aussi validé un vœu en apprentissage, près de deux points de moins qu’en 2025.",
+          "verdict": "Cette publication apporte un repère observé, distinct des projections SIES retenues en S44. Elle rend nécessaire la séparation des étapes — présence, proposition, acceptation, puis inscription effective — avant de tirer une conclusion sur la demande.",
+          "implication": "Pour TBS Education, relire les tableaux de bord post-bac à périmètre constant en distinguant vœux ou dossiers, propositions, acceptations, inscriptions et, le cas échéant, contrats d’alternance ; ne pas attribuer au seul marché national une variation constatée localement.",
+          "limits": "La note ne mesure pas les inscriptions définitives. Elle porte sur 604 697 néo-bacheliers ayant confirmé au moins un vœu en phase principale et exclut notamment les candidats uniquement en apprentissage et ceux en réorientation. La catégorie « écoles de commerce » n’isole ni programme, ni établissement.",
+          "sources": [
+            {
+              "name": "Parcoursup 2026 : les propositions d’admission dans l’enseignement supérieur",
+              "publisher": "SIES / ministère de l’Enseignement supérieur, de la Recherche et de l’Espace",
+              "date": "27 octobre 2026",
+              "url": "https://www.enseignementsup-recherche.gouv.fr/fr/parcoursup-2026-les-propositions-d-admission-dans-l-enseignement-superieur-104448",
+              "type": "Page de publication primaire"
+            },
+            {
+              "name": "Note Flash SIES n° 2026-26 — Parcoursup 2026 : les propositions d’admission dans l’enseignement supérieur",
+              "publisher": "SIES",
+              "date": "Octobre 2026 · données extraites au 30 septembre 2026",
+              "url": "https://www.enseignementsup-recherche.gouv.fr/sites/default/files/2026-10/NF2_Admission_Parcoursup_2026_def.pdf",
+              "type": "Document méthodologique primaire"
+            }
+          ],
+          "timing": "week",
+          "publicationDate": "2026-10-27"
+        },
+        {
+          "id": "s45-cdefm-propositions-parcoursup",
+          "axis": "marche",
+          "actor": "Conférence des directeurs des écoles françaises de management (CDEFM)",
+          "label": "Comparer",
+          "status": "Prise de position sectorielle : propositions non adoptées",
+          "dateLabel": "Communiqué publié le 26 octobre 2026 · recommandations pour l’orientation et Parcoursup",
+          "title": "CDEFM : quatre recommandations pour Parcoursup et des indicateurs plus lisibles",
+          "fact": "Le 26 octobre, la CDEFM publie quatre recommandations pour faire évoluer Parcoursup : maintenir l’information sur le lycée d’origine, avancer les admissions au printemps, appliquer les 54 heures annuelles d’orientation et rendre plus lisibles les données de sélectivité et d’insertion. Elle demande aussi l’harmonisation des indicateurs et l’intégration de la phase complémentaire aux statistiques publiées.",
+          "verdict": "Cette prise de position sectorielle est distincte de l’annonce gouvernementale : elle ne décide d’aucune règle, mais formule les conditions que les écoles de management souhaitent voir rendre comparables. L’enjeu éditorial est la définition et la traçabilité des indicateurs, pas la promesse d’un effet sur le recrutement.",
+          "implication": "Pour TBS Education, inventorier les indicateurs de sélectivité et d’insertion qui pourraient être expliqués à périmètre comparable, avec leur définition, date de référence, population et traitement de la phase complémentaire.",
+          "limits": "Les recommandations ne prouvent ni reprise par le Gouvernement, ni adoption, ni application en 2027 ou 2028. Le communiqué ne précise ni champs, ni périmètre, ni calendrier, ni méthode des indicateurs à harmoniser. Les fiches indicateurs CDEFM sont une ressource distincte et ne démontrent pas à elles seules une comparabilité effective.",
+          "sources": [
+            {
+              "name": "Communiqué de presse : Parcoursup : mieux accompagner les lycéens dans leurs choix d’orientation",
+              "publisher": "CDEFM",
+              "date": "26 octobre 2026",
+              "url": "https://cdefm.fr/wp-content/uploads/2026/10/Communique-de-presse-Parcoursup-mieux-accompagner-les-lyceens-dans-leurs-choix-dorientation.pdf",
+              "type": "Communiqué primaire"
+            },
+            {
+              "name": "Remplacement de la plateforme Parcoursup, plafonnement du nombre d’élèves par classe, état des bâtiments, bourses : les engagements du Gouvernement pour la jeunesse",
+              "publisher": "Ministère de l’Enseignement supérieur, de la Recherche et de l’Espace",
+              "date": "26 octobre 2026",
+              "url": "https://www.enseignementsup-recherche.gouv.fr/fr/remplacement-de-la-plateforme-parcoursup-plafonnement-du-nombre-d-eleves-par-classe-etat-des-104451",
+              "type": "Communiqué primaire de comparaison"
+            }
+          ],
+          "timing": "week",
+          "publicationDate": "2026-10-26"
+        },
+        {
+          "id": "s45-plf-2027-aides-apprentissage",
+          "axis": "marche",
+          "actor": "Gouvernement / Assemblée nationale",
+          "label": "Contextualiser",
+          "status": "Projet annuel de performances annexé au PLF 2027 : crédits proposés, non votés",
+          "dateLabel": "PLF déposé le 1er octobre 2026 · PAP 2027 annexé · relais de presse le 31 octobre",
+          "title": "Aides à l’apprentissage : un cadre budgétaire 2027 encore à voter",
+          "fact": "Le PAP annexé au PLF 2027 inscrit 2 003,2 M€ de crédits de paiement et 2 393,5 M€ d’autorisations d’engagement pour les aides aux employeurs d’apprentis. Les crédits de paiement se comparent à 2 463,8 M€ ouverts en LFI 2026 (−18,69 %). Le même document prévoit 788 012 nouveaux contrats débutés en 2027, contre 847 161 en 2025, et la reconduction de l’aide exceptionnelle selon les modalités décrites.",
+          "verdict": "Le signal apporte un contexte de financement directement pertinent pour l’alternance, mais non une baisse déjà appliquée. Il faut lire séparément crédits de paiement, autorisations d’engagement, cible nationale de contrats et barème effectivement applicable.",
+          "implication": "Pour TBS Education, suivre le parcours parlementaire et le futur barème avant toute mise à jour des messages alternance ; préparer une lecture séparée des publics, niveaux de diplôme et entreprises concernés.",
+          "limits": "Le PLF n’est ni voté, ni adopté, ni appliqué. La baisse porte sur les crédits de paiement proposés alors que les autorisations d’engagement progressent ; elle ne prouve ni une baisse du barème, ni de l’éligibilité, ni du nombre de bénéficiaires de chaque aide. La cible de 788 012 est nationale et ne constitue pas une prévision TBS Education.",
+          "sources": [
+            {
+              "name": "Projet annuel de performances 2027 — Travail emploi et administration des ministères sociaux",
+              "publisher": "Assemblée nationale / Gouvernement",
+              "date": "Octobre 2026 · annexe au PLF déposé le 1er octobre 2026",
+              "url": "https://www.assemblee-nationale.fr/dyn/contenu/visualisation/1128284/file/PAP%202027%20-%20Travail%20emploi%20et%20administration%20des%20minist%C3%A8res%20sociaux.pdf",
+              "type": "Projet annuel de performances — source budgétaire primaire"
+            },
+            {
+              "name": "Projet de loi de finances pour 2027, n° 3210",
+              "publisher": "Assemblée nationale",
+              "date": "1er octobre 2026",
+              "url": "https://www.assemblee-nationale.fr/dyn/17/textes/l17b3210_projet-loi",
+              "type": "Texte parlementaire primaire"
+            }
+          ],
+          "timing": "context",
+          "publicationDate": "2026-10-01"
+        },
+        {
+          "id": "s45-emlyon-google-iactu",
+          "axis": "marque",
+          "actor": "emlyon business school",
+          "label": "Décrypter",
+          "status": "Récit institutionnel d’une expérience de parcours",
+          "dateLabel": "Publié le 28 octobre 2026 · mis à jour le 29 octobre · date de la visite non précisée",
+          "title": "emlyon rend visible une production étudiante dans un environnement professionnel nommé",
+          "fact": "Dans un portrait publié le 28 octobre, emlyon indique que deux étudiants de son Mastère Spécialisé Transformation Digitale, Marketing & Stratégie ont enregistré un épisode de cinq minutes de leur format IActu dans les studios YouTube du siège français de Google. La visite est présentée comme organisée par un alumni ; les étudiants y décryptent quatre actualités liées à l’IA.",
+          "verdict": "L’école matérialise une promesse de parcours digital par un artefact identifiable, produit par des étudiants dans un environnement professionnel nommé. Le cas est plus concret qu’un témoignage générique, mais reste à l’échelle de deux participants.",
+          "implication": "Pour TBS Education, repérer des productions étudiantes décrivables avec précision : public, contexte professionnel, contribution réelle, format et objet accessible. Ne pas les présenter comme des preuves d’employabilité sans évaluation.",
+          "limits": "La publication est celle de l’école et ne prouve ni partenariat institutionnel Google–emlyon, ni parrainage du programme. La date de la visite, l’audience du format et ses résultats pédagogiques ou d’insertion ne sont pas publiés.",
+          "sources": [
+            {
+              "name": "Deux étudiants d’emlyon au micro de Google pour parler IA",
+              "publisher": "emlyon business school",
+              "date": "28 octobre 2026 · mis à jour le 29 octobre 2026",
+              "url": "https://em-lyon.com/fr/etudiant/portraits/etudiants-emlyon-au-micro-de-google",
+              "type": "Source institutionnelle primaire"
+            },
+            {
+              "name": "Mastère Spécialisé Transformation Digitale, Marketing & Stratégie",
+              "publisher": "emlyon business school",
+              "date": "Date non affichée · consultée le 2 novembre 2026",
+              "url": "https://em-lyon.com/fr/etudiant/mastere-specialise/ms-transformation-digitale-marketing-strategie",
+              "type": "Page institutionnelle de programme"
+            }
+          ],
+          "timing": "week",
+          "publicationDate": "2026-10-28"
+        },
+        {
+          "id": "s45-hec-paris-saclay-lab2biz",
+          "axis": "recherche",
+          "actor": "HEC Paris / Université Paris-Saclay",
+          "label": "Décrypter",
+          "status": "Convention signée avant la fenêtre ; amplification d’un programme préexistant décrite dans la fenêtre",
+          "dateLabel": "Convention signée le 22 octobre 2026 · communiqué HEC publié le 27 octobre · présentation complémentaire le 29 octobre",
+          "title": "HEC Paris et Paris-Saclay détaillent le travail étudiant du programme Lab2Biz",
+          "fact": "Le communiqué d’HEC Paris publié le 27 octobre indique qu’une convention a été signée le 22 octobre par l’Université Paris-Saclay et HEC Paris afin d’amplifier Lab2Biz. Le programme réunit pendant trois mois des chercheurs et doctorants de l’Université et des étudiants MBA d’HEC, qui explorent des débouchés, évaluent le potentiel économique et présentent un projet à un jury.",
+          "verdict": "La carte décrit une mécanique pédagogique concrète — public, rôles, durée, exploration de débouchés et jury — plutôt qu’un simple partenariat. La convention amplifie toutefois un programme existant depuis 2014 et ne doit pas être présentée comme un lancement S45.",
+          "implication": "Pour TBS Education, documenter les dispositifs comparables par le rôle de l’étudiant, l’apport documenté du partenaire, la durée, le livrable et la validation, sans en déduire un effet entrepreneurial non mesuré.",
+          "limits": "Les publications lues sont émises par HEC Paris, l’un des signataires ; aucune publication autonome de Paris-Saclay sur la convention d’octobre n’a été trouvée. Aucun budget, cohorte 2026, critère de sélection, résultat de création de start-up, apprentissage, attractivité ou insertion n’est publié.",
+          "sources": [
+            {
+              "name": "L’Université Paris-Saclay et HEC Paris signent une convention pour amplifier leur partenariat en faveur des start-up deeptech",
+              "publisher": "HEC Paris",
+              "date": "27 octobre 2026",
+              "url": "https://www.hec.edu/fr/news-room/l-universite-paris-saclay-et-hec-paris-signent-une-convention-pour-amplifier-leur-partenariat-en-faveur-des-start-deeptech",
+              "type": "Communiqué de presse — source primaire"
+            },
+            {
+              "name": "HEC et l’Université Paris-Saclay renforcent leur partenariat pour développer les startups deeptech",
+              "publisher": "HEC Paris",
+              "date": "29 octobre 2026",
+              "url": "https://www.hec.edu/fr/hec-institute/actualites/hec-et-l-universite-paris-saclay-renforcent-leur-partenariat-pour-developper-les-startups-deeptech",
+              "type": "Actualité institutionnelle — source primaire"
+            }
+          ],
+          "timing": "week",
+          "publicationDate": "2026-10-27"
+        },
+        {
+          "id": "s45-sherlock-kipsta-pilote",
+          "axis": "recherche",
+          "actor": "IAE Savoie Mont Blanc / partenaires Erasmus+ SHERLOCK / KIPSTA",
+          "label": "Décrypter",
+          "status": "Activité pilote réalisée ; jeu sérieux encore en développement",
+          "dateLabel": "LTTA tenue à Annecy du 19 au 23 octobre 2026 · compte rendu institutionnel publié le 29 octobre",
+          "title": "SHERLOCK : un pilote marketing international avec KIPSTA",
+          "fact": "Le 29 octobre, l’IAE Savoie Mont Blanc rend compte de la première activité LTTA du projet Erasmus+ SHERLOCK, tenue à Annecy du 19 au 23 octobre. Il indique que plus de 70 étudiants et enseignants de six universités ont mené, en équipes internationales, une étude marketing sur un défi proposé par KIPSTA, avec restitution devant jury. L’activité a servi de phase pilote du jeu sérieux.",
+          "verdict": "L’activité effectivement réalisée rend vérifiables le public, le travail étudiant, le défi, le jury et le statut de pilote. Elle ne préjuge ni du déploiement du jeu, ni de l’apprentissage, ni de l’attractivité qu’il pourrait produire.",
+          "implication": "Pour TBS Education, qualifier les expériences pédagogiques avec leur statut réel — pilote, déploiement ou évaluation — et rendre visibles la contribution de l’étudiant, le partenaire, le livrable et la limite de preuve.",
+          "limits": "Les volumes, la nature du défi et les apprentissages décrits émanent principalement de l’établissement hôte. Aucune évaluation d’apprentissage, donnée de satisfaction, calendrier de disponibilité du jeu, effet d’attractivité, de recrutement ou d’insertion n’est publié. KIPSTA n’a pas été lu comme source autonome.",
+          "sources": [
+            {
+              "name": "SHERLOCK : une semaine au cœur du marketing international",
+              "publisher": "IAE Savoie Mont Blanc / Université Savoie Mont Blanc",
+              "date": "29 octobre 2026",
+              "url": "https://www.univ-smb.fr/iae/2026/10/29/sherlock-une-semaine-au-coeur-du-marketing-international/",
+              "type": "Publication institutionnelle — source primaire de l’établissement hôte"
+            },
+            {
+              "name": "SHERLOCK IN ACTION: RESEARCH MEETS INNOVATION",
+              "publisher": "Faculty of Applied Languages, Bratislava University of Economics and Business",
+              "date": "26 octobre 2026",
+              "url": "https://faj.euba.sk/en/public/news/1231-sherlock-in-action-research-meets-innovation",
+              "type": "Publication institutionnelle — source primaire d’une université partenaire"
+            }
+          ],
+          "timing": "week",
+          "publicationDate": "2026-10-29"
+        },
+        {
+          "id": "s45-esade-bsis-renouvellement",
+          "axis": "reputation",
+          "actor": "EFMD Global / Esade Business School",
+          "label": "Décrypter",
+          "status": "Renouvellement du label BSIS après évaluation d’impact ; ce n’est pas une accréditation académique",
+          "dateLabel": "Annonce EFMD publiée le 27 octobre 2026 · communication Esade corroborante le 28 octobre",
+          "title": "Esade renouvelle son label BSIS auprès d’EFMD",
+          "fact": "Le 27 octobre 2026, EFMD Global annonce qu’Esade Business School a achevé avec succès le processus d’évaluation BSIS et obtient le renouvellement de son label, attribué initialement en 2022. L’organisme met en avant l’intégration de l’impact dans la stratégie, la formation, la recherche et l’engagement avec la société, ainsi que les progrès de mesure et de pilotage.",
+          "verdict": "Le renouvellement est un fait de réputation établi par l’organisme porteur du label. Il éclaire une capacité de structuration et de suivi de l’impact, sans établir à lui seul la qualité pédagogique, l’insertion, l’attractivité ou l’effet commercial d’Esade.",
+          "implication": "Pour TBS Education, comparer l’accessibilité et la traçabilité des preuves d’impact — périmètre, indicateurs, publication et gouvernance — sans assimiler label BSIS, accréditations académiques et classements.",
+          "limits": "Le rapport d’experts post-visite, les données brutes, les recommandations et les dates de visite ou de décision ne sont pas publics dans les pages lues. Le rapport Sustainability and Impact est accessible via Esade mais n’a pas été exploité au-delà de son existence publique.",
+          "sources": [
+            {
+              "name": "Lasting impact: Poznań University of Economics & Business and Esade Business School awarded BSIS label renewals",
+              "publisher": "EFMD Global",
+              "date": "27 octobre 2026",
+              "url": "https://blog.efmdglobal.org/2026/10/27/poznan-esade-bsis-label-renewals/",
+              "type": "Annonce primaire de l’organisme porteur du label"
+            },
+            {
+              "name": "Esade renews its BSIS label in recognition of its integrated impact model connecting education, research and society",
+              "publisher": "Esade",
+              "date": "28 octobre 2026",
+              "url": "https://www.esade.edu/en/news/esade-renews-its-bsis-label-in-recognition-its-integrated-impact-model-connecting-education",
+              "type": "Communication institutionnelle primaire corroborante"
+            },
+            {
+              "name": "Business School Impact System",
+              "publisher": "EFMD Global",
+              "date": "Non daté · consulté le 2 novembre 2026",
+              "url": "https://www.efmdglobal.org/bsis/",
+              "type": "Cadre officiel du dispositif"
+            }
+          ],
+          "timing": "week",
+          "publicationDate": "2026-10-27"
+        }
+      ],
+      "actions": [
+        {
+          "title": "Préparer une base de comparaison des informations Parcoursup",
+          "owner": "Admissions / affaires institutionnelles / data et pilotage — proposés",
+          "horizon": "Avant les premières recommandations du comité annoncées fin novembre 2026",
+          "result": "Une fiche séparant exigences annoncées pour 2027, paramètres encore inconnus pour 2028, définitions des indicateurs et éléments de parcours TBS Education à documenter.",
+          "signal": "s45-parcoursup-reforme-2027-2028"
+        },
+        {
+          "title": "Qualifier deux preuves pédagogiques entreprise réutilisables",
+          "owner": "Directions de programmes / recherche / relations entreprises / contenus — proposés",
+          "horizon": "J+30",
+          "result": "Deux fiches factuelles précisant public, rôle étudiant, partenaire, situation ou défi, durée, livrable, statut et source, avec distinction entre activité réalisée et résultat évalué.",
+          "signal": "s45-hec-paris-saclay-lab2biz"
+        },
+        {
+          "title": "Suivre le cadre des aides à l’apprentissage sans anticiper son application",
+          "owner": "Relations entreprises / direction financière / admissions — proposés",
+          "horizon": "À l’issue du parcours parlementaire et dès publication du barème applicable",
+          "result": "Une note d’une page distinguant crédits proposés, règles votées, barème, publics et niveaux concernés, puis les seuls contenus TBS à mettre à jour le cas échéant.",
+          "signal": "s45-plf-2027-aides-apprentissage"
+        }
+      ],
+      "coverage": {
+        "offre": "Aucun signal retenu : les pages Audencia et KEDGE ne permettent pas d’établir une publication primaire nouvelle pendant S45 ; l’offre MBS est promue avant la fenêtre et sa réalisation n’est pas confirmée.",
+        "marque": "Une actualité : emlyon rend une production étudiante visible dans un environnement professionnel nommé. La carte décrit un récit de parcours, non un effet de marque ou de recrutement démontré.",
+        "acquisition": "Aucun signal retenu : aucun changement primaire daté et vérifiable d’un parcours d’acquisition ou de conversion n’a été établi.",
+        "international": "Aucun signal principal retenu : SHERLOCK mobilise six universités européennes, mais l’actualité porte sur une activité pédagogique pilote et non sur un mouvement d’implantation ou de marché comparable.",
+        "marche": "Quatre repères : engagements gouvernementaux sur Parcoursup, bilan SIES, propositions CDEFM et contexte budgétaire des aides à l’apprentissage. Ils ne mesurent ni la demande ni les résultats propres à TBS Education.",
+        "reputation": "Une actualité : EFMD annonce le renouvellement BSIS d’Esade. Le label évalue l’impact ; il ne se confond pas avec une accréditation académique ni avec une preuve d’insertion.",
+        "recherche": "Deux actualités : HEC Paris et Paris-Saclay détaillent Lab2Biz ; IAE Savoie Mont Blanc rend compte du pilote SHERLOCK avec KIPSTA. Les réalisations décrites n’établissent pas de résultats d’apprentissage ou d’employabilité.",
+        "horschamp": "Aucun signal retenu : Airbnb et Zendesk, bien que sourcés, sont écartés pour privilégier des faits directement reliés à l’ESR et à l’alternance."
+      },
+      "perspectives": [
+        {
+          "id": "panorama",
+          "name": "Le panorama analytique",
+          "question": "Que retenir de cette édition ?",
+          "text": "Cette consolidation retient d’abord des publications primaires de la fenêtre : engagements publics sur Parcoursup, bilan SIES, propositions de la CDEFM, expériences pédagogiques documentées et évaluation d’impact. Elles distinguent un engagement, une prise de position ou un constat publié d’une promesse de dispositif. Le projet budgétaire sur l’apprentissage reste un contexte : ses crédits proposés ne sont ni votés ni appliqués. Pour TBS Education, l’enjeu commun est de rendre comparables les informations d’admission, les preuves de parcours et les résultats d’impact, sans extrapoler vers les candidatures, l’insertion ou l’efficacité commerciale.",
+          "signals": [
+            "s45-parcoursup-reforme-2027-2028",
+            "s45-sies-parcoursup-2026",
+            "s45-cdefm-propositions-parcoursup",
+            "s45-plf-2027-aides-apprentissage",
+            "s45-emlyon-google-iactu",
+            "s45-hec-paris-saclay-lab2biz",
+            "s45-sherlock-kipsta-pilote",
+            "s45-esade-bsis-renouvellement"
+          ]
+        },
+        {
+          "id": "fil-rouge",
+          "name": "Le fil rouge",
+          "question": "Qu’est-ce qui relie les sujets ?",
+          "text": "Les sujets retenus ne prouvent pas une performance commune : ils rendent des objets de comparaison plus explicites. Côté admission, cela passe par des règles, des étapes et des indicateurs à définir. Côté pédagogie, cela passe par un rôle étudiant, un partenaire, une durée et un livrable observables. Côté impact, le renouvellement BSIS rappelle l’intérêt d’une évaluation structurée. La comparabilité dépend donc du périmètre, de la date et de la méthode publiés, non de la seule visibilité d’une annonce.",
+          "signals": [
+            "s45-parcoursup-reforme-2027-2028",
+            "s45-sies-parcoursup-2026",
+            "s45-cdefm-propositions-parcoursup",
+            "s45-hec-paris-saclay-lab2biz",
+            "s45-sherlock-kipsta-pilote",
+            "s45-esade-bsis-renouvellement"
+          ]
+        },
+        {
+          "id": "tensions",
+          "name": "Les tensions du secteur",
+          "question": "Quelles dynamiques faut-il lire ensemble ?",
+          "text": "L’État annonce des échéances de transparence et un futur système d’admission, tandis que la CDEFM demande des indicateurs harmonisés et que le SIES décrit les résultats de la campagne précédente. Ces trois registres ne se superposent pas : engagement, proposition sectorielle et observation statistique. Le cadre budgétaire de l’apprentissage ajoute une quatrième temporalité, celle d’un projet à voter. Toute lecture opérationnelle doit donc éviter de confondre annonce, norme appliquée, donnée observée et projection.",
+          "signals": [
+            "s45-parcoursup-reforme-2027-2028",
+            "s45-sies-parcoursup-2026",
+            "s45-cdefm-propositions-parcoursup",
+            "s45-plf-2027-aides-apprentissage"
+          ]
+        },
+        {
+          "id": "concurrence",
+          "name": "La lecture concurrentielle",
+          "question": "Sur quels terrains les écoles cherchent-elles à se distinguer ?",
+          "text": "Les concurrents et comparateurs visibles cette semaine misent moins sur une promesse abstraite que sur un dispositif racontable : artefact étudiant chez emlyon, exploration de débouchés deeptech avec Lab2Biz, étude marketing pilote dans SHERLOCK, ou système de suivi d’impact reconnu par EFMD. Ces formats n’ont pas la même maturité ni la même portée. Leur point commun est de rendre une activité, un rôle ou une gouvernance vérifiable, sans apporter encore de preuve équivalente d’acquisition de compétences, de candidature ou d’insertion.",
+          "signals": [
+            "s45-emlyon-google-iactu",
+            "s45-hec-paris-saclay-lab2biz",
+            "s45-sherlock-kipsta-pilote",
+            "s45-esade-bsis-renouvellement"
+          ]
+        }
+      ],
+      "excludedSignals": [
+        "CDEFM — fiches indicateurs : pages primaires TBS publiées les 14–15 octobre et données observées au 15 janvier ; le relais du 30 octobre ne crée pas un fait S45.",
+        "De Vinci Higher Education : rebranding primaire du 19 octobre ; inauguration sans date exacte et relais de fenêtre sans évolution distincte établie.",
+        "emlyon Tech School : annonce primaire du 13 octobre ; le relais de la fenêtre ne justifie pas une réintégration S45.",
+        "EDC Paris : approfondissement d’un sujet déjà consolidé en S44 ; aucune évolution primaire S45 distincte établie.",
+        "EGC / PRME : adhésion annoncée au 15 octobre et premier reporting seulement promis ; Esade/BSIS offre un fait de fenêtre plus robuste.",
+        "EM Normandie / Plaza Athénée : dispositif futur, sans confirmation autonome du partenaire ni calendrier d’exécution.",
+        "KEDGE MSc Sales & Business Development : pages primaires sans date de publication ; offre future conservée en réserve, non comme actualité S45.",
+        "Audencia Executive Certificate IA et Sales : page non datée, traces de sitemap non probantes et discordance sur la VAE.",
+        "MBS Business English Bootcamp : promotion datée du 22 septembre ; aucune confirmation de réalisation, fréquentation ou modification pendant S45.",
+        "Airbnb et Zendesk : sources primaires mais inspiration indirecte, écartée au profit de signaux ESR directement comparables."
+      ],
+      "traceability": {
+        "method": "Les cartes retenues privilégient un fait primaire ou réglementaire, une publication dans la fenêtre et un apport analytique distinct. Le relais média n’est retenu comme date que s’il correspond à un fait nouveau propre ; sinon la date de la source primaire prévaut.",
+        "deduplication": "Le communiqué gouvernemental est fusionné en une carte ; les propositions CDEFM restent distinctes. Les actualités HEC/Lab2Biz et SHERLOCK sont complémentaires, non fusionnées. Les sujets déjà traités en S44 ou fondés sur une annonce antérieure ne sont pas répétés.",
+        "keyLimit": "Aucune carte ne démontre une variation des candidatures, de la conversion, de l’insertion, des compétences ou de la satisfaction de TBS Education. Les annonces d’établissements décrivent leurs propres dispositifs ; les documents publics encadrent le marché sans se transposer automatiquement à TBS."
+      }
     }
   ],
   "editorialPolicy": {

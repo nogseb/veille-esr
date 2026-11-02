@@ -233,3 +233,9 @@ details[open]>summary>span:last-child{transform:rotate(45deg)}
 
 /* Readable text without squeezing the mobile header. */
 @media screen and (max-width:400px){.header-inner{gap:8px}.wordmark{gap:8px}.wordmark-small{font-size:9px;letter-spacing:.8px}.brand-symbol{width:24px;height:24px}.theme-toggle .theme-label{display:none}.theme-toggle{min-width:40px;justify-content:center}.header-actions{gap:6px}.menu-toggle{gap:8px}.edition-strip{grid-template-columns:repeat(2,minmax(0,1fr))}.edition-strip>div{padding:0;gap:10px;min-width:0}.edition-strip span{min-width:0}}
+
+/* Long source labels must wrap inside cards rather than widen the reading column. */
+.signals-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+.signal-card{min-width:0}
+.source-link{min-width:0;white-space:normal;overflow-wrap:anywhere}
+@media(max-width:760px){.signals-grid{grid-template-columns:minmax(0,1fr)}}

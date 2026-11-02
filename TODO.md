@@ -84,9 +84,41 @@ Publication vérifiée le 15 octobre à 23:37 Europe/Paris : source `b56cbec`, d
 ## Évolution du 26 octobre — S44 et archives
 
 - [x] Constituer une édition « S44 — point au 26 octobre » avec collecte principale du 20 au 26 octobre, huit axes recherchés, Hyperhumain et L’Antisèche inclus dans le repérage public, 8–10 signaux visés sans remplissage, sources et limites traçables.
-- [ ] Préserver intégralement l’objet de l’édition du 15 octobre et son lien permanent ; le déplacer hors de l’accueil dans la section Archives lorsque la nouvelle édition est publiée.
+- [x] Préserver intégralement l’objet de l’édition du 15 octobre et son lien permanent ; le déplacer hors de l’accueil dans la section Archives lorsque la nouvelle édition est publiée.
 - [x] Adapter les formulations du prototype devenues inexactes après une deuxième édition, sans modifier le design, les polices, les thèmes ou les animations.
 - [x] Préparer la nouvelle édition avec panorama analytique, quatre facettes, zéro à trois suites et contrôles existants réussis ; distinguer aperçu, sauvegarde et publication réelle.
-- [ ] Publier seulement le périmètre autorisé dans les deux dépôts, après validation du contenu public si nécessaire ; vérifier l’accueil et les deux liens permanents en ligne.
+- [x] Publier seulement le périmètre autorisé dans les deux dépôts, après validation du contenu public si nécessaire ; vérifier l’accueil et les deux liens permanents en ligne.
 
-État au 26 octobre : aperçu préparé avec dix signaux, huit axes, trois suites, résumé de 97 mots et quatre facettes. Fenêtre explicite du 20 au 26 octobre ; un contexte ESSCA daté du 1er octobre pour l’inauguration prévue le 28. Édition du 15 octobre strictement inchangée en données et accessible en archive. Huit tests de dates et d’archives, contrôles HTML et tests d’interaction réussis. Le déplacement en Archives est prêt dans l’aperçu ; aucune nouvelle publication publique avant validation du contenu S44.
+Publication vérifiée le 26 octobre 2026 à 15:22 Europe/Paris : source `102a0cf` ([CI réussie](https://github.com/nogseb/veille-esr/actions/runs/40338399997)), déploiement `ba1599a` ([SFTP OVHcloud réussi](https://github.com/nogseb/nogues.app/actions/runs/40338460140)). Accueil S44 : dix signaux et huit axes ; Archives : seule édition du 15 octobre ; deux liens permanents contrôlés. Les 26 fichiers publics accessibles correspondent exactement au build validé. Aucun autre sous-site, DNS, secret, abonnement ou automatisation récurrente n’a été modifié.
+
+## Évolution du 26 octobre — carte « Le signal à retenir »
+
+- [x] Rendre la source de la carte « Le signal à retenir » lisible, distincte du libellé factuel et sans débordement sur les petits écrans. Préserver les données, les polices, le mode sombre et le lien de source.
+- [x] Vérifier l’affichage sur la carte S44 à des largeurs mobile et desktop, puis publier cette amélioration ciblée sans modifier le contenu éditorial.
+
+Publication vérifiée le 26 octobre 2026 : source `0cd51e4` ([CI réussie](https://github.com/nogseb/veille-esr/actions/runs/40342105590)), déploiement `76232a9` ([SFTP OVHcloud réussi](https://github.com/nogseb/nogues.app/actions/runs/40342131654)). La source est désormais séparée du libellé factuel et validée sans débordement interne à 320, 666 et 1 440 px.
+
+## Évolution du 26 octobre — consolidation de trois veilles S44
+
+- [x] Comparer les veilles S44 de Manus, ChatGPT et Claude ; identifier les doublons certains, qualifier les écarts de date et de source, et documenter un avis sur la qualité respective des trois productions.
+- [x] Consolider l’édition courante en dix signaux maximum : conserver les huit axes et l’inspiration hors ESR, fusionner EDC, GEM–UESTC et emlyon AST, retirer les cartes moins probantes, et ajouter seulement les candidats vérifiés avec leurs dates, limites et sources primaires.
+- [x] Réécrire le résumé et les quatre facettes selon la sélection unique, sans confondre une publication, un événement passé, un dispositif observé et une mesure projetée.
+- [x] Compiler, contrôler les données, les liens, les archives et les interactions ; présenter l’aperçu consolidé avant toute publication éditoriale publique.
+
+État prêt à relire : 10 cartes, 8 axes, 3 suites et 4 facettes. Ajouts vérifiés : CDEFI, ICN Business School et Rennes School of Business. Cartes retirées : observation Thotis, contexte ESSCA Luxembourg et alliance SSE–DNV. L’édition du 15 octobre reste inchangée en archive. La version consolidée n’est pas encore publiée dans les dépôts GitHub ni sur nogues.app.
+
+## Évolution du 2 novembre — préparation S45
+
+- [x] Préparer une édition S45 pour la fenêtre close du 26 octobre au 1er novembre 2026, avec 8 à 10 signaux maximum, dates qualifiées, faits sourcés et absence de doublon avec les éditions S44 et du 15 octobre.
+- [x] Préserver les éditions publiées en archives ; intégrer le brouillon S45 seulement dans l’aperçu local, sans push GitHub, sans transfert SFTP et sans modification de nogues.app avant validation éditoriale explicite.
+- [x] Vérifier le contenu de l’aperçu, les liens permanents, la navigation Archives, les quatre facettes, les filtres et les contrôles existants avant de présenter le brouillon.
+
+État au 2 novembre : brouillon S45 local prêt à relire — 9 signaux, 3 suites et 4 facettes. La fenêtre est explicitement le 26 octobre–1er novembre, soit la semaine ISO 44 achevée préparée au démarrage de la S45. Les axes Acquisition et International sont signalés comme non couverts par manque de fait distinct, primaire et suffisamment comparable. Les éditions du 26 et du 15 octobre sont intactes dans les Archives locales. Tous les contrôles structurels et d’interaction passent ; l’affichage est contrôlé sans débordement à 320, 390, 768 et 1 440 px. Aucun commit, push GitHub, transfert SFTP ni contenu public n’a été modifié.
+
+## Évolution du 2 novembre — consolidation de trois veilles S45
+
+- [x] Comparer les trois matériaux S45, dédoublonner les sujets et qualifier systématiquement les écarts de date, de source et de statut temporel.
+- [x] Remplacer dans l’aperçu local les cartes moins probantes par les seuls apports confirmés sur source primaire ou réglementaire, sans remplir artificiellement les axes.
+- [x] Conserver les éditions précédentes, compiler et vérifier la sélection consolidée avant relecture ; ne créer aucun commit, push GitHub, transfert SFTP ou publication publique sans validation éditoriale explicite.
+
+État au 2 novembre : version consolidée locale prête à relire — 8 cartes, dont 7 publications de fenêtre et 1 contexte budgétaire primaire explicitement non voté ; 3 suites et 4 facettes. Cartes retenues : Gouvernement/Parcoursup, SIES, CDEFM, PLF apprentissage, emlyon, HEC–Paris-Saclay/Lab2Biz, SHERLOCK et Esade/BSIS. Sont écartés parce qu’anciens, non datés, répétés, trop indirects ou insuffisamment comparables : fiches CDEFM, De Vinci, emlyon Tech School, EDC, EGC/PRME, EM Normandie, KEDGE, Audencia, MBS, Airbnb et Zendesk. Contrôles de contenu, archives, routes, thèmes, interactions et rendu sans débordement réussis à 320, 390, 768 et 1 440 px. Le site public sert toujours S44 ; aucun commit, push, transfert SFTP ou publication n’a été réalisé.
