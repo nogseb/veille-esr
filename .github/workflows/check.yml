@@ -31,6 +31,7 @@ jobs:
           python3 scripts/test-editions.py
           python3 scripts/test-hero-summary.py
           python3 scripts/test-timing-labels.py
+          python3 scripts/test-reading-order.py
           node --check assets/app.js
           node scripts/test-interactions.cjs
           node scripts/test-featured-source.cjs
