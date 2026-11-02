@@ -74,821 +74,6 @@
   ],
   "editions": [
     {
-      "id": "2026-10-26",
-      "title": "Accès, preuves pédagogiques et tensions de marché — édition S44 consolidée",
-      "date": "2026-10-26",
-      "dateLabel": "26 octobre 2026",
-      "period": "20–26 octobre 2026 · point d’ouverture S44",
-      "status": "S44 · Consolidée au 26 octobre",
-      "readingMinutes": 8,
-      "intro": "Cette édition consolidée rapproche les stratégies d’accès, les preuves pédagogiques et les repères de marché. Les écoles rendent visibles des conditions de parcours : prix et alternance chez EDC, admission AST à distance chez emlyon, ou cadre d’usage de l’IA chez Rennes School of Business. Dans le même temps, les projections SIES et le signal CDEFI invitent à distinguer les filières, les étapes de candidature et les effets réels. Les implantations et partenariats, de GEM–UESTC à la mission d’ICN, montrent que le récit institutionnel doit rester relié à des dispositifs vérifiables.",
-      "featuredSignal": "sies-projections-effectifs-2026-2027",
-      "featuredTitle": "Écoles de commerce : une croissance projetée en 2026.",
-      "featuredFact": "+1,6 %",
-      "featuredLabel": "MARCHÉ ESR · Note Flash du 22 octobre 2026",
-      "featuredNote": "Le SIES projette 257 500 inscrits dans les écoles de commerce, gestion et vente en 2026, puis 259 400 en 2027. Ces projections ne décrivent pas les candidatures ou les résultats de TBS Education.",
-      "notice": "Édition consolidée à partir de trois collectes parallèles, arrêtée au 26 octobre. Les doublons EDC, GEM–UESTC et emlyon AST ont été fusionnés ; les sources institutionnelles remplacent les relais lorsqu’elles étaient accessibles. Deux cartes de contexte — CDEFI et ICN — reposent sur des annonces antérieures à la fenêtre, explicitement qualifiées comme telles. Les sujets non retenus restent documentés dans le dossier de consolidation ; ils ne sont pas ajoutés pour atteindre le plafond.",
-      "signals": [
-        {
-          "id": "edc-tarifs-alternance-pge",
-          "axis": "offre",
-          "actor": "EDC Paris Business School",
-          "label": "Comparer",
-          "status": "Annonce tarifaire et d’alternance future",
-          "dateLabel": "Publication retenue : 26 octobre 2026 · annonce EDC : 15 octobre 2026 · application annoncée : rentrée de septembre 2027",
-          "title": "EDC Paris Business School baisse le prix d’entrée du PGE et avance l’alternance",
-          "fact": "À partir de septembre 2027, EDC Paris Business School annonce que les frais annuels de PGE 1 et PGE 2 passeront de 11 200 € à 7 995 €. L’école prévoit aussi une dérogation ouvrant l’alternance dès PGE 3, jusque-là proposée en PGE 4 et 5. Avec trois années en alternance, le coût affiché sur cinq ans peut être limité à 15 990 €.",
-          "verdict": "EDC associe baisse du coût d’entrée et avancement d’une voie d’alternance : c’est une évolution concrète des conditions de financement et du rythme d’études de son PGE post-bac, pas une aide ponctuelle. Les sources ne permettent pas d’en déduire un effet sur le recrutement.",
-          "implication": "Pour TBS Education, comparer à programme et public comparables la lisibilité des coûts annuels, le moment d’accès à l’alternance et les conditions associées. L’enjeu est d’expliquer le coût total et les trajectoires de financement réelles, sans présumer qu’une baisse tarifaire serait transposable ou souhaitable.",
-          "limits": "Modalités annoncées pour 2027, donc non mises en œuvre au 26 octobre. Ni volumes de bénéficiaires, ni critères détaillés de la fondation, ni résultats sur les candidatures, contrats d’alternance ou soutenabilité économique ne sont publiés. Les montants et le changement de rythme sont cohérents dans les deux médias spécialisés lus.",
-          "sources": [
-            {
-              "name": "École de commerce : l’EDC réduit ses frais de scolarité pour le PGE",
-              "publisher": "L’Étudiant",
-              "date": "26 octobre 2026",
-              "url": "https://www.letudiant.fr/etudes/ecole-de-commerce/ecole-de-commerce-l-edc-reduit-ses-frais-de-scolarite-pour-le-pge.html",
-              "type": "Presse spécialisée"
-            },
-            {
-              "name": "EDC Paris Business School : des frais de scolarité repensés et de nouvelles ambitions pour l’entrepreneuriat",
-              "publisher": "Business Cool",
-              "date": "23 octobre 2026",
-              "url": "https://business-cool.com/featured/edc-paris-business-school-frais-de-scolarite-repenses-et-ambitions-entrepreneuriat/",
-              "type": "Presse spécialisée"
-            },
-            {
-              "name": "PGE à moins de 16 000 euros, entrepreneuriat, One Focus. YOU : les annonces de l’EDC Paris Business School",
-              "publisher": "EDC Paris Business School",
-              "date": "15 octobre 2026 · mis à jour le 16 octobre 2026",
-              "url": "https://www.edcparis.edu/fr/blog/pge-moins-de-16-000-euros-entrepreneuriat-one-focus-you-les-annonces-de-ledc-paris-business-school",
-              "type": "Source institutionnelle hébergeant une parution presse"
-            }
-          ],
-          "timing": "week",
-          "publicationDate": "2026-10-26"
-        },
-        {
-          "id": "emlyon-ast-distance",
-          "axis": "offre",
-          "actor": "emlyon business school",
-          "label": "Qualifier",
-          "status": "Modalité d’admission observée · calendrier 2026-2027 affiché",
-          "dateLabel": "Page observée le 26 octobre 2026 · candidatures affichées du 19 octobre au 30 novembre à 23 h 59 · oraux Teams annoncés les 14 et 15 décembre 2026",
-          "title": "emlyon : une session AST à distance annoncée pour les candidats à l’étranger",
-          "fact": "emlyon affiche une session AST 2027 à distance pour les candidats qui effectuent leurs études ou résident à l’étranger en 2026-2027. Les candidatures sont affichées du 19 octobre au 30 novembre à 23 h 59. Les oraux à distance sont annoncés sur Microsoft Teams les 14 et 15 décembre, avec un jury indiqué sur le campus ; un justificatif de mobilité, d’études ou de résidence à l’étranger est demandé.",
-          "verdict": "La mobilité du candidat devient un paramètre explicite du parcours d’admission. Il s’agit d’une modalité ciblée, non d’une généralisation des oraux distants ni d’une information sur le niveau de sélection.",
-          "implication": "Pour TBS Education, examiner le traitement des candidats AST temporairement à l’étranger : publics éligibles, pièces justificatives, expérience candidat et garanties opérationnelles d’un éventuel oral distant. Cette comparaison doit rester distincte d’une décision de déployer le format.",
-          "limits": "La date de mise en ligne de la page n’est pas affichée : le contrôle établit les informations visibles le 26 octobre, sans reconstituer son historique. Aucun compte ni formulaire n’a été utilisé. La voie conserve les critères ASTF ; elle ne vise pas indistinctement tous les titulaires d’un diplôme étranger. Toutes les échéances restent futures.",
-          "sources": [
-            {
-              "name": "Programme Grande École après Bac+3/4/5 français — Concours AST",
-              "publisher": "emlyon business school",
-              "date": "Page observée le 26 octobre 2026 · date de publication non affichée",
-              "url": "https://em-lyon.com/fr/etudiant/programme-grande-ecole-pge/ast",
-              "type": "Source institutionnelle primaire"
-            },
-            {
-              "name": "Candidature — Programme Grande École — AST",
-              "publisher": "emlyon business school",
-              "date": "Page observée le 26 octobre 2026 · formulaire non soumis",
-              "url": "https://em-lyon.com/fr/etudiant/programme-grande-ecole/ast/candidature",
-              "type": "Source institutionnelle primaire"
-            }
-          ],
-          "timing": "observation",
-          "publicationDate": "2026-10-26"
-        },
-        {
-          "id": "MAR-NEOMA-FERRERO",
-          "axis": "marque",
-          "actor": "NEOMA Business School / Ferrero",
-          "label": "Décrypter",
-          "status": "Relais hebdomadaire d’un dispositif pédagogique annoncé antérieurement",
-          "dateLabel": "Business Cool : 26 octobre 2026 · communiqué NEOMA : 16 octobre 2026 · test : année 2025-2026 · déploiement élargi annoncé depuis la rentrée 2026",
-          "title": "NEOMA rend un cas d’entreprise montrable dans l’expérience d’apprentissage",
-          "fact": "Business Cool relaie le 26 octobre le jeu pédagogique créé par NEOMA et Ferrero. Le communiqué NEOMA décrit un jeu de plateau augmenté : en équipes de cinq, les étudiants arbitrent achats, production, transport, distribution et recyclage pour réduire l’empreinte carbone d’un Kinder Bueno sous contrainte de budget. Après un test 2025-2026 à Paris, Reims et Rouen, un déploiement à de nouveaux programmes est annoncé à l’automne 2026.",
-          "verdict": "Le dispositif rend la promesse de proximité entreprise observable : partenaire nommé, situation de décision, rôles distribués et objet de cours. Il ne démontre pas une amélioration des compétences, de l’employabilité, de la préférence de marque ou des candidatures.",
-          "implication": "Pour TBS Education, recenser les expériences pédagogiques avec entreprise racontables avec le même niveau de précision : public, situation professionnelle, contribution étudiante, livrable ou arbitrage observable, et condition d’accès dans le programme. Ne pas transformer ce récit en preuve d’impact sans évaluation.",
-          "limits": "Source primaire promotionnelle de NEOMA ; aucune publication Ferrero distincte n’a été retenue. La date exacte d’extension par programme n’est pas donnée. Aucun résultat d’apprentissage, retour étudiant, taux d’usage ou effet de communication n’est publié. La qualification week correspond au relais Business Cool du 26 ; l’annonce primaire est antérieure à la fenêtre.",
-          "sources": [
-            {
-              "name": "NEOMA Business School et Ferrero prolongent leur partenariat avec la création d’un jeu pédagogique en réalité augmentée sur les enjeux environnementaux dans l’industrie",
-              "publisher": "NEOMA Business School",
-              "date": "16 octobre 2026",
-              "url": "https://neoma-bs.fr/communiques/neoma-business-school-et-ferrero-prolongent-leur-partenariat-avec-la-creation-dun-jeu",
-              "type": "Communiqué de presse — source primaire"
-            },
-            {
-              "name": "NEOMA et Ferrero transforment Kinder Bueno en jeu pédagogique !",
-              "publisher": "Business Cool",
-              "date": "26 octobre 2026",
-              "url": "https://business-cool.com/featured/neoma-ferrero-jeu-realite-augmentee-decarbonation/",
-              "type": "Média étudiant — relais"
-            }
-          ],
-          "timing": "week",
-          "publicationDate": "2026-10-26"
-        },
-        {
-          "id": "jpo-parcoursup-2026",
-          "axis": "acquisition",
-          "actor": "Business Cool / ministère de l’Enseignement supérieur, de la Recherche et de l’Espace",
-          "label": "Vérifier",
-          "status": "Relais d’un baromètre national",
-          "dateLabel": "Article Business Cool publié le 22 octobre 2026 · Baromètre original publié le 19 octobre 2026, hors fenêtre d’un jour",
-          "title": "JPO : l’utilité déclarée reste un repère du parcours post-bac",
-          "fact": "Le 22 octobre, Business Cool décrypte le Baromètre Parcoursup 2026. L’étude CSA, menée en ligne du 28 août au 7 septembre auprès de 1 008 néo-bacheliers inscrits à Parcoursup, indique que 55 % citent les journées portes ouvertes parmi les trois ressources les plus utiles pour chercher une formation et construire leur projet ; 30 % les placent en premier. Le site et la carte Parcoursup sont à 47 %, les salons à 36 %.",
-          "verdict": "Le fait hebdomadaire est la diffusion de ce décryptage par un média prescripteur ; la donnée primaire est antérieure à la fenêtre. La préférence déclarée donne un repère pour le parcours candidat, mais ne mesure pas l’efficacité des JPO.",
-          "implication": "Pour TBS Education, vérifier sur les programmes post-bac la continuité invitation JPO → information programme → prochaine étape : public visé, agenda, modalités d’admission, interlocuteur et suite du parcours. Il s’agit de rendre le chemin lisible, non d’ajouter mécaniquement des événements.",
-          "limits": "Échantillon limité aux néo-bacheliers inscrits à Parcoursup en 2026 ; candidats master, internationaux et formation continue hors périmètre. « Utile » est une déclaration, sans taux de présence, de candidature ni d’inscription par établissement. Le rapport primaire est daté du 19 octobre ; seule la publication Business Cool entre dans la fenêtre.",
-          "sources": [
-            {
-              "name": "Baromètre Parcoursup 2026 : la plateforme dévoile le bilan de la procédure d’admission",
-              "publisher": "Business Cool",
-              "date": "22 octobre 2026",
-              "url": "https://business-cool.com/actualites/barometre-parcoursup-2026-la-plateforme-devoile-le-bilan-de-la-procedure-dadmission/",
-              "type": "Média spécialisé"
-            },
-            {
-              "name": "Baromètre Parcoursup 2026",
-              "publisher": "Ministère de l’Enseignement supérieur, de la Recherche et de l’Espace / CSA",
-              "date": "Septembre 2026 · publication ministérielle le 19 octobre 2026",
-              "url": "https://www.enseignementsup-recherche.gouv.fr/sites/default/files/2026-10/Barom%C3%A8tre%20Parcoursup%202026.pdf",
-              "type": "Source primaire"
-            }
-          ],
-          "timing": "week",
-          "publicationDate": "2026-10-22"
-        },
-        {
-          "id": "sies-projections-effectifs-2026-2027",
-          "axis": "marche",
-          "actor": "Service de l’information et des études statistiques (SIES) / ministère de l’Enseignement supérieur, de la Recherche et de l’Espace",
-          "label": "Contextualiser",
-          "status": "Projection sectorielle",
-          "dateLabel": "Note Flash publiée le 22 octobre 2026 · projections pour les rentrées 2026 et 2027",
-          "title": "Demande : une croissance nationale projetée, mais des trajectoires contrastées par filière",
-          "fact": "Le SIES projette 3 074 600 étudiants dans l’enseignement supérieur à la rentrée 2026 (+0,8 % par rapport à 2025), puis 3 093 800 en 2027 (+0,6 %). Les écoles de commerce, gestion et vente passeraient de 253 400 inscrits en 2025 à 257 500 en 2026 (+1,6 %), puis 259 400 en 2027 (+0,7 %). Les BTS en apprentissage reculeraient de 5,8 % en 2026.",
-          "verdict": "Le total national resterait orienté à la hausse, mais la projection ne décrit pas un marché uniforme : le rythme prévu pour les écoles de commerce ralentirait dès 2027, tandis que les BTS en apprentissage suivraient une dynamique inverse. Les volumes se lisent donc par filière et statut.",
-          "implication": "Pour TBS Education, utiliser ce cadre national pour relire séparément les scénarios de recrutement 2026-2027 par niveau et par statut, notamment l’alternance, sans transposer les chiffres nationaux à l’établissement.",
-          "limits": "Ce sont des projections, non des résultats de rentrée définitifs. Le modèle mobilise projections démographiques, flux observés, premières données Parcoursup et Mon Master, ainsi que des effets de réforme. La catégorie « écoles de commerce, gestion et vente » n’isole ni TBS Education ni les candidatures, contrats conclus ou la sélectivité de chaque école.",
-          "sources": [
-            {
-              "name": "Projections des effectifs dans l’enseignement supérieur – Rentrées 2026 et 2027",
-              "publisher": "Ministère de l’Enseignement supérieur, de la Recherche et de l’Espace / SIES",
-              "date": "22 octobre 2026",
-              "url": "https://www.enseignementsup-recherche.gouv.fr/fr/projections-des-effectifs-dans-l-enseignement-superieur-rentrees-2026-et-2027-104409",
-              "type": "Source primaire — Note Flash SIES n° 2026-25"
-            },
-            {
-              "name": "Note Flash n° 2026-25 — Projections des effectifs",
-              "publisher": "Ministère de l’Enseignement supérieur, de la Recherche et de l’Espace / SIES",
-              "date": "Octobre 2026",
-              "url": "https://www.enseignementsup-recherche.gouv.fr/sites/default/files/2026-10/2026_10_NF_SIES_25_projections.pdf",
-              "type": "Document méthodologique primaire"
-            }
-          ],
-          "timing": "week",
-          "publicationDate": "2026-10-22"
-        },
-        {
-          "id": "cdefi-candidatures-postbac",
-          "axis": "marche",
-          "actor": "CDEFI",
-          "label": "Contextualiser",
-          "status": "Données de candidatures à lire avec prudence",
-          "dateLabel": "Publication CDEFI : 16 octobre 2026 · relais Thotis : 22 octobre 2026 · données Parcoursup 2026",
-          "title": "CDEFI : les candidatures confirmées vers les écoles d’ingénieurs post-bac reculent",
-          "fact": "La CDEFI indique que 55 440 candidats ont confirmé au moins un vœu vers une école d’ingénieurs post-bac en 2026, contre 57 046 en 2025, soit −2,8 %. La baisse annoncée est de −8,1 % dans les établissements privés et de −2 % dans les publics. La conférence présente ces chiffres comme un signal de vigilance, sans les assimiler aux inscriptions définitives ni à une désaffection générale pour les sciences.",
-          "verdict": "Cette donnée éclaire le marché des formations post-bac en ingénierie, pas la demande de TBS Education. Elle rappelle qu’un indicateur de candidature doit être lu par filière, statut d’établissement et étape du parcours, sans lui attribuer une cause unique.",
-          "implication": "Pour TBS Education, rapprocher les tendances externes de nos données de candidatures post-bac à périmètre constant avant toute conclusion. Séparer ensuite les vœux, dossiers, admissibilités, inscriptions et contrats d’alternance.",
-          "limits": "Le chiffre porte sur les candidats ayant confirmé au moins un vœu, non sur les vœux initiaux ni sur les effectifs inscrits. La CDEFI ne fournit pas ici de cause établie ; les effectifs réels de rentrée sont encore en consolidation. Il ne faut pas transposer cette évolution aux écoles de management.",
-          "sources": [
-            {
-              "name": "Formation des ingénieurs : la CDEFI appelle à investir dans la jeunesse",
-              "publisher": "CDEFI",
-              "date": "16 octobre 2026",
-              "url": "https://www.cdefi.fr/fr/actualites/formation-des-ingenieurs-la-cdefi-appelle-a-investir-dans-la-jeunesse",
-              "type": "Source institutionnelle primaire"
-            },
-            {
-              "name": "Écoles d’ingénieurs : les candidatures post-bac reculent de 2,8 %, la CDEFI sonne l’alerte",
-              "publisher": "Thotis",
-              "date": "22 octobre 2026",
-              "url": "https://thotismedia.com/ecoles-dingenieurs-candidatures-post-bac-reculent-cdefi-sonne-lalerte/",
-              "type": "Média spécialisé — relais"
-            }
-          ],
-          "timing": "context",
-          "publicationDate": "2026-10-16"
-        },
-        {
-          "id": "icn-societe-mission",
-          "axis": "reputation",
-          "actor": "ICN Business School",
-          "label": "Décrypter",
-          "status": "Annonce statutaire antérieure · relais dans la fenêtre",
-          "dateLabel": "Mise à jour statutaire annoncée : 17 août 2026 · publication ICN : 14 octobre · relais Business Cool : 22 octobre 2026",
-          "title": "ICN Business School : le statut de société à mission comme marqueur institutionnel",
-          "fact": "ICN Business School annonce être devenue société à mission après une mise à jour de ses statuts le 17 août 2026. L’école indique avoir inscrit une raison d’être et trois objectifs statutaires, suivis par un comité de mission distinct des organes de direction. Elle annonce une première vérification par un organisme tiers indépendant au bout de 18 mois, puis tous les deux ans.",
-          "verdict": "Le statut devient un élément de positionnement institutionnel à condition que les engagements soient ensuite documentés. L’annonce et la mise en place annoncée d’une gouvernance ne constituent pas encore une preuve des résultats de la mission.",
-          "implication": "Pour TBS Education, comparer la lisibilité publique des preuves de mission : raison d’être, objectifs, gouvernance, indicateurs et publication du rapport du comité. Ne pas assimiler le statut à un résultat démontré.",
-          "limits": "Les statuts mis à jour, un extrait RCS, la composition nominative et le rapport annuel du comité, ainsi qu’un avis d’organisme tiers indépendant, n’ont pas été ouverts. La première vérification est annoncée comme future ; elle ne doit pas être présentée comme réalisée.",
-          "sources": [
-            {
-              "name": "ICN Business School devient société à mission : raison d’être, objectifs et gouvernance",
-              "publisher": "ICN Business School",
-              "date": "14 octobre 2026",
-              "url": "https://www.icn-artem.com/icn-business-school-societe-a-mission/",
-              "type": "Source institutionnelle primaire"
-            },
-            {
-              "name": "Code de commerce, article L210-10",
-              "publisher": "Légifrance",
-              "date": "Version en vigueur au 15 octobre 2026",
-              "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000038528238/2026-10-15",
-              "type": "Source réglementaire primaire"
-            },
-            {
-              "name": "ICN Business School devient société à mission et renforce ses engagements sociétaux",
-              "publisher": "Business Cool",
-              "date": "22 octobre 2026",
-              "url": "https://business-cool.com/actualites/actu-ecoles/icn-business-school-devient-societe-a-mission-et-renforce-engagements-societaux/",
-              "type": "Média spécialisé — relais"
-            }
-          ],
-          "timing": "context",
-          "publicationDate": "2026-10-14"
-        },
-        {
-          "id": "RECH-01",
-          "axis": "international",
-          "actor": "Grenoble École de Management / University of Electronic Science and Technology of China",
-          "label": "Qualifier",
-          "status": "Première cohorte ouverte · partenariat académique international",
-          "dateLabel": "Actualité GEM publiée le 22 octobre et mise à jour le 23 octobre 2026 · cérémonie d’ouverture le 11 octobre 2026",
-          "title": "GEM et UESTC : une première promotion IA-management effectivement ouverte",
-          "fact": "Dans une actualité publiée le 22 octobre et mise à jour le 23, GEM indique qu’avec l’UESTC, elle a lancé le 11 octobre à Chengdu la première promotion de son MSc conjoint Managing with Data and Artificial Intelligence. GEM annonce 49 étudiants ; l’UESTC confirme la cérémonie et le partenariat. Le format associe management, modules IA, projets d’entreprise, stages de recherche et mémoire co-encadré.",
-          "verdict": "Ce n’est pas seulement une annonce de partenariat : une cohorte a été accueillie dans un cursus conjoint. Les capacités à terme et les promesses d’employabilité restent distinctes de ce démarrage ; aucun résultat de formation ou d’insertion n’est disponible.",
-          "implication": "Pour TBS Education, comparer, à public et marché comparables, le niveau de preuve des liens entre contenus IA, problèmes d’entreprise réellement traités et partenaires mobilisés. Distinguer programme démarré, capacités futures et promesses d’employabilité.",
-          "limits": "Le chiffre de 49 étudiants et les modalités de projets/stages proviennent principalement de GEM ; l’UESTC confirme l’événement mais ne donne pas la taille de cohorte dans la page consultée. La capacité à terme de 90 étudiants n’est pas réalisée. Aucun résultat pédagogique ou d’emploi n’est disponible.",
-          "sources": [
-            {
-              "name": "De Grenoble à Chengdu : GEM et l’UESTC lancent leur MSc Managing with Data and Artificial Intelligence",
-              "publisher": "Grenoble École de Management",
-              "date": "22 octobre 2026 · mis à jour le 23 octobre 2026",
-              "url": "https://www.grenoble-em.com/actualites/de-grenoble-a-chengdu-gem-et-luestc-lancent-leur-msc-managing-with-data-and-artificial-intelligence/",
-              "type": "Source primaire"
-            },
-            {
-              "name": "Opening Ceremony Held for UESTC–GEM Joint Master’s Degree Program",
-              "publisher": "University of Electronic Science and Technology of China",
-              "date": "16 octobre 2026 · cérémonie le 11 octobre 2026",
-              "url": "https://en.uestc.edu.cn/info/1071/5518.htm",
-              "type": "Source primaire"
-            },
-            {
-              "name": "GEM – UESTC | MSc Managing with Data and AI",
-              "publisher": "Grenoble École de Management",
-              "date": "Mis à jour le 14 octobre 2026",
-              "url": "https://www.grenoble-em.com/en/programs/msc-managing-with-data-and-ai-uestc-partnership/",
-              "type": "Source primaire"
-            }
-          ],
-          "timing": "week",
-          "publicationDate": "2026-10-22"
-        },
-        {
-          "id": "rennes-ai-companion",
-          "axis": "recherche",
-          "actor": "Rennes School of Business",
-          "label": "Décrypter",
-          "status": "Version bêta annoncée · garde-fous pédagogiques affichés",
-          "dateLabel": "Annonce institutionnelle : 20 octobre 2026 · relais Business Cool : 23 octobre 2026",
-          "title": "Rennes School of Business : un assistant IA bêta avec des règles pédagogiques explicites",
-          "fact": "Rennes School of Business annonce le 20 octobre une version bêta d’AI Companion sur PumApp, accessible aux étudiants des campus de Rennes et de Paris. L’outil peut expliquer des notions, générer des fiches de révision, proposer des quiz interactifs et accompagner l’analyse de cas pratiques. L’école indique que les supports exploités sont ceux que les professeurs autorisent ; les quiz sont annoncés comme formatifs et sans note.",
-          "verdict": "Le positionnement porte autant sur les règles d’usage que sur l’outil : ressources autorisées, accompagnement plutôt que réponse immédiate et quiz formatifs. C’est une promesse de cadre pédagogique, pas une preuve d’usage, de satisfaction ou d’efficacité.",
-          "implication": "Pour TBS Education, identifier les garde-fous qui doivent être visibles lorsqu’un usage d’IA pédagogique est raconté : périmètre des ressources, rôle de l’enseignant, nature de l’évaluation et limites annoncées.",
-          "limits": "Les sources ouvertes ne donnent ni date technique distincte de mise en service, ni chiffres d’usage, ni nombre de cours connectés. L’application et ses contenus réservés n’ont pas été testés. Le dispositif ne doit pas être étendu sans nuance à tous les publics de l’école ou à l’ensemble de Moodle.",
-          "sources": [
-            {
-              "name": "L’AI Companion disponible sur la PumApp : un nouvel assistant IA au service de la réussite étudiante",
-              "publisher": "Rennes School of Business",
-              "date": "20 octobre 2026",
-              "url": "https://www.rennes-sb.fr/actualites/ai-companion-pumapp-assistant-ia-rennes-school-of-business/",
-              "type": "Source institutionnelle primaire"
-            },
-            {
-              "name": "PumApp",
-              "publisher": "Rennes School of Business",
-              "date": "Non daté · consulté le 26 octobre 2026",
-              "url": "https://www.rennes-sb.fr/pumapp/",
-              "type": "Page institutionnelle complémentaire"
-            },
-            {
-              "name": "Rennes SB : une IA qui ne réfléchit pas à la place des étudiants",
-              "publisher": "Business Cool",
-              "date": "23 octobre 2026",
-              "url": "https://business-cool.com/featured/rennes-sb-ai-companion-assistant-ia/",
-              "type": "Média spécialisé — relais"
-            }
-          ],
-          "timing": "week",
-          "publicationDate": "2026-10-20"
-        },
-        {
-          "id": "expedia-onboarding",
-          "axis": "horschamp",
-          "actor": "Expedia Group",
-          "label": "Explorer",
-          "status": "Onboarding B2B annoncé",
-          "dateLabel": "Publié le 20 octobre 2026",
-          "title": "Expedia : intégrer l’entrée dans l’outil déjà utilisé, puis rendre la validation explicite",
-          "fact": "Expedia Group annonce le 20 octobre AUTONOMOUS ONBOARDING : un hébergeur sélectionne Expedia dans son logiciel de connectivité, accepte l’accord, puis ses données de fiche — chambres, tarifs, photos, équipements, paiements et disponibilités — sont transférées et validées par Expedia. L’entreprise indique une mise en ligne possible en moins de 24 heures.",
-          "verdict": "Le mécanisme transférable est l’enchaînement explicite choix du canal, consentement, reprise de données, validation et mise en service. Il limite une ressaisie entre outils et fait de la validation un jalon de réassurance, plutôt qu’un simple accusé de réception.",
-          "implication": "Pour TBS Education, ce cas éclaire les ruptures entre page d’information, portail ou outil tiers : les contrôles nécessaires peuvent être expliqués comme des étapes lisibles, sans présenter le traitement du dossier comme une boîte noire.",
-          "limits": "Communiqué primaire B2B visant des hébergeurs équipés de logiciels partenaires. Le délai inférieur à 24 heures est une affirmation d’Expedia Group ; aucune donnée de complétion, d’erreurs évitées ou de satisfaction n’est publiée. Les exigences d’admission, d’équité et de protection des données ne se confondent pas avec la validation d’une fiche d’hébergement ; aucune preuve de conversion n’est transposable.",
-          "sources": [
-            {
-              "name": "Expedia Group Launches AUTONOMOUS ONBOARDING, Helping Properties Access Global Travel Demand Faster",
-              "publisher": "Expedia Group",
-              "date": "20 octobre 2026",
-              "url": "https://ir.expediagroup.com/news-and-events/news/news-details/2026/Expedia-Group-Launches-AUTONOMOUS-ONBOARDING-Helping-Properties-Access-Global-Travel-Demand-Faster/default.aspx",
-              "type": "Source primaire — communiqué de presse"
-            }
-          ],
-          "timing": "week",
-          "publicationDate": "2026-10-20"
-        }
-      ],
-      "actions": [
-        {
-          "title": "Comparer les trajectoires de financement PGE",
-          "owner": "Admissions / marketing programmes — proposés",
-          "horizon": "J+21",
-          "result": "Une grille à programme comparable indiquant coût annuel, coût total affiché, rythmes d’alternance, conditions d’éligibilité et informations à rendre plus lisibles.",
-          "signal": "edc-tarifs-alternance-pge"
-        },
-        {
-          "title": "Vérifier la continuité du parcours JPO post-bac",
-          "owner": "Marketing acquisition / admissions — proposés",
-          "horizon": "Avant la prochaine séquence JPO",
-          "result": "Une cartographie invitation → page programme → prochaine étape, avec les informations manquantes ou ambiguës.",
-          "signal": "jpo-parcoursup-2026"
-        },
-        {
-          "title": "Qualifier une preuve pédagogique entreprise réutilisable",
-          "owner": "Directions de programmes / relations entreprises — proposées",
-          "horizon": "J+30",
-          "result": "Une fiche factuelle d’expérience existante précisant public, partenaire, situation, production étudiante et limite de preuve.",
-          "signal": "MAR-NEOMA-FERRERO"
-        }
-      ],
-      "coverage": {
-        "offre": "Deux signaux : évolution tarifaire et de rythme d’alternance annoncée par EDC pour 2027 ; session AST à distance affichée par emlyon pour les candidats en mobilité internationale.",
-        "marque": "Un signal : le jeu pédagogique NEOMA–Ferrero, relayé le 26 octobre mais annoncé le 16 octobre. La carte analyse un dispositif racontable, pas une performance de marque.",
-        "acquisition": "Un signal : le baromètre Parcoursup relayé le 22 octobre. L’utilité déclarée des JPO est un repère de parcours, non une mesure de conversion.",
-        "international": "Un signal : première cohorte du MSc conjoint GEM–UESTC accueillie à Chengdu. Le démarrage d’un cursus ne préjuge pas de ses résultats.",
-        "marche": "Deux signaux : projections SIES par filière et données CDEFI sur les candidatures post-bac en ingénierie. Les périmètres ne se superposent pas et ne décrivent pas TBS Education.",
-        "reputation": "Un contexte : ICN annonce son statut de société à mission. La première vérification par organisme tiers est future et ne constitue pas une preuve d’impact.",
-        "recherche": "Un signal : la version bêta d’AI Companion annoncée par Rennes School of Business. Les règles pédagogiques publiées ne démontrent pas un effet d’apprentissage.",
-        "horschamp": "Un signal : l’onboarding B2B d’Expedia Group. Seule la mécanique de parcours explicite est étudiée ; aucun résultat commercial n’est transposé."
-      },
-      "perspectives": [
-        {
-          "id": "panorama",
-          "name": "Le panorama analytique",
-          "question": "Que retenir de cette édition ?",
-          "text": "Cette édition consolidée rapproche les stratégies d’accès, les preuves pédagogiques et les repères de marché. Les écoles rendent visibles des conditions de parcours : prix et alternance chez EDC, admission AST à distance chez emlyon, ou cadre d’usage de l’IA chez Rennes School of Business. Dans le même temps, les projections SIES et le signal CDEFI invitent à distinguer les filières, les étapes de candidature et les effets réels. Les implantations et partenariats, de GEM–UESTC à la mission d’ICN, montrent que le récit institutionnel doit rester relié à des dispositifs vérifiables.",
-          "signals": [
-            "edc-tarifs-alternance-pge",
-            "emlyon-ast-distance",
-            "rennes-ai-companion",
-            "sies-projections-effectifs-2026-2027",
-            "cdefi-candidatures-postbac",
-            "RECH-01",
-            "icn-societe-mission"
-          ]
-        },
-        {
-          "id": "fil-rouge",
-          "name": "Le fil rouge",
-          "question": "Qu’est-ce qui relie les sujets ?",
-          "text": "Le fil rouge est la mise en visibilité des conditions d’une promesse. Un prix devient lisible avec un rythme d’alternance ; une admission à distance exige des critères et des jalons ; l’IA pédagogique s’accompagne de règles de ressources et d’évaluation ; un partenariat international prend corps avec une cohorte identifiée. La mission d’une école ouvre la même question : une intention institutionnelle doit ensuite être suivie de preuves accessibles.",
-          "signals": [
-            "edc-tarifs-alternance-pge",
-            "emlyon-ast-distance",
-            "rennes-ai-companion",
-            "RECH-01",
-            "icn-societe-mission"
-          ]
-        },
-        {
-          "id": "tensions",
-          "name": "Les tensions du secteur",
-          "question": "Quelles dynamiques faut-il lire ensemble ?",
-          "text": "Les projections SIES dessinent une croissance attendue des effectifs dans les écoles de commerce, gestion et vente, alors que la CDEFI alerte sur un recul des candidatures post-bac en ingénierie, plus marqué dans le privé. Ces repères n’ont ni le même périmètre ni la même nature : l’un est une projection d’effectifs, l’autre une donnée de candidatures confirmées. Ils invitent à éviter toute lecture uniforme de la demande et à séparer les indicateurs de parcours.",
-          "signals": [
-            "sies-projections-effectifs-2026-2027",
-            "cdefi-candidatures-postbac",
-            "edc-tarifs-alternance-pge",
-            "jpo-parcoursup-2026"
-          ]
-        },
-        {
-          "id": "concurrence",
-          "name": "La lecture concurrentielle",
-          "question": "Sur quels terrains les écoles cherchent-elles à se distinguer ?",
-          "text": "Les terrains de distinction observés sont le coût et le rythme d’études, l’accessibilité de l’admission, le cadre des usages de l’IA, la démonstration d’une pédagogie avec entreprise, l’internationalisation effective et la mission institutionnelle. Ces initiatives ne forment pas un palmarès. Elles montrent plutôt que la différence devient crédible lorsque le public, le dispositif et la limite de la promesse sont identifiables.",
-          "signals": [
-            "edc-tarifs-alternance-pge",
-            "emlyon-ast-distance",
-            "rennes-ai-companion",
-            "MAR-NEOMA-FERRERO",
-            "RECH-01",
-            "icn-societe-mission"
-          ]
-        }
-      ],
-      "periodStart": "2026-10-20",
-      "periodEnd": "2026-10-26"
-    },
-    {
-      "id": "2026-10-15",
-      "title": "Marque, parcours candidats et concurrence à Barcelone",
-      "date": "2026-10-15",
-      "dateLabel": "15 octobre 2026",
-      "period": "9–15 octobre 2026",
-      "status": "Édition test enrichie",
-      "readingMinutes": 7,
-      "intro": "Marque, programmes et implantation internationale : les écoles mobilisent plusieurs leviers d’attractivité. Les sujets réunis dans cette édition montrent aussi que la concurrence se joue dans les modalités d’accès aux formations, des étapes d’admission aux incitations tarifaires. Le fil commun est la manière de présenter une offre et d’en faciliter l’accès ; la visibilité de ces initiatives ne permet toutefois pas d’en mesurer les résultats. En parallèle, le recul national des effectifs en apprentissage en 2025 rappelle que les annonces de développement des établissements ne décrivent pas, à elles seules, l’état du marché.",
-      "featuredSignal": "skema-marque",
-      "featuredTitle": "Une identité cohérente. La preuve doit suivre.",
-      "featuredFact": "SKEMA",
-      "featuredLabel": "MARQUE · lancement du 21 septembre 2026",
-      "featuredNote": "« World-Minded » : notre lecture critique d’une promesse internationale et de son déploiement. Un contexte analysé, pas une nouveauté de la semaine.",
-      "notice": "Édition du 15 octobre enrichie après le test initial : 4 actualités publiées du 9 au 15 octobre, 3 sujets de contexte antérieurs et 2 observations de dispositifs. Les dates sont visibles sur chaque signal. Cible : 8 à 10 signaux, plafond de 10, sans remplissage artificiel. Les trois suites restent des propositions à valider.",
-      "signals": [
-        {
-          "id": "alternance",
-          "axis": "marche",
-          "actor": "SIES",
-          "label": "Vérifier",
-          "status": "Résultat documenté",
-          "dateLabel": "Publié le 15 octobre 2026 · données fin 2025",
-          "title": "Alternance : vérifier notre exposition",
-          "fact": "Le SIES publie un recul de 4 % des effectifs du supérieur en apprentissage à fin 2025, soit 628 500 étudiants. Il mentionne notamment le recentrage des aides publiques.",
-          "implication": "Ce constat ne décrit ni les seules écoles de management ni la situation de TBS Education. Comparer candidatures, contrats et placement à périmètre constant avant d’adapter les messages.",
-          "limits": "Statistique nationale portant sur un stock à fin 2025. Elle ne mesure pas à elle seule la demande en 2026, les flux de contrats ou les résultats d’un établissement.",
-          "sources": [
-            {
-              "name": "SIES — L’apprentissage dans l’enseignement supérieur en 2025",
-              "publisher": "Ministère / SIES",
-              "date": "15 octobre 2026",
-              "url": "https://www.enseignementsup-recherche.gouv.fr/fr/l-apprentissage-dans-l-enseignement-superieur-en-2025-104376",
-              "type": "Source primaire"
-            }
-          ],
-          "timing": "week",
-          "publicationDate": "2026-10-15"
-        },
-        {
-          "id": "skema-marque",
-          "axis": "marque",
-          "actor": "SKEMA",
-          "label": "Décrypter",
-          "timing": "context",
-          "publicationDate": "2026-09-21",
-          "status": "Annonce et dispositif de marque",
-          "dateLabel": "Annonce : 21 septembre 2026 · analyse du microsite le 15 octobre · hors fenêtre",
-          "title": "SKEMA : une identité cohérente, une promesse encore à prouver",
-          "fact": "SKEMA dévoile le 21 septembre sa signature « World-Minded » et un emblème associant S, blason et chiffre cinq. Le reveal distingue une marque corporate et deux écoles, avec deux rouges. Il explique l’identité et montre ses applications ; il ne publie pas de résultat de notoriété ou de conversion.",
-          "implication": "Pour TBS Education, relier chaque promesse à une preuve de parcours, puis à une page programme ou une étape utile. L’enjeu n’est pas de copier le signe : c’est de rendre la différence compréhensible et vérifiable pour le candidat.",
-          "limits": "Analyse éditoriale d’un article et d’un microsite officiels, pas étude de perception ni audit de tous les parcours SKEMA. Le lancement est antérieur au 9–15 octobre. Aucun effet commercial n’est mesuré dans ces sources.",
-          "verdict": "Une architecture de marque lisible ; « World-Minded » ne devient différenciant que si l’expérience étudiante en apporte la preuve.",
-          "analysis": [
-            {
-              "title": "Ce qui fonctionne",
-              "text": "La signature, l’empreinte internationale revendiquée et l’emblème suivent un même récit. Le rouge profond, le blason et les applications sur objets donnent une continuité identifiable. Le microsite explicite aussi la relation entre marque corporate, Business School et School of Professional Studies. Cette cohérence est une appréciation, pas une mesure de reconnaissance."
-            },
-            {
-              "title": "La limite stratégique",
-              "text": "« World-Minded » exprime un état d’esprit, mais l’ouverture internationale est un territoire largement mobilisé dans l’ESR. Le discours de révélation gagne donc à être relié à des preuves précises : mobilités accessibles, modalités de parcours, interactions multiculturelles et services aux étudiants. Un récit de marque ne suffit pas à démontrer une différence de formation."
-            },
-            {
-              "title": "Le signe : distinctif, mais à tester sans explication",
-              "text": "Le reveal explique le S, le cinq et le blason. Sans cette légende, la lecture spontanée du signe et l’attribution à SKEMA restent à tester, notamment en petit format ou sans logotype. Il s’agit d’une hypothèse de lisibilité, pas d’une preuve de confusion."
-            },
-            {
-              "title": "Le microsite : révéler n’est pas convertir",
-              "text": "Les liens de sortie observés sont skema.edu et le pack média. Le dispositif présente la marque ; il ne relie pas directement chaque promesse à une page programme ou à un bénéfice candidat détaillé. Cette limite vaut pour le reveal consulté, pas pour l’ensemble de l’écosystème SKEMA."
-            },
-            {
-              "title": "Le point de gouvernance",
-              "text": "Deux écoles et deux rouges constituent une règle d’architecture, mais aussi un besoin de gouvernance : gabarits, co-signatures, noms, supports et responsabilités doivent rester cohérents. Les sources ne publient pas de bilan du déploiement. Pour TBS Education, contrôler la chaîne promesse → preuve → parcours est plus utile que commenter seulement le logo."
-            }
-          ],
-          "sources": [
-            {
-              "name": "Le monde change. SKEMA aussi.",
-              "publisher": "SKEMA",
-              "date": "21 septembre 2026",
-              "url": "https://www.skema.edu/fr/news/le-monde-change-skema-aussi",
-              "type": "Source primaire"
-            },
-            {
-              "name": "Nouvelle plateforme de marque — microsite de révélation",
-              "publisher": "SKEMA",
-              "date": "Non daté · consulté le 15 octobre 2026",
-              "url": "https://reveal.skema.edu/fr/",
-              "type": "Source primaire"
-            }
-          ]
-        },
-        {
-          "id": "edhec-admissions",
-          "axis": "acquisition",
-          "actor": "EDHEC",
-          "label": "Tester",
-          "timing": "observation",
-          "status": "Parcours public observé",
-          "dateLabel": "Page non datée · observée le 15 octobre · round 1 : 1er octobre–3 novembre 2026",
-          "title": "EDHEC : montrer ce qui se passe après la candidature",
-          "fact": "La page d’admission internationale du BBA EDHEC détaille le round du 1er octobre au 3 novembre 2026 et les étapes d’évaluation : Emage-me, anglais et entretien en ligne. Les entretiens sont annoncés du 26 novembre au 8 décembre. C’est un parcours observé, pas un lancement de campagne établi.",
-          "implication": "Pour TBS Education, tester une frise avant le bouton de candidature : pièces, évaluations et prochains jalons. Elle pourrait réduire l’incertitude perçue ; le gain de conversion reste à mesurer, et les étapes doivent être celles du programme concerné.",
-          "limits": "Page non datée ; nouveauté et taux de passage entre les étapes non établis. Observation limitée au BBA international EDHEC. Ne pas extrapoler aux autres programmes, ni confondre test de compréhension et preuve de conversion.",
-          "verdict": "Un bon repère de réassurance : rendre les étapes visibles avant de demander au candidat de s’engager.",
-          "analysis": [
-            {
-              "title": "Point fort",
-              "text": "Le calendrier et la chaîne d’évaluation sont matérialisés sur une source institutionnelle. Ils rendent le chemin après candidature plus concret qu’un simple bouton « Postuler »."
-            },
-            {
-              "title": "Vigilance",
-              "text": "Une page claire ne prouve pas une meilleure conversion. Un test TBS Education doit distinguer compréhension des étapes, clic vers le portail, candidature commencée et dossier complété ; tout suivi inter-domaines et traitement CRM reste à cadrer avec les équipes concernées."
-            }
-          ],
-          "sources": [
-            {
-              "name": "International admissions — EDHEC International BBA",
-              "publisher": "EDHEC",
-              "date": "Non datée · échéances 2026 affichées",
-              "url": "https://www.edhec.edu/en/programmes/bba/admissions-and-tuition-fees/international-admissions",
-              "type": "Source primaire"
-            }
-          ]
-        },
-        {
-          "id": "kedge-early-bird",
-          "axis": "acquisition",
-          "actor": "KEDGE",
-          "label": "Comparer",
-          "timing": "context",
-          "publicationDate": "2026-08-27",
-          "status": "Offre publiée, efficacité inconnue",
-          "dateLabel": "Publié le 27 août 2026 · échéance affichée : 30 novembre 2026 · hors fenêtre",
-          "title": "KEDGE : la date limite devient un levier de candidature",
-          "fact": "KEDGE annonce 10 % de remise pour une candidature finalisée avant le 30 novembre 2026, sur certains programmes à temps plein. La page précise les parcours concernés et exclut formation continue, alternance et banque d’épreuves. L’offre, publiée en août, demeure un contexte observé pendant la semaine.",
-          "implication": "Pour TBS Education, comparer la clarté des coûts, échéances et critères d’éligibilité près du bouton de candidature. Ne pas copier une remise par réflexe : marge, équité entre publics et règles d’admission exigent un arbitrage admissions, finance et juridique.",
-          "limits": "Aucun ROI, taux de conversion ou effet sur les candidatures n’est publié. L’URL mentionne le 31 octobre, mais le titre consulté indique le 30 novembre : retenir ce dernier comme information affichée, à recontrôler avant toute communication opérationnelle.",
-          "verdict": "Une mécanique de finalisation visible, pas une preuve qu’une réduction tarifaire serait pertinente pour TBS Education.",
-          "analysis": [
-            {
-              "title": "Point fort",
-              "text": "Le message lie avantage, date et dossier finalisé, au lieu de rester une promesse tarifaire générale. La page liste MSc, IBBA troisième année, KEDGE Bachelor à temps plein dès la deuxième année et Ingénieur d’affaires à temps plein."
-            },
-            {
-              "title": "Vigilance",
-              "text": "Le levier peut accélérer une décision, mais son efficacité et son coût commercial ne sont pas documentés. Les conditions doivent être cohérentes dans tous les points de contact ; l’écart entre le slug de l’URL et le titre illustre le besoin de contrôle des dates."
-            }
-          ],
-          "sources": [
-            {
-              "name": "Offre Early Bird : −10 % pour toute candidature finalisée avant le 30 novembre 2026",
-              "publisher": "KEDGE",
-              "date": "27 août 2026 · titre consulté le 15 octobre",
-              "url": "https://etudiant.kedge.edu/actualites-etudiant/10-frais-scolarite-avant-le-31-octobre-2026",
-              "type": "Source primaire"
-            }
-          ]
-        },
-        {
-          "id": "audencia-barcelone",
-          "axis": "international",
-          "actor": "Audencia / ESCI-UPF",
-          "label": "Comparer",
-          "timing": "context",
-          "publicationDate": "2026-09-17",
-          "status": "Implantation collaborative annoncée",
-          "dateLabel": "Publication et inauguration : 17 septembre 2026 · hors fenêtre",
-          "title": "Barcelone : Audencia s’implante chez un partenaire",
-          "fact": "Audencia inaugure le 17 septembre un campus collaboratif à Barcelone, hébergé dans le bâtiment d’ESCI-UPF. Le communiqué annonce 25 étudiants PGE pour un semestre en 2026, avec cours sur le business espagnol, visites d’entreprises et services carrière du partenaire. Ce n’est pas un site autonome Audencia.",
-          "implication": "Pour TBS Education, comparer le récit candidat à Barcelone : nature du campus, formats accessibles, cours locaux et liens entreprises. Faire apparaître les services réellement proposés à chaque programme ; ne pas réduire la différence au seul fait d’être présent dans la ville.",
-          "limits": "Annonce antérieure à la fenêtre. Bachelor et Global BBA sont évoqués comme perspectives, pas comme parcours déjà ouverts démontrés. La source ne détaille pas tous les coûts, capacités futures ou droits d’accès aux services partenaires.",
-          "verdict": "Le sujet n’est pas seulement une nouvelle adresse : c’est l’association d’une destination, d’un format académique et de services partenaires.",
-          "analysis": [
-            {
-              "title": "Point fort",
-              "text": "Le communiqué donne un partenaire et un périmètre pédagogique précis, plutôt qu’une seule promesse d’international. Il décrit un modèle collaboratif, distinct d’un campus propre."
-            },
-            {
-              "title": "Vigilance",
-              "text": "Comparer à offre équivalente : un semestre de mobilité n’est pas un cursus complet. Les informations publiques ne suffisent pas à conclure à une supériorité d’expérience ou à une nouvelle capacité immobilière."
-            }
-          ],
-          "sources": [
-            {
-              "name": "Audencia inaugure son campus collaboratif barcelonais",
-              "publisher": "Audencia",
-              "date": "17 septembre 2026",
-              "url": "https://www.audencia.com/actualites/audencia-inaugure-son-campus-collaboratif-barcelonais",
-              "type": "Source primaire"
-            },
-            {
-              "name": "Campus Barcelone",
-              "publisher": "Audencia",
-              "date": "Non datée · consultée le 15 octobre 2026",
-              "url": "https://www.audencia.com/experience-etudiante/nos-campus-en-france-et-a-linternational/campus-barcelone",
-              "type": "Source primaire"
-            }
-          ]
-        },
-        {
-          "id": "audencia",
-          "axis": "offre",
-          "actor": "Audencia",
-          "label": "Comparer",
-          "status": "Annonce institutionnelle",
-          "dateLabel": "Annonce du 13 octobre 2026 · rentrée future",
-          "title": "Audencia : deux voies doctorales après un tronc commun",
-          "fact": "Audencia annonce l’évolution de son DBA vers un tronc commun, puis un Scientific PhD ou un Executive PhD. Ce dernier vise les cadres, managers et entrepreneurs ; première rentrée annoncée en février 2027 à Paris Saint-Ouen.",
-          "implication": "Comparer publics, formats, bénéfices et reconnaissances avec l’offre validée de TBS Education. Les dénominations seules ne suffisent pas ; aucun succès commercial n’est démontré.",
-          "limits": "Une annonce de programme ne prouve ni volume de candidatures, ni recrutement effectif. Reconnaissances, durée, rythme et financement sont à comparer sur pièces.",
-          "sources": [
-            {
-              "name": "Audencia — Recherche appliquée à l’entreprise : lancement d’un Executive PhD",
-              "publisher": "Audencia",
-              "date": "13 octobre 2026",
-              "url": "https://www.audencia.com/actualites/recherche-appliquee-a-lentreprise-audencia-lance-un-executive-phd",
-              "type": "Source primaire"
-            }
-          ],
-          "timing": "week",
-          "publicationDate": "2026-10-13"
-        },
-        {
-          "id": "neoma",
-          "axis": "recherche",
-          "actor": "NEOMA",
-          "label": "Qualifier",
-          "status": "Déclaration institutionnelle",
-          "dateLabel": "Interview du 15 octobre 2026",
-          "title": "NEOMA : transformer la recherche en preuves visibles",
-          "fact": "NEOMA annonce un institut IA en création et des chaires de recherche, d’impact et de pédagogie. Les 15 M€ cités concernent un programme global de transformation sur trois ans, pas l’institut seul.",
-          "implication": "Identifier une réalisation publiable reliant expertise, application concrète et bénéfice pédagogique ou entreprise. Ne pas confondre investissement annoncé et impact démontré.",
-          "limits": "L’interview décrit des intentions et dispositifs en création. Elle ne donne pas de ventilation du budget global, ni de résultats pédagogiques mesurés ou d’évaluation indépendante.",
-          "sources": [
-            {
-              "name": "NEOMA — Recherche à impact, intelligence artificielle et transition écologique",
-              "publisher": "NEOMA Business School",
-              "date": "15 octobre 2026",
-              "url": "https://neoma-bs.fr/actualites/recherche-impact-intelligence-artificielle-transition-ecologique-neoma-nous-sommes-dans",
-              "type": "Source primaire"
-            }
-          ],
-          "timing": "week",
-          "publicationDate": "2026-10-15"
-        },
-        {
-          "id": "emba",
-          "axis": "reputation",
-          "actor": "Financial Times / EADA",
-          "label": "Contextualiser",
-          "status": "Classement original",
-          "dateLabel": "Classement publié le 12 octobre 2026",
-          "title": "EMBA : utiliser le bon périmètre de comparaison",
-          "fact": "Le Financial Times publie son classement EMBA 2026. EADA Business School Barcelona y figure au 100e rang, vérifié dans le tableau original.",
-          "implication": "Ce repère concerne l’Executive MBA, pas la qualité globale de l’école. Vérifier programme comparable, méthode et indicateur avant toute reprise ; ne pas transposer au Programme Grande École.",
-          "limits": "EADA est un repère local complémentaire, pas un concurrent prioritaire validé pour chaque programme. Un rang EMBA ne démontre ni grade, visa, certification ni supériorité globale.",
-          "sources": [
-            {
-              "name": "Financial Times — EMBA 2026",
-              "publisher": "Financial Times",
-              "date": "12 octobre 2026",
-              "url": "https://rankings.ft.com/rankings/3048/emba-2026",
-              "type": "Source originale"
-            }
-          ],
-          "timing": "week",
-          "publicationDate": "2026-10-12"
-        },
-        {
-          "id": "ikea",
-          "axis": "horschamp",
-          "actor": "IKEA France",
-          "label": "Explorer",
-          "status": "Dispositif observé",
-          "dateLabel": "Observé le 15 octobre 2026 · page non datée",
-          "title": "IKEA : repartir avec une décision mieux préparée",
-          "fact": "IKEA France propose des rendez-vous de conception avec préparation du besoin, plan 3D, liste de produits et estimations de services. Ce dispositif n’est pas une nouveauté de la semaine.",
-          "implication": "Explorer un rendez-vous conseil débouchant sur une fiche personnalisée : options, coûts, étapes et points à vérifier. L’intérêt est le livrable tangible, pas une efficacité de conversion démontrée.",
-          "limits": "La source ne documente pas l’efficacité de conversion ou la satisfaction. Le parallèle concerne l’accompagnement d’une décision complexe, pas l’imitation d’une vente de meubles.",
-          "sources": [
-            {
-              "name": "IKEA France — Service de conception cuisine",
-              "publisher": "IKEA France",
-              "date": "Non datée · consultée le 15 octobre 2026",
-              "url": "https://www.ikea.com/fr/fr/customer-service/services/kitchen-planning/",
-              "type": "Source primaire"
-            }
-          ],
-          "timing": "observation"
-        }
-      ],
-      "actions": [
-        {
-          "title": "Relier une promesse de marque à ses preuves candidates",
-          "owner": "Communication / responsables programmes — proposés",
-          "horizon": "J+14",
-          "result": "Une chaîne vérifiée promesse → preuve → page programme, avec un manque prioritaire à corriger.",
-          "signal": "skema-marque"
-        },
-        {
-          "title": "Tester la compréhension du parcours avant candidature",
-          "owner": "Web / admissions — proposés",
-          "horizon": "J+14",
-          "result": "Une frise de jalons sur un programme pilote et un retour qualitatif de candidats ; mesure du tunnel à cadrer.",
-          "signal": "edhec-admissions"
-        },
-        {
-          "title": "Qualifier l’argumentaire Barcelone à programme comparable",
-          "owner": "Marketing programmes / équipes Barcelone — proposés",
-          "horizon": "J+14",
-          "result": "Une comparaison factuelle des formats, services et liens entreprises ; une preuve différenciante à rendre visible.",
-          "signal": "audencia-barcelone"
-        }
-      ],
-      "coverage": {
-        "offre": "Une annonce de la fenêtre : évolution des voies doctorales Audencia. Modalités et reconnaissances à comparer sur pièces.",
-        "marque": "Le changement de marque SKEMA est analysé à la demande du lecteur. Lancement du 21 septembre, explicitement hors fenêtre ; critique éditoriale distincte des faits.",
-        "acquisition": "Deux compléments : parcours BBA EDHEC observé et offre Early Bird KEDGE publiée en août. Pas de nouvelle campagne démontrée, pas de performance de conversion publique.",
-        "international": "Campus collaboratif Audencia chez ESCI-UPF à Barcelone, inauguré le 17 septembre : contexte hors fenêtre. Aucun autre mouvement de la semaine suffisamment qualifié dans la collecte ciblée.",
-        "marche": "Publication SIES du 15 octobre ; les données portent sur les effectifs nationaux d’apprentissage à fin 2025.",
-        "reputation": "Classement EMBA Financial Times du 12 octobre ; EADA sert de repère local, sans extrapolation au PGE.",
-        "recherche": "Interview NEOMA du 15 octobre : intentions, chaires et transformation ; pas de résultat d’impact établi.",
-        "horschamp": "Conception cuisine IKEA : observation de service non datée, pas une nouveauté de semaine. Sa transposition reste à tester."
-      },
-      "perspectives": [
-        {
-          "id": "panorama",
-          "name": "Le panorama analytique",
-          "question": "Que retenir de cette édition ?",
-          "text": "Marque, programmes et implantation internationale : les écoles mobilisent plusieurs leviers d’attractivité. Les sujets réunis dans cette édition montrent aussi que la concurrence se joue dans les modalités d’accès aux formations, des étapes d’admission aux incitations tarifaires. Le fil commun est la manière de présenter une offre et d’en faciliter l’accès ; la visibilité de ces initiatives ne permet toutefois pas d’en mesurer les résultats. En parallèle, le recul national des effectifs en apprentissage en 2025 rappelle que les annonces de développement des établissements ne décrivent pas, à elles seules, l’état du marché.",
-          "signals": [
-            "skema-marque",
-            "audencia",
-            "alternance"
-          ]
-        },
-        {
-          "id": "fil-rouge",
-          "name": "Le fil rouge",
-          "question": "Qu’est-ce qui relie les sujets ?",
-          "text": "De l’identité de SKEMA aux parcours d’admission EDHEC et KEDGE, un même enjeu apparaît : rendre l’offre d’une école reconnaissable, compréhensible et accessible. L’implantation collaborative d’Audencia à Barcelone ajoute une dimension d’expérience et de services. Le fil rouge relie donc la promesse institutionnelle et ses conditions concrètes de réalisation. Il ne permet pas de conclure qu’une campagne, un partenariat ou une remise augmente effectivement les candidatures.",
-          "signals": [
-            "skema-marque",
-            "edhec-admissions",
-            "kedge-early-bird",
-            "audencia-barcelone"
-          ]
-        },
-        {
-          "id": "tensions",
-          "name": "Les tensions du secteur",
-          "question": "Quelles dynamiques faut-il lire ensemble ?",
-          "text": "Les annonces de nouveaux formats doctoraux, d’implantation internationale et de recherche liée à l’IA dessinent des ambitions de développement. À une autre échelle, les effectifs nationaux en apprentissage reculent en 2025. Ces informations n’ont ni le même périmètre ni le même calendrier : leur rapprochement ne démontre pas un ralentissement général des écoles de management. Il éclaire surtout la coexistence de stratégies d’établissement et de contraintes sectorielles.",
-          "signals": [
-            "audencia",
-            "neoma",
-            "alternance"
-          ]
-        },
-        {
-          "id": "concurrence",
-          "name": "La lecture concurrentielle",
-          "question": "Sur quels terrains les écoles cherchent-elles à se distinguer ?",
-          "text": "La sélection fait apparaître plusieurs terrains de différenciation : l’identité chez SKEMA, les formats doctoraux et le modèle barcelonais chez Audencia, les étapes d’admission chez EDHEC et l’incitation tarifaire chez KEDGE. NEOMA met en avant recherche et pédagogie autour de l’IA ; les classements apportent une autre forme de visibilité, propre au programme évalué. Ces initiatives ne constituent pas un palmarès : leur portée dépend des publics, programmes et services réellement concernés.",
-          "signals": [
-            "skema-marque",
-            "audencia-barcelone",
-            "edhec-admissions",
-            "neoma",
-            "emba"
-          ]
-        }
-      ]
-    },
-    {
       "id": "2026-11-02-s45-draft",
       "title": "Admissions, preuves pédagogiques et impact — sélection S45 consolidée",
       "date": "2026-11-02",
@@ -1283,6 +468,823 @@
         "deduplication": "Le communiqué gouvernemental est fusionné en une carte ; les propositions CDEFM restent distinctes. Les actualités HEC/Lab2Biz et SHERLOCK sont complémentaires, non fusionnées. Les sujets déjà traités en S44 ou fondés sur une annonce antérieure ne sont pas répétés.",
         "keyLimit": "Aucune carte ne démontre une variation des candidatures, de la conversion, de l’insertion, des compétences ou de la satisfaction de TBS Education. Les annonces d’établissements décrivent leurs propres dispositifs ; les documents publics encadrent le marché sans se transposer automatiquement à TBS."
       }
+    },
+    {
+      "id": "2026-10-26",
+      "title": "Accès, preuves pédagogiques et repères de marché à l’ouverture de la S44",
+      "date": "2026-10-26",
+      "dateLabel": "26 octobre 2026",
+      "period": "20–26 octobre 2026 · point d’ouverture S44",
+      "status": "S44 · Point au 26 octobre",
+      "readingMinutes": 8,
+      "intro": "Les annonces réunies à l’ouverture de la S44 montrent plusieurs façons de rendre une formation plus accessible : coût et alternance chez EDC, oral à distance annoncé chez emlyon, ou outils accompagnant le choix et la candidature. Les liens entreprises et l’international se matérialisent dans des dispositifs précis : jeu NEOMA–Ferrero, MSc GEM–UESTC, prochaine inauguration ESSCA au Luxembourg. Ces mouvements s’inscrivent dans un marché qui resterait en croissance selon le SIES, avec des trajectoires différentes selon les filières. Ils éclairent les conditions d’accès et les preuves mobilisées par les écoles, sans démontrer leurs effets sur le recrutement.",
+      "featuredSignal": "sies-projections-effectifs-2026-2027",
+      "featuredTitle": "Écoles de commerce : une croissance projetée en 2026.",
+      "featuredFact": "+1,6 %",
+      "featuredLabel": "MARCHÉ ESR · Note Flash du 22 octobre 2026",
+      "featuredNote": "Le SIES projette 257 500 inscrits dans les écoles de commerce, gestion et vente en 2026, puis 259 400 en 2027. Ces projections ne décrivent pas les candidatures ou les résultats de TBS Education.",
+      "notice": "Point d’ouverture S44 : collecte du 20 au 26 octobre 2026, arrêtée au 26 octobre. La semaine 44 s’étend du 26 octobre au 1er novembre ; l’édition n’anticipe pas les jours futurs. L’annonce ESSCA est un contexte daté du 1er octobre, avec inauguration prévue le 28. Les reprises de publications plus anciennes sont signalées. Hyperhumain et L’Antisèche ont été repérés sur le web public ; aucun numéro reçu par e-mail n’a été consulté.",
+      "signals": [
+        {
+          "id": "edc-tarifs-alternance-pge",
+          "axis": "offre",
+          "actor": "EDC Paris Business School",
+          "label": "Comparer",
+          "status": "Annonce tarifaire et d’alternance future",
+          "dateLabel": "Publication retenue : 26 octobre 2026 · annonce EDC : 15 octobre 2026 · application annoncée : rentrée de septembre 2027",
+          "title": "EDC Paris Business School baisse le prix d’entrée du PGE et avance l’alternance",
+          "fact": "À partir de septembre 2027, EDC Paris Business School annonce que les frais annuels de PGE 1 et PGE 2 passeront de 11 200 € à 7 995 €. L’école prévoit aussi une dérogation ouvrant l’alternance dès PGE 3, jusque-là proposée en PGE 4 et 5. Avec trois années en alternance, le coût affiché sur cinq ans peut être limité à 15 990 €.",
+          "verdict": "EDC associe baisse du coût d’entrée et avancement d’une voie d’alternance : c’est une évolution concrète des conditions de financement et du rythme d’études de son PGE post-bac, pas une aide ponctuelle. Les sources ne permettent pas d’en déduire un effet sur le recrutement.",
+          "implication": "Pour TBS Education, comparer à programme et public comparables la lisibilité des coûts annuels, le moment d’accès à l’alternance et les conditions associées. L’enjeu est d’expliquer le coût total et les trajectoires de financement réelles, sans présumer qu’une baisse tarifaire serait transposable ou souhaitable.",
+          "limits": "Modalités annoncées pour 2027, donc non mises en œuvre au 26 octobre. Ni volumes de bénéficiaires, ni critères détaillés de la fondation, ni résultats sur les candidatures, contrats d’alternance ou soutenabilité économique ne sont publiés. Les montants et le changement de rythme sont cohérents dans les deux médias spécialisés lus.",
+          "sources": [
+            {
+              "name": "École de commerce : l’EDC réduit ses frais de scolarité pour le PGE",
+              "publisher": "L’Étudiant",
+              "date": "26 octobre 2026",
+              "url": "https://www.letudiant.fr/etudes/ecole-de-commerce/ecole-de-commerce-l-edc-reduit-ses-frais-de-scolarite-pour-le-pge.html",
+              "type": "Presse spécialisée"
+            },
+            {
+              "name": "EDC Paris Business School : des frais de scolarité repensés et de nouvelles ambitions pour l’entrepreneuriat",
+              "publisher": "Business Cool",
+              "date": "23 octobre 2026",
+              "url": "https://business-cool.com/featured/edc-paris-business-school-frais-de-scolarite-repenses-et-ambitions-entrepreneuriat/",
+              "type": "Presse spécialisée"
+            },
+            {
+              "name": "PGE à moins de 16 000 euros, entrepreneuriat, One Focus. YOU : les annonces de l’EDC Paris Business School",
+              "publisher": "EDC Paris Business School",
+              "date": "15 octobre 2026 · mis à jour le 16 octobre 2026",
+              "url": "https://www.edcparis.edu/fr/blog/pge-moins-de-16-000-euros-entrepreneuriat-one-focus-you-les-annonces-de-ledc-paris-business-school",
+              "type": "Source institutionnelle hébergeant une parution presse"
+            }
+          ],
+          "timing": "week",
+          "publicationDate": "2026-10-26"
+        },
+        {
+          "id": "emlyon-ast-distance",
+          "axis": "offre",
+          "actor": "emlyon business school",
+          "label": "Surveiller",
+          "status": "D’après Thotis · modalités à confirmer",
+          "dateLabel": "Publication : 22 octobre 2026 · candidatures annoncées du 19 octobre au 30 novembre 2026 · oraux annoncés les 14 et 15 décembre 2026",
+          "title": "emlyon : une session AST à distance annoncée pour les candidats à l’étranger",
+          "fact": "Thotis présente comme une nouveauté AST 2027 d’emlyon une session à distance réservée aux candidats qui étudient, sont en mobilité académique ou résident à l’étranger durant 2026-2027. Les oraux, dont les épreuves sont annoncées inchangées, se tiendraient sur Microsoft Teams les 14 et 15 décembre, avec jury réuni sur le campus ; un justificatif de la situation internationale est demandé.",
+          "verdict": "Il s’agit d’une réduction ciblée de la contrainte géographique pour l’admission parallèle de titulaires, ou futurs titulaires, d’un bac+3. Cela ne démontre ni une généralisation des oraux distants ni une modification du niveau de sélection.",
+          "implication": "Pour TBS Education, examiner le traitement des candidats AST temporairement à l’étranger : publics éligibles, pièces justificatives, expérience candidat et garanties opérationnelles d’un éventuel oral distant. Cette comparaison doit rester distincte d’une décision de déployer le format.",
+          "limits": "La documentation détaillée ouverte est une source secondaire unique, Thotis. Les URL institutionnelles d’admission emlyon sollicitées n’ont renvoyé aucun contenu extractible via fetch, donc aucune confirmation directe par l’école n’a été obtenue dans les sources consultables. Toutes les échéances citées sont futures et peuvent évoluer ; aucun volume de places dédié ni résultat de recrutement n’est publié.",
+          "sources": [
+            {
+              "name": "emlyon business school : tout savoir sur les oraux AST",
+              "publisher": "Thotis",
+              "date": "22 octobre 2026, date affichée dans l’index Thotis",
+              "url": "https://thotismedia.com/emlyon-business-school-tout-savoir-sur-les-oraux-ast/",
+              "type": "Source d’orientation secondaire"
+            },
+            {
+              "name": "Tous nos articles",
+              "publisher": "Thotis",
+              "date": "22 octobre 2026",
+              "url": "https://thotismedia.com/blog/",
+              "type": "Index de publication"
+            }
+          ],
+          "timing": "week",
+          "publicationDate": "2026-10-22"
+        },
+        {
+          "id": "MAR-NEOMA-FERRERO",
+          "axis": "marque",
+          "actor": "NEOMA Business School / Ferrero",
+          "label": "Décrypter",
+          "status": "Relais hebdomadaire d’un dispositif pédagogique annoncé antérieurement",
+          "dateLabel": "Business Cool : 26 octobre 2026 · communiqué NEOMA : 16 octobre 2026 · test : année 2025-2026 · déploiement élargi annoncé depuis la rentrée 2026",
+          "title": "NEOMA rend un cas d’entreprise montrable dans l’expérience d’apprentissage",
+          "fact": "Business Cool relaie le 26 octobre le jeu pédagogique créé par NEOMA et Ferrero. Le communiqué NEOMA décrit un jeu de plateau augmenté : en équipes de cinq, les étudiants arbitrent achats, production, transport, distribution et recyclage pour réduire l’empreinte carbone d’un Kinder Bueno sous contrainte de budget. Après un test 2025-2026 à Paris, Reims et Rouen, un déploiement à de nouveaux programmes est annoncé à l’automne 2026.",
+          "verdict": "Le dispositif rend la promesse de proximité entreprise observable : partenaire nommé, situation de décision, rôles distribués et objet de cours. Il ne démontre pas une amélioration des compétences, de l’employabilité, de la préférence de marque ou des candidatures.",
+          "implication": "Pour TBS Education, recenser les expériences pédagogiques avec entreprise racontables avec le même niveau de précision : public, situation professionnelle, contribution étudiante, livrable ou arbitrage observable, et condition d’accès dans le programme. Ne pas transformer ce récit en preuve d’impact sans évaluation.",
+          "limits": "Source primaire promotionnelle de NEOMA ; aucune publication Ferrero distincte n’a été retenue. La date exacte d’extension par programme n’est pas donnée. Aucun résultat d’apprentissage, retour étudiant, taux d’usage ou effet de communication n’est publié. La qualification week correspond au relais Business Cool du 26 ; l’annonce primaire est antérieure à la fenêtre.",
+          "sources": [
+            {
+              "name": "NEOMA Business School et Ferrero prolongent leur partenariat avec la création d’un jeu pédagogique en réalité augmentée sur les enjeux environnementaux dans l’industrie",
+              "publisher": "NEOMA Business School",
+              "date": "16 octobre 2026",
+              "url": "https://neoma-bs.fr/communiques/neoma-business-school-et-ferrero-prolongent-leur-partenariat-avec-la-creation-dun-jeu",
+              "type": "Communiqué de presse — source primaire"
+            },
+            {
+              "name": "NEOMA et Ferrero transforment Kinder Bueno en jeu pédagogique !",
+              "publisher": "Business Cool",
+              "date": "26 octobre 2026",
+              "url": "https://business-cool.com/featured/neoma-ferrero-jeu-realite-augmentee-decarbonation/",
+              "type": "Média étudiant — relais"
+            }
+          ],
+          "timing": "week",
+          "publicationDate": "2026-10-26"
+        },
+        {
+          "id": "jpo-parcoursup-2026",
+          "axis": "acquisition",
+          "actor": "Business Cool / ministère de l’Enseignement supérieur, de la Recherche et de l’Espace",
+          "label": "Vérifier",
+          "status": "Relais d’un baromètre national",
+          "dateLabel": "Article Business Cool publié le 22 octobre 2026 · Baromètre original publié le 19 octobre 2026, hors fenêtre d’un jour",
+          "title": "JPO : l’utilité déclarée reste un repère du parcours post-bac",
+          "fact": "Le 22 octobre, Business Cool décrypte le Baromètre Parcoursup 2026. L’étude CSA, menée en ligne du 28 août au 7 septembre auprès de 1 008 néo-bacheliers inscrits à Parcoursup, indique que 55 % citent les journées portes ouvertes parmi les trois ressources les plus utiles pour chercher une formation et construire leur projet ; 30 % les placent en premier. Le site et la carte Parcoursup sont à 47 %, les salons à 36 %.",
+          "verdict": "Le fait hebdomadaire est la diffusion de ce décryptage par un média prescripteur ; la donnée primaire est antérieure à la fenêtre. La préférence déclarée donne un repère pour le parcours candidat, mais ne mesure pas l’efficacité des JPO.",
+          "implication": "Pour TBS Education, vérifier sur les programmes post-bac la continuité invitation JPO → information programme → prochaine étape : public visé, agenda, modalités d’admission, interlocuteur et suite du parcours. Il s’agit de rendre le chemin lisible, non d’ajouter mécaniquement des événements.",
+          "limits": "Échantillon limité aux néo-bacheliers inscrits à Parcoursup en 2026 ; candidats master, internationaux et formation continue hors périmètre. « Utile » est une déclaration, sans taux de présence, de candidature ni d’inscription par établissement. Le rapport primaire est daté du 19 octobre ; seule la publication Business Cool entre dans la fenêtre.",
+          "sources": [
+            {
+              "name": "Baromètre Parcoursup 2026 : la plateforme dévoile le bilan de la procédure d’admission",
+              "publisher": "Business Cool",
+              "date": "22 octobre 2026",
+              "url": "https://business-cool.com/actualites/barometre-parcoursup-2026-la-plateforme-devoile-le-bilan-de-la-procedure-dadmission/",
+              "type": "Média spécialisé"
+            },
+            {
+              "name": "Baromètre Parcoursup 2026",
+              "publisher": "Ministère de l’Enseignement supérieur, de la Recherche et de l’Espace / CSA",
+              "date": "Septembre 2026 · publication ministérielle le 19 octobre 2026",
+              "url": "https://www.enseignementsup-recherche.gouv.fr/sites/default/files/2026-10/Barom%C3%A8tre%20Parcoursup%202026.pdf",
+              "type": "Source primaire"
+            }
+          ],
+          "timing": "week",
+          "publicationDate": "2026-10-22"
+        },
+        {
+          "id": "thotis-parcoursup-outils",
+          "axis": "acquisition",
+          "actor": "Thotis",
+          "label": "Observer",
+          "status": "Parcours éditorial et outils publics observés",
+          "dateLabel": "Article publié le 21 octobre 2026 · pages outils publiques observées le 26 octobre 2026",
+          "title": "Thotis relie un guide Parcoursup à ses outils d’orientation",
+          "fact": "Dans son article du 21 octobre sur la confirmation des vœux Parcoursup 2027, Thotis renvoie vers son test d’orientation, Thotis IA, ses générateurs de lettre de motivation et de CV, ainsi que son Prédicteur Parcoursup. La page publique du prédicteur présente un formulaire demandant niveau d’étude, type d’école, nom et coordonnées, puis l’envoi d’un e-mail avec ticket et lien. Elle qualifie l’estimation de pédagogique, non de garantie d’admission.",
+          "verdict": "Le guide de procédure sert de porte d’entrée à un ensemble d’outils couvrant recherche, choix et préparation du dossier. Ce parcours éditorial et de collecte de coordonnées est observable ; aucune donnée ouverte n’en établit l’audience, la complétion ou l’orientation effective vers une école.",
+          "implication": "Pour TBS Education, cartographier sans renseigner de données personnelles les environnements où le lycéen passe d’une recherche générique à une simulation ou à une demande de contact, puis contrôler l’exactitude, la cohérence et la différenciation des informations publiques des programmes TBS Education dans ces environnements.",
+          "limits": "La date du 21 octobre apparaît dans le flux éditorial Thotis ; les pages d’outils ne sont pas datées, donc aucun lancement ni changement récent n’est démontré. Aucun formulaire n’a été soumis et aucun compte n’a été créé. La méthode complète, l’usage des données, la qualité des résultats et tout effet commercial ne sont pas évalués.",
+          "sources": [
+            {
+              "name": "Parcoursup 2027 : confirmer tes vœux, tout savoir",
+              "publisher": "Thotis",
+              "date": "21 octobre 2026",
+              "url": "https://thotismedia.com/confirmer-tes-voeux-tout-savoir/",
+              "type": "Source éditoriale / dispositif public"
+            },
+            {
+              "name": "Test d’Orientation Parcoursup, 100 % digital et 100 % gratuit",
+              "publisher": "Thotis",
+              "date": "Non daté · consulté le 26 octobre 2026",
+              "url": "https://thotismedia.com/test-thotis/",
+              "type": "Dispositif public"
+            },
+            {
+              "name": "Prédicteur Parcoursup by Thotis",
+              "publisher": "Thotis",
+              "date": "Non daté · consulté le 26 octobre 2026",
+              "url": "https://thotismedia.com/prediction-parcoursup/",
+              "type": "Dispositif public"
+            }
+          ],
+          "timing": "week",
+          "publicationDate": "2026-10-21"
+        },
+        {
+          "id": "sies-projections-effectifs-2026-2027",
+          "axis": "marche",
+          "actor": "Service de l’information et des études statistiques (SIES) / ministère de l’Enseignement supérieur, de la Recherche et de l’Espace",
+          "label": "Contextualiser",
+          "status": "Projection sectorielle",
+          "dateLabel": "Note Flash publiée le 22 octobre 2026 · projections pour les rentrées 2026 et 2027",
+          "title": "Demande : une croissance nationale projetée, mais des trajectoires contrastées par filière",
+          "fact": "Le SIES projette 3 074 600 étudiants dans l’enseignement supérieur à la rentrée 2026 (+0,8 % par rapport à 2025), puis 3 093 800 en 2027 (+0,6 %). Les écoles de commerce, gestion et vente passeraient de 253 400 inscrits en 2025 à 257 500 en 2026 (+1,6 %), puis 259 400 en 2027 (+0,7 %). Les BTS en apprentissage reculeraient de 5,8 % en 2026.",
+          "verdict": "Le total national resterait orienté à la hausse, mais la projection ne décrit pas un marché uniforme : le rythme prévu pour les écoles de commerce ralentirait dès 2027, tandis que les BTS en apprentissage suivraient une dynamique inverse. Les volumes se lisent donc par filière et statut.",
+          "implication": "Pour TBS Education, utiliser ce cadre national pour relire séparément les scénarios de recrutement 2026-2027 par niveau et par statut, notamment l’alternance, sans transposer les chiffres nationaux à l’établissement.",
+          "limits": "Ce sont des projections, non des résultats de rentrée définitifs. Le modèle mobilise projections démographiques, flux observés, premières données Parcoursup et Mon Master, ainsi que des effets de réforme. La catégorie « écoles de commerce, gestion et vente » n’isole ni TBS Education ni les candidatures, contrats conclus ou la sélectivité de chaque école.",
+          "sources": [
+            {
+              "name": "Projections des effectifs dans l’enseignement supérieur – Rentrées 2026 et 2027",
+              "publisher": "Ministère de l’Enseignement supérieur, de la Recherche et de l’Espace / SIES",
+              "date": "22 octobre 2026",
+              "url": "https://www.enseignementsup-recherche.gouv.fr/fr/projections-des-effectifs-dans-l-enseignement-superieur-rentrees-2026-et-2027-104409",
+              "type": "Source primaire — Note Flash SIES n° 2026-25"
+            },
+            {
+              "name": "Note Flash n° 2026-25 — Projections des effectifs",
+              "publisher": "Ministère de l’Enseignement supérieur, de la Recherche et de l’Espace / SIES",
+              "date": "Octobre 2026",
+              "url": "https://www.enseignementsup-recherche.gouv.fr/sites/default/files/2026-10/2026_10_NF_SIES_25_projections.pdf",
+              "type": "Document méthodologique primaire"
+            }
+          ],
+          "timing": "week",
+          "publicationDate": "2026-10-22"
+        },
+        {
+          "id": "essca-luxembourg-inauguration",
+          "axis": "international",
+          "actor": "ESSCA",
+          "label": "Surveiller",
+          "status": "Inauguration annoncée · contexte antérieur",
+          "dateLabel": "Annonce : 1er octobre 2026 · inauguration prévue le 28 octobre 2026 · présence au Luxembourg depuis 2023",
+          "publicationDate": "2026-10-01",
+          "timing": "context",
+          "title": "ESSCA : une inauguration à venir au Luxembourg, pas une première implantation",
+          "fact": "ESSCA annonce pour le 28 octobre l’inauguration de son nouveau site luxembourgeois à la Chambre des Métiers, à Kirchberg. L’école le présente comme son dixième campus. Une publication locale de Paperjam rappelle toutefois sa présence au Luxembourg depuis 2023 : cette étape concerne un site ou des locaux, pas une entrée récente sur le marché.",
+          "verdict": "L’annonce est antérieure à la fenêtre, mais son échéance dans deux jours justifie une surveillance cette semaine. L’enjeu concurrentiel est l’ancrage local et la réalité des formations accessibles, pas le seul nombre de campus revendiqué.",
+          "implication": "Comparer, à programme équivalent, les preuves d’intégration locale : statut du site, formations accessibles, partenaires et services étudiants. Vérifier après le 28 octobre ce qui a effectivement été inauguré, sans déduire de résultat de recrutement.",
+          "limits": "Annonce du 1er octobre, hors période de collecte ; inauguration encore à venir au point du 26 octobre. Les sources ne donnent ni capacité, ni effectifs, ni résultats de recrutement ou d’insertion. Paperjam nuance le caractère nouveau de la présence dans le pays.",
+          "sources": [
+            {
+              "name": "Inauguration du campus de Luxembourg",
+              "publisher": "ESSCA",
+              "date": "1er octobre 2026",
+              "url": "https://www.essca.eu/evenements/inauguration-campus-luxembourg/",
+              "type": "Source primaire"
+            },
+            {
+              "name": "Antoine Rech: Training beyond finance",
+              "publisher": "Paperjam",
+              "date": "Non daté · consulté le 26 octobre 2026",
+              "url": "https://en.paperjam.lu/article/antoine-rech-training-beyond-finance",
+              "type": "Média local"
+            }
+          ]
+        },
+        {
+          "id": "sse-dnv-resilience",
+          "axis": "reputation",
+          "actor": "Stockholm School of Economics / DNV",
+          "label": "Comparer",
+          "status": "Alliance stratégique annoncée",
+          "dateLabel": "Communiqués publiés le 20 octobre 2026",
+          "title": "Stockholm School of Economics et DNV formalisent une alliance de cinq ans",
+          "fact": "Le 20 octobre, la Stockholm School of Economics et DNV ont annoncé un accord de partenariat de cinq ans. DNV devient partenaire de long terme du Center for Security and Resilience de SSE. Les deux parties annoncent des projets conjoints et un soutien à des initiatives du centre, pour relier recherche académique et expérience d’entreprise en sécurité, technologie, gestion des risques et confiance.",
+          "verdict": "La durée annoncée et le rattachement à un centre institutionnel en font davantage qu’un simple parrainage événementiel : l’alliance vise un cadre de coopération autour de la gouvernance, du leadership et de la résilience numérique. Les résultats académiques, pédagogiques ou sociétaux restent à démontrer.",
+          "implication": "Pour TBS Education, comparer le degré de formalisation rendu public dans les alliances stratégiques : objet commun, durée, portage académique, rôle du partenaire et livrables vérifiables. Une association d’entreprises à un domaine d’expertise ne prouve ni l’impact d’un programme ni la qualité globale d’un établissement.",
+          "limits": "Les deux communiqués viennent des parties au même accord et ne constituent pas des validations indépendantes. Ni montant, ni contribution financière, ni répartition de la gouvernance, ni indicateur de résultat, ni modalité de propriété intellectuelle ne sont publiés. Aucun effet sur le Nordic Defense MBA ou les projets de recherche n’est établi.",
+          "sources": [
+            {
+              "name": "SSE enters strategic partnership with DNV on digital resilience and cybersecurity",
+              "publisher": "Stockholm School of Economics",
+              "date": "20 octobre 2026",
+              "url": "https://www.hhs.se/news/sse/2026/sse-enters-strategic-partnership-with-dnv-on-digital-resilience-and-cybersecurity/",
+              "type": "Communiqué — source primaire"
+            },
+            {
+              "name": "DNV enters strategic partnership with SSE on digital resilience and cybersecurity",
+              "publisher": "DNV",
+              "date": "20 octobre 2026",
+              "url": "https://www.dnv.com/cyber/insights/news/dnv-enters-strategic-partnership-with-sse-on-digital-resilience-and-cybersecurity/",
+              "type": "Communiqué — source primaire"
+            },
+            {
+              "name": "Center for Security and Resilience",
+              "publisher": "Stockholm School of Economics",
+              "date": "Non daté · consulté le 26 octobre 2026",
+              "url": "https://www.hhs.se/en/research/centers/center-for-security-and-resilience/",
+              "type": "Page institutionnelle"
+            }
+          ],
+          "timing": "week",
+          "publicationDate": "2026-10-20"
+        },
+        {
+          "id": "RECH-01",
+          "axis": "recherche",
+          "actor": "Grenoble École de Management / University of Electronic Science and Technology of China",
+          "label": "Qualifier",
+          "status": "Première cohorte ouverte",
+          "dateLabel": "Actualité GEM publiée le 22 octobre et mise à jour le 23 octobre 2026 · cérémonie d’ouverture le 11 octobre 2026",
+          "title": "GEM et UESTC : une première promotion IA-management effectivement ouverte",
+          "fact": "Dans une actualité publiée le 22 octobre et mise à jour le 23, GEM indique qu’avec l’UESTC, elle a lancé le 11 octobre à Chengdu la première promotion de son MSc conjoint Managing with Data and Artificial Intelligence. GEM annonce 49 étudiants ; l’UESTC confirme la cérémonie et le partenariat. Le format associe management, modules IA, projets d’entreprise, stages de recherche et mémoire co-encadré.",
+          "verdict": "Ce n’est pas seulement une annonce de partenariat : une cohorte a été accueillie. Les capacités à terme et les promesses d’employabilité restent distinctes de ce démarrage ; aucun résultat de formation ou d’insertion n’est disponible.",
+          "implication": "Pour TBS Education, comparer, à public et marché comparables, le niveau de preuve des liens entre contenus IA, problèmes d’entreprise réellement traités et partenaires mobilisés. Distinguer programme démarré, capacités futures et promesses d’employabilité.",
+          "limits": "Le chiffre de 49 étudiants et les modalités de projets/stages proviennent principalement de GEM ; l’UESTC confirme l’événement mais ne donne pas la taille de cohorte dans la page consultée. La capacité à terme de 90 étudiants n’est pas réalisée. Aucun résultat pédagogique ou d’emploi n’est disponible.",
+          "sources": [
+            {
+              "name": "De Grenoble à Chengdu : GEM et l’UESTC lancent leur MSc Managing with Data and Artificial Intelligence",
+              "publisher": "Grenoble École de Management",
+              "date": "22 octobre 2026 · mis à jour le 23 octobre 2026",
+              "url": "https://www.grenoble-em.com/actualites/de-grenoble-a-chengdu-gem-et-luestc-lancent-leur-msc-managing-with-data-and-artificial-intelligence/",
+              "type": "Source primaire"
+            },
+            {
+              "name": "Opening Ceremony Held for UESTC–GEM Joint Master’s Degree Program",
+              "publisher": "University of Electronic Science and Technology of China",
+              "date": "16 octobre 2026 · cérémonie le 11 octobre 2026",
+              "url": "https://en.uestc.edu.cn/info/1071/5518.htm",
+              "type": "Source primaire"
+            },
+            {
+              "name": "GEM – UESTC | MSc Managing with Data and AI",
+              "publisher": "Grenoble École de Management",
+              "date": "Mis à jour le 14 octobre 2026",
+              "url": "https://www.grenoble-em.com/en/programs/msc-managing-with-data-and-ai-uestc-partnership/",
+              "type": "Source primaire"
+            }
+          ],
+          "timing": "week",
+          "publicationDate": "2026-10-22"
+        },
+        {
+          "id": "expedia-onboarding",
+          "axis": "horschamp",
+          "actor": "Expedia Group",
+          "label": "Explorer",
+          "status": "Onboarding B2B annoncé",
+          "dateLabel": "Publié le 20 octobre 2026",
+          "title": "Expedia : intégrer l’entrée dans l’outil déjà utilisé, puis rendre la validation explicite",
+          "fact": "Expedia Group annonce le 20 octobre AUTONOMOUS ONBOARDING : un hébergeur sélectionne Expedia dans son logiciel de connectivité, accepte l’accord, puis ses données de fiche — chambres, tarifs, photos, équipements, paiements et disponibilités — sont transférées et validées par Expedia. L’entreprise indique une mise en ligne possible en moins de 24 heures.",
+          "verdict": "Le mécanisme transférable est l’enchaînement explicite choix du canal, consentement, reprise de données, validation et mise en service. Il limite une ressaisie entre outils et fait de la validation un jalon de réassurance, plutôt qu’un simple accusé de réception.",
+          "implication": "Pour TBS Education, ce cas éclaire les ruptures entre page d’information, portail ou outil tiers : les contrôles nécessaires peuvent être expliqués comme des étapes lisibles, sans présenter le traitement du dossier comme une boîte noire.",
+          "limits": "Communiqué primaire B2B visant des hébergeurs équipés de logiciels partenaires. Le délai inférieur à 24 heures est une affirmation d’Expedia Group ; aucune donnée de complétion, d’erreurs évitées ou de satisfaction n’est publiée. Les exigences d’admission, d’équité et de protection des données ne se confondent pas avec la validation d’une fiche d’hébergement ; aucune preuve de conversion n’est transposable.",
+          "sources": [
+            {
+              "name": "Expedia Group Launches AUTONOMOUS ONBOARDING, Helping Properties Access Global Travel Demand Faster",
+              "publisher": "Expedia Group",
+              "date": "20 octobre 2026",
+              "url": "https://ir.expediagroup.com/news-and-events/news/news-details/2026/Expedia-Group-Launches-AUTONOMOUS-ONBOARDING-Helping-Properties-Access-Global-Travel-Demand-Faster/default.aspx",
+              "type": "Source primaire — communiqué de presse"
+            }
+          ],
+          "timing": "week",
+          "publicationDate": "2026-10-20"
+        }
+      ],
+      "actions": [
+        {
+          "title": "Comparer les trajectoires de financement PGE",
+          "owner": "Admissions / marketing programmes — proposés",
+          "horizon": "J+21",
+          "result": "Une grille à programme comparable indiquant coût annuel, coût total affiché, rythmes d’alternance, conditions d’éligibilité et informations à rendre plus lisibles.",
+          "signal": "edc-tarifs-alternance-pge"
+        },
+        {
+          "title": "Vérifier la continuité du parcours JPO post-bac",
+          "owner": "Marketing acquisition / admissions — proposés",
+          "horizon": "Avant la prochaine séquence JPO",
+          "result": "Une cartographie invitation → page programme → prochaine étape, avec les informations manquantes ou ambiguës.",
+          "signal": "jpo-parcoursup-2026"
+        },
+        {
+          "title": "Qualifier une preuve pédagogique entreprise réutilisable",
+          "owner": "Directions de programmes / relations entreprises — proposées",
+          "horizon": "J+30",
+          "result": "Une fiche factuelle d’expérience existante précisant public, partenaire, situation, production étudiante et limite de preuve.",
+          "signal": "MAR-NEOMA-FERRERO"
+        }
+      ],
+      "coverage": {
+        "offre": "Deux signaux retenus : évolution tarifaire et de rythme d’alternance annoncée par EDC pour 2027 ; modalité AST à distance annoncée par Thotis pour emlyon, conservée avec réserve car non confirmée par une source primaire extractible.",
+        "marque": "Un signal retenu : jeu pédagogique NEOMA–Ferrero, relayé le 26 octobre mais annoncé le 16 octobre. La fiche traite une preuve de dispositif, non une performance de marque.",
+        "acquisition": "Deux signaux retenus : relais Business Cool d’un baromètre Parcoursup et parcours public Thotis entre guide et outils. Ni la présence à une JPO ni l’usage d’un outil ne prouvent une conversion.",
+        "international": "Un contexte retenu : inauguration du site ESSCA Luxembourg prévue le 28 octobre. Annonce du 1er octobre, avec présence dans le pays depuis 2023 ; ni première implantation ni événement déjà réalisé.",
+        "marche": "Un signal retenu : projections SIES 2026–2027 par filière. La réforme des études de santé a été écartée au profit du contexte international ESSCA, plus directement pertinent pour le périmètre concurrentiel.",
+        "reputation": "Un signal retenu : alliance SSE–DNV de cinq ans, annoncée par les deux parties. Elle ne vaut pas évaluation indépendante de résultats.",
+        "recherche": "Un signal retenu : première promotion du MSc GEM–UESTC effectivement ouverte. Le lancement d’une cohorte ne préjuge pas de l’insertion ou des résultats pédagogiques.",
+        "horschamp": "Un signal retenu : onboarding B2B d’Expedia Group. Seule la mécanique de parcours explicite est étudiée ; aucun résultat commercial n’est transposé."
+      },
+      "perspectives": [
+        {
+          "id": "panorama",
+          "name": "Le panorama analytique",
+          "question": "Que retenir de cette édition ?",
+          "text": "Les annonces réunies à l’ouverture de la S44 montrent plusieurs façons de rendre une formation plus accessible : coût et alternance chez EDC, oral à distance annoncé chez emlyon, ou outils accompagnant le choix et la candidature. Les liens entreprises et l’international se matérialisent dans des dispositifs précis : jeu NEOMA–Ferrero, MSc GEM–UESTC, prochaine inauguration ESSCA au Luxembourg. Ces mouvements s’inscrivent dans un marché qui resterait en croissance selon le SIES, avec des trajectoires différentes selon les filières. Ils éclairent les conditions d’accès et les preuves mobilisées par les écoles, sans démontrer leurs effets sur le recrutement.",
+          "signals": [
+            "edc-tarifs-alternance-pge",
+            "emlyon-ast-distance",
+            "jpo-parcoursup-2026",
+            "thotis-parcoursup-outils",
+            "MAR-NEOMA-FERRERO",
+            "RECH-01",
+            "sies-projections-effectifs-2026-2027",
+            "essca-luxembourg-inauguration"
+          ]
+        },
+        {
+          "id": "fil-rouge",
+          "name": "Le fil rouge",
+          "question": "Qu’est-ce qui relie les sujets ?",
+          "text": "Les signaux les plus directement comparables ne vendent pas une promesse abstraite : ils rendent visible une condition de parcours. EDC articule prix et alternance, emlyon cible une contrainte de mobilité, les JPO et les outils Thotis structurent la recherche et la prise de contact, tandis que NEOMA et GEM donnent un cadre concret à la relation entreprise. Ce fil relie lisibilité, accès et preuve ; il ne permet pas de conclure qu’un format ou un contenu augmente les candidatures.",
+          "signals": [
+            "edc-tarifs-alternance-pge",
+            "emlyon-ast-distance",
+            "jpo-parcoursup-2026",
+            "thotis-parcoursup-outils",
+            "MAR-NEOMA-FERRERO",
+            "RECH-01"
+          ]
+        },
+        {
+          "id": "tensions",
+          "name": "Les tensions du secteur",
+          "question": "Quelles dynamiques faut-il lire ensemble ?",
+          "text": "Les annonces d’écoles mettent en avant des parcours plus accessibles et des implantations ou formats pédagogiques précis. La projection SIES rappelle pourtant que le marché ne suit pas une trajectoire uniforme : croissance des effectifs dans certaines filières et recul projeté ailleurs. Les annonces de développement ne suffisent donc pas à qualifier l’état de la demande. De même, des locaux inaugurés chez ESSCA ne signifient pas une première présence au Luxembourg ; le MSc GEM–UESTC démarre effectivement, mais ses résultats restent à observer.",
+          "signals": [
+            "edc-tarifs-alternance-pge",
+            "sies-projections-effectifs-2026-2027",
+            "essca-luxembourg-inauguration",
+            "RECH-01"
+          ]
+        },
+        {
+          "id": "concurrence",
+          "name": "La lecture concurrentielle",
+          "question": "Sur quels terrains les écoles cherchent-elles à se distinguer ?",
+          "text": "La sélection montre plusieurs terrains de distinction : coût et rythme d’études chez EDC, accès d’un public AST en mobilité chez emlyon, expérience pédagogique avec entreprise chez NEOMA, MSc IA-management chez GEM et ancrage local d’ESSCA au Luxembourg. L’alliance SSE–DNV ajoute un domaine d’expertise porté par un centre. Ce ne sont pas des positions dans un palmarès : les initiatives concernent des publics, des formats et des périmètres différents.",
+          "signals": [
+            "edc-tarifs-alternance-pge",
+            "emlyon-ast-distance",
+            "MAR-NEOMA-FERRERO",
+            "RECH-01",
+            "sse-dnv-resilience",
+            "essca-luxembourg-inauguration"
+          ]
+        }
+      ],
+      "periodStart": "2026-10-20",
+      "periodEnd": "2026-10-26"
+    },
+    {
+      "id": "2026-10-15",
+      "title": "Marque, parcours candidats et concurrence à Barcelone",
+      "date": "2026-10-15",
+      "dateLabel": "15 octobre 2026",
+      "period": "9–15 octobre 2026",
+      "status": "Édition test enrichie",
+      "readingMinutes": 7,
+      "intro": "Marque, programmes et implantation internationale : les écoles mobilisent plusieurs leviers d’attractivité. Les sujets réunis dans cette édition montrent aussi que la concurrence se joue dans les modalités d’accès aux formations, des étapes d’admission aux incitations tarifaires. Le fil commun est la manière de présenter une offre et d’en faciliter l’accès ; la visibilité de ces initiatives ne permet toutefois pas d’en mesurer les résultats. En parallèle, le recul national des effectifs en apprentissage en 2025 rappelle que les annonces de développement des établissements ne décrivent pas, à elles seules, l’état du marché.",
+      "featuredSignal": "skema-marque",
+      "featuredTitle": "Une identité cohérente. La preuve doit suivre.",
+      "featuredFact": "SKEMA",
+      "featuredLabel": "MARQUE · lancement du 21 septembre 2026",
+      "featuredNote": "« World-Minded » : notre lecture critique d’une promesse internationale et de son déploiement. Un contexte analysé, pas une nouveauté de la semaine.",
+      "notice": "Édition du 15 octobre enrichie après le test initial : 4 actualités publiées du 9 au 15 octobre, 3 sujets de contexte antérieurs et 2 observations de dispositifs. Les dates sont visibles sur chaque signal. Cible : 8 à 10 signaux, plafond de 10, sans remplissage artificiel. Les trois suites restent des propositions à valider.",
+      "signals": [
+        {
+          "id": "alternance",
+          "axis": "marche",
+          "actor": "SIES",
+          "label": "Vérifier",
+          "status": "Résultat documenté",
+          "dateLabel": "Publié le 15 octobre 2026 · données fin 2025",
+          "title": "Alternance : vérifier notre exposition",
+          "fact": "Le SIES publie un recul de 4 % des effectifs du supérieur en apprentissage à fin 2025, soit 628 500 étudiants. Il mentionne notamment le recentrage des aides publiques.",
+          "implication": "Ce constat ne décrit ni les seules écoles de management ni la situation de TBS Education. Comparer candidatures, contrats et placement à périmètre constant avant d’adapter les messages.",
+          "limits": "Statistique nationale portant sur un stock à fin 2025. Elle ne mesure pas à elle seule la demande en 2026, les flux de contrats ou les résultats d’un établissement.",
+          "sources": [
+            {
+              "name": "SIES — L’apprentissage dans l’enseignement supérieur en 2025",
+              "publisher": "Ministère / SIES",
+              "date": "15 octobre 2026",
+              "url": "https://www.enseignementsup-recherche.gouv.fr/fr/l-apprentissage-dans-l-enseignement-superieur-en-2025-104376",
+              "type": "Source primaire"
+            }
+          ],
+          "timing": "week",
+          "publicationDate": "2026-10-15"
+        },
+        {
+          "id": "skema-marque",
+          "axis": "marque",
+          "actor": "SKEMA",
+          "label": "Décrypter",
+          "timing": "context",
+          "publicationDate": "2026-09-21",
+          "status": "Annonce et dispositif de marque",
+          "dateLabel": "Annonce : 21 septembre 2026 · analyse du microsite le 15 octobre · hors fenêtre",
+          "title": "SKEMA : une identité cohérente, une promesse encore à prouver",
+          "fact": "SKEMA dévoile le 21 septembre sa signature « World-Minded » et un emblème associant S, blason et chiffre cinq. Le reveal distingue une marque corporate et deux écoles, avec deux rouges. Il explique l’identité et montre ses applications ; il ne publie pas de résultat de notoriété ou de conversion.",
+          "implication": "Pour TBS Education, relier chaque promesse à une preuve de parcours, puis à une page programme ou une étape utile. L’enjeu n’est pas de copier le signe : c’est de rendre la différence compréhensible et vérifiable pour le candidat.",
+          "limits": "Analyse éditoriale d’un article et d’un microsite officiels, pas étude de perception ni audit de tous les parcours SKEMA. Le lancement est antérieur au 9–15 octobre. Aucun effet commercial n’est mesuré dans ces sources.",
+          "verdict": "Une architecture de marque lisible ; « World-Minded » ne devient différenciant que si l’expérience étudiante en apporte la preuve.",
+          "analysis": [
+            {
+              "title": "Ce qui fonctionne",
+              "text": "La signature, l’empreinte internationale revendiquée et l’emblème suivent un même récit. Le rouge profond, le blason et les applications sur objets donnent une continuité identifiable. Le microsite explicite aussi la relation entre marque corporate, Business School et School of Professional Studies. Cette cohérence est une appréciation, pas une mesure de reconnaissance."
+            },
+            {
+              "title": "La limite stratégique",
+              "text": "« World-Minded » exprime un état d’esprit, mais l’ouverture internationale est un territoire largement mobilisé dans l’ESR. Le discours de révélation gagne donc à être relié à des preuves précises : mobilités accessibles, modalités de parcours, interactions multiculturelles et services aux étudiants. Un récit de marque ne suffit pas à démontrer une différence de formation."
+            },
+            {
+              "title": "Le signe : distinctif, mais à tester sans explication",
+              "text": "Le reveal explique le S, le cinq et le blason. Sans cette légende, la lecture spontanée du signe et l’attribution à SKEMA restent à tester, notamment en petit format ou sans logotype. Il s’agit d’une hypothèse de lisibilité, pas d’une preuve de confusion."
+            },
+            {
+              "title": "Le microsite : révéler n’est pas convertir",
+              "text": "Les liens de sortie observés sont skema.edu et le pack média. Le dispositif présente la marque ; il ne relie pas directement chaque promesse à une page programme ou à un bénéfice candidat détaillé. Cette limite vaut pour le reveal consulté, pas pour l’ensemble de l’écosystème SKEMA."
+            },
+            {
+              "title": "Le point de gouvernance",
+              "text": "Deux écoles et deux rouges constituent une règle d’architecture, mais aussi un besoin de gouvernance : gabarits, co-signatures, noms, supports et responsabilités doivent rester cohérents. Les sources ne publient pas de bilan du déploiement. Pour TBS Education, contrôler la chaîne promesse → preuve → parcours est plus utile que commenter seulement le logo."
+            }
+          ],
+          "sources": [
+            {
+              "name": "Le monde change. SKEMA aussi.",
+              "publisher": "SKEMA",
+              "date": "21 septembre 2026",
+              "url": "https://www.skema.edu/fr/news/le-monde-change-skema-aussi",
+              "type": "Source primaire"
+            },
+            {
+              "name": "Nouvelle plateforme de marque — microsite de révélation",
+              "publisher": "SKEMA",
+              "date": "Non daté · consulté le 15 octobre 2026",
+              "url": "https://reveal.skema.edu/fr/",
+              "type": "Source primaire"
+            }
+          ]
+        },
+        {
+          "id": "edhec-admissions",
+          "axis": "acquisition",
+          "actor": "EDHEC",
+          "label": "Tester",
+          "timing": "observation",
+          "status": "Parcours public observé",
+          "dateLabel": "Page non datée · observée le 15 octobre · round 1 : 1er octobre–3 novembre 2026",
+          "title": "EDHEC : montrer ce qui se passe après la candidature",
+          "fact": "La page d’admission internationale du BBA EDHEC détaille le round du 1er octobre au 3 novembre 2026 et les étapes d’évaluation : Emage-me, anglais et entretien en ligne. Les entretiens sont annoncés du 26 novembre au 8 décembre. C’est un parcours observé, pas un lancement de campagne établi.",
+          "implication": "Pour TBS Education, tester une frise avant le bouton de candidature : pièces, évaluations et prochains jalons. Elle pourrait réduire l’incertitude perçue ; le gain de conversion reste à mesurer, et les étapes doivent être celles du programme concerné.",
+          "limits": "Page non datée ; nouveauté et taux de passage entre les étapes non établis. Observation limitée au BBA international EDHEC. Ne pas extrapoler aux autres programmes, ni confondre test de compréhension et preuve de conversion.",
+          "verdict": "Un bon repère de réassurance : rendre les étapes visibles avant de demander au candidat de s’engager.",
+          "analysis": [
+            {
+              "title": "Point fort",
+              "text": "Le calendrier et la chaîne d’évaluation sont matérialisés sur une source institutionnelle. Ils rendent le chemin après candidature plus concret qu’un simple bouton « Postuler »."
+            },
+            {
+              "title": "Vigilance",
+              "text": "Une page claire ne prouve pas une meilleure conversion. Un test TBS Education doit distinguer compréhension des étapes, clic vers le portail, candidature commencée et dossier complété ; tout suivi inter-domaines et traitement CRM reste à cadrer avec les équipes concernées."
+            }
+          ],
+          "sources": [
+            {
+              "name": "International admissions — EDHEC International BBA",
+              "publisher": "EDHEC",
+              "date": "Non datée · échéances 2026 affichées",
+              "url": "https://www.edhec.edu/en/programmes/bba/admissions-and-tuition-fees/international-admissions",
+              "type": "Source primaire"
+            }
+          ]
+        },
+        {
+          "id": "kedge-early-bird",
+          "axis": "acquisition",
+          "actor": "KEDGE",
+          "label": "Comparer",
+          "timing": "context",
+          "publicationDate": "2026-08-27",
+          "status": "Offre publiée, efficacité inconnue",
+          "dateLabel": "Publié le 27 août 2026 · échéance affichée : 30 novembre 2026 · hors fenêtre",
+          "title": "KEDGE : la date limite devient un levier de candidature",
+          "fact": "KEDGE annonce 10 % de remise pour une candidature finalisée avant le 30 novembre 2026, sur certains programmes à temps plein. La page précise les parcours concernés et exclut formation continue, alternance et banque d’épreuves. L’offre, publiée en août, demeure un contexte observé pendant la semaine.",
+          "implication": "Pour TBS Education, comparer la clarté des coûts, échéances et critères d’éligibilité près du bouton de candidature. Ne pas copier une remise par réflexe : marge, équité entre publics et règles d’admission exigent un arbitrage admissions, finance et juridique.",
+          "limits": "Aucun ROI, taux de conversion ou effet sur les candidatures n’est publié. L’URL mentionne le 31 octobre, mais le titre consulté indique le 30 novembre : retenir ce dernier comme information affichée, à recontrôler avant toute communication opérationnelle.",
+          "verdict": "Une mécanique de finalisation visible, pas une preuve qu’une réduction tarifaire serait pertinente pour TBS Education.",
+          "analysis": [
+            {
+              "title": "Point fort",
+              "text": "Le message lie avantage, date et dossier finalisé, au lieu de rester une promesse tarifaire générale. La page liste MSc, IBBA troisième année, KEDGE Bachelor à temps plein dès la deuxième année et Ingénieur d’affaires à temps plein."
+            },
+            {
+              "title": "Vigilance",
+              "text": "Le levier peut accélérer une décision, mais son efficacité et son coût commercial ne sont pas documentés. Les conditions doivent être cohérentes dans tous les points de contact ; l’écart entre le slug de l’URL et le titre illustre le besoin de contrôle des dates."
+            }
+          ],
+          "sources": [
+            {
+              "name": "Offre Early Bird : −10 % pour toute candidature finalisée avant le 30 novembre 2026",
+              "publisher": "KEDGE",
+              "date": "27 août 2026 · titre consulté le 15 octobre",
+              "url": "https://etudiant.kedge.edu/actualites-etudiant/10-frais-scolarite-avant-le-31-octobre-2026",
+              "type": "Source primaire"
+            }
+          ]
+        },
+        {
+          "id": "audencia-barcelone",
+          "axis": "international",
+          "actor": "Audencia / ESCI-UPF",
+          "label": "Comparer",
+          "timing": "context",
+          "publicationDate": "2026-09-17",
+          "status": "Implantation collaborative annoncée",
+          "dateLabel": "Publication et inauguration : 17 septembre 2026 · hors fenêtre",
+          "title": "Barcelone : Audencia s’implante chez un partenaire",
+          "fact": "Audencia inaugure le 17 septembre un campus collaboratif à Barcelone, hébergé dans le bâtiment d’ESCI-UPF. Le communiqué annonce 25 étudiants PGE pour un semestre en 2026, avec cours sur le business espagnol, visites d’entreprises et services carrière du partenaire. Ce n’est pas un site autonome Audencia.",
+          "implication": "Pour TBS Education, comparer le récit candidat à Barcelone : nature du campus, formats accessibles, cours locaux et liens entreprises. Faire apparaître les services réellement proposés à chaque programme ; ne pas réduire la différence au seul fait d’être présent dans la ville.",
+          "limits": "Annonce antérieure à la fenêtre. Bachelor et Global BBA sont évoqués comme perspectives, pas comme parcours déjà ouverts démontrés. La source ne détaille pas tous les coûts, capacités futures ou droits d’accès aux services partenaires.",
+          "verdict": "Le sujet n’est pas seulement une nouvelle adresse : c’est l’association d’une destination, d’un format académique et de services partenaires.",
+          "analysis": [
+            {
+              "title": "Point fort",
+              "text": "Le communiqué donne un partenaire et un périmètre pédagogique précis, plutôt qu’une seule promesse d’international. Il décrit un modèle collaboratif, distinct d’un campus propre."
+            },
+            {
+              "title": "Vigilance",
+              "text": "Comparer à offre équivalente : un semestre de mobilité n’est pas un cursus complet. Les informations publiques ne suffisent pas à conclure à une supériorité d’expérience ou à une nouvelle capacité immobilière."
+            }
+          ],
+          "sources": [
+            {
+              "name": "Audencia inaugure son campus collaboratif barcelonais",
+              "publisher": "Audencia",
+              "date": "17 septembre 2026",
+              "url": "https://www.audencia.com/actualites/audencia-inaugure-son-campus-collaboratif-barcelonais",
+              "type": "Source primaire"
+            },
+            {
+              "name": "Campus Barcelone",
+              "publisher": "Audencia",
+              "date": "Non datée · consultée le 15 octobre 2026",
+              "url": "https://www.audencia.com/experience-etudiante/nos-campus-en-france-et-a-linternational/campus-barcelone",
+              "type": "Source primaire"
+            }
+          ]
+        },
+        {
+          "id": "audencia",
+          "axis": "offre",
+          "actor": "Audencia",
+          "label": "Comparer",
+          "status": "Annonce institutionnelle",
+          "dateLabel": "Annonce du 13 octobre 2026 · rentrée future",
+          "title": "Audencia : deux voies doctorales après un tronc commun",
+          "fact": "Audencia annonce l’évolution de son DBA vers un tronc commun, puis un Scientific PhD ou un Executive PhD. Ce dernier vise les cadres, managers et entrepreneurs ; première rentrée annoncée en février 2027 à Paris Saint-Ouen.",
+          "implication": "Comparer publics, formats, bénéfices et reconnaissances avec l’offre validée de TBS Education. Les dénominations seules ne suffisent pas ; aucun succès commercial n’est démontré.",
+          "limits": "Une annonce de programme ne prouve ni volume de candidatures, ni recrutement effectif. Reconnaissances, durée, rythme et financement sont à comparer sur pièces.",
+          "sources": [
+            {
+              "name": "Audencia — Recherche appliquée à l’entreprise : lancement d’un Executive PhD",
+              "publisher": "Audencia",
+              "date": "13 octobre 2026",
+              "url": "https://www.audencia.com/actualites/recherche-appliquee-a-lentreprise-audencia-lance-un-executive-phd",
+              "type": "Source primaire"
+            }
+          ],
+          "timing": "week",
+          "publicationDate": "2026-10-13"
+        },
+        {
+          "id": "neoma",
+          "axis": "recherche",
+          "actor": "NEOMA",
+          "label": "Qualifier",
+          "status": "Déclaration institutionnelle",
+          "dateLabel": "Interview du 15 octobre 2026",
+          "title": "NEOMA : transformer la recherche en preuves visibles",
+          "fact": "NEOMA annonce un institut IA en création et des chaires de recherche, d’impact et de pédagogie. Les 15 M€ cités concernent un programme global de transformation sur trois ans, pas l’institut seul.",
+          "implication": "Identifier une réalisation publiable reliant expertise, application concrète et bénéfice pédagogique ou entreprise. Ne pas confondre investissement annoncé et impact démontré.",
+          "limits": "L’interview décrit des intentions et dispositifs en création. Elle ne donne pas de ventilation du budget global, ni de résultats pédagogiques mesurés ou d’évaluation indépendante.",
+          "sources": [
+            {
+              "name": "NEOMA — Recherche à impact, intelligence artificielle et transition écologique",
+              "publisher": "NEOMA Business School",
+              "date": "15 octobre 2026",
+              "url": "https://neoma-bs.fr/actualites/recherche-impact-intelligence-artificielle-transition-ecologique-neoma-nous-sommes-dans",
+              "type": "Source primaire"
+            }
+          ],
+          "timing": "week",
+          "publicationDate": "2026-10-15"
+        },
+        {
+          "id": "emba",
+          "axis": "reputation",
+          "actor": "Financial Times / EADA",
+          "label": "Contextualiser",
+          "status": "Classement original",
+          "dateLabel": "Classement publié le 12 octobre 2026",
+          "title": "EMBA : utiliser le bon périmètre de comparaison",
+          "fact": "Le Financial Times publie son classement EMBA 2026. EADA Business School Barcelona y figure au 100e rang, vérifié dans le tableau original.",
+          "implication": "Ce repère concerne l’Executive MBA, pas la qualité globale de l’école. Vérifier programme comparable, méthode et indicateur avant toute reprise ; ne pas transposer au Programme Grande École.",
+          "limits": "EADA est un repère local complémentaire, pas un concurrent prioritaire validé pour chaque programme. Un rang EMBA ne démontre ni grade, visa, certification ni supériorité globale.",
+          "sources": [
+            {
+              "name": "Financial Times — EMBA 2026",
+              "publisher": "Financial Times",
+              "date": "12 octobre 2026",
+              "url": "https://rankings.ft.com/rankings/3048/emba-2026",
+              "type": "Source originale"
+            }
+          ],
+          "timing": "week",
+          "publicationDate": "2026-10-12"
+        },
+        {
+          "id": "ikea",
+          "axis": "horschamp",
+          "actor": "IKEA France",
+          "label": "Explorer",
+          "status": "Dispositif observé",
+          "dateLabel": "Observé le 15 octobre 2026 · page non datée",
+          "title": "IKEA : repartir avec une décision mieux préparée",
+          "fact": "IKEA France propose des rendez-vous de conception avec préparation du besoin, plan 3D, liste de produits et estimations de services. Ce dispositif n’est pas une nouveauté de la semaine.",
+          "implication": "Explorer un rendez-vous conseil débouchant sur une fiche personnalisée : options, coûts, étapes et points à vérifier. L’intérêt est le livrable tangible, pas une efficacité de conversion démontrée.",
+          "limits": "La source ne documente pas l’efficacité de conversion ou la satisfaction. Le parallèle concerne l’accompagnement d’une décision complexe, pas l’imitation d’une vente de meubles.",
+          "sources": [
+            {
+              "name": "IKEA France — Service de conception cuisine",
+              "publisher": "IKEA France",
+              "date": "Non datée · consultée le 15 octobre 2026",
+              "url": "https://www.ikea.com/fr/fr/customer-service/services/kitchen-planning/",
+              "type": "Source primaire"
+            }
+          ],
+          "timing": "observation"
+        }
+      ],
+      "actions": [
+        {
+          "title": "Relier une promesse de marque à ses preuves candidates",
+          "owner": "Communication / responsables programmes — proposés",
+          "horizon": "J+14",
+          "result": "Une chaîne vérifiée promesse → preuve → page programme, avec un manque prioritaire à corriger.",
+          "signal": "skema-marque"
+        },
+        {
+          "title": "Tester la compréhension du parcours avant candidature",
+          "owner": "Web / admissions — proposés",
+          "horizon": "J+14",
+          "result": "Une frise de jalons sur un programme pilote et un retour qualitatif de candidats ; mesure du tunnel à cadrer.",
+          "signal": "edhec-admissions"
+        },
+        {
+          "title": "Qualifier l’argumentaire Barcelone à programme comparable",
+          "owner": "Marketing programmes / équipes Barcelone — proposés",
+          "horizon": "J+14",
+          "result": "Une comparaison factuelle des formats, services et liens entreprises ; une preuve différenciante à rendre visible.",
+          "signal": "audencia-barcelone"
+        }
+      ],
+      "coverage": {
+        "offre": "Une annonce de la fenêtre : évolution des voies doctorales Audencia. Modalités et reconnaissances à comparer sur pièces.",
+        "marque": "Le changement de marque SKEMA est analysé à la demande du lecteur. Lancement du 21 septembre, explicitement hors fenêtre ; critique éditoriale distincte des faits.",
+        "acquisition": "Deux compléments : parcours BBA EDHEC observé et offre Early Bird KEDGE publiée en août. Pas de nouvelle campagne démontrée, pas de performance de conversion publique.",
+        "international": "Campus collaboratif Audencia chez ESCI-UPF à Barcelone, inauguré le 17 septembre : contexte hors fenêtre. Aucun autre mouvement de la semaine suffisamment qualifié dans la collecte ciblée.",
+        "marche": "Publication SIES du 15 octobre ; les données portent sur les effectifs nationaux d’apprentissage à fin 2025.",
+        "reputation": "Classement EMBA Financial Times du 12 octobre ; EADA sert de repère local, sans extrapolation au PGE.",
+        "recherche": "Interview NEOMA du 15 octobre : intentions, chaires et transformation ; pas de résultat d’impact établi.",
+        "horschamp": "Conception cuisine IKEA : observation de service non datée, pas une nouveauté de semaine. Sa transposition reste à tester."
+      },
+      "perspectives": [
+        {
+          "id": "panorama",
+          "name": "Le panorama analytique",
+          "question": "Que retenir de cette édition ?",
+          "text": "Marque, programmes et implantation internationale : les écoles mobilisent plusieurs leviers d’attractivité. Les sujets réunis dans cette édition montrent aussi que la concurrence se joue dans les modalités d’accès aux formations, des étapes d’admission aux incitations tarifaires. Le fil commun est la manière de présenter une offre et d’en faciliter l’accès ; la visibilité de ces initiatives ne permet toutefois pas d’en mesurer les résultats. En parallèle, le recul national des effectifs en apprentissage en 2025 rappelle que les annonces de développement des établissements ne décrivent pas, à elles seules, l’état du marché.",
+          "signals": [
+            "skema-marque",
+            "audencia",
+            "alternance"
+          ]
+        },
+        {
+          "id": "fil-rouge",
+          "name": "Le fil rouge",
+          "question": "Qu’est-ce qui relie les sujets ?",
+          "text": "De l’identité de SKEMA aux parcours d’admission EDHEC et KEDGE, un même enjeu apparaît : rendre l’offre d’une école reconnaissable, compréhensible et accessible. L’implantation collaborative d’Audencia à Barcelone ajoute une dimension d’expérience et de services. Le fil rouge relie donc la promesse institutionnelle et ses conditions concrètes de réalisation. Il ne permet pas de conclure qu’une campagne, un partenariat ou une remise augmente effectivement les candidatures.",
+          "signals": [
+            "skema-marque",
+            "edhec-admissions",
+            "kedge-early-bird",
+            "audencia-barcelone"
+          ]
+        },
+        {
+          "id": "tensions",
+          "name": "Les tensions du secteur",
+          "question": "Quelles dynamiques faut-il lire ensemble ?",
+          "text": "Les annonces de nouveaux formats doctoraux, d’implantation internationale et de recherche liée à l’IA dessinent des ambitions de développement. À une autre échelle, les effectifs nationaux en apprentissage reculent en 2025. Ces informations n’ont ni le même périmètre ni le même calendrier : leur rapprochement ne démontre pas un ralentissement général des écoles de management. Il éclaire surtout la coexistence de stratégies d’établissement et de contraintes sectorielles.",
+          "signals": [
+            "audencia",
+            "neoma",
+            "alternance"
+          ]
+        },
+        {
+          "id": "concurrence",
+          "name": "La lecture concurrentielle",
+          "question": "Sur quels terrains les écoles cherchent-elles à se distinguer ?",
+          "text": "La sélection fait apparaître plusieurs terrains de différenciation : l’identité chez SKEMA, les formats doctoraux et le modèle barcelonais chez Audencia, les étapes d’admission chez EDHEC et l’incitation tarifaire chez KEDGE. NEOMA met en avant recherche et pédagogie autour de l’IA ; les classements apportent une autre forme de visibilité, propre au programme évalué. Ces initiatives ne constituent pas un palmarès : leur portée dépend des publics, programmes et services réellement concernés.",
+          "signals": [
+            "skema-marque",
+            "audencia-barcelone",
+            "edhec-admissions",
+            "neoma",
+            "emba"
+          ]
+        }
+      ]
     }
   ],
   "editorialPolicy": {
