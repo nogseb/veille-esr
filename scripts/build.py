@@ -16,7 +16,7 @@ EDITIONS = sorted(DATA["editions"], key=lambda item: item["date"], reverse=True)
 SITE = DATA["site"]
 BASE = SITE["url"]
 POLICY = DATA["editorialPolicy"]
-TIMING = {"week": "Actualité de la fenêtre", "context": "Contexte hors période", "observation": "Dispositif observé"}
+TIMING = {"week": "", "context": "Actu hors période", "observation": "Dispositif observé"}
 
 
 def esc(value):
@@ -126,6 +126,8 @@ def card(signal, number):
     dark = " outside-card" if signal["axis"] == "horschamp" else ""
     heading = '<span class="outside-label">REGARD HORS ESR</span>' if dark else ""
     timing = signal["timing"]
+    timing_badge = f'<span class="timing-badge timing-{timing}">{TIMING[timing]}</span>' if timing != "week" else ""
+    timing_class = " timing-line-plain" if timing == "week" else ""
     verdict = f'<p class="editorial-verdict"><strong>Notre lecture</strong> · {esc(signal["verdict"])}</p>' if signal.get("verdict") else ""
     analysis = ""
     if signal.get("analysis"):
@@ -133,7 +135,7 @@ def card(signal, number):
         analysis = f'<details class="proof-details analysis-details"><summary>Lire le décryptage critique <span aria-hidden="true">+</span></summary><div class="details-content"><p class="analysis-notice">Appréciation éditoriale · ne mesure pas les résultats de l’établissement.</p>{paragraphs}</div></details>'
     return f'''<article class="signal-card{dark}" data-axis="{esc(signal["axis"])}" id="signal-{esc(signal["id"])}">
 <div class="card-top"><span class="axis-label">{esc(axis["number"])} — {esc(axis["name"])}</span><span class="intent">{esc(signal["label"])}</span></div>
-{heading}<h3>{esc(signal["title"])}</h3><div class="timing-line"><span class="timing-badge timing-{timing}">{TIMING[timing]}</span><span>{esc(signal["dateLabel"])}</span></div><p class="signal-fact">{esc(signal["fact"])}</p>
+{heading}<h3>{esc(signal["title"])}</h3><div class="timing-line{timing_class}">{timing_badge}<span>{esc(signal["dateLabel"])}</span></div><p class="signal-fact">{esc(signal["fact"])}</p>
 <div class="implication"><span>POUR TBS EDUCATION</span><p>{esc(signal["implication"])}</p></div>
 {verdict}
 <div class="card-bottom"><span class="proof-label">{esc(signal["status"])}</span>{sources}</div>
@@ -149,6 +151,7 @@ def edition_body(edition, permanent=False):
     sources_count = len({source["url"] for signal in signals for source in signal["sources"]})
     featured_signal = next(signal for signal in signals if signal["id"] == edition["featuredSignal"])
     source = featured_signal["sources"][0]
+    featured_timing = f' · {TIMING[featured_signal["timing"]].upper()}' if featured_signal["timing"] != "week" else ""
     label = "ARCHIVE · " if edition["id"] != EDITIONS[0]["id"] else ""
     controls = filter_controls(DATA["axes"], "Filtrer les signaux par axe")
     cards = "".join(card(signal, i) for i, signal in enumerate(main_signals, 1))
@@ -161,17 +164,24 @@ def edition_body(edition, permanent=False):
     summary += '</div>'
     actions = "".join(f'''<article class="action-card"><span class="action-number">0{i}</span><div><span class="action-horizon">{esc(action["horizon"])} · À VALIDER</span><h3>{esc(action["title"])}</h3><p class="action-owner">{esc(action["owner"])}</p><p><strong>Livrable attendu</strong> · {esc(action["result"])}</p></div></article>''' for i, action in enumerate(edition["actions"], 1))
     coverage = "".join(f'<li><strong>{esc(AXES[key]["name"])}</strong><span>{esc(value)}</span></li>' for key, value in edition.get("coverage", {}).items())
-    timing_summary = " · ".join(f'{sum(signal["timing"] == key for signal in signals)} {name}' for key, name in [("week", "actualités de la fenêtre"), ("context", "sujets de contexte"), ("observation", "dispositifs observés")])
+    qualifications = []
+    context_count = sum(signal["timing"] == "context" for signal in signals)
+    observation_count = sum(signal["timing"] == "observation" for signal in signals)
+    if context_count:
+        qualifications.append(f'{context_count} actu{("s" if context_count > 1 else "")} hors période')
+    if observation_count:
+        qualifications.append(f'{observation_count} dispositif{("s" if observation_count > 1 else "")} observé{("s" if observation_count > 1 else "")}')
+    timing_summary = f'<p class="timing-summary">{" · ".join(qualifications)}. Ces sujets ne sont pas présentés comme des nouveautés de la fenêtre.</p>' if qualifications else ""
     action_heading = {0: "Aucune suite à engager par défaut.", 1: "Une piste. Pas un engagement.", 2: "Deux pistes. Pas deux engagements.", 3: "Trois pistes. Pas trois engagements."}[len(edition["actions"])]
     return f'''<section class="hero container">
 			<div class="hero-ripple" data-hero-ripple aria-hidden="true"><span class="hero-ripple-instance" style="--ripple-x:38%;--ripple-y:31%"><span class="hero-ripple-ring hero-ripple-ring-one"></span><span class="hero-ripple-ring hero-ripple-ring-two"></span><span class="hero-ripple-ring hero-ripple-ring-three"></span><span class="hero-ripple-origin"></span></span><span class="hero-ripple-instance" style="--ripple-x:63%;--ripple-y:64%"><span class="hero-ripple-ring hero-ripple-ring-one"></span><span class="hero-ripple-ring hero-ripple-ring-two"></span><span class="hero-ripple-ring hero-ripple-ring-three"></span><span class="hero-ripple-origin"></span></span><span class="hero-ripple-instance" style="--ripple-x:19%;--ripple-y:72%"><span class="hero-ripple-ring hero-ripple-ring-one"></span><span class="hero-ripple-ring hero-ripple-ring-two"></span><span class="hero-ripple-ring hero-ripple-ring-three"></span><span class="hero-ripple-origin"></span></span></div>
 		<div class="edition-meta"><span class="live-dot" aria-hidden="true"></span>{meta}</div>
 		<div class="hero-grid"><div class="hero-title"><p class="eyebrow">TBS EDUCATION / RADAR HEBDOMADAIRE</p><h1>CONCURRENCE.<br>SECTEUR.<br><span>DÉCISIONS.</span></h1><p class="hero-subtitle">L’essentiel de ce qui change.<br>Et ce que nous pouvons en faire.</p></div>
-		<aside class="featured"><span class="featured-kicker">LE SIGNAL À RETENIR · {TIMING[featured_signal["timing"]].upper()}</span><p class="featured-number">{esc(edition["featuredFact"])}</p><h2>{esc(edition["featuredTitle"])}</h2><p class="featured-note">{esc(edition["featuredNote"])}</p><div class="featured-bottom"><span class="featured-label">{esc(edition["featuredLabel"])}</span>{featured_source(source)}</div></aside></div>
+		<aside class="featured"><span class="featured-kicker">LE SIGNAL À RETENIR{featured_timing}</span><p class="featured-number">{esc(edition["featuredFact"])}</p><h2>{esc(edition["featuredTitle"])}</h2><p class="featured-note">{esc(edition["featuredNote"])}</p><div class="featured-bottom"><span class="featured-label">{esc(edition["featuredLabel"])}</span>{featured_source(source)}</div></aside></div>
 		<div class="edition-strip"><div><strong>{len(signals):02d}</strong><span>signaux sélectionnés</span></div><div><strong>{len(edition["actions"]):02d}</strong><span>suites proposées</span></div><div><strong>{edition["readingMinutes"]:02d}<small> min</small></strong><span>pour lire l’essentiel</span></div><div><strong>{sources_count:02d}</strong><span>sources consultables</span></div></div>
 		</section>
 	<section class="summary-box container" aria-labelledby="summary-title"><div><p class="eyebrow">LE POINT DE DÉPART</p><h2 id="summary-title">L’essentiel<br>en 30 secondes.</h2></div>{summary}</section>
-<section class="signals-section container" data-filter-scope aria-labelledby="signals-title"><div class="section-head"><div><p class="eyebrow">UNE SÉLECTION, PAS UNE REVUE DE PRESSE</p><h2 id="signals-title">Ce qui mérite votre attention.</h2></div><span class="section-counter" data-result-count aria-live="polite">{len(signals)} signaux</span></div><p class="timing-summary">{esc(timing_summary)}. Les sujets antérieurs et non datés ne sont pas présentés comme des nouveautés.</p>{controls}<div class="signals-grid">{cards}</div><div class="empty-state" hidden><span class="empty-mark" aria-hidden="true">—</span><h3>Aucun signal retenu sur cet axe.</h3><p>La sélection est volontairement courte. Ce n’est pas une preuve d’absence d’actualité.</p><a href="{('../..' if permanent else '.')}/axes/">Comprendre le périmètre des huit axes {arrow()}</a></div></section>
+<section class="signals-section container" data-filter-scope aria-labelledby="signals-title"><div class="section-head"><div><p class="eyebrow">UNE SÉLECTION, PAS UNE REVUE DE PRESSE</p><h2 id="signals-title">Ce qui mérite votre attention.</h2></div><span class="section-counter" data-result-count aria-live="polite">{len(signals)} signaux</span></div>{timing_summary}{controls}<div class="signals-grid">{cards}</div><div class="empty-state" hidden><span class="empty-mark" aria-hidden="true">—</span><h3>Aucun signal retenu sur cet axe.</h3><p>La sélection est volontairement courte. Ce n’est pas une preuve d’absence d’actualité.</p><a href="{('../..' if permanent else '.')}/axes/">Comprendre le périmètre des huit axes {arrow()}</a></div></section>
 <section class="actions-section container" aria-labelledby="actions-title"><div class="section-head"><div><p class="eyebrow">DE LA VEILLE À LA SUITE UTILE</p><h2 id="actions-title">{action_heading}</h2></div><span class="section-tag">PROPOSITIONS À ARBITRER</span></div><div class="actions-grid">{actions}</div><p class="fine-print">Pilotes, données et disponibilité à confirmer. Ces pistes ne constituent pas des engagements des équipes.</p></section>
 <section class="coverage-box container"><details><summary><span>Ce que couvre — et ne couvre pas — cette édition</span><span aria-hidden="true">+</span></summary><p>{esc(edition["notice"])}</p><ul>{coverage}</ul><p>Les {len(signals)} signaux incluent le regard hors ESR ; celui-ci n’est pas nécessairement une nouveauté de semaine.</p></details></section>
 <div class="edition-footer container"><span>Publication : {esc(edition["dateLabel"])} · Europe/Paris</span><div><button type="button" class="text-button" data-print>Imprimer cette édition</button><a href="{('../..' if permanent else '.')}/editions/{esc(edition["id"])}/">Lien permanent {arrow()}</a></div></div>'''
