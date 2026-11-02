@@ -38,12 +38,14 @@ nav a:hover{color:#c92336}
 .live-dot{height:7px;width:7px;background:var(--red);border-radius:50%;flex:none}
 .edition-meta .hero-meta-text{text-transform:none;letter-spacing:.03em}
 .meta-period{color:var(--muted);padding-left:15px;border-left:1px solid var(--line);margin-left:8px}
-.hero-ripple{position:absolute;z-index:0;right:44%;top:38px;width:min(52vw,520px);height:auto;overflow:visible;pointer-events:none;opacity:.58}
-.hero-ripple-ring{fill:none;stroke:var(--red);stroke-width:1.2;vector-effect:non-scaling-stroke;transform-box:fill-box;transform-origin:center;opacity:0;animation:hero-ripple-expand 8.4s cubic-bezier(.22,.68,.2,1) infinite}
-.hero-ripple-ring-two{animation-delay:-2.8s}.hero-ripple-ring-three{animation-delay:-5.6s}
-.hero-ripple-origin{fill:var(--red);transform-box:fill-box;transform-origin:center;animation:hero-ripple-origin 8.4s ease-in-out infinite}
-@keyframes hero-ripple-expand{0%{opacity:0;transform:scale(.28)}14%{opacity:.27}72%{opacity:.06}100%{opacity:0;transform:scale(1.22)}}
-@keyframes hero-ripple-origin{0%,12%,100%{opacity:.62;transform:scale(1)}22%{opacity:1;transform:scale(1.34)}36%{opacity:.5;transform:scale(.88)}}
+.hero-ripple{position:absolute;z-index:0;inset:0;overflow:hidden;pointer-events:none;opacity:.72}
+.hero-ripple-instance{--ripple-offset:0s;position:absolute;left:var(--ripple-x);top:var(--ripple-y);width:8px;height:8px;transform:translate(-50%,-50%);will-change:left,top;transition:left 1.1s cubic-bezier(.22,.68,.2,1),top 1.1s cubic-bezier(.22,.68,.2,1)}
+.hero-ripple-ring{position:absolute;inset:50% auto auto 50%;width:2px;height:2px;border:1px solid var(--red);border-radius:50%;transform:translate(-50%,-50%) scale(.2);opacity:0;animation:hero-ripple-expand 8.4s cubic-bezier(.22,.68,.2,1) infinite;animation-delay:var(--ripple-offset)}
+.hero-ripple-ring-two{animation-delay:calc(var(--ripple-offset) - 2.8s)}.hero-ripple-ring-three{animation-delay:calc(var(--ripple-offset) - 5.6s)}
+.hero-ripple-origin{position:absolute;left:50%;top:50%;width:8px;height:8px;border-radius:50%;background:var(--red);transform:translate(-50%,-50%);animation:hero-ripple-origin 8.4s ease-in-out infinite;animation-delay:var(--ripple-offset);box-shadow:0 0 0 4px rgba(255,62,82,.06)}
+.hero-ripple-instance:nth-child(2){--ripple-offset:-2.2s}.hero-ripple-instance:nth-child(3){--ripple-offset:-4.7s}
+@keyframes hero-ripple-expand{0%{width:2px;height:2px;opacity:0}14%{opacity:.26}72%{opacity:.05}100%{width:260px;height:260px;opacity:0}}
+@keyframes hero-ripple-origin{0%,12%,100%{opacity:.5;transform:translate(-50%,-50%) scale(1)}22%{opacity:1;transform:translate(-50%,-50%) scale(1.34)}36%{opacity:.48;transform:translate(-50%,-50%) scale(.88)}}
 .hero-grid{display:grid;grid-template-columns:1.15fr 1fr;gap:70px;align-items:stretch;padding:38px 0 43px;position:relative;z-index:1}
 .eyebrow{font-size:11px;font-weight:800;letter-spacing:.13em;line-height:1.5;margin-bottom:20px;text-transform:uppercase}
 .hero-title{padding:7px 0}
@@ -250,6 +252,6 @@ details[open]>summary>span:last-child{transform:rotate(45deg)}
 
 /* Hero wave: decorative only, quiet by default and motion-safe. */
 html[data-page-hidden=true] .hero-ripple *{animation-play-state:paused}
-@media(max-width:760px){.hero-ripple{right:-148px;top:4px;width:430px;opacity:.62}.summary-content{gap:20px}.summary-executive>p:last-child{font-size:17px}.summary-stake{padding-top:17px}.summary-stake>p:last-child{font-size:15px}}
-@media(prefers-reduced-motion:reduce){.hero-ripple *{animation:none!important}.hero-ripple-ring{opacity:.11}.hero-ripple-origin{opacity:.55}}
+@media(max-width:760px){.hero-ripple{inset:0;opacity:.62}.summary-content{gap:20px}.summary-executive>p:last-child{font-size:17px}.summary-stake{padding-top:17px}.summary-stake>p:last-child{font-size:15px}}
+@media(prefers-reduced-motion:reduce){.hero-ripple *{animation:none!important}.hero-ripple-instance:nth-child(n+2){display:none}.hero-ripple-ring{width:82px;height:82px;opacity:.11;transform:translate(-50%,-50%) scale(1)}.hero-ripple-ring-two{width:144px;height:144px;opacity:.08}.hero-ripple-ring-three{width:206px;height:206px;opacity:.05}.hero-ripple-origin{opacity:.55}}
 @media print{.hero-ripple{display:none}.summary-content{display:block}.summary-stake{margin-top:16px}}

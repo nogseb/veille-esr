@@ -1,9 +1,14 @@
 'use strict';
 const assert = require('node:assert/strict');
-const { createState, selectFacet, canRotate, setPanelInteractivity, ROTATION_DELAY } = require('../assets/perspectives.js');
+const {
+  createState, selectFacet, canRotate, setPanelInteractivity, createRipplePositions,
+  shouldAnimateAmbient, ROTATION_DELAY, MAX_HERO_RIPPLES, HERO_RIPPLE_REFRESH
+} = require('../assets/perspectives.js');
 
 const state = createState(false);
 assert.equal(ROTATION_DELAY, 24000);
+assert.equal(MAX_HERO_RIPPLES, 3);
+assert.equal(HERO_RIPPLE_REFRESH, 5600);
 assert.equal(canRotate(state), false, 'No animation before the module enters view.');
 state.visible = true;
 assert.equal(canRotate(state), true);
@@ -52,4 +57,18 @@ assert.equal(custom.getAttribute('tabindex'), '2');
 setPanelInteractivity(panel, false, remembered);
 setPanelInteractivity(panel, true, remembered);
 assert.equal(custom.getAttribute('tabindex'), '2', 'Original keyboard behavior survives repeated changes.');
-console.log('PASS: four facets, continuous rotation, manual selection, visibility/focus/hover pause, reduced motion and keyboard fallback.');
+
+const sequence = [0.02, 0.98, 0.76, 0.21, 0.44, 0.66, 0.13, 0.84, 0.58, 0.35];
+let pointer = 0;
+const points = createRipplePositions(() => sequence[pointer++ % sequence.length], 5);
+assert.equal(points.length, 3, 'Hero never renders more than three simultaneous points.');
+for (const point of points) {
+  assert.ok(point.x >= 12 && point.x <= 84);
+  assert.ok(point.y >= 17 && point.y <= 81);
+}
+assert.equal(new Set(points.map((point) => `${point.x}:${point.y}`)).size, 3, 'Random hero points retain distinct positions.');
+assert.equal(shouldAnimateAmbient(true, false, false), true);
+assert.equal(shouldAnimateAmbient(false, false, false), false);
+assert.equal(shouldAnimateAmbient(true, true, false), false, 'Reduced motion stops orbital movement.');
+assert.equal(shouldAnimateAmbient(true, false, true), false, 'A hidden tab stops orbital movement.');
+console.log('PASS: four facets, controlled rotation, three-point hero, orbital cartography, reduced motion and keyboard fallback.');

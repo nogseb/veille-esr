@@ -2,6 +2,8 @@
   'use strict';
 
   const ROTATION_DELAY = 24000;
+  const MAX_HERO_RIPPLES = 3;
+  const HERO_RIPPLE_REFRESH = 5600;
 
   function createState(reduced) {
     return {
@@ -26,6 +28,29 @@
       !state.focused && state.visible && !state.pageHidden;
   }
 
+  function createRipplePositions(random, count) {
+    const generator = typeof random === 'function' ? random : Math.random;
+    const target = Math.max(1, Math.min(MAX_HERO_RIPPLES, Number(count) || MAX_HERO_RIPPLES));
+    const positions = [];
+    for (let index = 0; index < target; index += 1) {
+      let candidate = null;
+      for (let attempt = 0; attempt < 14; attempt += 1) {
+        candidate = {
+          x: Math.round((12 + generator() * 72) * 10) / 10,
+          y: Math.round((17 + generator() * 64) * 10) / 10
+        };
+        const apart = positions.every((point) => Math.hypot(point.x - candidate.x, point.y - candidate.y) > 19);
+        if (apart || attempt === 13) break;
+      }
+      positions.push(candidate);
+    }
+    return positions;
+  }
+
+  function shouldAnimateAmbient(enabled, reduced, pageHidden) {
+    return Boolean(enabled) && !Boolean(reduced) && !Boolean(pageHidden);
+  }
+
   function setPanelInteractivity(panel, current, remembered) {
     panel.inert = !current;
     panel.querySelectorAll('a[href],button,input,select,textarea,[tabindex],[contenteditable]').forEach((node) => {
@@ -36,7 +61,81 @@
     });
   }
 
+  function mountHeroRipples(doc, win, reduced) {
+    const root = doc.querySelector('[data-hero-ripple]');
+    if (!root) return;
+    const points = Array.from(root.querySelectorAll('.hero-ripple-instance')).slice(0, MAX_HERO_RIPPLES);
+    if (!points.length) return;
+
+    function position(point, next) {
+      point.style.setProperty('--ripple-x', `${next.x}%`);
+      point.style.setProperty('--ripple-y', `${next.y}%`);
+    }
+
+    function seed() {
+      createRipplePositions(Math.random, points.length).forEach((next, index) => position(points[index], next));
+    }
+
+    seed();
+    if (reduced.matches) return;
+    let cursor = 0;
+    win.setInterval(() => {
+      if (doc.hidden || reduced.matches) return;
+      const next = createRipplePositions(Math.random, points.length)[cursor];
+      position(points[cursor], next);
+      cursor = (cursor + 1) % points.length;
+    }, HERO_RIPPLE_REFRESH);
+  }
+
+  function createAmbientController(doc, win, reduced) {
+    const background = doc.querySelector('.ambient-background');
+    if (!background) return { setEnabled: () => {}, refresh: () => {} };
+    const paths = new Map(Array.from(background.querySelectorAll('[data-orbit-path]')).map((path) => [path.dataset.orbitPath, path]));
+    const orbiters = Array.from(background.querySelectorAll('[data-ambient-orbiter]')).map((orbiter) => ({
+      node: orbiter,
+      path: paths.get(orbiter.dataset.ambientOrbiter),
+      duration: Number(orbiter.dataset.duration) || 50000,
+      phase: Number(orbiter.dataset.phase) || 0
+    })).filter((item) => item.path && typeof item.path.getTotalLength === 'function');
+    let frame = null;
+
+    function enabled() {
+      return doc.documentElement.dataset.ambient !== 'off';
+    }
+
+    function draw(timestamp) {
+      frame = null;
+      if (!shouldAnimateAmbient(enabled(), reduced.matches, doc.hidden)) return;
+      orbiters.forEach((item) => {
+        const length = item.path.getTotalLength();
+        const progress = ((timestamp / item.duration) + item.phase) % 1;
+        const point = item.path.getPointAtLength(length * progress);
+        item.node.setAttribute('transform', `translate(${point.x.toFixed(1)} ${point.y.toFixed(1)})`);
+      });
+      frame = win.requestAnimationFrame(draw);
+    }
+
+    function refresh() {
+      if (frame !== null) win.cancelAnimationFrame(frame);
+      frame = null;
+      if (shouldAnimateAmbient(enabled(), reduced.matches, doc.hidden)) {
+        frame = win.requestAnimationFrame(draw);
+      }
+    }
+
+    function setEnabled(on) {
+      doc.documentElement.dataset.ambient = on ? 'on' : 'off';
+      refresh();
+    }
+
+    refresh();
+    return { setEnabled, refresh };
+  }
+
   function mount(doc, win) {
+    const reduced = win.matchMedia('(prefers-reduced-motion: reduce)');
+    mountHeroRipples(doc, win, reduced);
+    const ambientController = createAmbientController(doc, win, reduced);
     const root = doc.querySelector('[data-facets]');
     if (!root) return;
     const panels = Array.from(root.querySelectorAll('[data-facet-panel]'));
@@ -50,7 +149,6 @@
     const ambient = root.querySelector('[data-ambient-toggle]');
     const proposal = root.querySelector('.ambient-proposal');
     const note = root.querySelector('[data-facet-note]');
-    const reduced = win.matchMedia('(prefers-reduced-motion: reduce)');
     if (panels.length !== 4 || buttons.length !== 4 || !cube || !nav || !toolbar) return;
     const state = createState(reduced.matches);
     state.pageHidden = Boolean(doc.hidden);
@@ -99,6 +197,13 @@
       schedule();
     }
 
+    function setAmbient(on) {
+      ambientController.setEnabled(on);
+      if (!ambient) return;
+      ambient.setAttribute('aria-pressed', String(on));
+      ambient.textContent = on ? 'Désactiver la cartographie' : 'Activer la cartographie';
+    }
+
     buttons.forEach((button, index) => {
       button.addEventListener('click', () => {
         selectFacet(state, index, true);
@@ -132,19 +237,19 @@
     doc.addEventListener('visibilitychange', () => {
       state.pageHidden = Boolean(doc.hidden);
       doc.documentElement.dataset.pageHidden = String(state.pageHidden);
+      ambientController.refresh();
       schedule();
     });
     reduced.addEventListener('change', (event) => {
       state.reduced = event.matches;
       if (state.reduced) state.userPaused = true;
+      ambientController.refresh();
       render(false);
     });
-    if (ambient) ambient.addEventListener('click', () => {
-      const on = doc.documentElement.dataset.ambient !== 'on';
-      doc.documentElement.dataset.ambient = on ? 'on' : 'off';
-      ambient.setAttribute('aria-pressed', String(on));
-      ambient.textContent = on ? 'Désactiver le fond' : 'Essayer le fond animé';
-    });
+    if (ambient) {
+      setAmbient(doc.documentElement.dataset.ambient !== 'off');
+      ambient.addEventListener('click', () => setAmbient(doc.documentElement.dataset.ambient !== 'on'));
+    }
 
     root.classList.add('is-enhanced');
     nav.hidden = false;
@@ -170,6 +275,9 @@
   }
 
   if (typeof module !== 'undefined' && module.exports) {
-    module.exports = { createState, selectFacet, canRotate, setPanelInteractivity, ROTATION_DELAY };
+    module.exports = {
+      createState, selectFacet, canRotate, setPanelInteractivity, createRipplePositions,
+      shouldAnimateAmbient, ROTATION_DELAY, MAX_HERO_RIPPLES, HERO_RIPPLE_REFRESH
+    };
   } else mount(document, window);
 })();

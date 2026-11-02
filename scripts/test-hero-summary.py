@@ -17,6 +17,10 @@ assert "hero-ripple" in HTML and 'aria-hidden="true"' in HTML
 assert "hero-ripple-expand" in CSS
 assert "pointer-events:none" in CSS
 assert "prefers-reduced-motion:reduce" in CSS
+assert HTML.count('hero-ripple-instance') == 3
+assert 'data-ambient="on"' in HTML
+assert 'data-ambient-orbiter' in HTML
+assert 'Désactiver la cartographie' in HTML
 
 stake = LATEST.get("tbsStake")
 if stake:
@@ -26,4 +30,4 @@ if stake:
     assert stake in HTML
     assert "Cette consolidation retient" not in LATEST["intro"]
 
-print("PASS: concise hero metadata, executive summary, TBS Education stake and motion-safe vector ripple.")
+print("PASS: concise hero metadata, executive summary, three-point vector ripple and motion-safe orbital cartography.")
