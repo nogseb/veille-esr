@@ -1485,6 +1485,441 @@
       },
       "heroMeta": "S45 · Fenêtre 26 octobre – 1er novembre 2026",
       "tbsStake": "Quatre lectures utiles pour TBS Education : préparer les informations d’admission et les indicateurs de preuve ; comparer le parcours de découverte d’une immersion post-bac — bénéfice, information des parents, coût, inscription et suite — ; documenter Search, Shopping et Performance Max avant toute ouverture confirmée des annonces AI Mode en France ; tester une preuve sociale fondée sur des cas, des publics et des résultats vérifiables."
+    },
+    {
+      "id": "2026-11-09-s46",
+      "title": "Accès, implantation et parcours de candidature — sélection S46 consolidée",
+      "date": "2026-11-09",
+      "dateLabel": "9 novembre 2026",
+      "period": "2 – 8 novembre 2026",
+      "periodStart": "2026-11-02",
+      "periodEnd": "2026-11-08",
+      "status": "S46 · Édition publiée",
+      "heroMeta": "S46 · Fenêtre 2 – 8 novembre 2026",
+      "readingMinutes": 8,
+      "intro": "La semaine combine un calendrier public et des mouvements d’écoles. Le comité de réforme de Parcoursup se réunit le 9 novembre, et l’APHEC alerte sur l’affaiblissement du lien entre prépas et écoles après le SIGEM 2026. Côté écoles, Audencia annonce une rentrée record et un second campus parisien, De Vinci Higher Education s’installe à Montpellier et MBS refond son portail de candidature. Hors du secteur, Legrand et easyJet montrent deux façons de rejoindre leurs publics là où ils cherchent ou pratiquent déjà. Aucune de ces annonces ne dit encore son effet sur les candidatures.",
+      "tbsStake": "Trois lectures utiles pour TBS Education : comparer la clarté de son propre parcours de candidature à celui que MBS vient de refondre ; préparer des réponses vérifiables aux objections des préparationnaires sur le coût et la valeur du PGE ; mesurer la place des IA conversationnelles et des relais d’orientation parmi les points d’entrée des candidats.",
+      "featuredSignal": "s46-mbs-portail-admissions",
+      "featuredTitle": "Candidature : MBS guide chaque profil vers le bon concours dans un portail unique.",
+      "featuredFact": "Bachelor · PGE · MSc",
+      "featuredLabel": "ACQUISITION · mise en ligne du 3 novembre 2026",
+      "featuredNote": "Le portail oriente vers le concours adapté et affiche l’avancement du dossier ; les concours des banques d’épreuves ne changent pas. Usages et effet sur les candidatures non publiés.",
+      "notice": "Sélection consolidée de neuf signaux à partir de deux collectes indépendantes, chaque signal ayant été revérifié : six publications de la fenêtre, un contexte antérieur explicitement identifié et deux dispositifs observés. Sept axes sur huit sont couverts en axe principal ; la réputation n’a pas de signal retenu. Deux inspirations hors ESR sont retenues pour leurs mécaniques transférables, jamais comme preuves de résultat pour TBS Education.",
+      "classification": {
+        "week": [
+          "s46-parcoursup-comite-reforme",
+          "s46-mbs-portail-admissions",
+          "s46-audencia-campus-paris-2027",
+          "s46-de-vinci-castelmed-montpellier",
+          "s46-legrand-ia-recherche-b2b",
+          "s46-easyjet-strava-marrakech"
+        ],
+        "observation": [
+          "s46-aphec-sigem-2026",
+          "s46-grenoble-iae-cycle-prepa"
+        ],
+        "context": [
+          "s46-grand-salon-modele-grande-ecole"
+        ]
+      },
+      "actions": [
+        {
+          "title": "Comparer le parcours de candidature avec celui de MBS",
+          "owner": "Marketing digital / admissions — proposés",
+          "horizon": "J+21",
+          "result": "Une grille d’une page, sur pages publiques et sans création de compte : recherche de la bonne voie d’admission, information sur le suivi du dossier, captures datées.",
+          "signal": "s46-mbs-portail-admissions"
+        },
+        {
+          "title": "Répondre aux objections des préparationnaires sur le coût et la valeur du PGE",
+          "owner": "Programmes / admissions / contenus — proposés",
+          "horizon": "J+14",
+          "result": "Cinq réponses publiques vérifiées sur le coût total, le financement, les bourses et l’insertion, prêtes pour les pages programmes et les salons.",
+          "signal": "s46-aphec-sigem-2026"
+        },
+        {
+          "title": "Mesurer les points d’entrée des candidats",
+          "owner": "Marketing digital (data) / recrutement — proposés",
+          "horizon": "Avant la prochaine campagne de candidature",
+          "result": "Une question de mesure sur le premier canal de recherche (moteur, IA conversationnelle, réseaux sociaux, relais d’orientation) et une revue de dix points d’entrée publics, trois corrections au plus.",
+          "signal": "s46-legrand-ia-recherche-b2b"
+        }
+      ],
+      "coverage": {
+        "offre": "Un dispositif observé : Grenoble IAE affiche un cycle préparatoire post-bac en management et ingénierie, sans ouverture ni conditions d’accès documentées. L’offre apparaît aussi en axe secondaire chez Audencia et De Vinci Higher Education.",
+        "marque": "Un contexte : la table ronde annoncée par SKEMA, HEC Paris, l’ESSEC et l’ESCP sur le « modèle Grande École ». Sa tenue et son contenu ne sont pas documentés.",
+        "acquisition": "Un signal : le portail de candidature de MBS. Il décrit un dispositif, non ses usages ni son effet sur les candidatures.",
+        "international": "Deux implantations : Audencia à Paris en 2027 et De Vinci Higher Education en Occitanie. Aucun mouvement nouveau n’a été établi sur Barcelone ou Casablanca.",
+        "marche": "Deux signaux : le comité de réforme de Parcoursup et l’alerte de l’APHEC sur le SIGEM 2026. Le statut social des apprentis dans le PLFSS 2027 est écarté faute d’état du texte vérifié.",
+        "reputation": "Aucun signal retenu : aucun classement ni aucune accréditation datés de la fenêtre n’ont été établis. Ce n’est pas une preuve d’absence d’actualité.",
+        "recherche": "Aucun signal principal ; Grenoble IAE relève de cet axe en lecture secondaire.",
+        "horschamp": "Deux inspirations : Legrand sur la montée de l’IA dans la recherche d’information B2B, easyJet sur l’insertion d’une campagne dans une pratique existante. Aucune performance externe n’est transposée."
+      },
+      "perspectives": [
+        {
+          "id": "panorama",
+          "name": "Le panorama analytique",
+          "question": "Que retenir de cette édition ?",
+          "text": "La semaine combine un calendrier public et des mouvements d’écoles. Le comité de réforme de Parcoursup se réunit le 9 novembre, et l’APHEC alerte sur l’affaiblissement du lien entre prépas et écoles après le SIGEM 2026. Côté écoles, Audencia annonce une rentrée record et un second campus parisien, De Vinci Higher Education s’installe à Montpellier et MBS refond son portail de candidature. Hors du secteur, Legrand et easyJet montrent deux façons de rejoindre leurs publics là où ils cherchent ou pratiquent déjà. Aucune de ces annonces ne dit encore son effet sur les candidatures.",
+          "signals": [
+            "s46-parcoursup-comite-reforme",
+            "s46-aphec-sigem-2026",
+            "s46-mbs-portail-admissions",
+            "s46-audencia-campus-paris-2027",
+            "s46-de-vinci-castelmed-montpellier",
+            "s46-legrand-ia-recherche-b2b",
+            "s46-easyjet-strava-marrakech"
+          ]
+        },
+        {
+          "id": "fil-rouge",
+          "name": "Le fil rouge",
+          "question": "Qu’est-ce qui relie les sujets ?",
+          "text": "Deux fils se dégagent. Le premier est l’accès et la lisibilité du parcours : le comité de réforme rouvre la question des critères d’examen des dossiers, l’APHEC décrit des choix qui se concentrent sous l’effet du coût, MBS simplifie l’orientation entre ses voies d’admission et Grenoble IAE affiche un parcours hybride dès le post-bac. Le second est l’implantation : Audencia renforce Paris par l’alternance, De Vinci Higher Education s’installe en Occitanie. Hors du secteur, Legrand et easyJet rejoignent leurs publics là où ils cherchent ou pratiquent déjà.",
+          "signals": [
+            "s46-parcoursup-comite-reforme",
+            "s46-aphec-sigem-2026",
+            "s46-mbs-portail-admissions",
+            "s46-grenoble-iae-cycle-prepa",
+            "s46-audencia-campus-paris-2027",
+            "s46-de-vinci-castelmed-montpellier",
+            "s46-legrand-ia-recherche-b2b",
+            "s46-easyjet-strava-marrakech"
+          ]
+        },
+        {
+          "id": "tensions",
+          "name": "Les tensions du secteur",
+          "question": "Quelles dynamiques faut-il lire ensemble ?",
+          "text": "Des écoles annoncent croissance et nouveaux campus, alors que le SIGEM laisse des places vacantes et que les préparationnaires se concentrent sur les écoles les mieux classées, et que lycéens et enseignants se mobilisent sur l’accès et les moyens du système public. Ces mouvements ne portent pas sur les mêmes publics et rien n’établit de lien de cause à effet entre eux. L’idée que le coût des études devienne un fil commun, au point que des écoles défendent ensemble leur modèle, reste une hypothèse.",
+          "signals": [
+            "s46-parcoursup-comite-reforme",
+            "s46-aphec-sigem-2026",
+            "s46-audencia-campus-paris-2027",
+            "s46-de-vinci-castelmed-montpellier",
+            "s46-grand-salon-modele-grande-ecole"
+          ]
+        },
+        {
+          "id": "concurrence",
+          "name": "La lecture concurrentielle",
+          "question": "Sur quels terrains les écoles cherchent-elles à se distinguer ?",
+          "text": "Quatre terrains ressortent : l’implantation, à Paris pour Audencia et en Occitanie pour De Vinci Higher Education ; l’expérience candidat, avec le portail de MBS ; l’hybridation de l’offre dès le post-bac, avec Grenoble IAE ; et le récit collectif autour du modèle Grande École, porté par SKEMA, HEC Paris, l’ESSEC et l’ESCP. Audencia ajoute des formats courts et nommés (AI4Performance, humanités). Ces éléments décrivent des positionnements affichés, pas leur efficacité commerciale.",
+          "signals": [
+            "s46-mbs-portail-admissions",
+            "s46-audencia-campus-paris-2027",
+            "s46-de-vinci-castelmed-montpellier",
+            "s46-grenoble-iae-cycle-prepa",
+            "s46-grand-salon-modele-grande-ecole"
+          ]
+        }
+      ],
+      "traceability": {
+        "method": "Édition consolidée à partir de deux collectes indépendantes qui ne partageaient aucun signal. Chaque signal retenu a été revérifié sur ses pages sources ; les sujets non datés sont qualifiés comme dispositifs observés, jamais comme nouveautés de la fenêtre.",
+        "deduplication": "Relecture de la S45 publiée : seul le comité de réforme de Parcoursup prolonge un sujet déjà traité, et seuls ses éléments nouveaux sont repris. Le portail de candidature de MBS est distinct du Business English Bootcamp traité en S45.",
+        "keyLimit": "Aucune carte ne démontre une variation des candidatures, de la conversion ou de l’insertion de TBS Education. Les chiffres d’Audencia, de De Vinci Higher Education et de Legrand sont déclaratifs."
+      },
+      "excludedSignals": [
+        {
+          "title": "ORI, l’assistant d’orientation de L’Étudiant",
+          "reason": "Pas une nouveauté : lancement annoncé le 12 juin 2026 avec Klee Group. Repère utile sur les intermédiaires d’orientation, à reprendre si un fait nouveau apparaît."
+        },
+        {
+          "title": "Agenda ECRICOME des portes ouvertes et immersions",
+          "reason": "Observation d’un agenda existant, sans nouveauté."
+        },
+        {
+          "title": "Réunion préparatoire à l’APAIE 2027 en Malaisie",
+          "reason": "Réunion non retrouvée et dates du salon divergentes selon les sources ; pertinence à confirmer avec l’international."
+        },
+        {
+          "title": "IAE Savoie Mont Blanc au salon EquipHotel",
+          "reason": "Compte rendu non retrouvé ; pertinence limitée pour TBS Education."
+        },
+        {
+          "title": "Statut social des apprentis dans le PLFSS 2027",
+          "reason": "Sujet important pour l’alternance, mais l’état du texte n’a pas pu être vérifié sur le dossier législatif officiel. À reprendre en S47."
+        }
+      ],
+      "signals": [
+        {
+          "id": "s46-parcoursup-comite-reforme",
+          "axis": "marche",
+          "actor": "Gouvernement / Parlement / organisations lycéennes et syndicales",
+          "label": "Surveiller",
+          "status": "Annonce au Sénat : recommandations attendues, voie législative possible",
+          "timing": "week",
+          "publicationDate": "2026-11-04",
+          "dateLabel": "Annonce : 4 novembre 2026 · première réunion du comité : 9 novembre · lycée d’origine retiré à la session 2028",
+          "title": "Parcoursup : le comité de réforme se réunit, le lycée d’origine disparaîtra en 2028",
+          "fact": "Le 4 novembre 2026, lors d’un débat au Sénat, le Premier ministre annonce une première réunion du comité de réforme de Parcoursup le lundi 9 novembre, avec lycéens, enseignants, ministres, partenaires sociaux et parlementaires. Les premières recommandations sont attendues en novembre ; certaines pourraient passer par une loi. Le lycée d’origine ne figurera plus dans les dossiers à la session 2028.",
+          "verdict": "La suppression du lycée d’origine va à l’encontre de l’une des quatre propositions de la CDEFM, qui demandait de le conserver (S45). La mobilisation se poursuit : le 5 novembre, près de 1 000 lycées ont été bloqués ou fermés selon le Snes-FSU, chiffre non recoupé.",
+          "implication": "Pour TBS Education, surveiller les recommandations du comité et un éventuel texte de loi : ils diront ce qui change pour les formations post-bac sélectives, dont la place du lycée d’origine dans l’examen des dossiers. Point à instruire avec les admissions dès leur publication.",
+          "limits": "Suivi de l’annonce du 26 octobre traitée en S45 ; seuls les éléments nouveaux sont repris. Présidence et calendrier précis du comité non indiqués ; compte rendu officiel du débat au Sénat non consulté. Les chiffres de mobilisation varient fortement selon les sources (12,8 % de grévistes selon le ministère de l’Éducation nationale).",
+          "sources": [
+            {
+              "name": "Un comité de réforme de Parcoursup se réunira le 9 novembre",
+              "publisher": "Quartz France",
+              "date": "4 novembre 2026",
+              "url": "https://fr.qz.com/comite-reforme-parcoursup-reunira-9-novembre-lecornu-110426",
+              "type": "Article de presse"
+            },
+            {
+              "name": "Grève du 5 novembre : professeurs et lycéens ont manifesté nombreux malgré les annonces du gouvernement",
+              "publisher": "Café pédagogique",
+              "date": "6 novembre 2026",
+              "url": "https://www.cafepedagogique.net/2026/11/06/greve-du-5-novembre-professeurs-et-lyceens-ont-manifeste-nombreux-malgre-les-annonces-du-gouvernement/",
+              "type": "Article de presse spécialisée"
+            }
+          ]
+        },
+        {
+          "id": "s46-aphec-sigem-2026",
+          "axis": "marche",
+          "actor": "APHEC (Alain Joyeux)",
+          "label": "Décrypter",
+          "status": "Lecture d’un prescripteur appuyée sur les résultats du SIGEM",
+          "timing": "observation",
+          "dateLabel": "Article observé le 10 novembre 2026, sans date visible · prise de parole datée du 4 novembre selon une seconde collecte, non vérifiée",
+          "title": "L’APHEC alerte sur l’affaiblissement du lien entre prépas et écoles",
+          "fact": "Selon Thotis, le SIGEM 2026 laisse 383 places réservées aux préparationnaires EC vacantes, dans dix écoles qui n’ont pas fait le plein, une de plus qu’en 2025, avec 3 % d’intégrés en moins malgré davantage de candidats. L’APHEC relève plus de « cubes », de désistements et de poursuites à l’université, et appelle écoles, SIGEM et ministère à une stratégie commune pour 2026-2027.",
+          "verdict": "Pour l’APHEC, les choix se concentrent sur les écoles les mieux classées, en partie à cause de la hausse des frais, et la part de boursiers intégrés recule de 24,8 % à 22,7 %. C’est la lecture d’un prescripteur, pas une mesure du comportement de tous les candidats.",
+          "implication": "Pour TBS Education, vérifier si les réponses publiques aux préparationnaires sur le coût total, le financement et la valeur du PGE (insertion, bourses, frais modulés) traitent les objections décrites par l’APHEC.",
+          "limits": "Article non daté : sujet présenté comme observation, pas comme nouveauté de la fenêtre. L’entretien du 4 novembre signalé par une seconde collecte n’a pas été retrouvé. La liste des dix écoles concernées n’est pas reprise.",
+          "sources": [
+            {
+              "name": "Bilan du SIGEM 2026 : 383 places vacantes en écoles de management, l’APHEC appelle à élaborer une stratégie commune",
+              "publisher": "Thotis",
+              "date": "Non daté · consulté le 10 novembre 2026",
+              "url": "https://thotismedia.com/bilan-du-sigem-2026-strategie-commune/",
+              "type": "Article de presse spécialisée"
+            }
+          ]
+        },
+        {
+          "id": "s46-mbs-portail-admissions",
+          "axis": "acquisition",
+          "actor": "MBS School of Business (Montpellier)",
+          "label": "Comparer",
+          "status": "Dispositif mis en ligne : usages et effets non publiés",
+          "timing": "week",
+          "publicationDate": "2026-11-04",
+          "dateLabel": "Mise en ligne : 3 novembre 2026 (4 novembre selon une seconde source) · relais : 4 novembre",
+          "title": "MBS refond son portail de candidature autour d’une recherche guidée",
+          "fact": "MBS met en ligne un portail d’admissions commun au Bachelor, au Programme Grande École et aux MSc. Le candidat renseigne son niveau, son expérience, le campus et la rentrée souhaités, et l’outil lui indique le concours adapté ; un espace personnel suit son dossier étape par étape. Les concours des banques d’épreuves ne changent pas.",
+          "verdict": "MBS traite la multiplicité des voies d’admission comme un frein et y répond en orientant le candidat dans le parcours lui-même. Son directeur général présente l’enjeu en termes de réassurance : « Rejoindre une grande école doit être une expérience claire et rassurante ».",
+          "implication": "Pour TBS Education, comparer sur les pages publiques, sans création de compte, la recherche de la bonne voie d’admission et l’information sur le suivi du dossier.",
+          "limits": "Prestataire technique, usages et effet sur les candidatures non indiqués. Le portail n’a pas été testé ; aucun compte n’a été créé.",
+          "sources": [
+            {
+              "name": "Admissions MBS : l’école lance un nouveau portail pour simplifier la candidature",
+              "publisher": "Planète Grandes Écoles",
+              "date": "4 novembre 2026",
+              "url": "https://www.planetegrandesecoles.com/mbs-portail-admissions",
+              "type": "Article de presse spécialisée"
+            },
+            {
+              "name": "MBS révolutionne son expérience candidat avec un tout nouveau portail d’admissions",
+              "publisher": "Claap",
+              "date": "4 novembre 2026",
+              "url": "https://claap.fr/mbs-revolutionne-son-experience-candidat-avec-un-tout-nouveau-portail-dadmissions/",
+              "type": "Article de presse"
+            }
+          ]
+        },
+        {
+          "id": "s46-audencia-campus-paris-2027",
+          "axis": "international",
+          "actor": "Audencia",
+          "label": "Comparer",
+          "status": "Annonce de l’école : chiffres déclaratifs, campus futur",
+          "timing": "week",
+          "publicationDate": "2026-11-04",
+          "dateLabel": "Conférence de presse : 4 novembre 2026 · ouverture du campus : septembre 2027",
+          "title": "Audencia annonce une rentrée record et un second campus parisien pour 2027",
+          "fact": "Le 4 novembre 2026, Audencia annonce 3 400 primo-entrants à la rentrée 2026 (+6 %), plus de 9 500 étudiants et un budget d’environ 100 M€, en hausse de 30 % en trois ans. Elle ouvrira en septembre 2027 un second campus parisien de 4 300 m², rue de Tolbiac, avec environ 1 000 apprentis, et vise 3 600 étudiants à Paris en 2030.",
+          "verdict": "Audencia fait de Paris un deuxième pôle, avec environ 30 % de ses effectifs visés en 2030, et ouvre ce site par l’alternance. Les nouveautés de programme privilégient des formats courts et identifiables : certificat AI4Performance de quatre jours, MSc in Visual Arts Management avec l’École du Louvre et Boston University, école de relations publiques et internationales vers 2028.",
+          "implication": "Pour TBS Education, surveiller cette nouvelle offre en alternance à Paris à partir de 2027, et vérifier si la communication de rentrée publie des chiffres comparables (primo-entrants, évolution, alternants).",
+          "limits": "Chiffres déclarés par l’école ; périmètre de la hausse de 6 % non précisé. L’un des relais relève d’une rubrique dont le statut éditorial ou partenaire n’est pas déterminé.",
+          "sources": [
+            {
+              "name": "Audencia poursuit sa croissance et ouvre un deuxième campus à Paris",
+              "publisher": "Thotis",
+              "date": "Novembre 2026",
+              "url": "https://thotismedia.com/audencia-poursuit-croissance-ouvre-deuxieme-campus-a-paris",
+              "type": "Article de presse spécialisée"
+            },
+            {
+              "name": "Audencia présente un nouveau campus à Paris, des chiffres records et de nouvelles formations",
+              "publisher": "Planète Grandes Écoles",
+              "date": "4 novembre 2026",
+              "url": "https://www.planetegrandesecoles.com/audencia-nouveau-campus-paris-13e",
+              "type": "Article de presse spécialisée"
+            },
+            {
+              "name": "Audencia ouvre un deuxième campus à Paris en 2027 et dévoile ses nouveaux programmes",
+              "publisher": "Business Cool",
+              "date": "5 novembre 2026",
+              "url": "https://business-cool.com/featured/audencia-ouvre-un-deuxieme-campus-a-paris-en-2027-et-devoile-ses-nouveaux-programmes/",
+              "type": "Article de presse (rubrique « featured »)"
+            }
+          ]
+        },
+        {
+          "id": "s46-de-vinci-castelmed-montpellier",
+          "axis": "international",
+          "actor": "De Vinci Higher Education (ESILV, EMLV)",
+          "label": "Surveiller",
+          "status": "Inauguration documentée : bachelors annoncés pour 2027",
+          "timing": "week",
+          "publicationDate": "2026-11-06",
+          "dateLabel": "Inauguration : 5 novembre 2026 · relais : 6 novembre · bachelors EMLV : septembre 2027",
+          "title": "De Vinci Higher Education inaugure un campus près de Montpellier",
+          "fact": "Le 5 novembre 2026, De Vinci Higher Education inaugure à Castelnau-le-Lez, près de Montpellier, un campus de 4 000 m² partagé par son école d’ingénieurs ESILV et son école de management EMLV. Le site peut accueillir 675 étudiants et en compte environ 200 ; l’EMLV y ouvrira deux bachelors en septembre 2027, et l’alternance sera élargie dans les masters.",
+          "verdict": "Le groupe s’installe en Occitanie avec un modèle mixte ingénierie et management, adossé à des partenaires économiques locaux (MEDEF, La Mêlée Numérique, Dell, Crédit Agricole, Kyndryl). Les volumes restent modestes à ce stade.",
+          "implication": "Pour TBS Education, suivre la publication des futurs bachelors de l’EMLV à Montpellier (intitulés, voies d’admission, tarifs) : un nouvel acteur post-bac arrive dans la région.",
+          "limits": "Investissement d’environ 1,6 M€ déclaré par le groupe. Intitulés des futurs bachelors non précisés.",
+          "sources": [
+            {
+              "name": "De Vinci Higher Education inaugure son campus de CastelMed, à Montpellier",
+              "publisher": "Thotis",
+              "date": "Novembre 2026",
+              "url": "https://thotismedia.com/de-vinci-higher-education-inaugure-son-campus-de-castelmed-a-montpellier",
+              "type": "Article de presse spécialisée"
+            },
+            {
+              "name": "De Vinci Higher Education inaugure son nouveau campus à Montpellier CastelMed",
+              "publisher": "Planète Grandes Écoles",
+              "date": "6 novembre 2026",
+              "url": "https://www.planetegrandesecoles.com/de-vinci-higher-education-campus-montpellier-castelmed",
+              "type": "Article de presse spécialisée"
+            }
+          ]
+        },
+        {
+          "id": "s46-grenoble-iae-cycle-prepa",
+          "axis": "offre",
+          "actor": "Grenoble IAE – INP, UGA",
+          "label": "Qualifier",
+          "status": "Offre observée : nouveauté, ouverture et conditions d’accès non confirmées",
+          "timing": "observation",
+          "dateLabel": "Page publiée le 23 avril 2026, mise à jour le 3 novembre · communiqué du 4 novembre signalé par une seconde collecte, non retrouvé · présentation annoncée le 13 novembre",
+          "title": "Grenoble IAE affiche un cycle préparatoire post-bac en management et ingénierie",
+          "fact": "Le site de Grenoble IAE affiche un « Cycle Préparatoire en Management et Ingénierie » dans son offre post-bac, sur sa page des 70 ans mise à jour le 3 novembre 2026. Selon une seconde collecte, un communiqué relayé le 4 novembre par IAE FRANCE annonce ce cycle, qui ouvre vers un cursus de management ou d’ingénierie, ainsi qu’une réforme des cursus présentée le 13 novembre.",
+          "verdict": "Une école universitaire de management propose l’hybridation dès l’entrée dans le supérieur, en s’appuyant sur Grenoble INP. Ni l’ouverture effective ni les conditions d’accès ne sont documentées à ce stade.",
+          "implication": "Pour TBS Education, revoir le sujet après la présentation du 13 novembre (rentrée, admission, volumes), avant toute comparaison avec les passerelles proposées.",
+          "limits": "Les pages lues ne décrivent ni le cycle ni la réforme ; le communiqué du 4 novembre n’a pas été retrouvé. Sujet présenté comme observation, pas comme nouveauté de la fenêtre.",
+          "sources": [
+            {
+              "name": "Grenoble IAE - INP, UGA fête ses 70 ans au service du management et des talents",
+              "publisher": "Grenoble IAE - INP, UGA",
+              "date": "23 avril 2026 · mis à jour le 3 novembre 2026",
+              "url": "https://iae.grenoble-inp.fr/fr/liae/70ans",
+              "type": "Page institutionnelle"
+            },
+            {
+              "name": "Grenoble IAE - INP, UGA fête ses 70 ans",
+              "publisher": "IAE FRANCE",
+              "date": "28 octobre 2026",
+              "url": "https://www.iae-france.fr/grenoble-iae-inp-uga-fete-ses-70-ans/",
+              "type": "Page institutionnelle"
+            }
+          ]
+        },
+        {
+          "id": "s46-grand-salon-modele-grande-ecole",
+          "axis": "marque",
+          "actor": "SKEMA, HEC Paris, ESSEC, ESCP",
+          "label": "Contextualiser",
+          "status": "Événement annoncé : déroulement non documenté",
+          "timing": "context",
+          "publicationDate": "2026-10-22",
+          "dateLabel": "Annonce : 22 octobre 2026 · salon : 6 au 8 novembre 2026",
+          "title": "Grand Salon des Grandes Écoles : une défense collective du « modèle Grande École »",
+          "fact": "Du 6 au 8 novembre 2026, le Grand Salon des Grandes Écoles de commerce se tient au Carreau du Temple, à Paris. SKEMA y annonçait un stand, quatre conférences (entretiens d’admission, choix de prépa, IA, employabilité internationale) et une table ronde sur « les forces du modèle Grande École » avec les dirigeants d’HEC Paris, de l’ESSEC et de l’ESCP.",
+          "verdict": "Au moment où l’accès au supérieur est en débat, des écoles concurrentes choisissent de défendre ensemble un modèle plutôt que leur seule marque. La table ronde est annoncée ; sa tenue et son contenu ne sont pas documentés.",
+          "implication": "Pour TBS Education, un repère utile pour l’argumentaire Grande École auprès des familles et des préparationnaires. Le même week-end, le salon Studyrama Grandes Écoles de Toulouse se tenait le 7 novembre au MEETT.",
+          "limits": "Annonce antérieure à la fenêtre ; aucun compte rendu du salon n’a été trouvé. Organisateur et fréquentation non indiqués.",
+          "sources": [
+            {
+              "name": "Grand Salon des Grandes Écoles: SKEMA showcases its model and expertise in Paris",
+              "publisher": "SKEMA Business School",
+              "date": "22 octobre 2026",
+              "url": "https://www.skema.edu/en/news/grand-salon-grandes-ecoles-skema-showcases-its-model-and-expertise-paris",
+              "type": "Annonce de l’école"
+            },
+            {
+              "name": "Grand Salon des Grandes Écoles de commerce 2026",
+              "publisher": "APHEC",
+              "date": "Consulté le 10 novembre 2026",
+              "url": "https://aphec.fr/evenement/45327/",
+              "type": "Page d’événement"
+            },
+            {
+              "name": "Les salons étudiants de novembre 2026",
+              "publisher": "Diplomeo",
+              "date": "17 septembre 2026",
+              "url": "https://diplomeo.com/actualite-salons_etudiants_novembre_2026",
+              "type": "Agenda"
+            }
+          ]
+        },
+        {
+          "id": "s46-legrand-ia-recherche-b2b",
+          "axis": "horschamp",
+          "actor": "Legrand",
+          "label": "Explorer",
+          "status": "Entretien : chiffre déclaratif issu d’études internes",
+          "timing": "week",
+          "publicationDate": "2026-11-06",
+          "dateLabel": "Publication : 6 novembre 2026 · propos recueillis au salon One to One de Biarritz (5 au 7 octobre)",
+          "title": "Legrand voit l’IA passer de 1 % à 12 % des recherches de ses clients professionnels",
+          "fact": "Dans un entretien publié par Viuz le 6 novembre 2026, le responsable de l’expérience client et de marque de Legrand indique que les interfaces d’IA sont passées d’environ 1 % à 12 % des usages de recherche d’information de ses publics professionnels en un an, selon des études internes. YouTube reste leur premier canal. Le groupe cartographie une cinquantaine de personas, de l’installateur au prescripteur.",
+          "verdict": "Legrand combine deux réponses : être visible dans les réponses d’IA, et traiter la réassurance émotionnelle (disponibilité, formation, proximité), y compris en B2B. Le chiffre de 12 % est déclaratif et sa méthode n’est pas publiée.",
+          "implication": "Pour TBS Education, les candidats, leurs parents et les prescripteurs (professeurs de prépa, entreprises d’accueil) forment aussi une chaîne de décision : vérifier si les enquêtes candidats ou les formulaires mesurent la part des IA conversationnelles comme point d’entrée.",
+          "limits": "Legrand ne publie pas les données correspondantes. La réduction du temps de production des fiches produits par un agent (environ cinquante fois) est un objectif, pas un résultat. Aucune performance externe n’est transposée.",
+          "sources": [
+            {
+              "name": "Jérôme Boissou (Legrand) : le facteur émotionnel est encore plus prégnant en B2B",
+              "publisher": "Viuz",
+              "date": "6 novembre 2026",
+              "url": "https://viuz.com/2026/11/06/jerome-boissou-legrand-le-facteur-emotionnel-est-encore-plus-pregnant-en-b2b/",
+              "type": "Entretien"
+            }
+          ]
+        },
+        {
+          "id": "s46-easyjet-strava-marrakech",
+          "axis": "horschamp",
+          "actor": "easyJet / agence Foolish",
+          "label": "Explorer",
+          "status": "Campagne en cours : mécanique décrite par la presse, résultats non publiés",
+          "timing": "week",
+          "publicationDate": "2026-11-06",
+          "dateLabel": "Publication : 6 novembre 2026 · activation du 5 novembre au 2 décembre 2026",
+          "title": "easyJet détourne Strava pour inviter les coureurs parisiens à Marrakech",
+          "fact": "Le 6 novembre 2026, J’ai un pote dans la com présente « Changez de piste », une activation d’easyJet et de l’agence Foolish sur Strava. Jusqu’au 2 décembre, les coureurs qui passent sur certains segments des quais de Seine et des Buttes-Chaumont reçoivent une notification vers des parcours de course à Marrakech, avec des vols annoncés dès 49 €. Un film prolonge l’opération.",
+          "verdict": "La campagne s’insère dans une pratique existante, au moment où elle se produit, plutôt que d’interrompre l’utilisateur ailleurs. Le mécanisme et ses résultats ne sont décrits que par la presse professionnelle.",
+          "implication": "Pour TBS Education, repérer une communauté déjà active (sportive, associative, professionnelle) où un contenu utile peut mener naturellement vers un événement ou un programme. Aucun achat média n’est recommandé sur cette seule base.",
+          "limits": "Fonctionnement des notifications et résultats non vérifiés de façon indépendante. Cas de marque grand public, transposé pour sa mécanique uniquement.",
+          "sources": [
+            {
+              "name": "Foolish et easyJet détournent Strava et envoient les runners parisiens à Marrakech",
+              "publisher": "J’ai un pote dans la com",
+              "date": "6 novembre 2026",
+              "url": "https://jai-un-pote-dans-la.com/foolish-easyjet-strava-envoient-runners-parisiens-marrakech/",
+              "type": "Presse communication"
+            },
+            {
+              "name": "EasyJet : les Parisiens à Marrakech",
+              "publisher": "CB News",
+              "date": "Novembre 2026",
+              "url": "https://www.cbnews.fr/marques/easyjet-les-parisiens-marrakech",
+              "type": "Presse communication"
+            }
+          ]
+        }
+      ]
     }
   ],
   "editorialPolicy": {
