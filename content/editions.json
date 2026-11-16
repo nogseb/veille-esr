@@ -1920,6 +1920,427 @@
           ]
         }
       ]
+    },
+    {
+      "id": "2026-11-16-s47",
+      "title": "Financement, accès et nouveaux points d’entrée — sélection S47 consolidée",
+      "date": "2026-11-16",
+      "dateLabel": "16 novembre 2026",
+      "period": "9 – 15 novembre 2026",
+      "periodStart": "2026-11-09",
+      "periodEnd": "2026-11-15",
+      "status": "S47 · Édition publiée",
+      "heroMeta": "S47 · Fenêtre 9 – 15 novembre 2026",
+      "readingMinutes": 8,
+      "intro": "La semaine conjugue pression budgétaire et contestation de l’accès au supérieur. La Cour des comptes propose de recentrer la prime d’embauche des apprentis sur les niveaux jusqu’au bac et de réduire le financement des CFA du supérieur. Le comité de réforme de Parcoursup démarre sans la plupart des organisations lycéennes et étudiantes, et des campus universitaires restent perturbés. Côté acquisition, ChatGPT accueille des profils d’entreprise vérifiés et des services comme la recherche de trajets OUIGO, tandis que Bruxelles propose d’encadrer l’influence et les interfaces trompeuses. Aucun de ces signaux ne mesure encore d’effet sur les candidatures.",
+      "tbsStake": "Trois lectures utiles pour TBS Education : mesurer l’exposition de l’alternance en licence et en master à un recentrage des aides ; vérifier ce que les assistants d’IA affichent sur TBS Education et qui administrerait un profil dans ChatGPT ; recenser les pratiques d’acquisition concernées par le Digital Fairness Act.",
+      "featuredSignal": "s47-cour-des-comptes-apprentissage",
+      "featuredTitle": "Alternance : la Cour des comptes vise la prime d’embauche en licence et en master.",
+      "featuredFact": "0,4 Md€",
+      "featuredLabel": "MARCHÉ ESR · rapport de la Cour des comptes du 9 novembre 2026",
+      "featuredNote": "Économie estimée en année pleine si la prime d’embauche était réservée aux apprentis jusqu’au niveau bac, selon les reprises du rapport ; s’y ajoutent 0,2 Md€ sur les CFA du supérieur. Propositions sans force de loi.",
+      "notice": "Sélection consolidée de neuf signaux à partir de deux collectes indépendantes, chaque signal ayant été revérifié : six publications de la fenêtre, un contexte antérieur explicitement identifié et deux dispositifs observés. Peu d’annonces d’écoles ont pu être documentées sur une semaine courte et marquée par la mobilisation. Deux inspirations hors ESR sont retenues pour leurs mécaniques transférables, jamais comme preuves de résultat pour TBS Education.",
+      "classification": {
+        "week": [
+          "s47-cour-des-comptes-apprentissage",
+          "s47-parcoursup-comite-contestation",
+          "s47-bordeaux-montaigne-page-situation",
+          "s47-chatgpt-profils-entreprises",
+          "s47-digital-fairness-act",
+          "s47-gen-z-abandon-candidature"
+        ],
+        "observation": [
+          "s47-essec-executive-ms-rythme",
+          "s47-ouigo-assistants-conversationnels"
+        ],
+        "context": [
+          "s47-aalto-high-up-immersion"
+        ]
+      },
+      "actions": [
+        {
+          "title": "Mesurer l’exposition de l’alternance à un recentrage des aides",
+          "owner": "Direction financière / relations entreprises — proposés",
+          "horizon": "Avant la fin de l’examen du budget 2027 au Sénat",
+          "result": "Une note d’une page sur la part des contrats en licence et en master potentiellement concernés, et des éléments de langage pour les entreprises d’accueil.",
+          "signal": "s47-cour-des-comptes-apprentissage"
+        },
+        {
+          "title": "Vérifier la présence de TBS Education dans les assistants d’IA",
+          "owner": "Marketing digital / communication — proposés",
+          "horizon": "J+14",
+          "result": "Une note sur l’éligibilité aux profils d’entreprise de ChatGPT depuis la France, un relevé daté des réponses de trois assistants sur cinq questions types (dates, campus, conditions de candidature) et trois corrections au plus sur les pages sources.",
+          "signal": "s47-chatgpt-profils-entreprises"
+        },
+        {
+          "title": "Recenser les pratiques d’acquisition exposées au Digital Fairness Act",
+          "owner": "Marketing digital / juridique — proposés",
+          "horizon": "Avant la prochaine campagne de candidature",
+          "result": "Une liste des pratiques à vérifier (influence, messages de rareté, options par défaut, relances, publics mineurs), sans modification à ce stade.",
+          "signal": "s47-digital-fairness-act"
+        }
+      ],
+      "coverage": {
+        "offre": "Un dispositif observé : la page d’un Executive Mastère Spécialisé de l’ESSEC, retenue pour couvrir la formation continue. Aucune nouveauté d’offre n’est affirmée.",
+        "marque": "Aucun signal principal ; la marque est lue en axe secondaire à travers la communication de crise de Bordeaux Montaigne et l’étude sur les contenus attendus par la Gen Z.",
+        "acquisition": "Trois signaux : les profils d’entreprise dans ChatGPT, le Digital Fairness Act et l’immersion High-Up! d’Aalto, ce dernier annoncé avant la fenêtre.",
+        "international": "Aucun signal retenu : aucun mouvement daté de la fenêtre n’a été établi, notamment sur Barcelone ou Casablanca. Ce n’est pas une preuve d’absence d’actualité.",
+        "marche": "Trois signaux : les propositions de la Cour des comptes sur l’apprentissage, le comité de réforme de Parcoursup et la situation d’un campus universitaire mobilisé.",
+        "reputation": "Aucun signal retenu : aucun classement ni aucune accréditation datés de la fenêtre n’ont été établis.",
+        "recherche": "Aucun signal principal ; l’immersion d’Aalto relève de cet axe en lecture secondaire.",
+        "horschamp": "Deux inspirations : l’abandon des candidatures chez les 18-27 ans et la recherche de trajets OUIGO dans les assistants d’IA. Aucune performance externe n’est transposée."
+      },
+      "perspectives": [
+        {
+          "id": "panorama",
+          "name": "Le panorama analytique",
+          "question": "Que retenir de cette édition ?",
+          "text": "La semaine conjugue pression budgétaire et contestation de l’accès au supérieur. La Cour des comptes propose de recentrer la prime d’embauche des apprentis sur les niveaux jusqu’au bac et de réduire le financement des CFA du supérieur. Le comité de réforme de Parcoursup démarre sans la plupart des organisations lycéennes et étudiantes, et des campus universitaires restent perturbés. Côté acquisition, ChatGPT accueille des profils d’entreprise vérifiés et des services comme la recherche de trajets OUIGO, tandis que Bruxelles propose d’encadrer l’influence et les interfaces trompeuses. Aucun de ces signaux ne mesure encore d’effet sur les candidatures.",
+          "signals": [
+            "s47-cour-des-comptes-apprentissage",
+            "s47-parcoursup-comite-contestation",
+            "s47-bordeaux-montaigne-page-situation",
+            "s47-chatgpt-profils-entreprises",
+            "s47-digital-fairness-act",
+            "s47-ouigo-assistants-conversationnels"
+          ]
+        },
+        {
+          "id": "fil-rouge",
+          "name": "Le fil rouge",
+          "question": "Qu’est-ce qui relie les sujets ?",
+          "text": "Deux fils se dégagent. Le premier relie le financement et les règles : la Cour des comptes vise l’alternance dans le supérieur, la réforme de l’accès est contestée jusque dans les campus, et Bruxelles propose d’encadrer la persuasion en ligne. Le second concerne les points d’entrée : ChatGPT devient un espace où les organisations gèrent leur présence et où des services comme OUIGO s’installent, tandis qu’Aalto, l’ESSEC et l’étude sur la Gen Z rappellent que la clarté de ce qui est proposé, et de la suite, pèse sur la décision.",
+          "signals": [
+            "s47-cour-des-comptes-apprentissage",
+            "s47-parcoursup-comite-contestation",
+            "s47-bordeaux-montaigne-page-situation",
+            "s47-chatgpt-profils-entreprises",
+            "s47-digital-fairness-act",
+            "s47-aalto-high-up-immersion",
+            "s47-essec-executive-ms-rythme",
+            "s47-gen-z-abandon-candidature",
+            "s47-ouigo-assistants-conversationnels"
+          ]
+        },
+        {
+          "id": "tensions",
+          "name": "Les tensions du secteur",
+          "question": "Quelles dynamiques faut-il lire ensemble ?",
+          "text": "Les écoles sont poussées à rendre leurs parcours plus lisibles et à investir de nouveaux points d’entrée, comme les assistants d’IA, alors que leurs ressources liées à l’alternance pourraient se réduire et que le climat social perturbe certains campus universitaires. Ces mouvements ne sont pas liés de cause à effet ; ils pèsent toutefois sur les mêmes équipes et les mêmes budgets.",
+          "signals": [
+            "s47-cour-des-comptes-apprentissage",
+            "s47-bordeaux-montaigne-page-situation",
+            "s47-chatgpt-profils-entreprises",
+            "s47-essec-executive-ms-rythme",
+            "s47-gen-z-abandon-candidature"
+          ]
+        },
+        {
+          "id": "concurrence",
+          "name": "La lecture concurrentielle",
+          "question": "Sur quels terrains les écoles cherchent-elles à se distinguer ?",
+          "text": "Peu d’annonces d’écoles ont été retenues cette semaine. Deux terrains apparaissent : l’expérience proposée avant candidature, avec une immersion où les lycéens produisent un projet (Aalto), et la lisibilité de l’offre pour les publics en activité (ESSEC). Les autres terrains sont communs à tous les acteurs : la visibilité dans les assistants d’IA, la conformité des pratiques d’influence et d’interface, et le financement de l’alternance. Ces éléments décrivent des positionnements affichés, pas leur efficacité.",
+          "signals": [
+            "s47-cour-des-comptes-apprentissage",
+            "s47-chatgpt-profils-entreprises",
+            "s47-digital-fairness-act",
+            "s47-aalto-high-up-immersion",
+            "s47-essec-executive-ms-rythme"
+          ]
+        }
+      ],
+      "traceability": {
+        "method": "Édition consolidée à partir de deux collectes indépendantes qui ne partageaient aucun signal. Chaque signal retenu a été revérifié sur ses pages sources ; un relais sans fait nouveau ne remplace pas la date de la source primaire, et les pages non datées sont qualifiées comme dispositifs observés.",
+        "deduplication": "Relecture de la S46 publiée : seul le comité de réforme de Parcoursup prolonge un sujet déjà traité, et seuls ses éléments nouveaux sont repris. Le relais EFMD du 13 novembre sur le jeu NEOMA–Ferrero n’est pas repris, le dispositif figurant déjà en S44.",
+        "keyLimit": "Aucune carte ne démontre une variation des candidatures, de la conversion ou de l’insertion de TBS Education. Les montants de la Cour des comptes proviennent de reprises du rapport et restent à confirmer sur le document."
+      },
+      "excludedSignals": [
+        {
+          "title": "SKEMA, portrait d’un diplômé du Programme Grande École",
+          "reason": "Contenu éditorial courant, sans changement concurrentiel ; page non retrouvée lors de la vérification."
+        },
+        {
+          "title": "CCI Finistère et CESI, pôle d’alternance de Guipavas",
+          "reason": "Inauguration d’un bâtiment en service depuis mars, à dominante ingénierie, hors périmètre concurrentiel."
+        },
+        {
+          "title": "EFMD, tribune sur les relations alumni",
+          "reason": "Tribune sans données ; elle annonce une conférence EFMD sur les relations alumni du 24 au 26 février 2027 à Barcelone, repère utile pour les relations alumni."
+        },
+        {
+          "title": "Grenoble IAE, nouveautés présentées pour ses 70 ans",
+          "reason": "Article de presse réservé : le cycle préparatoire observé en S46 n’est toujours pas confirmé."
+        },
+        {
+          "title": "Statut social des apprentis dans le PLFSS 2027",
+          "reason": "État du texte non vérifié sur le dossier législatif officiel."
+        }
+      ],
+      "signals": [
+        {
+          "id": "s47-cour-des-comptes-apprentissage",
+          "axis": "marche",
+          "actor": "Cour des comptes",
+          "label": "Surveiller",
+          "status": "Propositions d’économies : sans force de loi",
+          "timing": "week",
+          "publicationDate": "2026-11-09",
+          "dateLabel": "Rapport publié le 9 novembre 2026 · examen du budget 2027 au Sénat à partir du 20 novembre",
+          "title": "La Cour des comptes propose de recentrer les aides à l’apprentissage sur les niveaux jusqu’au bac",
+          "fact": "Le 9 novembre 2026, la Cour des comptes publie 18 mesures d’économies applicables dès 2027. Pour l’apprentissage, elle propose de réserver la prime d’embauche aux apprentis jusqu’au niveau bac inclus : la mesure rapporterait 0,1 Md€ en 2027 et 0,4 Md€ en année pleine sur la licence et le master. Elle vise aussi 0,2 Md€ d’économies sur le financement des CFA du supérieur.",
+          "verdict": "Ces propositions n’ont pas force de loi, mais elles s’ajoutent à la baisse des crédits d’aide à l’apprentissage déjà prévue dans le projet de budget 2027 (S45). Les licences et masters en alternance y sont explicitement désignés comme gisement d’économies.",
+          "implication": "Pour TBS Education, instruire avec la direction financière et les relations entreprises la part des contrats d’apprentissage qui repose sur des employeurs sensibles à la prime d’embauche, et les messages à préparer pour les entreprises d’accueil si l’aide était recentrée. L’alternance représente 38 % des effectifs de TBS Education selon Thotis.",
+          "limits": "Rapport non consulté directement : titre et date confirmés par WEKA, montants repris de CPFormation et d’une analyse de la Fondation iFRAP. Le contenu de la ligne « CFA du supérieur » n’est pas détaillé. Montants à confirmer avant toute communication interne chiffrée.",
+          "sources": [
+            {
+              "name": "Cour des comptes : 1,8 Md€ d’économies, dont 0,5 Md€ seulement sur la formation",
+              "publisher": "CPFormation",
+              "date": "11 novembre 2026",
+              "url": "https://cpformation.com/cour-des-comptes-18-mde-deconomies-dont-05-mde-seulement-sur-la-formation/",
+              "type": "Presse spécialisée formation"
+            },
+            {
+              "name": "Finances publiques : la Cour des comptes dévoile son plan pour économiser jusqu’à 38 Md€",
+              "publisher": "WEKA",
+              "date": "10 novembre 2026",
+              "url": "https://www.weka.fr/actualite/?p=230110",
+              "type": "Presse professionnelle"
+            },
+            {
+              "name": "Économies pour la Cour des comptes : 18 mesures de court terme",
+              "publisher": "Environnement Santé Politique (reprise d’une analyse iFRAP)",
+              "date": "11 novembre 2026",
+              "url": "https://environnementsantepolitique.fr/2026/11/11/economies-pour-la-cour-des-comptes-18-mesures-de-court-terme-susceptibles-de-produire-leurs-effets-des-2027-pour-un-rendement-compris-entre-32-et-38-mde/",
+              "type": "Analyse relayée"
+            },
+            {
+              "name": "TBS Education change d’échelle à Paris",
+              "publisher": "Thotis",
+              "date": "Octobre 2026",
+              "url": "https://thotismedia.com/tbs-education-change-dechelle-a-paris",
+              "type": "Article de presse spécialisée"
+            }
+          ]
+        },
+        {
+          "id": "s47-parcoursup-comite-contestation",
+          "axis": "marche",
+          "actor": "Gouvernement / organisations lycéennes et étudiantes / intersyndicale de l’éducation",
+          "label": "Surveiller",
+          "status": "Comité installé, légitimité contestée : recommandations attendues fin novembre",
+          "timing": "week",
+          "publicationDate": "2026-11-09",
+          "dateLabel": "Première réunion : 9 novembre 2026 · recommandations attendues fin novembre · motif de refus sur demande dès 2027",
+          "title": "Parcoursup : la première réunion du comité de réforme tourne court",
+          "fact": "Le 9 novembre 2026, la plupart des organisations lycéennes et étudiantes et l’intersyndicale de l’éducation quittent la première réunion du comité de réforme de Parcoursup, à Matignon : elles refusent de siéger avec des représentants d’extrême droite. Le gouvernement maintient des recommandations fin novembre et confirme qu’en 2027, un candidat pourra demander le motif d’un refus.",
+          "verdict": "La légitimité du comité est contestée dès son installation, ce qui fragilise le calendrier d’une réforme qui pourrait passer par la loi. D’autres annonces sont rapportées : compte Parcoursup ouvert dès la seconde, accès des parents à Avenir(s) début 2027.",
+          "implication": "Pour TBS Education, un compte ouvert dès la seconde et l’accès des parents aux outils d’orientation avancent le moment où les familles comparent les formations : vérifier avec les admissions que les contenus destinés aux lycéens de seconde et à leurs parents sont prêts.",
+          "limits": "Suivi de la S46 : seuls les éléments nouveaux sont repris. La liste des organisations restées repose sur un participant cité par Thotis. Aucune date de réunion suivante n’est indiquée.",
+          "sources": [
+            {
+              "name": "Comité de réforme de Parcoursup à Matignon : une première réunion marquée par le départ de plusieurs syndicats étudiants",
+              "publisher": "Thotis",
+              "date": "9 novembre 2026",
+              "url": "https://thotismedia.com/parcoursup-matignon-reunion-syndicats-comite",
+              "type": "Article de presse spécialisée"
+            }
+          ]
+        },
+        {
+          "id": "s47-bordeaux-montaigne-page-situation",
+          "axis": "marche",
+          "actor": "Université Bordeaux Montaigne",
+          "label": "Vérifier",
+          "status": "Communication de la présidence : situation locale et évolutive",
+          "timing": "week",
+          "publicationDate": "2026-11-13",
+          "dateLabel": "Message de la présidence : 13 novembre 2026 · modalités annoncées pour les 16 et 17 novembre",
+          "title": "Bordeaux Montaigne : une page de référence datée pendant la mobilisation",
+          "fact": "Le 13 novembre 2026, la présidence de l’Université Bordeaux Montaigne met à jour sa page « Situation de l’université » : le campus de Pessac reste en réouverture progressive les 16 et 17 novembre, et plusieurs lieux, dont les bâtiments Rosa Bonheur et Flora Tristan, restent fermés au public. La page archive aussi les messages publiés depuis le 1er octobre.",
+          "verdict": "La mobilisation touche concrètement le fonctionnement de campus universitaires, au-delà du débat sur Parcoursup. Une page unique, datée et archivée, distingue ce qui est décidé, ce qui reste fermé et le calendrier à venir.",
+          "implication": "Pour TBS Education, vérifier qu’en cas de perturbation sur un campus, une page de référence datée existe, avec un responsable de mise à jour et des relais identifiés (site, réseaux sociaux, messagerie).",
+          "limits": "Communication d’un établissement sur sa propre situation, locale et évolutive. Le blocage voté le 2 novembre et les fermetures qui ont suivi sont confirmés par Économie Matin. Aucune conclusion sectorielle n’est tirée de ce cas.",
+          "sources": [
+            {
+              "name": "Situation de l’université, campus Montaigne (Pessac)",
+              "publisher": "Université Bordeaux Montaigne",
+              "date": "Mise à jour du 13 novembre 2026",
+              "url": "https://www.u-bordeaux-montaigne.fr/fr/actualites/vie-institutionnelle/situation-de-l-universite-campus-montaigne-pessac.html",
+              "type": "Source primaire"
+            },
+            {
+              "name": "Bordeaux Montaigne : plusieurs bâtiments fermés jusqu’au 7 novembre",
+              "publisher": "Économie Matin",
+              "date": "4 novembre 2026",
+              "url": "https://www.economiematin.fr/?p=237963",
+              "type": "Article de presse"
+            }
+          ]
+        },
+        {
+          "id": "s47-chatgpt-profils-entreprises",
+          "axis": "acquisition",
+          "actor": "OpenAI",
+          "label": "Vérifier",
+          "status": "Bêta : disponibilité en France non confirmée",
+          "timing": "week",
+          "publicationDate": "2026-11-10",
+          "dateLabel": "Lancement en bêta : 10 novembre 2026 · relais : 11 et 13 novembre",
+          "title": "OpenAI ouvre aux entreprises des profils vérifiés et des statistiques dans ChatGPT",
+          "fact": "Le 10 novembre 2026, OpenAI lance en bêta « Entreprises dans ChatGPT ». Une organisation peut revendiquer son profil après vérification, mettre à jour sa description, son site et ses catégories, et suivre sur 28 jours ses mentions dans les réponses, les clics vers son site et les grands thèmes de découverte. Les agents de marque sont pour l’instant réservés à certaines entreprises américaines.",
+          "verdict": "OpenAI donne aux organisations un outil de gestion et de mesure de leur présence dans un assistant conversationnel, sur le modèle d’une fiche d’établissement dans un moteur de recherche. Revendiquer un profil ne garantit ni un meilleur classement ni le contrôle des réponses.",
+          "implication": "Pour TBS Education, vérifier l’éligibilité depuis la France et désigner qui revendiquerait et administrerait le profil (marque, digital, international). Les statistiques de mentions compléteraient le suivi des IA parmi les points d’entrée des candidats, proposé en S46.",
+          "limits": "Sources secondaires ; l’annonce d’OpenAI n’a pas été consultée. Disponibilité en France et coût non précisés ; fiches locales revendicables seulement aux États-Unis. Les clics mesurés ne sont pas des visites confirmées.",
+          "sources": [
+            {
+              "name": "ChatGPT Business Hub: How to Claim Your Business Profile and What It Won’t Do",
+              "publisher": "GPTify",
+              "date": "11 novembre 2026",
+              "url": "https://gptify.co/2026/11/11/chatgpt-business-hub-claim-your-business-profile/",
+              "type": "Article spécialisé"
+            },
+            {
+              "name": "OpenAI lance « Entreprises dans ChatGPT » pour renforcer la présence des marques sur sa plateforme",
+              "publisher": "J’ai un pote dans la com",
+              "date": "13 novembre 2026",
+              "url": "https://jai-un-pote-dans-la.com/openai-lance-entreprises-dans-chatgpt-pour-renforcer-la-presence-des-marques-sur-sa-plateforme/",
+              "type": "Presse communication"
+            }
+          ]
+        },
+        {
+          "id": "s47-digital-fairness-act",
+          "axis": "acquisition",
+          "actor": "Commission européenne",
+          "label": "Préparer",
+          "status": "Proposition de directive : adoption par les États membres et le Parlement à venir",
+          "timing": "week",
+          "publicationDate": "2026-11-11",
+          "dateLabel": "Proposition présentée le 11 novembre 2026 · relais : 12 novembre · calendrier d’adoption inconnu",
+          "title": "Bruxelles propose le Digital Fairness Act : influence, interfaces trompeuses et mineurs",
+          "fact": "Le 11 novembre 2026, la Commission européenne présente le Digital Fairness Act. La proposition impose de signaler clairement la publicité et les partenariats rémunérés des influenceurs, interdit d’inciter directement les mineurs à l’achat et cible les interfaces trompeuses : faux messages de rareté, options payantes ajoutées par défaut, notifications trompeuses. Les amendes pourraient atteindre 6 % du chiffre d’affaires mondial.",
+          "verdict": "La France encadre déjà l’influence commerciale : l’enjeu est l’harmonisation européenne et l’extension aux pratiques d’interface, y compris dans les parcours d’inscription en ligne.",
+          "implication": "Pour TBS Education, vérifier avec le marketing digital et le juridique que les dispositifs d’acquisition (ambassadeurs étudiants et partenariats d’influence, messages d’échéance ou de places limitées, formulaires et relances) resteraient conformes, y compris auprès des lycéens mineurs, en France comme en Espagne.",
+          "limits": "Texte de la proposition non consulté. Calendrier d’adoption inconnu. La source ne traite pas de l’application aux établissements d’enseignement.",
+          "sources": [
+            {
+              "name": "L’UE pourrait bientôt mieux encadrer l’influence commerciale",
+              "publisher": "J’ai un pote dans la com",
+              "date": "12 novembre 2026",
+              "url": "https://jai-un-pote-dans-la.com/ue-pourrait-bientot-mieux-encadrer-influence-commerciale/",
+              "type": "Presse communication"
+            }
+          ]
+        },
+        {
+          "id": "s47-aalto-high-up-immersion",
+          "axis": "acquisition",
+          "actor": "Aalto University (Finlande)",
+          "label": "Comparer",
+          "status": "Événement annoncé, à venir : participation et effets non documentés",
+          "timing": "context",
+          "publicationDate": "2026-10-15",
+          "dateLabel": "Annonce d’Aalto : 15 octobre 2026 · relais EFMD : 12 novembre · événement : 19 et 20 novembre",
+          "title": "Aalto : une immersion où les lycéens viennent produire un projet",
+          "fact": "Aalto University organise les 19 et 20 novembre 2026 High-Up!, une immersion entrepreneuriale de deux jours pour environ 500 lycéens de 16 à 18 ans, en marge du salon Slush. Deux parcours sont proposés : développer un projet existant ou partir d’un problème en équipe, avec mentorat, prototypage et pitch final. La participation et les repas sont gratuits ; transport et hébergement sont pris en charge hors région d’Helsinki.",
+          "verdict": "Le bénéfice proposé avant toute candidature est un travail produit et présenté, pas une visite de campus. La prise en charge des frais fait partie de la proposition et élargit l’accès au-delà de la région de la capitale.",
+          "implication": "Pour TBS Education, compléter la grille de comparaison des immersions post-bac proposée en S45 avec le format « défi » : travail demandé, encadrement, conditions d’accès et suite donnée aux participants.",
+          "limits": "Annonce antérieure à la fenêtre (inscriptions closes le 25 octobre) ; le relais EFMD reprend le communiqué de l’université. Contexte finlandais, non transposable tel quel. Le relais EFMD étend la prise en charge à tous ; la version d’Aalto est retenue.",
+          "sources": [
+            {
+              "name": "High-Up! 2026",
+              "publisher": "Aalto University",
+              "date": "15 octobre 2026",
+              "url": "https://www.aalto.fi/en/events/high-up-2026",
+              "type": "Source primaire"
+            },
+            {
+              "name": "500 high-schoolers head to Aalto University for immersive entrepreneurship event",
+              "publisher": "EFMD Global Blog",
+              "date": "12 novembre 2026",
+              "url": "https://blog.efmdglobal.org/2026/11/12/aalto-university-entrepreneurship/",
+              "type": "Relais de réseau"
+            }
+          ]
+        },
+        {
+          "id": "s47-essec-executive-ms-rythme",
+          "axis": "offre",
+          "actor": "ESSEC Business School (Executive Education)",
+          "label": "Comparer",
+          "status": "Page de programme observée : aucune nouveauté affirmée",
+          "timing": "observation",
+          "dateLabel": "Page consultée les 15 et 16 novembre 2026 · rentrées affichées : 8 octobre 2026, 13 novembre 2026, 11 janvier 2027",
+          "title": "ESSEC : un rythme de formation continue affiché en jours, mois et livrables",
+          "fact": "La page de l’Executive Mastère Spécialisé Direction Financière et Contrôle de l’ESSEC affiche trois rentrées (8 octobre 2026, 13 novembre 2026, 11 janvier 2027), un rythme de trois jours par mois à Paris La Défense, douze mois de formation, puis six mois pour soutenir une thèse professionnelle. Elle publie aussi des indicateurs, dont un taux de diplomation de 81 %.",
+          "verdict": "Pour un public en activité, le calendrier, la charge et le livrable final sont des critères de décision ; la page les rend comparables en un coup d’œil. Les indicateurs affichés sont déclaratifs, et l’enquête citée sur l’évolution des carrières date de 2022.",
+          "implication": "Pour TBS Education, vérifier sur deux fiches de formation continue que les dates de rentrée, le rythme, la durée, le livrable et les modalités de financement sont aussi lisibles.",
+          "limits": "Observation d’une page de programme : la tenue de la session du 13 novembre n’est pas établie et le tarif n’est pas affiché. Signal retenu pour couvrir la formation continue, absente des autres signaux.",
+          "sources": [
+            {
+              "name": "Executive Mastère Spécialisé Direction Financière et Contrôle",
+              "publisher": "ESSEC Business School",
+              "date": "Consulté le 16 novembre 2026",
+              "url": "https://www.essec.edu/fr/programme/executive-mastere-specialise-direction-financiere-controle/",
+              "type": "Page de programme"
+            }
+          ]
+        },
+        {
+          "id": "s47-gen-z-abandon-candidature",
+          "axis": "horschamp",
+          "actor": "Kantar Media / Hippolyte.ai",
+          "label": "Explorer",
+          "status": "Étude relayée : périmètre recrutement, transposition à tester",
+          "timing": "week",
+          "publicationDate": "2026-11-14",
+          "dateLabel": "Relais : 14 novembre 2026 · étude publiée le 29 octobre",
+          "title": "Recrutement : 65 % des 18-27 ans ont déjà abandonné une candidature en cours",
+          "fact": "Selon une étude de Kantar Media et Hippolyte.ai auprès de 500 jeunes de 18 à 27 ans, 65 % ont déjà abandonné une candidature en cours de route, surtout à cause de processus longs, d’un manque d’information et de l’absence de suivi. Pour découvrir un employeur, 41 % citent LinkedIn, 38 % Instagram et 37 % TikTok.",
+          "verdict": "Les contenus jugés utiles sont les présentations de poste (89 %), les témoignages de salariés (86 %) et leurs avis (85 %), loin devant les influenceurs. Par ailleurs, 72 % utilisent déjà l’IA pour préparer leurs candidatures, et 62 % acceptent qu’une IA examine leur dossier si les critères sont expliqués.",
+          "implication": "Pour TBS Education, la même génération candidate dans les écoles. Les causes d’abandon citées recoupent les leviers du portail de MBS (S46) : vérifier à quelles étapes du parcours de candidature les abandons sont mesurés.",
+          "limits": "Étude non consultée directement ; dates de terrain non indiquées. Le périmètre est la recherche d’emploi, pas la candidature en école : la transposition reste une hypothèse.",
+          "sources": [
+            {
+              "name": "Recrutement : la Gen Z ne postule plus, elle choisit son employeur",
+              "publisher": "J’ai un pote dans la com",
+              "date": "14 novembre 2026",
+              "url": "https://jai-un-pote-dans-la.com/recrutement-gen-z-ne-postule-plus-choisit-son-employeur/",
+              "type": "Presse communication"
+            }
+          ]
+        },
+        {
+          "id": "s47-ouigo-assistants-conversationnels",
+          "axis": "horschamp",
+          "actor": "OUIGO",
+          "label": "Explorer",
+          "status": "Dispositif observé : date de lancement non établie",
+          "timing": "observation",
+          "dateLabel": "Documentation non datée, consultée le 16 novembre 2026 · relais presse : 10 novembre 2026",
+          "title": "OUIGO : chercher un trajet dans un assistant, réserver chez l’opérateur",
+          "fact": "OUIGO documente un service de recherche de trajets depuis un assistant conversationnel : l’utilisateur indique gares, dates et voyageurs, et obtient horaires et tarifs en temps réel. La page décrit la connexion pour ChatGPT, par un module « Ouigo France », ainsi que pour Claude et Mistral, par un connecteur MCP. La réservation se finalise sur le site ou l’application OUIGO.",
+          "verdict": "La découverte se fait dans l’outil déjà utilisé par le voyageur, mais la décision et la transaction restent dans le parcours officiel de l’opérateur. C’est l’usage complémentaire de la présence de marque dans ChatGPT décrite cette semaine.",
+          "implication": "Pour TBS Education, vérifier que les dates, campus et conditions de candidature sont immédiatement lisibles, et cohérents avec ce qu’un assistant a pu afficher, lorsqu’un candidat arrive sur une fiche depuis un assistant externe.",
+          "limits": "Page non datée ; date de lancement non établie. Aucun test de connexion ni de réservation ; aucune donnée d’usage. Aucune performance externe n’est transposée.",
+          "sources": [
+            {
+              "name": "Rechercher un trajet depuis un assistant (MCP OUIGO)",
+              "publisher": "OUIGO",
+              "date": "Non daté · consulté le 16 novembre 2026",
+              "url": "https://www.ouigo.com/infos-pratiques/mcp-ouigo",
+              "type": "Documentation de l’opérateur"
+            },
+            {
+              "name": "OUIGO débarque dans ChatGPT pour mieux organiser ses trajets",
+              "publisher": "J’ai un pote dans la com",
+              "date": "10 novembre 2026",
+              "url": "https://jai-un-pote-dans-la.com/ouigo-debarque-chatgpt-mieux-organiser-trajets/",
+              "type": "Presse communication"
+            }
+          ]
+        }
+      ]
     }
   ],
   "editorialPolicy": {
